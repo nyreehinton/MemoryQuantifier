@@ -1,0 +1,971 @@
+[
+  {
+    "document_index": 1,
+    "document_source": "Bank of America (Letter - Credit Limit Change)",
+    "sender_name": "Bank of America",
+    "sender_address": "PO Box 660441, Dallas, TX 75266-0441",
+    "recipient_name": "Nyree Hinton",
+    "recipient_address": "4254 CHURCH RD, EASTON PA 18045-2971",
+    "date": "2024-03-07",
+    "action_type": "Credit Limit Reduction",
+    "details": {
+      "account_ending_in": "1775",
+      "new_total_credit_line": "2000.00",
+      "new_cash_credit_line": "200.00"
+    },
+    "reasons": [
+      "Utilization of your credit is too high",
+      "Number of revolving accounts with balances",
+      "Current or past delinquency, derogatory public record(s), and/or collection account(s)",
+      "Balance is too high relative to the credit limit on one or more of your revolving accounts on your credit file"
+    ],
+    "credit_report_agency": "TransUnion",
+    "credit_report_agency_details": "PO Box 1000, Chester, PA 19016-1000, 1-800-888-4213",
+    "credit_score": null,
+    "credit_score_date": null,
+    "credit_score_range": null,
+    "credit_score_factors": null
+  },
+  {
+    "document_index": 2,
+    "document_source": "Huebner Chevrolet Subaru (Letter - Financing Denial)",
+    "sender_name": "Huebner Chevrolet Subaru",
+    "sender_address": "1155 CANTON ROAD, CARROLLTON, OH 44615",
+    "recipient_name": "Nyree Hinton",
+    "recipient_address": "5901 Center Dr Apt 456-2, Los Angeles, CA 90045",
+    "date": "2024-02-13",
+    "action_type": "Vehicle Financing Application Denial",
+    "details": "Dealer could not secure third-party financing terms acceptable to them.",
+    "reasons": [
+      "Inability to find a finance company to buy the contract on acceptable terms"
+    ],
+    "credit_report_agency": "Yes, obtained by dealer (Specific CRA not indicated)",
+    "credit_report_agency_details": "Equifax, Experian, TransUnion listed as possibilities",
+    "credit_score": null,
+    "credit_score_date": null,
+    "credit_score_range": null,
+    "credit_score_factors": null
+  },
+  {
+    "document_index": 3,
+    "document_source": "Chase (Letter - Credit Limit Adjustment)",
+    "sender_name": "Chase Card Services",
+    "sender_address": "PO Box 15298, Wilmington, DE 19850-5298",
+    "recipient_name": "Nyree D Hinton",
+    "recipient_address": "4254 Church Road, Easton PA 18045",
+    "date": "2024-01-18",
+    "action_type": "Credit Limit Reduction",
+    "details": {
+      "account_ending_in": "0757",
+      "new_credit_line": "4600.00"
+    },
+    "reasons": [
+      "Credit report shows one or more major derogatory items",
+      "Past or present delinquent credit obligations",
+      "Credit usage is high",
+      "History of low payments relative to balances"
+    ],
+    "credit_report_agency": "Experian (TRW)",
+    "credit_report_agency_details": "P.O. Box 2002, Allen, TX 75013, (888) 397-3742",
+    "credit_score": null,
+    "credit_score_date": null,
+    "credit_score_range": null,
+    "credit_score_factors": null
+  },
+  {
+    "document_index": 4,
+    "document_source": "Chase (Letter - Credit Limit Adjustment - Amazon Card)",
+    "sender_name": "Chase Card Services",
+    "sender_address": "PO Box 15298, Wilmington, DE 19850-5298",
+    "recipient_name": "Nyree Hinton",
+    "recipient_address": "5901 Center Dr, Apt 456, Los Angeles PA 90045",
+    "date": "2024-01-18",
+    "action_type": "Credit Limit Reduction",
+    "details": {
+      "account_ending_in": "7293",
+      "new_credit_line": "4600.00"
+    },
+    "reasons": [
+      "Credit report shows one or more major derogatory items",
+      "Past or present delinquent credit obligations",
+      "Credit usage is high",
+      "History of low payments relative to balances"
+    ],
+    "credit_report_agency": "Experian (TRW)",
+    "credit_report_agency_details": "P.O. Box 2002, Allen, TX 75013, (888) 397-3742",
+    "credit_score": null,
+    "credit_score_date": null,
+    "credit_score_range": null,
+    "credit_score_factors": null
+  },
+  {
+    "document_index": 5,
+    "document_source": "Ally Bank (Letter - Auto Financing Denial)",
+    "sender_name": "Ally Bank",
+    "sender_address": "PO BOX 1048, HARTFORD CT 06143",
+    "recipient_name": "Nyree Hinton",
+    "recipient_address": "5901 CENTER DR APT 456-2, LOS ANGELES, CA 90045",
+    "date": "2024-03-12",
+    "action_type": "Auto Financing Application Denial",
+    "initiated_by": "Carmax Auto Superstores California, Llc",
+    "details": {
+      "application_number": "1142194213"
+    },
+    "reasons": [
+      "Decision based on credit report(s)"
+    ],
+    "credit_report_agency": "Experian; SageStream, LLC",
+    "credit_report_agency_details": "Experian: PO Box 2002 Allen TX 75013 888-397-3742; SageStream: PO Box 105108 Atlanta GA 30348-5108 888-395-0277",
+    "credit_score": "Not Available",
+    "credit_score_date": "2024-02-26",
+    "credit_score_range": null,
+    "credit_score_factors": [
+      "Insufficient information about credit history to calculate a score"
+    ]
+  },
+  {
+    "document_index": 6,
+    "document_source": "Ally Bank (Letter - Auto Financing Denial)",
+    "sender_name": "Ally Bank",
+    "sender_address": "PO BOX 1048, HARTFORD CT 06143",
+    "recipient_name": "Nyree Hinton",
+    "recipient_address": "4254 CHURCH RD, EASTON, PA 18045",
+    "date": "2024-04-09",
+    "action_type": "Auto Financing Application Denial",
+    "initiated_by": "St. Charles Motor Cars, Llc (2020 JAGUAR F-TYPE)",
+    "details": {
+      "application_number": "1143445713"
+    },
+    "reasons": [
+      "Decision based on credit report(s) and score"
+    ],
+    "credit_report_agency": "TransUnion; Experian; SageStream, LLC",
+    "credit_report_agency_details": "TransUnion: P.O. Box 1000 Chester PA 19022 800-888-4213; Experian: PO Box 40 Allen TX 75013-0043 844-922-2743; SageStream: PO Box 105108 Atlanta GA 30348-5108 888-395-0277",
+    "credit_score": 686,
+    "credit_score_date": "2024-03-26",
+    "credit_score_range": "250-900 (TransUnion)",
+    "credit_score_factors": [
+      "Proportion of balances to credit limits on bank/national revolving or other revolving accounts is too high (Applicant)",
+      "Amount owed on revolving accounts is too high (Applicant)",
+      "Proportion of loan balances to loan amounts is too high (Applicant)",
+      "Too many accounts with balances (Applicant)",
+      "Inquires did impact the credit score but no derogatory information was found (Applicant)",
+      "Experian score not available (Insufficient history)",
+      "SageStream score not available (Insufficient history)"
+    ]
+  },
+  {
+    "document_index": 7,
+    "document_source": "Ally Bank (Letter - Auto Financing Denial/Modified Offer)",
+    "sender_name": "Ally Bank",
+    "sender_address": "PO BOX 1048, HARTFORD CT 06143",
+    "recipient_name": "Nyree Hinton",
+    "recipient_address": "616 MASSELIN AV, Apt 2, LOS ANGELES, CA 90036",
+    "date": "2024-10-07",
+    "action_type": "Auto Financing Application Denial (as submitted); Modified terms offered to dealer",
+    "initiated_by": "Carbeeco (2021 JAGUAR FTYPE)",
+    "details": {
+      "application_number": "1149866599"
+    },
+    "reasons": [
+      "Decision based on credit report(s) and score"
+    ],
+    "credit_report_agency": "Experian (PO Box 2002); TransUnion; Experian (PO Box 40); SageStream, LLC",
+    "credit_report_agency_details": "Experian (PO Box 2002): Allen TX 75013 888-397-3742; TransUnion: P.O. Box 1000 Chester PA 19022 800-888-4213; Experian (PO Box 40): Allen TX 75013-0043 844-922-2743; SageStream: PO Box 105108 Atlanta GA 30348-5108 888-395-0277",
+    "credit_score": "681 (Experian Box 2002); 679 (Experian Box 40); Not Available (SageStream)",
+    "credit_score_date": "2024-09-16",
+    "credit_score_range": "250-900 (Experian Box 2002); 300-850 (Experian Box 40)",
+    "credit_score_factors": [
+      "Ratio of balance to limit on bank revolving or other rev accts too high (Applicant)",
+      "Proportion of loan balances to loan amounts is too high (Applicant)",
+      "Length of time accounts have been established (Applicant)",
+      "Amount owed on revolving accounts is too high (Applicant)",
+      "Too many inquiries last 12 months (Applicant)",
+      "Too many of your accounts have a balance (Applicant - Box 40 Score)",
+      "The balances on open revolving accounts are too high compared to loan amounts (Applicant - Box 40 Score)",
+      "A balance on an open account is too high compared to loan amounts (Applicant - Box 40 Score)",
+      "Lack of sufficient relevant mortgage account information (Applicant - Box 40 Score)",
+      "The number of inquiries was also a factor, but the effect was not significant (Applicant - Box 40 Score)",
+      "SageStream score not available (Insufficient history)"
+    ]
+  },
+  {
+    "document_index": 8,
+    "document_source": "Chase Auto (Letter - Auto Loan Denial)",
+    "sender_name": "Chase Auto (JPMorgan Chase Bank, N.A.)",
+    "sender_address": "1111 Polaris Parkway, Columbus, Ohio 43240",
+    "recipient_name": "Nyree D Hinton",
+    "recipient_address": "4254 CHURCH RD, EASTON PA 18045",
+    "date": "2024-02-11",
+    "action_type": "Vehicle Credit Application Denial",
+    "initiated_by": "Self/Unknown Dealer (20 JAGUAR F-TYPE)",
+    "details": null,
+    "reasons": [
+      "FORECLOSURE, REPOSSESSION, COLLECTION AND/OR CHARGE-OFF"
+    ],
+    "credit_report_agency": "Implied (Agency listed on page 1)",
+    "credit_report_agency_details": null,
+    "credit_score": 542,
+    "credit_score_date": "2024-01-31",
+    "credit_score_range": "250-900",
+    "credit_score_factors": [
+      "Serious delinquency",
+      "Time since delinquency is too recent or unknown",
+      "Ratio of balances to limits on bankcards or revolving accounts too high",
+      "Length of time accounts have been established"
+    ]
+  },
+  {
+    "document_index": 9,
+    "document_source": "Chase Auto (Email - Auto Loan Denial Notification)",
+    "sender_name": "Chase",
+    "sender_address": null,
+    "recipient_name": "Nyree",
+    "recipient_email": "NYREEHINTON@GMAIL.COM",
+    "date": "2024-02-08",
+    "action_type": "Auto Financing Application Denial Notification",
+    "details": "Refers to decision made 2024-01-31 (See Doc 8). States letter will follow.",
+    "reasons": [
+      "Unable to approve your financing at this time"
+    ],
+    "credit_report_agency": null,
+    "credit_report_agency_details": null,
+    "credit_score": null,
+    "credit_score_date": null,
+    "credit_score_range": null,
+    "credit_score_factors": null
+  },
+  {
+    "document_index": 10,
+    "document_source": "Essex Property Trust (Implied) (Letter - Rental Application Decision)",
+    "sender_name": "Essex Property Trust (Implied)",
+    "sender_address": null,
+    "recipient_name": "Nyree Hinton",
+    "recipient_address": "Related to 616 Masselin Avenue, 210 application",
+    "date": "2024-06-04",
+    "action_type": "Conditional Rental Application Approval",
+    "details": {
+      "property": "Tiffany Court - 616 Masselin Avenue, 210",
+      "condition": "Requires additional security deposit of $2,187 prior to move-in"
+    },
+    "reasons": [
+      "Balance of non-mortgage accounts is too high",
+      "Too many inquiries",
+      "Revolving account balances are too high in proportion to credit limits",
+      "Length of time since most recent auto delinquency is too short"
+    ],
+    "credit_report_agency": "TransUnion Consumer Solutions; TransUnion Rental Screening Solutions; Background Data Solutions; Funnel Leasing",
+    "credit_report_agency_details": "TransUnion Consumer Solutions: PO Box 2000 Chester, PA 19022-2000 1-800-916-8800; TransUnion Rental Screening: Box 800 Woodlyn, PA 19094 1-800-230-9376 TURSSDispute@transunion.com; Background Data Solutions: 1-800-568-5665; Funnel Leasing: 150 W. 22nd St. - 8th Fl. New York, NY 10011 (833) 979-3074 consumer@funnelleasing.com",
+    "credit_score": 605,
+    "credit_score_date": "2024-06-05",
+    "credit_score_range": "350-850",
+    "credit_score_factors": [
+      "Balance of non-mortgage accounts is too high",
+      "Too many inquiries",
+      "Revolving account balances are too high in proportion to credit limits",
+      "Length of time since most recent auto delinquency is too short"
+    ]
+  },
+  {
+    "document_index": 11,
+    "document_source": "Unknown Credit Monitoring Service (Image - Score Update)",
+    "sender_name": "Unknown",
+    "sender_address": null,
+    "recipient_name": "Nyree Hinton",
+    "recipient_address": null,
+    "date": "2024-01-19",
+    "action_type": "Credit Score Update / Change Alert",
+    "details": "68 changes found on TransUnion report. Score dropped 75 points since 2023-10-05.",
+    "reasons": null,
+    "credit_report_agency": "TransUnion",
+    "credit_report_agency_details": null,
+    "credit_score": 583,
+    "credit_score_date": "2024-01-19",
+    "credit_score_range": null,
+    "credit_score_factors": null
+  },
+  {
+    "document_index": 12,
+    "document_source": "Capital One Auto Finance (Letter - Auto Financing Denial)",
+    "sender_name": "Capital One Auto Finance",
+    "sender_address": "7933 Preston Road, Plano, TX 75024",
+    "recipient_name": "Nyree Hinton",
+    "recipient_address": "616 MASSELIN AVE APT 210, LOS ANGELES CA 90036",
+    "date": "2024-09-24",
+    "application_date": "2024-09-16",
+    "action_type": "Auto Financing Application Denial",
+    "initiated_by": "VOLVO PALO ALTO",
+    "details": {
+      "reference": "280125460"
+    },
+    "reasons": [
+      "Applicant: There are too many delinquent past or present Capital One installment credit obligation(s)"
+    ],
+    "credit_report_agency": "None Pulled",
+    "credit_report_agency_details": "Decision based on internal Capital One history.",
+    "credit_score": null,
+    "credit_score_date": null,
+    "credit_score_range": null,
+    "credit_score_factors": null
+  },
+  {
+    "document_index": 13,
+    "document_source": "Capital One Auto Finance (Letter - Auto Financing Denial)",
+    "sender_name": "Capital One Auto Finance",
+    "sender_address": "7933 Preston Road, Plano, TX 75024",
+    "recipient_name": "Nyree Hinton",
+    "recipient_address": "5901 CENTER DR APT 456-2, LOS ANGELES CA 90045",
+    "date": "2024-03-06",
+    "action_type": "Auto Financing Request Denial",
+    "details": {
+      "reference": "266820386"
+    },
+    "reasons": [
+      "Applicant: There are too many delinquent past or present Capital One installment credit obligation(s)"
+    ],
+    "credit_report_agency": "Not Mentioned (Assumed Internal)",
+    "credit_report_agency_details": null,
+    "credit_score": null,
+    "credit_score_date": null,
+    "credit_score_range": null,
+    "credit_score_factors": null
+  },
+  {
+    "document_index": 14,
+    "document_source": "Bank of America (Letter - Credit Limit Change)",
+    "sender_name": "Bank of America",
+    "sender_address": "PO Box 660441, Dallas, TX 75266-0441",
+    "recipient_name": "Nyree Hinton",
+    "recipient_address": "4254 CHURCH RD, EASTON PA 18045-2971",
+    "date": "2024-01-03",
+    "action_type": "Credit Limit Reduction",
+    "details": {
+      "account_ending_in": "4041",
+      "new_total_credit_line": "1900.00",
+      "new_cash_credit_line": "200.00"
+    },
+    "reasons": [
+      "Limited or no deposit and/or investment balances with us and/or our affiliates",
+      "Number of revolving accounts with balances",
+      "Current or past delinquency, derogatory public record(s), and/or collection account(s)",
+      "Current or past delinquency on one or more of your accounts with us and/or our affiliates"
+    ],
+    "credit_report_agency": "TransUnion",
+    "credit_report_agency_details": "PO Box 1000, Chester, PA 19016-1000, 1.800.888.4213",
+    "credit_score": null,
+    "credit_score_date": null,
+    "credit_score_range": null,
+    "credit_score_factors": null
+  },
+  {
+    "document_index": 15,
+    "document_source": "PA Forward Student Loans (Email - Loan Decision)",
+    "sender_name": "PA Forward Student Loans (by Pheaa)",
+    "sender_address": "no_reply@apply.pheaa.org",
+    "recipient_name": "Nyree",
+    "recipient_email": "NYREEHINTON@GMAIL.COM",
+    "date": "2024-02-08",
+    "application_date": "2024-01-19",
+    "action_type": "Student Loan Application Denial (as single applicant)",
+    "details": {
+      "application_id": "6105954",
+      "condition": "Offer to add qualified co-signer by 2024-03-04"
+    },
+    "reasons": [
+      "Credit Score does not meet minimum requirements"
+    ],
+    "credit_report_agency": "Not Specified (Implied)",
+    "credit_report_agency_details": null,
+    "credit_score": null,
+    "credit_score_date": null,
+    "credit_score_range": null,
+    "credit_score_factors": null
+  },
+  {
+    "document_index": 16,
+    "document_source": "Apple Card/Goldman Sachs (Email - Credit Limit Change)",
+    "sender_name": "Apple Card Support / Goldman Sachs Bank USA",
+    "sender_address": null,
+    "recipient_name": "Nyree Hinton",
+    "recipient_email": "nyreehinton@gmail.com",
+    "date": "2024-01-16",
+    "action_type": "Credit Limit Reduction",
+    "details": {
+      "new_credit_limit": "2200.00"
+    },
+    "reasons": [
+      "Your TransUnion credit report shows you have recently been reported as past due on one or more account(s)."
+    ],
+    "credit_report_agency": "TransUnion Consumer Solutions",
+    "credit_report_agency_details": null,
+    "credit_score": "Mentioned as received, value not stated",
+    "credit_score_date": null,
+    "credit_score_range": null,
+    "credit_score_factors": null
+  },
+  {
+    "document_index": 17,
+    "document_source": "American Credit Acceptance (Letter - Auto Loan Denial/Modified Offer)",
+    "sender_name": "American Credit Acceptance, LLC",
+    "sender_address": "961 E. Main St. 2nd Floor, Spartanburg, SC 29302",
+    "recipient_name": "Nyree Hinton",
+    "recipient_address": "5901 CENTER drive, Apt. APT 456-2, LOS ANGELES, CA 90045",
+    "date": "2024-03-03",
+    "action_type": "Auto Loan Application Denial (as submitted); Modified terms offered",
+    "initiated_by": "CARMAX 7810-LAX",
+    "details": {
+      "application_number": "XXXX6243",
+      "condition": "Offer of credit on different terms available via dealership"
+    },
+    "reasons": [
+      "Not specified, requires contact"
+    ],
+    "credit_report_agency": "TransUnion",
+    "credit_report_agency_details": "2 Baldwin Place, Chester, PA 19022 (800) 888-4213",
+    "credit_score": null,
+    "credit_score_date": null,
+    "credit_score_range": null,
+    "credit_score_factors": null
+  },
+  {
+    "document_index": 18,
+    "document_source": "Citi (Letter - Credit Limit Lowered)",
+    "sender_name": "Citi",
+    "sender_address": "PO Box 6494, Sioux Falls, SD 57117-6494",
+    "recipient_name": "Nyree Hinton",
+    "recipient_address": "4254 CHURCH RD, EASTON PA 18045-2971",
+    "date": "2024-02-05",
+    "action_type": "Credit Limit Reduction",
+    "details": {
+      "account": "Citi® Double Cash Mastercard®",
+      "account_ending_in": "1752",
+      "new_credit_limit": "1510",
+      "cash_advance_limit": "0"
+    },
+    "reasons": [
+      "Score from credit scoring system wasn't high enough",
+      "Credit report shows your balances on your revolving accounts are too high in relation to those credit lines",
+      "Credit report shows account(s) that have been past due in the last 12 months"
+    ],
+    "credit_report_agency": "Equifax Credit Information Services",
+    "credit_report_agency_details": "PO Box 740241, Atlanta, GA 30374-0241, 1-800-685-1111, www.equifax.com",
+    "credit_score": null,
+    "credit_score_date": null,
+    "credit_score_range": null,
+    "credit_score_factors": [
+      "Balances on revolving accounts too high relative to limits",
+      "Account(s) past due in last 12 months"
+    ]
+  },
+  {
+    "document_index": 19,
+    "document_source": "Bank of Lake Mills / MPOWER Financing (Letter - Student Loan Denial)",
+    "sender_name": "Bank of Lake Mills / MPOWER Financing",
+    "sender_address": "1101 Connecticut Ave NW Suite 900, Washington, DC 20036",
+    "recipient_name": "Nyree Hinton",
+    "recipient_address": "4254 Church Road, Easton, Pennsylvania, 18045",
+    "date": "2024-01-24",
+    "action_type": "Fixed-rate student loan application denial",
+    "details": {
+      "loan_type": "Fixed-rate student loan"
+    },
+    "reasons": [
+      "Delinquent past or present credit obligations"
+    ],
+    "credit_report_agency": "TransUnion",
+    "credit_report_agency_details": "P.O.Box 1000, Chester, PA 19016, United States, Tel: 800-888-4213",
+    "credit_score": null,
+    "credit_score_date": null,
+    "credit_score_range": null,
+    "credit_score_factors": null
+  },
+  {
+    "document_index": 20,
+    "document_source": "Bank of America (Notice - Credit Score Disclosure)",
+    "sender_name": "Bank of America",
+    "sender_address": null,
+    "recipient_name": "Nyree Hinton",
+    "recipient_address": null,
+    "date": null,
+    "action_type": "Credit Score Disclosure",
+    "details": "Associated with document dated 2024-03-07 (Doc 1)",
+    "reasons": null,
+    "credit_report_agency": "TransUnion",
+    "credit_report_agency_details": "PO Box 1000, Chester, PA 19016-1000, 800.888.4213, www.transunion.com/myoptions",
+    "credit_score": 628,
+    "credit_score_date": "2024-02-19",
+    "credit_score_range": "300-850 (FICO)",
+    "credit_score_factors": [
+      "Serious delinquency",
+      "Proportion of balances to credit limits on bank/national revolving or other revolving accounts is too high",
+      "Time since delinquency is too recent or unknown",
+      "Length of time accounts have been established",
+      "Too many inquiries last 12 months"
+    ]
+  },
+  {
+    "document_index": 21,
+    "document_source": "Earnest (Webpage/Email - Loan Denial)",
+    "sender_name": "Earnest (Earnest Operations LLC / One American Bank)",
+    "sender_address": null,
+    "recipient_name": "Nyree Hinton",
+    "recipient_address": "5901 Center Drive, Los Angeles, CA 90045",
+    "date": "2024-01-23",
+    "action_type": "Loan Application Denial",
+    "details": null,
+    "reasons": [
+      "Your FICO score is below the required minimum to be considered for this loan"
+    ],
+    "credit_report_agency": "Experian",
+    "credit_report_agency_details": "475 Anton Blvd., Costa Mesa, CA 92626, 1-888-397-3742",
+    "credit_score": 617,
+    "credit_score_date": "2024-01-23",
+    "credit_score_range": "300-850",
+    "credit_score_factors": [
+      "Serious Delinquency And Public Record Or Collection Filed",
+      "Time Since Delinquency Is Too Recent Or Unknown",
+      "Ratio Of Balance To Limit On Bank Revolving Or Other Rev Accounts Too High",
+      "Length Of Time Accounts Have Been Established"
+    ]
+  },
+  {
+    "document_index": 22,
+    "document_source": "Exeter Finance (Letter - Auto Loan Denial)",
+    "sender_name": "Exeter Finance LLC",
+    "sender_address": "PO Box 166008, Irving, TX 75016",
+    "recipient_name": "Nyree Hinton",
+    "recipient_address": null,
+    "date": "2024-03-17",
+    "action_type": "Automobile Financing Application Denial",
+    "initiated_by": "CARMAX - LAX #7810",
+    "details": {
+      "reference_number": "142237172"
+    },
+    "reasons": [
+      "Not specified, requires contact"
+    ],
+    "credit_report_agency": "None Obtained",
+    "credit_report_agency_details": null,
+    "credit_score": null,
+    "credit_score_date": null,
+    "credit_score_range": null,
+    "credit_score_factors": null
+  },
+  {
+    "document_index": 23,
+    "document_source": "Monterra Credit Union (Letter - Adverse Action Notice)",
+    "sender_name": "Monterra Credit Union",
+    "sender_address": "P.O. Box 910, Redwood City, CA 94064",
+    "recipient_name": "Nyree Hinton",
+    "recipient_address": "616 MASSELIN AVE APT. 210, LOS ANGELES, CA 90036",
+    "date": null,
+    "application_date": "2024-09-16",
+    "action_type": "Credit Request Denial",
+    "details": {
+      "requested_loan_amount": "35328.00"
+    },
+    "reasons": [
+      "Other, specify: (Not detailed)"
+    ],
+    "credit_report_agency": "Experian",
+    "credit_report_agency_details": "701 Experian Parkway, P.O. Box 2002, Allen, TX 75013, 1.888.397.3742, www.experian.com/reportaccess",
+    "credit_score": 697,
+    "credit_score_date": "2024-09-16",
+    "credit_score_range": "300-850",
+    "credit_score_factors": [
+      "RATIO OF BALANCE TO LIMIT ON BANK REVOLVING OR OTHER REV ACCTS TOO HIGH",
+      "AMOUNT OWED ON ACCOUNTS IS TOO HIGH",
+      "TOO MANY INQUIRIES LAST 12 MONTHS",
+      "LENGTH OF TIME REVOLVING ACCOUNTS HAVE BEEN ESTABLISHED"
+    ]
+  },
+  {
+    "document_index": 24,
+    "document_source": "Global Lending Services (Letter - Auto Loan Denial)",
+    "sender_name": "Global Lending Services",
+    "sender_address": "PO Box 3367, Greenville, SC 29602",
+    "recipient_name": "Nyree Hinton",
+    "recipient_address": "4254 CHURCH RD, EASTON, PA 18045-2971",
+    "date": "2024-04-18",
+    "decision_date": "2024-03-26",
+    "action_type": "Auto Financing Application Denial",
+    "initiated_by": "ST CHARLES MOTOR CARS LLC",
+    "details": {
+      "application_id": "35273653"
+    },
+    "reasons": [
+      "Key factors that adversely affected your credit score (details not filled in)"
+    ],
+    "credit_report_agency": "Experian; Equifax; Lexis Nexis Consumer Center; SageStream / LexisNexis Risk Solutions Consumer Center; NCTUE Exchange Service Center",
+    "credit_report_agency_details": "Experian: 701 EXPERIAN PARKWAY PO BOX 2002 ALLEN TX 75013 888-397-3742; Equifax: PO BOX 740241 ATLANTA GA 30374-0241 800-685-1111; Lexis Nexis: PO BOX 105108 ATLANTA GA 30348-5108 866-897-8126; SageStream: PO BOX 105108 ATLANTA GA 30348-5108 888-395-0277; NCTUE: PO BOX 105116 ATLANTA GA 30348 866-343-2821",
+    "credit_score": null,
+    "credit_score_date": "2024-03-26",
+    "credit_score_range": "250-900",
+    "credit_score_factors": [
+      "Details not filled in on provided copy"
+    ]
+  },
+  {
+    "document_index": 25,
+    "document_source": "American Express (Letter - Preset Spending Limit)",
+    "sender_name": "American Express",
+    "sender_address": "P.O. Box 297800, Ft. Lauderdale, FL 33329-7800",
+    "recipient_name": "Nyree Hinton",
+    "recipient_address": "4254 CHURCH RD, EASTON PA 180452971",
+    "date": "2024-01-23",
+    "action_type": "Assignment of Preset Spending Limit",
+    "details": {
+      "account": "Platinum Card®",
+      "account_ending_in": "095008",
+      "preset_spending_limit": "5700.00"
+    },
+    "reasons": [
+      "Your FICO Score (see below)",
+      "Based on your credit report, you are or were past due with another creditor(s)"
+    ],
+    "credit_report_agency": "Experian",
+    "credit_report_agency_details": "701 Experian Parkway, P.O. Box 2002, Allen, TX 75013, 1-888-397-3742, www.experian.com/reportaccess",
+    "credit_score": 618,
+    "credit_score_date": "2024-01-08",
+    "credit_score_range": "300-850 (FICO)",
+    "credit_score_factors": [
+      "You have a serious delinquency on one or more of your accounts",
+      "The ratio of revolving account balances to their credit limits is too high",
+      "The time since your latest reported delinquency is too recent or unknown",
+      "The length of time your accounts have been established"
+    ]
+  },
+  {
+    "document_index": 26,
+    "document_source": "Golden 1 Credit Union (Notice - Risk-Based Pricing)",
+    "sender_name": "Golden 1 Credit Union",
+    "sender_address": "8945 Cal Center Drive, Sacramento, CA 95826",
+    "recipient_name": "Nyree Hinton",
+    "recipient_address": "616 MASSELIN AVE APРТ. 210, LOS ANGELES, CA 90036-3732",
+    "date": "2024-09-17",
+    "action_type": "Risk-Based Pricing Notice",
+    "details": {
+      "loan_number": "8134276"
+    },
+    "reasons": [
+      "Terms offered may be less favorable than terms offered to consumers who have better credit histories"
+    ],
+    "credit_report_agency": "Experian",
+    "credit_report_agency_details": "(877) 322-8228, www.annualcreditreport.com",
+    "credit_score": null,
+    "credit_score_date": null,
+    "credit_score_range": null,
+    "credit_score_factors": null
+  },
+  {
+    "document_index": 27,
+    "document_source": "OneMain Financial (Letter - Loan Denial)",
+    "sender_name": "OneMain Financial",
+    "sender_address": null,
+    "recipient_name": "Nyree Hinton",
+    "recipient_address": "4254 CHURCH RD, EASTON PA 18045-2971",
+    "date": "2024-03-26",
+    "action_type": "Loan Application Denial",
+    "details": {
+      "reference_number": "534421561"
+    },
+    "reasons": [
+      "No credit file"
+    ],
+    "credit_report_agency": "None Found",
+    "credit_report_agency_details": null,
+    "credit_score": null,
+    "credit_score_date": null,
+    "credit_score_range": null,
+    "credit_score_factors": null
+  },
+  {
+    "document_index": 28,
+    "document_source": "Monterra Credit Union (Disclosure - Credit Score)",
+    "sender_name": "Monterra Credit Union",
+    "sender_address": "350 CONVENTION WAY, REDWOOD CITY, CA 94063",
+    "recipient_name": "Nyree Hinton",
+    "recipient_address": "616 MASSELIN AVE APT. 210, LOS ANGELES, CA 90036",
+    "date": null,
+    "action_type": "Credit Score Disclosure",
+    "details": "Associated with Doc 23",
+    "reasons": null,
+    "credit_report_agency": "Experian",
+    "credit_report_agency_details": "EXPERIAN/FAIR, ISAAC (VER. 2)",
+    "credit_score": 697,
+    "credit_score_date": "2024-09-16",
+    "credit_score_range": "300-850",
+    "credit_score_factors": null,
+    "comparison": "Ranks higher than 36 percent of U.S. consumers"
+  },
+  {
+    "document_index": 29,
+    "document_source": "LightStream/Truist (Webpage/Notice - Loan Denial)",
+    "sender_name": "LightStream (d/b/a Truist Bank)",
+    "sender_address": "PO Box 117320, Atlanta, GA 30368-7320",
+    "recipient_name": "Nyree Hinton",
+    "recipient_address": null,
+    "date": "2024-02-26",
+    "action_type": "Installment Loan Application Denial",
+    "details": {
+      "reference_id": "93656550"
+    },
+    "reasons": [
+      "Serious delinquency",
+      "Proportion of balances to credit limits is too high on revolving accounts",
+      "Time since delinquency is too recent or unknown",
+      "Length of time accounts have been established",
+      "The number of inquiries on file adversely affected the score"
+    ],
+    "credit_report_agency": "TransUnion",
+    "credit_report_agency_details": "P.O. Box 1000, Chester, PA 19022-1000, 800.888.4213",
+    "credit_score": 628,
+    "credit_score_date": "2024-02-26",
+    "credit_score_range": "341-850",
+    "credit_score_factors": [
+      "Serious delinquency",
+      "Proportion of balances to credit limits is too high on revolving accounts",
+      "Time since delinquency is too recent or unknown",
+      "Length of time accounts have been established",
+      "The number of inquiries on file adversely affected the score"
+    ]
+  },
+  {
+    "document_index": 30,
+    "document_source": "LendingPoint/FinWise Bank (Email/Notice - Loan Denial)",
+    "sender_name": "FinWise Bank c/o LendingPoint LLC",
+    "sender_address": "1201 Roberts Blvd., Suite 200, Kennesaw, GA 30144",
+    "recipient_name": "Nyree Hinton",
+    "recipient_address": "4254 Church Rd, Easton, PA 18045",
+    "date": "2024-10-11",
+    "action_type": "Consumer Loan Application Denial",
+    "initiated_by": "Experian - API (Referral Source)",
+    "details": null,
+    "reasons": [
+      "Key factors that adversely affected your credit score"
+    ],
+    "credit_report_agency": "TransUnion LLC",
+    "credit_report_agency_details": "2 Baldwin Place, P.O. Box 1000, CHESTER, PA 19016, (800) 916-8800",
+    "credit_score": 634,
+    "credit_score_date": "2024-09-24",
+    "credit_score_range": "300-850",
+    "credit_score_factors": [
+      "Proportion of balances to credit limits on bank/national revolving or other revolving accounts is too high",
+      "Proportion of loan balances to loan amounts is too high",
+      "Length of time revolving accounts have been established",
+      "Amount owed on revolving accounts is too high"
+    ]
+  },
+  {
+    "document_index": 31,
+    "document_source": "SmartBiz (Email/Notice - Business Loan Referral Denial)",
+    "sender_name": "SmartBiz Loans",
+    "sender_address": "433 California St, San Francisco, CA 94104",
+    "recipient_name": "Nyree Hinton / Hinton Strategic Alternatives dba The AI Remedy",
+    "recipient_address": null,
+    "date": null,
+    "decision_date": "Around 2024-08-08",
+    "action_type": "Denial of Referral to Lender for Business Loan",
+    "details": {
+      "reference_number": "7611476"
+    },
+    "reasons": [
+      "At least one primary business owner’s personal credit score doesn’t meet the required minimum",
+      "Business credit score does not meet requirements",
+      "Insufficient annual revenue"
+    ],
+    "credit_report_agency": "Experian Consumer Relations",
+    "credit_report_agency_details": "P.O. Box 2002, Allen, TX 75013, (888) 397-3742, www.experian.com",
+    "credit_score": 568,
+    "credit_score_date": "2024-08-08",
+    "credit_score_range": "320-844 (FICO V9)",
+    "credit_score_factors": [
+      "Serious delinquency",
+      "Ratio of balance to limit on bank revolving or other revolving accounts too high",
+      "Time since delinquency is too recent or unknown",
+      "Length of time accounts have been established"
+    ]
+  },
+  {
+    "document_index": 32,
+    "document_source": "Reprise Financial/WebBank (Letter - Loan Denial)",
+    "sender_name": "C/O Reprise Financial",
+    "sender_address": "PO BOX 9585, Coppell, TX 75019",
+    "recipient_name": "Nyree Hinton",
+    "recipient_address": "4254 Church Rd, Easton PA 18045-2971",
+    "date": "2024-10-20",
+    "application_date": "2024-09-24",
+    "action_type": "Loan Application Denial",
+    "initiated_by": "WebBank, Salt Lake City, UT",
+    "details": null,
+    "reasons": [
+      "Key factors that adversely affected your credit score"
+    ],
+    "credit_report_agency": "Experian",
+    "credit_report_agency_details": "701 EXPERIAN PARKWAY, ALLEN, TX 75013, (888) 397-3742",
+    "credit_score": 645,
+    "credit_score_date": "2024-09-24",
+    "credit_score_range": "300-850",
+    "credit_score_factors": [
+      "LACK OF REAL ESTATE SECURED LOAN INFORMATION",
+      "TOO MANY REVOLVING ACCOUNTS WITH HIGH BALANCE COMPARED TO CREDIT LIMIT",
+      "BALANCES ON ACCTS TOO HIGH COMPARED TO CREDIT LIMITS AND LOAN AMOUNTS",
+      "TOO MANY BANKCARDS WITH HIGH BALANCE COMPARED TO CREDIT LIMIT",
+      "NUMBER OF INQUIRIES WAS A FACTOR IN DETERMINING THE SCORE"
+    ]
+  },
+  {
+    "document_index": 33,
+    "document_source": "OneMain Financial (Letter - Loan Denial)",
+    "sender_name": "OneMain Financial",
+    "sender_address": "P.O. Box 64, Evansville, IN 47701",
+    "recipient_name": "Nyree Hinton",
+    "recipient_address": "5901 CENTER DR, LOS ANGELES CA 90045-8957",
+    "date": "2024-01-30",
+    "application_date": "2024-01-26",
+    "action_type": "Loan Application Denial",
+    "details": {
+      "reference_number": "526634428"
+    },
+    "reasons": [
+      "Not specified, requires contact"
+    ],
+    "credit_report_agency": "Experian",
+    "credit_report_agency_details": "PO Box 9601, Allen, TX 75013, 888-397-3742",
+    "credit_score": null,
+    "credit_score_date": null,
+    "credit_score_range": null,
+    "credit_score_factors": null
+  },
+  {
+    "document_index": 34,
+    "document_source": "Chase Auto (Letter - Auto Loan Denial)",
+    "sender_name": "Chase Auto (JPMorgan Chase Bank, N.A.)",
+    "sender_address": "1111 Polaris Parkway, Columbus, Ohio 43240",
+    "recipient_name": "Nyree Hinton",
+    "recipient_address": "5901 CENTER DR, APT 456, LOS ANGELES CA 90045",
+    "date": "2024-03-17",
+    "action_type": "Vehicle Credit Application Denial",
+    "initiated_by": "LAND ROVER NAPERVILLE",
+    "details": null,
+    "reasons": [
+      "FORECLOSURE, REPOSSESSION, COLLECTION AND/OR CHARGE-OFF"
+    ],
+    "credit_report_agency": "Implied (Agency listed on page 1)",
+    "credit_report_agency_details": null,
+    "credit_score": 525,
+    "credit_score_date": "2024-03-06",
+    "credit_score_range": "250-900",
+    "credit_score_factors": [
+      "Serious delinquency",
+      "Ratio of balances to limits on bankcards or revolving accounts too high",
+      "Time since delinquency is too recent or unknown",
+      "Number of accounts with delinquency",
+      "Number of inquiries had a minor adverse affect on the score"
+    ]
+  },
+  {
+    "document_index": 35,
+    "document_source": "American Express (Email - Preset Spending Limit)",
+    "sender_name": "American Express",
+    "sender_address": null,
+    "recipient_name": "Nyree Hinton",
+    "recipient_email": "nyreehinton@gmail.com",
+    "date": "2024-02-08",
+    "decision_date": "2024-01-23",
+    "action_type": "Assignment of Preset Spending Limit (Notification)",
+    "details": {
+      "account_ending_in": "095008",
+      "preset_spending_limit": "5700.00"
+    },
+    "reasons": [
+      "Based on recent review"
+    ],
+    "credit_report_agency": null,
+    "credit_report_agency_details": null,
+    "credit_score": null,
+    "credit_score_date": null,
+    "credit_score_range": null,
+    "credit_score_factors": null
+  },
+  {
+    "document_index": 36,
+    "document_source": "SoFi Bank (Letter - Loan Denial)",
+    "sender_name": "SoFi Bank, N.A.",
+    "sender_address": "2750 East Cottonwood Pkwy, Suite 300, Cottonwood Heights, UT 84121",
+    "recipient_name": "Nyree Hinton",
+    "recipient_address": "4254 Church Rd, Easton, PA 18045",
+    "date": "2024-07-24",
+    "action_type": "Loan Application Denial",
+    "details": null,
+    "reasons": [
+      "Delinquent past or present credit obligations with others"
+    ],
+    "credit_report_agency": "Experian; TransUnion – Dispute Request; SageStream / Lexis Nexis Risk Solutions Consumer Center",
+    "credit_report_agency_details": "Experian: P.O. Box 4500, Allen, TX 75013, 1-888-397-3742, http://www.experian.com/reportaccess/; TransUnion: P.O. Box 2000, Chester, PA 19016-2000, 1-800-916-8800, http://www.transunion.com; SageStream/LexisNexis: P. O. Box 105108, Atlanta, GA 30348-5108, 1-888-395-0277, https://consumer.risk.lexisnexis.com/",
+    "credit_score": "Score Obtained (Value not specified)",
+    "credit_score_date": "2024-07-24",
+    "credit_score_range": "300-850",
+    "credit_score_factors": [
+      "There are no key factors affecting your current score."
+    ]
+  },
+  {
+    "document_index": 37,
+    "document_source": "Westlake Financial (Letter - Adverse Action Notice)",
+    "sender_name": "Westlake Financial",
+    "sender_address": "P.O. Box 76809, Los Angeles, CA 90076-0809",
+    "recipient_name": "Nyree Hinton",
+    "recipient_address": "4254 CHURCH RD, EASTON, PA 18045",
+    "date": "2024-04-22",
+    "action_type": "Adverse Action Notice - Credit Denied",
+    "details": {
+      "reference_id": "90600588",
+      "purchase_from_vehicle": "ST.CHARLES MOTORCARS"
+    },
+    "reasons": [
+      "Frozen credit file"
+    ],
+    "credit_report_agency": "Not specified if internal or external was primary. Agencies listed for contact.",
+    "credit_report_agency_details": "NOWCOM CORPORATION, DEALERCENTER COMPLIANCE DEPARTMENT, 3701 WILSHIRE BLVD, SUITE 115, LOS ANGELES, CA 90010, 888-669-2669",
+    "credit_score": 0,
+    "credit_score_date": "2024-03-26",
+    "credit_score_range": "0-0",
+    "credit_score_factors": [
+      "Not Available"
+    ]
+  },
+  {
+    "document_index": 38,
+    "document_source": "US Bank (Letter - Auto Loan Denial)",
+    "sender_name": "U.S. Bank N.A.",
+    "sender_address": "CN-OH-W7CD, 425 Walnut Street 7th Floor, CINCINNATI OH 45202",
+    "recipient_name": "Nyree Hinton",
+    "recipient_address": "616 Masselin Ave Apt 210, Los Angeles CA. 90036-3732",
+    "date": "2024-09-30",
+    "application_date": "2024-09-16",
+    "action_type": "Auto Loan Application Denial",
+    "initiated_by": "VOLVO PALO ALTO",
+    "details": {
+      "application_number": "39687638"
+    },
+    "reasons": [
+      "Credit Does Not Support the Loan to Value Requested",
+      "Terms/Conditions requested not offered.",
+      "Excessive Balances relative to Credit Limit",
+      "Excessive Inquiries"
+    ],
+    "credit_report_agency": "Experian",
+    "credit_report_agency_details": "P.O Box 2002, Allen, TX 750132002, (888) 397-3742",
+    "credit_score": 643,
+    "credit_score_date": "2024-09-16",
+    "credit_score_range": "250-900",
+    "credit_score_factors": [
+      "Ratio Of Balances To Credit Limits On Revolving Accounts Too High",
+      "Length Of Time Accounts Have Been Established",
+      "Amount Owed On Revolving Accounts Is Too High",
+      "Proportion Of Loan Balances To Loan Amounts Is Too High",
+      "Too Many Inquiries Last 12 Months"
+    ]
+  }
+]

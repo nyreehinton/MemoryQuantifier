@@ -1,0 +1,80 @@
+**Objective:** Design a comprehensive UI/Dashboard specification for a "Credit Damages Case Management Platform". This platform is intended for use by a plaintiff (or their paralegal/assistant) to meticulously track the progress of gathering evidence, quantifying damages, identifying outstanding tasks, and visualizing the overall status of a case involving alleged inaccurate credit reporting leading to multiple adverse actions. A key requirement is that the dashboard must be intuitive and generate summaries easily shareable with legal counsel for quick and accurate case status updates.
+
+**Core Data Sources (Leverage these files explicitly):**
+
+1.  `cra-needed-memory-file-update-1.txt`: Defines specific credit reports required from CRAs, their date ranges, reasons, associated adverse actions, and current status.
+2.  `comprehensive-quanitification-documents-need-report-memory-file.txt`: Provides a detailed analysis of potential pecuniary and non-pecuniary damages, linking them to specific adverse actions (document indices), outlining *critically needed documentation* for each damage category (using Framework IDs like `PEC-PAY-01`), and summarizing quantifiable claims.
+3.  `quantifications-requirements-framework-memory-file.txt`: Contains the structured framework defining the *types* of evidence needed for different damage categories (using IDs like `PREQ-01`, `PEC-COST`, `NONPEC-ED`).
+4.  `adverse-actions-with-framwork-memory-file.txt`: Lists the details of each adverse action taken against the plaintiff, including dates, creditor, action type, reasons cited, CRA used, and credit score information (if available).
+
+**Key Dashboard Components & Functionality:**
+
+1.  **Master Overview Dashboard:**
+    *   **Purpose:** Provide a high-level, at-a-glance summary of the case status.
+    *   **Content:**
+        *   **Key Metrics:** Cards displaying:
+            *   Total Number of Documented Adverse Actions (count from `adverse-actions...txt`).
+            *   Total Potential Quantifiable Economic Damages (sum from `comprehensive-quantification...txt`, showing both claimed and TBD amounts).
+            *   Number of Outstanding Critical Credit Reports (count from `cra-needed...txt` where status is 'Outstanding').
+            *   Number of Outstanding Quantification Documents (count of needed items from `comprehensive-quantification...txt` with status 'Needed').
+            *   Overall Case Progress (visual indicator, e.g., percentage based on collected critical documents).
+        *   **Recent Activity Feed:** Log of recent status updates (e.g., "CR-NEED-02 status changed to Partially Satisfied", "PEC-PAY-01 document marked as Collected").
+        *   **Urgent Next Steps:** Highlight 3-5 highest priority outstanding tasks (e.g., obtain specific reports, find specific proof of payment).
+
+2.  **Adverse Actions Center:**
+    *   **Purpose:** Detailed view and management of all documented adverse actions.
+    *   **Content:**
+        *   **Table/List View:** Display all items from `adverse-actions...txt`. Columns should include: Document Index, Date, Creditor, Action Type, CRA(s) Used, Stated Reasons (summary), Credit Score (if available).
+        *   **Filtering/Sorting:** Allow filtering by Date Range, Creditor, CRA Used, Action Type. Allow sorting by Date or Creditor.
+        *   **Detail Drill-Down:** Clicking an action should open a modal or side panel showing:
+            *   Full details from `adverse-actions...txt`.
+            *   Linked Required Credit Reports (from `cra-needed...txt` referencing this document index), showing `report_need_id` and status.
+            *   Linked Damage Claims (from `comprehensive-quantification...txt` referencing this document index), showing Damage Category and Claimed/Potential Value.
+            *   Ability to add internal notes specific to this adverse action.
+
+3.  **Damages Quantification Hub:**
+    *   **Purpose:** Track the progress of quantifying each type of damage and collecting supporting evidence.
+    *   **Content:**
+        *   **View by Category:** Sections or tabs organized by Damage Category ID (e.g., PEC-PAY, PEC-COST, PEC-FEE, PEC-DEP, PEC-OOP, PEC-OPP, NONPEC-ED, NONPEC-REP) based on the `comprehensive-quantification...txt` and `quantifications-requirements...txt`.
+        *   **Itemized List within Categories:** For each specific instance of potential damage (e.g., Essex Deposit, Golden1 Loan Terms, Harvard Opportunity Cost):
+            *   Display Claimed/Potential Value.
+            *   List **Needed Documentation** items identified in `comprehensive-quantification...txt` (e.g., "PEC-PAY-01: Proof of Payment", "PEC-COST-01: Final Loan Agreement").
+            *   **Status Tracking:** For *each* needed document item, provide a status dropdown/indicator (e.g., Needed, Requested, Received, Verified, N/A).
+            *   Link to upload/reference location for collected documents (optional).
+            *   Progress visualization per damage category (e.g., progress bar based on collected documents).
+        *   **Summary Totals:** Dynamically update total quantifiable damages based on verified evidence.
+
+4.  **Required Credit Reports Tracker:**
+    *   **Purpose:** Focused view on obtaining the critical credit reports needed for causation.
+    *   **Content:**
+        *   **Table/List View:** Display all items from `cra-needed...txt`. Columns: Report Need ID, CRA, Date Range, Reason Needed, Linked Adverse Action Doc Indices, Current Status.
+        *   **Filtering/Sorting:** Allow filtering by CRA, Status (Outstanding, Satisfied, etc.), Date Range. Allow sorting by Date Range or Status.
+        *   **Status Updates:** Allow easy updating of the 'Status' field (e.g., changing 'Outstanding' to 'Requested' or 'Satisfied'). Include field for date status updated.
+        *   **Contextual Links:** Link back to the related Adverse Action(s) in the Adverse Actions Center.
+
+5.  **Task Management / Next Steps:**
+    *   **Purpose:** Consolidate and manage actionable tasks.
+    *   **Content:**
+        *   **Auto-Generated Tasks:** System should suggest tasks based on items marked 'Outstanding' or 'Needed' (e.g., "Obtain report CR-NEED-04", "Gather evidence for PEC-FEE-01 related to Doc 5").
+        *   **Manual Task Creation:** Ability to add custom tasks with due dates and assignments.
+        *   **Task List View:** Display tasks with priority, status (To Do, In Progress, Done), due date, related item (e.g., CR-NEED-04, PEC-PAY-01).
+        *   **Filtering/Sorting:** By priority, status, due date.
+
+6.  **Reporting & Sharing:**
+    *   **Purpose:** Generate summaries for legal counsel.
+    *   **Functionality:**
+        *   **Generate Case Summary Report (PDF/Print):** Include:
+            *   Overview metrics.
+            *   List of Adverse Actions (filtered options: all, or by date range).
+            *   Summary of Quantified Damages (showing verified amounts and total potential).
+            *   List of Critical Outstanding Documents (both CRA reports and quantification evidence).
+            *   Summary of Non-Pecuniary evidence points.
+        *   **Export Data:** Allow exporting filtered views (e.g., Adverse Actions list, Needed Documents list) to CSV/Excel.
+
+**UI/UX Considerations:**
+
+*   **Intuitive Navigation:** Clear sidebar or top navigation between the main sections (Overview, Adverse Actions, Damages, Reports, Tasks).
+*   **Visual Cues:** Use color-coding consistently for status (e.g., Red for Outstanding/Needed, Yellow for In Progress/Requested, Green for Satisfied/Verified). Use icons where appropriate.
+*   **Interconnectivity:** Ensure seamless linking between related items (e.g., an adverse action links to its needed reports and resulting damage claims).
+*   **Data Integrity:** Clearly source data points back to the original file/field where applicable.
+*   **Responsiveness:** Design should be usable on standard desktop screen sizes.

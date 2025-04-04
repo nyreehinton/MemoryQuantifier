@@ -1,0 +1,268 @@
+'''json
+[
+  {
+    "report_need_id": "CR-NEED-01",
+    "credit_reporting_agency": "TransUnion",
+    "report_date_range": "February/March 2024",
+    "reason_needed": "Basis for adverse action by creditor (BoA Doc 1).",
+    "source_document_indices": [1],
+    "status": "Outstanding (Context provided by Feb 23 TU Dispute Result)"
+  },
+  {
+    "report_need_id": "CR-NEED-02",
+    "credit_reporting_agency": "Experian",
+    "report_date_range": "January 2024",
+    "reason_needed": "Basis for adverse action by creditor (Chase Cards Doc 3/4, Chase Auto Doc 8, Earnest Doc 21, AmEx Doc 25, OneMain Doc 33).",
+    "source_document_indices": [3, 4, 8, 21, 25, 33],
+    "status": "Outstanding (Context provided by Jan 22/26 Exp Dispute Results)"
+  },
+  {
+    "report_need_id": "CR-NEED-03",
+    "credit_reporting_agency": "Experian",
+    "report_date_range": "February 2024",
+    "reason_needed": "Basis for adverse action by creditor (Ally Doc 5).",
+    "source_document_indices": [5],
+    "status": "Outstanding (Context provided by Feb 9 Exp Report)"
+  },
+  {
+    "report_need_id": "CR-NEED-04",
+    "credit_reporting_agency": "SageStream/LexisNexis",
+    "report_date_range": "February 2024",
+    "reason_needed": "Basis for adverse action by creditor (Ally Doc 5).",
+    "source_document_indices": [5],
+    "status": "Outstanding"
+  },
+  {
+    "report_need_id": "CR-NEED-05",
+    "credit_reporting_agency": "TransUnion",
+    "report_date_range": "March 2024",
+    "reason_needed": "Basis for adverse action by creditor (Ally Doc 6, Am Cred Acc Doc 17).",
+    "source_document_indices": [6, 17],
+    "status": "Outstanding (Context provided by Feb 23 TU Dispute Result / Jun 4 TU Report)"
+  },
+  {
+    "report_need_id": "CR-NEED-06",
+    "credit_reporting_agency": "Experian",
+    "report_date_range": "March 2024",
+    "reason_needed": "Basis for adverse action by creditor (Ally Doc 6, Exeter Doc 22, Global Doc 24, Chase Auto Doc 34, Westlake Doc 37).",
+    "source_document_indices": [6, 22, 24, 34, 37],
+    "status": "Outstanding (Context provided by Feb 9 / May 7 Exp Reports)"
+  },
+  {
+    "report_need_id": "CR-NEED-07",
+    "credit_reporting_agency": "SageStream/LexisNexis",
+    "report_date_range": "March 2024",
+    "reason_needed": "Basis for adverse action by creditor (Ally Doc 6, Global Doc 24, Westlake Doc 37).",
+    "source_document_indices": [6, 24, 37],
+    "status": "Outstanding"
+  },
+  {
+    "report_need_id": "CR-NEED-08",
+    "credit_reporting_agency": "Experian",
+    "report_date_range": "September 2024",
+    "reason_needed": "Basis for adverse action by creditor (Ally Doc 7, Monterra Doc 23/28, Golden1 Doc 26, Reprise Doc 32, US Bank Doc 38).",
+    "source_document_indices": [7, 23, 26, 28, 32, 38],
+    "status": "Outstanding (Context provided by May 7 Exp Report)"
+  },
+  {
+    "report_need_id": "CR-NEED-09",
+    "credit_reporting_agency": "TransUnion",
+    "report_date_range": "September 2024",
+    "reason_needed": "Basis for adverse action by creditor (Ally Doc 7, LendingPoint Doc 30).",
+    "source_document_indices": [7, 30],
+    "status": "Outstanding (Context provided by Jun 4 TU Report)"
+  },
+  {
+    "report_need_id": "CR-NEED-10",
+    "credit_reporting_agency": "SageStream/LexisNexis",
+    "report_date_range": "September 2024",
+    "reason_needed": "Basis for adverse action by creditor (Ally Doc 7).",
+    "source_document_indices": [7],
+    "status": "Outstanding"
+  },
+  {
+    "report_need_id": "CR-NEED-11",
+    "credit_reporting_agency": "TransUnion",
+    "report_date_range": "June 2024",
+    "reason_needed": "Basis for adverse action by creditor (Essex Doc 10).",
+    "source_document_indices": [10],
+    "status": "Partially Satisfied/Context Provided (TU report from Jun 4 is very close)"
+  },
+  {
+    "report_need_id": "CR-NEED-12",
+    "credit_reporting_agency": "TransUnion",
+    "report_date_range": "December 2023 / January 2024",
+    "reason_needed": "Basis for adverse action by creditor (BoA Doc 14, Apple Doc 16, BoLM Doc 19).",
+    "source_document_indices": [14, 16, 19],
+    "status": "Outstanding (Context provided by Feb 23 TU Dispute Result)"
+  },
+  {
+    "report_need_id": "CR-NEED-13",
+    "credit_reporting_agency": "Experian",
+    "report_date_range": "January 2024",
+    "reason_needed": "Basis for potential adverse action by creditor (PA Forward Doc 15).",
+    "source_document_indices": [15],
+    "status": "Outstanding (Context provided by Jan 22/26 Exp Dispute Results)"
+  },
+  {
+    "report_need_id": "CR-NEED-14",
+    "credit_reporting_agency": "TransUnion",
+    "report_date_range": "January 2024",
+    "reason_needed": "Basis for potential adverse action by creditor (PA Forward Doc 15).",
+    "source_document_indices": [15],
+    "status": "Outstanding (Context provided by Feb 23 TU Dispute Result)"
+  },
+  {
+    "report_need_id": "CR-NEED-15",
+    "credit_reporting_agency": "Equifax",
+    "report_date_range": "January 2024",
+    "reason_needed": "Basis for potential adverse action by creditor (PA Forward Doc 15).",
+    "source_document_indices": [15],
+    "status": "Outstanding (Context provided by Jan 9/30 Eq Dispute Results)"
+  },
+  {
+    "report_need_id": "CR-NEED-16",
+    "credit_reporting_agency": "Equifax",
+    "report_date_range": "January/February 2024",
+    "reason_needed": "Basis for adverse action by creditor (Citi Doc 18).",
+    "source_document_indices": [18],
+    "status": "Outstanding (Context provided by Jan 9/30 Eq Dispute Results)"
+  },
+  {
+    "report_need_id": "CR-NEED-17",
+    "credit_reporting_agency": "Equifax",
+    "report_date_range": "March 2024",
+    "reason_needed": "Basis for potential adverse action by creditor (Exeter Doc 22, Global Doc 24, Westlake Doc 37).",
+    "source_document_indices": [22, 24, 37],
+    "status": "Outstanding (Context provided by Jun 4 Eq Report)"
+  },
+    {
+    "report_need_id": "CR-NEED-18",
+    "credit_reporting_agency": "NCTUE",
+    "report_date_range": "March 2024",
+    "reason_needed": "Listed as source by creditor (Global Doc 24).",
+    "source_document_indices": [24],
+    "status": "Outstanding"
+  },
+  {
+    "report_need_id": "CR-NEED-19",
+    "credit_reporting_agency": "TransUnion",
+    "report_date_range": "February 2024",
+    "reason_needed": "Basis for adverse action by creditor (LightStream Doc 29).",
+    "source_document_indices": [29],
+    "status": "Partially Satisfied/Context Provided (TU Dispute Result from Feb 23 is very close)"
+  },
+  {
+    "report_need_id": "CR-NEED-20",
+    "credit_reporting_agency": "Experian",
+    "report_date_range": "August 2024",
+    "reason_needed": "Basis for adverse action by creditor (SmartBiz Doc 31).",
+    "source_document_indices": [31],
+    "status": "Outstanding (Context provided by May 7 Exp Report)"
+  },
+  {
+    "report_need_id": "CR-NEED-21",
+    "credit_reporting_agency": "Experian",
+    "report_date_range": "July 2024",
+    "reason_needed": "Basis for adverse action by creditor (SoFi Doc 36).",
+    "source_document_indices": [36],
+    "status": "Outstanding (Context provided by May 7 Exp Report)"
+  },
+  {
+    "report_need_id": "CR-NEED-22",
+    "credit_reporting_agency": "TransUnion",
+    "report_date_range": "July 2024",
+    "reason_needed": "Basis for adverse action by creditor (SoFi Doc 36).",
+    "source_document_indices": [36],
+    "status": "Outstanding (Context provided by Jun 4 TU Report)"
+  },
+  {
+    "report_need_id": "CR-NEED-23",
+    "credit_reporting_agency": "SageStream/LexisNexis",
+    "report_date_range": "July 2024",
+    "reason_needed": "Basis for adverse action by creditor (SoFi Doc 36).",
+    "source_document_indices": [36],
+    "status": "Outstanding"
+  },
+  {
+    "report_need_id": "CR-NEED-24",
+    "credit_reporting_agency": "Experian",
+    "report_date_range": "March/April 2024",
+    "reason_needed": "Basis for adverse action or to investigate 'Frozen file' claim (Westlake Doc 37).",
+    "source_document_indices": [37],
+    "status": "Outstanding (Context provided by Feb 9 / May 7 Exp Reports)"
+  },
+  {
+    "report_need_id": "CR-NEED-25",
+    "credit_reporting_agency": "TransUnion",
+    "report_date_range": "March/April 2024",
+    "reason_needed": "Basis for adverse action or to investigate 'Frozen file' claim (Westlake Doc 37).",
+    "source_document_indices": [37],
+    "status": "Outstanding (Context provided by Jun 4 TU Report)"
+  },
+  {
+    "report_need_id": "CR-NEED-26",
+    "credit_reporting_agency": "Equifax",
+    "report_date_range": "March/April 2024",
+    "reason_needed": "Basis for adverse action or to investigate 'Frozen file' claim (Westlake Doc 37).",
+    "source_document_indices": [37],
+    "status": "Outstanding (Context provided by Jun 4 Eq Report)"
+  },
+    {
+    "report_need_id": "CR-NEED-27",
+    "credit_reporting_agency": "NOWCOM Corporation",
+    "report_date_range": "March/April 2024",
+    "reason_needed": "Listed as source by creditor (Westlake Doc 37).",
+    "source_document_indices": [37],
+	"notes": "May be difficult to obtain directly; likely requires discovery from Westlake/NOWCOM.",
+    "status": "Outstanding"
+  },
+  {
+    "report_need_id": "BASELINE-01",
+    "credit_reporting_agency": "Experian",
+    "report_date_range": "June/July 2023",
+    "reason_needed": "Establish baseline creditworthiness before alleged inaccurate reporting began.",
+    "source_document_indices": ["Context"],
+    "status": "Outstanding"
+  },
+  {
+    "report_need_id": "BASELINE-02",
+    "credit_reporting_agency": "TransUnion",
+    "report_date_range": "June/July 2023",
+    "reason_needed": "Establish baseline creditworthiness before alleged inaccurate reporting began.",
+    "source_document_indices": ["Context"],
+    "status": "Outstanding"
+  },
+  {
+    "report_need_id": "BASELINE-03",
+    "credit_reporting_agency": "Equifax",
+    "report_date_range": "June/July 2023",
+    "reason_needed": "Establish baseline creditworthiness before alleged inaccurate reporting began.",
+    "source_document_indices": ["Context"],
+    "status": "Outstanding"
+  },
+  {
+    "report_need_id": "CURRENT-01",
+    "credit_reporting_agency": "Experian",
+    "report_date_range": "Most Recent Available",
+    "reason_needed": "Show current status of reporting and whether errors persist.",
+    "source_document_indices": ["Context"],
+    "status": "Satisfied (e.g., May 7, 2024 Exp report provided)"
+  },
+  {
+    "report_need_id": "CURRENT-02",
+    "credit_reporting_agency": "TransUnion",
+    "report_date_range": "Most Recent Available",
+    "reason_needed": "Show current status of reporting and whether errors persist.",
+    "source_document_indices": ["Context"],
+    "status": "Satisfied (e.g., Jun 4, 2024 TU report provided)"
+  },
+  {
+    "report_need_id": "CURRENT-03",
+    "credit_reporting_agency": "Equifax",
+    "report_date_range": "Most Recent Available",
+    "reason_needed": "Show current status of reporting and whether errors persist.",
+    "source_document_indices": ["Context"],
+    "status": "Satisfied (e.g., Jun 4, 2024 Eq report provided)"
+  }
+]
