@@ -6,8 +6,11 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-// Initialize routes
-const server = await registerRoutes(app);
+// Initialize routes without top-level await
+const setupServer = async () => {
+  const server = await registerRoutes(app);
+  return app;
+};
 
 // Setup error handling
 app.use((err: any, _req: any, res: any, _next: any) => {
@@ -17,4 +20,10 @@ app.use((err: any, _req: any, res: any, _next: any) => {
 });
 
 // Export handler for serverless function
-export const handler = serverless(app);
+export const handler = async (event: any, context: any) => {
+  // Initialize the server before handling the request
+  await setupServer();
+  
+  // Return the serverless handler
+  return serverless(app)(event, context);
+};
