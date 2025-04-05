@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concrete Shadows Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&amp;display=swap" rel="stylesheet">
+    <style>
+         :root {
+            --primary-bg: #1A1A1A;
+            --secondary-bg: #333333;
+            --accent: #E0E0E0;
+            --text: #FFFFFF;
+            --shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--primary-bg);
+            color: var(--text);
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+            border-bottom: 1px solid var(--secondary-bg);
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        nav {
+            display: flex;
+            gap: 30px;
+        }
+        
+        .nav-link {
+            color: var(--text);
+            text-decoration: none;
+            font-size: 14px;
+        }
+        
+        .nav-link:hover {
+            color: var(--accent);
+        }
+        
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: calc(100vh - 80px);
+        }
+        
+        .hero-content {
+            max-width: 600px;
+        }
+        
+        h1 {
+            font-size: 64px;
+            font-weight: bold;
+        }
+        
+        p {
+            font-size: 18px;
+            color: var(--accent);
+        }
+        
+        .cta-button {
+            background-color: var(--accent);
+            color: var(--primary-bg);
+            padding: 12px 24px;
+            border-radius: 4px;
+            text-decoration: none;
+        }
+        
+        .cta-button:hover {
+            background-color: #555555;
+        }
+        
+        .blocks {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        
+        .block {
+            background-color: var(--secondary-bg);
+            height: 200px;
+            box-shadow: var(--shadow);
+        }
+    </style>
+    <meta name="description" content="Discover Concrete Shadows - Expert web design and development services by Designed For You. We create stunning, fast-loading websites tailored to your business needs.">
+    <link rel="canonical" href="https://designedforyou.dev/Concrete Shadows.html">
+</head>
+
+<body>
+    <header class="container">
+        <div class="logo">Portfolio</div>
+        <nav>
+            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-link">Bloomberg</a>
+            <a href="#" class="nav-link">Reorg Research</a>
+            <a href="#" class="nav-link">Third Bridge</a>
+            <a href="#" class="nav-link"></a>
+            <a href="#" class="nav-link"></a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <div class="hero-content">
+                <h1></h1>
+                <p></p>
+                <a href="#" class="cta-button" </a>
+            </div>
+
+            <div class="blocks">
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+            </div>
+        </section>
+    </main>
+
+
+</body>
+
+</html>

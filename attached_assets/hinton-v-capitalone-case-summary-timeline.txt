@@ -1,0 +1,57 @@
+└── Hinton_v_CapitalOne_Timeline (Case: 2:24-cv-03039-CBM-JPR)
+    ├── 📄 2022-11-09: Initial Transaction - Plaintiff purchased Tesla, financed via Capital One (Ref: FAC Para 17)
+    ├── 📄 2022_Nov - 2023_May: Vehicle Issues - Tesla experienced unresolved service issues (Ref: FAC Para 18)
+    ├── 📂 2023 - Initial Lawsuit (Georgia) & Cap1 Retaliation
+    │   ├── 📄 ~2023-07-XX: Initial Lawsuit Filed (Georgia) - Against car dealership & Capital One Auto Financing (Ref: FAC Para 18)
+    │   ├── 🔒 ~2023-08-XX: Capital One Portal Restriction - Servicing entity allegedly restricted online payment portal access (Ref: FAC Para 19)
+    │   ├── 📉 2023-09-18: Capital One Reports Past Due (30 Days) (Ref: FAC Para 20)
+    │   ├── 📉 2023-10-19: Capital One Reports Past Due (60 Days) (Ref: FAC Para 20)
+    │   ├── 📉 2023-11-20: Capital One Reports Past Due (90 Days) (Ref: FAC Para 20)
+    │   └── ❌ 2023-12-10: Capital One Reports Account as "Charged-Off" (Ref: FAC Para 21)
+    ├──-📉 Documented Adverse Actions (Jan-Apr 2024):
+    │   │   ├── 2024-01-03: Bank of America Credit Limit Reduction (Doc 14)
+    │   │   ├── 2024-01-16: Apple Card/Goldman Sachs Credit Limit Reduction (Doc 16)
+    │   │   ├── 2024-01-18: Chase Credit Limit Reductions (Docs 3, 4)
+    │   │   ├── 2024-01-19: Credit Score Drop Alert (-75 points since Oct 2023) (Doc 11)
+    │   │   ├── 2024-01-23: Earnest Loan Denial (Doc 21)
+    │   │   ├── 2024-01-23: American Express Preset Spending Limit Assigned (Doc 25, 35)
+    │   │   ├── 2024-01-24: MPOWER/Bank of Lake Mills Student Loan Denial (Doc 19)
+    │   │   ├── 2024-01-30: OneMain Financial Loan Denial (Doc 33)
+    │   │   ├── 2024-01-31: Chase Auto Loan Denial (Decision Date for Docs 8, 9)
+    │   │   ├── 2024-02-05: Citi Credit Limit Reduction (Doc 18)
+    │   │   ├── 2024-02-08: PA Forward Student Loan Denial (Doc 15)
+    │   │   ├── 2024-02-13: Huebner Chevrolet Financing Denial (Doc 2)
+    │   │   ├── 2024-02-26: Ally Auto Financing Denial (Carmax) (Doc 5)
+    │   │   ├── 2024-02-26: LightStream/Truist Loan Denial (Doc 29)
+    │   │   ├── 2024-03-03: American Credit Acceptance Denial/Modified Offer (Doc 17)
+    │   │   ├── 2024-03-06: Capital One Auto Finance Denial (Internal History) (Doc 13)
+    │   │   ├── 2024-03-06: Chase Auto Loan Denial (Land Rover Naperville - Decision Date) (Doc 34)
+    │   │   ├── 2024-03-07: Bank of America Credit Limit Reduction (Doc 1)
+    │   │   ├── 2024-03-12: Ally Auto Financing Denial (St. Charles) (Doc 6)
+    │   │   ├── 2024-03-17: Exeter Finance Auto Loan Denial (Doc 22)
+    │   │   ├── 2024-03-26: OneMain Financial Loan Denial (Doc 27)
+    │   │   ├── 2024-03-26: Westlake Financial Credit Denied (Frozen File Claim) (Doc 37)
+    │   │   ├── 2024-03-26: Global Lending Services Auto Denial (Decision Date) (Doc 24)
+    │   │   └── *Plus others as needed based on specific dates for remaining denials/reductions.*
+    ├── 📂 2024_Early (Jan-Apr) - Widespread Adverse Actions & Initial Legal Steps
+    │   ├── 📌 **Disputes & Communications:**
+    │   │   ├── 📤 ~2023-12-31: First Dispute Sent to CRAs (Experian, TransUnion, Equifax) (Ref: FAC Para 24)
+    │   │   ├── 📤 2024-01-10: Direct Dispute Notice to Capital One (Ref: FAC Para 28)
+    │   │   ├── 📤 2024-01-19: Direct Dispute Notice to Capital One (Ref: FAC Para 28)
+    │   │   ├── 📤 2024-01-25: Faxed Dispute to Capital One (Requesting Charge-Off Removal) (Ref: FAC Para 29)
+    │   │   ├── 📤 ~2024-02-01: Second Dispute Sent to Equifax (Ref: FAC Para 27)
+    │   │   └── 📤 2024-03-01: CLRA Notice Letter Sent to Capital One (Ref: FAC Para 83, Doc 20 Exh A p.22)
+    │   │
+    │   └── ⚖️ **Legal Filings (State & Federal):**
+    │       ├── 2024-03-11: Initial Lawsuit Filed (California Superior Court, Los Angeles County) (Ref: Hinton_v_Capital_One_initial_complaint.pdf)
+    │       └── 2024-06-04: First Amended Complaint (FAC) Filed in U.S. District Court (C.D. Cal.) after removal/refiling (Doc 20)
+    ├── 📂 2024_Mid/Late - Litigation & CRA Settlements
+    │   ├── ✅ 2024-09-10: Settlement Agreement Signed with Experian (Ref: experian_settlement.pdf)
+    │   ├── ✅ 2024-09-24: Settlement Agreement Signed with TransUnion (Ref: transunion_settlement.pdf)
+    │   ├── ✅ 2024-09-24: Notice of Settlement Filed (Experian) (Ref: notice_of_settlement_experian.pdf)
+    │   └── ⚠️ **~2024-XX-XX:** Settlement Agreement with Equifax (*Note: Document dates (Feb 2025) appear incorrect/future; actual settlement likely occurred late 2024*) (Ref: settlement_equifax.pdf)
+    └── 📂 2025_Early (April) - Mediation Failure & Counsel Withdrawal
+        ├── ❌ 2025-04-03::** Mediation with Capital One Fails - Offer deemed nuisance value (Ref: User context)
+        └── 🚪 2025-04-03::** Current Counsel (Law Offices of Todd M. Friedman, P.C.) Notifies Plaintiff of Intent to Withdraw (Ref: Email snippet from Meghan George)
+
+**Current Status (as of April 2025):** Case is ongoing against Capital One. Plaintiff is urgently seeking successor counsel following the unexpected notice of withdrawal from current counsel after failed mediation.

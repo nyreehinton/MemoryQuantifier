@@ -1,70 +1,86 @@
-import { Link, useLocation } from "wouter";
-import { cn } from "@/lib/utils";
-import { 
-  LayoutDashboard, 
-  AlertTriangle, 
-  DollarSign, 
-  FileText, 
-  Clipboard, 
-  FileChartColumn, 
-  Edit, 
-  Calendar, 
-  Briefcase 
-} from "lucide-react";
+import { cn } from '@/lib/utils';
+import {
+  AlertTriangle,
+  Briefcase,
+  Calendar,
+  Clipboard,
+  DollarSign,
+  Edit,
+  FileChartColumn,
+  FileSearch,
+  FileText,
+  LucideIcon,
+} from 'lucide-react';
+import { Link, useLocation } from 'wouter';
 
-const navigation = [
+interface NavigationItem {
+  title: string;
+  href: string;
+  icon: LucideIcon;
+  description?: string;
+}
+
+interface NavigationSection {
+  title: string;
+  items: NavigationItem[];
+}
+
+const navigation: NavigationSection[] = [
   {
-    title: "NAVIGATION",
+    title: 'NAVIGATION',
     items: [
       {
-        title: "Dashboard",
-        href: "/",
-        icon: LayoutDashboard,
+        title: 'Case Summary',
+        href: '/',
+        icon: FileSearch,
       },
       {
-        title: "Adverse Actions",
-        href: "/adverse-actions",
+        title: 'Adverse Actions',
+        href: '/adverse-actions',
         icon: AlertTriangle,
       },
       {
-        title: "Damages Quantification",
-        href: "/damages-quantification",
+        title: 'Damages Quantification',
+        href: '/damages-quantification',
         icon: DollarSign,
       },
       {
-        title: "Credit Reports",
-        href: "/credit-reports",
+        title: 'Credit Reports',
+        href: '/credit-reports',
         icon: FileText,
       },
       {
-        title: "Tasks",
-        href: "/tasks",
+        title: 'Tasks',
+        href: '/tasks',
         icon: Clipboard,
       },
       {
-        title: "Reports",
-        href: "/reports",
+        title: 'Reports',
+        href: '/reports',
         icon: FileChartColumn,
       },
     ],
   },
   {
-    title: "CASE SHORTCUTS",
+    title: 'CASE MANAGEMENT',
     items: [
       {
-        title: "Case Notes",
-        href: "/case-notes",
+        title: 'Case Notes',
+        href: '/case-notes',
         icon: Edit,
+        description: 'Attorney notes and case observations',
       },
       {
-        title: "Timeline",
-        href: "/timeline",
+        title: 'Timeline',
+        href: '/timeline',
         icon: Calendar,
+        description: 'Comprehensive case timeline',
       },
       {
-        title: "Document Repository",
-        href: "/documents",
+        title: 'Document Repository',
+        href: '/documents',
         icon: Briefcase,
+        description: 'All case-related documents and evidence',
       },
     ],
   },
@@ -89,14 +105,19 @@ export default function SidebarNavigation() {
                     <Link href={item.href}>
                       <a
                         className={cn(
-                          "flex items-center space-x-2 py-2 px-3 rounded-md transition-colors",
+                          'flex items-center space-x-2 py-2 px-3 rounded-md transition-colors group relative',
                           isActive
-                            ? "bg-sidebar-accent text-sidebar-accent-foreground"
-                            : "text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground"
+                            ? 'bg-sidebar-accent text-sidebar-accent-foreground'
+                            : 'text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground'
                         )}
                       >
                         <item.icon className="h-5 w-5" />
                         <span>{item.title}</span>
+                        {item.description && (
+                          <div className="absolute left-full ml-2 px-2 py-1 bg-popover text-popover-foreground text-xs rounded-md whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+                            {item.description}
+                          </div>
+                        )}
                       </a>
                     </Link>
                   </li>

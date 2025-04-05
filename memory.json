@@ -1,0 +1,636 @@
+{
+  "entities": [
+    {
+      "name": "Memory_Quantifier_Project",
+      "entityType": "project",
+      "observations": [
+        "Full-stack web application",
+        "Helps track and manage adverse actions, credit reports, damages, tasks, and activities",
+        "Located at /Users/ree/Desktop/MemoryQuantifier",
+        "Uses TypeScript, React, Express, PostgreSQL",
+        "Frontend built with React, Vite, TailwindCSS",
+        "Backend built with Express.js, Node.js",
+        "Database uses PostgreSQL with Drizzle ORM",
+        "Authentication uses Passport.js",
+        "API is RESTful with WebSocket support",
+        "Requires Node.js 20+",
+        "Requires PostgreSQL 16",
+        "Installation involves: clone repo, npm install, set env vars, run migrations (npm run db:push)",
+        "Development server command: npm run dev",
+        "Default server port: 8080",
+        "Project structure includes client/, server/, shared/, attached_assets/, migrations/, project-setup/"
+      ]
+    },
+    {
+      "name": "React",
+      "entityType": "technology",
+      "observations": [
+        "Used for Frontend in Memory_Quantifier_Project",
+        "Used with Vite"
+      ]
+    },
+    {
+      "name": "Vite",
+      "entityType": "technology",
+      "observations": [
+        "Used for Frontend build/dev server in Memory_Quantifier_Project"
+      ]
+    },
+    {
+      "name": "TailwindCSS",
+      "entityType": "technology",
+      "observations": [
+        "Used for Frontend styling in Memory_Quantifier_Project"
+      ]
+    },
+    {
+      "name": "Express.js",
+      "entityType": "technology",
+      "observations": [
+        "Used for Backend server framework in Memory_Quantifier_Project"
+      ]
+    },
+    {
+      "name": "Node.js",
+      "entityType": "technology",
+      "observations": [
+        "Used for Backend runtime in Memory_Quantifier_Project",
+        "Version 20 or higher required"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "entityType": "technology",
+      "observations": [
+        "Used as Database in Memory_Quantifier_Project",
+        "Version 16 required"
+      ]
+    },
+    {
+      "name": "Drizzle_ORM",
+      "entityType": "technology",
+      "observations": [
+        "Used for Database operations (ORM) in Memory_Quantifier_Project"
+      ]
+    },
+    {
+      "name": "Passport.js",
+      "entityType": "technology",
+      "observations": [
+        "Used for Authentication in Memory_Quantifier_Project"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "entityType": "technology",
+      "observations": [
+        "Used for Type Safety throughout Memory_Quantifier_Project"
+      ]
+    },
+    {
+      "name": "RESTful_API",
+      "entityType": "concept",
+      "observations": [
+        "Primary API type for Memory_Quantifier_Project"
+      ]
+    },
+    {
+      "name": "WebSocket",
+      "entityType": "technology",
+      "observations": [
+        "Supported for API communication in Memory_Quantifier_Project"
+      ]
+    },
+    {
+      "name": "Users_Data_Model",
+      "entityType": "data_model",
+      "observations": [
+        "Part of Memory_Quantifier_Project",
+        "Handles basic user authentication (username/password)"
+      ]
+    },
+    {
+      "name": "Adverse_Actions_Data_Model",
+      "entityType": "data_model",
+      "observations": [
+        "Part of Memory_Quantifier_Project",
+        "Tracks credit-related adverse actions",
+        "Fields include: document_index, document_source, sender_name, recipient_name, date, action_type, reasons, etc."
+      ]
+    },
+    {
+      "name": "Credit_Reports_Data_Model",
+      "entityType": "data_model",
+      "observations": [
+        "Part of Memory_Quantifier_Project",
+        "Manages credit report requests and status",
+        "Fields include: report_need_id, cra, date_range, reason_needed, status, linked_docs"
+      ]
+    },
+    {
+      "name": "Damages_Data_Model",
+      "entityType": "data_model",
+      "observations": [
+        "Part of Memory_Quantifier_Project",
+        "Tracks pecuniary and non-pecuniary damages",
+        "Fields include: id, title, category, status, description, claimed_value, required_documents"
+      ]
+    },
+    {
+      "name": "Tasks_Data_Model",
+      "entityType": "data_model",
+      "observations": [
+        "Part of Memory_Quantifier_Project",
+        "Manages project-related tasks",
+        "Fields include: id, title, description, priority, status, due_date, related_item"
+      ]
+    },
+    {
+      "name": "Activities_Data_Model",
+      "entityType": "data_model",
+      "observations": [
+        "Part of Memory_Quantifier_Project",
+        "Logs system activities",
+        "Fields include: id, type, description, details, timestamp, related_item"
+      ]
+    },
+    {
+      "name": "Hinton_v_Capital_One_Case",
+      "entityType": "legal_case",
+      "observations": [
+        "Case Number: 2:24-cv-03039-CBM-JPR",
+        "Court: U.S. District Court, Central District of California (C.D. Cal.)",
+        "Initially filed in California Superior Court (Los Angeles County) on 2024-03-11",
+        "Removed/Refiled to Federal Court",
+        "First Amended Complaint (FAC) filed 2024-06-04 (Doc 20)",
+        "Core Allegation: Capital One furnished inaccurate negative credit information causing adverse actions",
+        "Current Status (Apr 2025): Ongoing against Capital One; Plaintiff seeking new counsel"
+      ]
+    },
+    {
+      "name": "Nyree_Hinton",
+      "entityType": "person",
+      "observations": [
+        "Plaintiff in Hinton_v_Capital_One_Case",
+        "Recipient of multiple adverse action notices (Docs 1-38)",
+        "Purchased Tesla financed via Capital One (Nov 2022)",
+        "Filed initial lawsuit in Georgia (~Jul 2023)",
+        "Sent disputes to CRAs and Capital One (Dec 2023 - Mar 2024)",
+        "Sent CLRA Notice Letter to Capital One (Mar 2024)",
+        "Settled with Experian, TransUnion, Equifax (Late 2024)",
+        "Experienced mediation failure with Capital One (Apr 2025)",
+        "Received notice of counsel withdrawal (Apr 2025)",
+        "Claims prior 'unblemished credit history'",
+        "Claims adverse actions occurred around birth of child (Sep 23, 2023)",
+        "Claims withdrawal from Harvard University due to funding denial",
+        "Owner/Operator of The_AI_Remedy"
+      ]
+    },
+    {
+      "name": "Capital_One",
+      "entityType": "organization",
+      "observations": [
+        "Defendant in Hinton_v_Capital_One_Case",
+        "Includes Capital_One_Auto_Finance division",
+        "Financed Plaintiff's Tesla purchase (Nov 2022)",
+        "Allegedly restricted Plaintiff's online portal access (~Aug 2023)",
+        "Allegedly reported account past due (Sep-Nov 2023)",
+        "Allegedly reported account as 'Charged-Off' (Dec 2023)",
+        "Received direct dispute notices from Plaintiff (Jan 2024)",
+        "Received CLRA Notice Letter from Plaintiff (Mar 2024)",
+        "Mediation with Plaintiff failed (Apr 2025)",
+        "Denied Plaintiff auto financing based on internal history (Docs 12, 13)"
+      ]
+    },
+    {
+      "name": "Capital_One_Auto_Finance",
+      "entityType": "organization",
+      "observations": [
+        "Division of Capital_One",
+        "Financed Plaintiff's Tesla",
+        "Target of initial Georgia lawsuit",
+        "Denied Plaintiff auto financing (Docs 12, 13)"
+      ]
+    },
+    {
+      "name": "Tesla",
+      "entityType": "organization",
+      "observations": [
+        "Vehicle purchased by Plaintiff (Nov 2022)",
+        "Experienced unresolved service issues (Nov 2022 - May 2023)",
+        "Subject of initial Georgia lawsuit"
+      ]
+    },
+    {
+      "name": "Car_Dealership_Georgia",
+      "entityType": "organization",
+      "observations": [
+        "Sold Tesla to Plaintiff",
+        "Defendant in initial Georgia lawsuit"
+      ]
+    },
+    {
+      "name": "Experian",
+      "entityType": "organization",
+      "observations": [
+        "Credit Reporting Agency (CRA)",
+        "Received disputes from Plaintiff (~Dec 2023)",
+        "Cited as source for multiple adverse actions (Docs 3, 4, 5, 6, 7, 8, 15, 21, 23, 24, 25, 26, 28, 31, 32, 33, 34, 36, 38)",
+        "Settled with Plaintiff (Signed 2024-09-10)"
+      ]
+    },
+    {
+      "name": "TransUnion",
+      "entityType": "organization",
+      "observations": [
+        "Credit Reporting Agency (CRA)",
+        "Received disputes from Plaintiff (~Dec 2023, ~Feb 2024)",
+        "Cited as source for multiple adverse actions (Docs 1, 5, 6, 7, 10, 11, 14, 15, 16, 17, 19, 20, 29, 30, 36)",
+        "Settled with Plaintiff (Signed 2024-09-24)"
+      ]
+    },
+    {
+      "name": "Equifax",
+      "entityType": "organization",
+      "observations": [
+        "Credit Reporting Agency (CRA)",
+        "Received disputes from Plaintiff (~Dec 2023, ~Feb 2024)",
+        "Cited as source for multiple adverse actions (Doc 2, 15, 18, 24)",
+        "Settled with Plaintiff (Likely late 2024)"
+      ]
+    },
+    {
+      "name": "SageStream_LLC",
+      "entityType": "organization",
+      "observations": [
+        "Credit Reporting Agency (CRA)",
+        "Also known as part of LexisNexis Risk Solutions",
+        "Cited as source for multiple adverse actions (Docs 5, 6, 7, 24, 36)"
+      ]
+    },
+    {
+      "name": "LexisNexis",
+      "entityType": "organization",
+      "observations": [
+        "Credit Reporting Agency (CRA)",
+        "Operates SageStream and Consumer Center",
+        "Cited as source for multiple adverse actions (Docs 24, 36)"
+      ]
+    },
+    {
+      "name": "NCTUE",
+      "entityType": "organization",
+      "observations": [
+        "National Consumer Telecom & Utilities Exchange",
+        "Credit Reporting Agency (CRA)",
+        "Cited as source for adverse action (Doc 24)"
+      ]
+    },
+    {
+      "name": "NOWCOM_Corporation",
+      "entityType": "organization",
+      "observations": [
+        "Technology/Data company, potentially acting as CRA for auto dealers",
+        "Cited as source for adverse action (Doc 37)"
+      ]
+    },
+    {
+      "name": "Law_Offices_of_Todd_M_Friedman_PC",
+      "entityType": "organization",
+      "observations": [
+        "Plaintiff's counsel in Hinton_v_Capital_One_Case",
+        "Notified Plaintiff of intent to withdraw (Apr 2025)"
+      ]
+    },
+    {
+      "name": "Meghan_George",
+      "entityType": "person",
+      "observations": [
+        "Associated with Law_Offices_of_Todd_M_Friedman_PC",
+        "Sent email notifying Plaintiff of withdrawal intent"
+      ]
+    },
+    {
+      "name": "Harvard_University",
+      "entityType": "organization",
+      "observations": [
+        "Educational institution",
+        "Plaintiff claims withdrawal from Harvard due to funding denial"
+      ]
+    },
+    {
+      "name": "The_AI_Remedy",
+      "entityType": "organization",
+      "observations": [
+        "Plaintiff's business (Hinton Strategic Alternatives dba)",
+        "Subject of denied business loan application (Doc 31)"
+      ]
+    },
+    {
+      "name": "Opportunity_Insights",
+      "entityType": "organization",
+      "observations": [
+        "Research group, likely at Harvard",
+        "Published study cited by Plaintiff regarding earnings differential"
+      ]
+    },
+    {
+      "name": "Quantification_Framework",
+      "entityType": "concept",
+      "observations": [
+        "Methodology for assessing damages in Hinton_v_Capital_One_Case",
+        "Includes sections: Prerequisites, Pecuniary Damages, Non-Pecuniary Damages"
+      ]
+    },
+    {
+        "name": "Pecuniary_Damages",
+        "entityType": "damage_type",
+        "observations": [
+            "Category of damages in Quantification_Framework",
+            "Represents specific monetary losses",
+            "Includes sub-categories like PEC-COST, PEC-PAY, PEC-FEE, PEC-DEP, PEC-OOP, PEC-OPP"
+        ]
+    },
+    {
+        "name": "NonPecuniary_Damages",
+        "entityType": "damage_type",
+        "observations": [
+            "Category of damages in Quantification_Framework",
+            "Represents intangible harm (emotional distress, reputational damage)",
+            "Quantification is argumentative, based on evidence",
+            "Includes sub-categories like NONPEC-ED, NONPEC-REP"
+        ]
+    },
+    { "name": "PEC-COST", "entityType": "damage_category", "observations": ["Increased Cost of Credit / Unfavorable Terms"] },
+    { "name": "PEC-PAY", "entityType": "damage_category", "observations": ["Required Additional Payments Due to Adverse Action"] },
+    { "name": "PEC-FEE", "entityType": "damage_category", "observations": ["Non-Refundable Application Fees for Denied Credit"] },
+    { "name": "PEC-DEP", "entityType": "damage_category", "observations": ["Lost Deposits on Failed Transactions Due to Denial"] },
+    { "name": "PEC-OOP", "entityType": "damage_category", "observations": ["Out-of-Pocket Expenses for Remediation"] },
+    { "name": "PEC-OPP", "entityType": "damage_category", "observations": ["Quantifiable Lost Opportunity Costs (e.g., Education, Vehicle, Business)"] },
+    { "name": "NONPEC-ED", "entityType": "damage_category", "observations": ["Emotional Distress / Mental Anguish / Humiliation"] },
+    { "name": "NONPEC-REP", "entityType": "damage_category", "observations": ["Reputational Harm"] },
+    {
+        "name": "PREQ-01",
+        "entityType": "evidence_need",
+        "observations": [
+            "Item ID for Quantification_Framework prerequisite",
+            "Name: Credit Reports Used by Creditors",
+            "Purpose: Prove inaccurate info was seen by decision-maker",
+            "Status: CRITICAL NEED"
+        ]
+    },
+    {
+        "name": "PEC-PAY-01",
+        "entityType": "evidence_need",
+        "observations": [
+            "Item ID for PEC-PAY quantification",
+            "Name: Proof of Payment (for additional security deposit)",
+            "Needed for Essex (Doc 10) damage claim ($2,187)"
+        ]
+    },
+    { "name": "Bank_of_America", "entityType": "organization", "observations": ["Creditor issuing adverse actions (Docs 1, 14, 20)"] },
+    { "name": "Huebner_Chevrolet_Subaru", "entityType": "organization", "observations": ["Creditor issuing adverse action (Doc 2)"] },
+    { "name": "Chase_Card_Services", "entityType": "organization", "observations": ["Creditor issuing adverse actions (Docs 3, 4)"] },
+    { "name": "Chase_Auto", "entityType": "organization", "observations": ["Creditor issuing adverse actions (Docs 8, 9, 34)"] },
+    { "name": "Ally_Bank", "entityType": "organization", "observations": ["Creditor issuing adverse actions (Docs 5, 6, 7)"] },
+    { "name": "Essex_Property_Trust", "entityType": "organization", "observations": ["Creditor issuing adverse action (Doc 10 - Conditional rental approval)"] },
+    { "name": "Capital_One_Auto_Finance", "entityType": "organization", "observations": ["Creditor issuing adverse actions based on internal history (Docs 12, 13)"] },
+    { "name": "PA_Forward_Student_Loans", "entityType": "organization", "observations": ["Creditor issuing adverse action (Doc 15)"] },
+    { "name": "Apple_Card_Goldman_Sachs", "entityType": "organization", "observations": ["Creditor issuing adverse action (Doc 16)"] },
+    { "name": "American_Credit_Acceptance", "entityType": "organization", "observations": ["Creditor issuing adverse action (Doc 17)"] },
+    { "name": "Citi", "entityType": "organization", "observations": ["Creditor issuing adverse action (Doc 18)"] },
+    { "name": "Bank_of_Lake_Mills_MPOWER", "entityType": "organization", "observations": ["Creditor issuing adverse action (Doc 19)"] },
+    { "name": "Earnest_Operations_LLC", "entityType": "organization", "observations": ["Creditor issuing adverse action (Doc 21)"] },
+    { "name": "Exeter_Finance_LLC", "entityType": "organization", "observations": ["Creditor issuing adverse action (Doc 22)"] },
+    { "name": "Monterra_Credit_Union", "entityType": "organization", "observations": ["Creditor issuing adverse actions (Docs 23, 28)"] },
+    { "name": "Global_Lending_Services", "entityType": "organization", "observations": ["Creditor issuing adverse action (Doc 24)"] },
+    { "name": "American_Express", "entityType": "organization", "observations": ["Creditor issuing adverse actions (Docs 25, 35)"] },
+    { "name": "Golden_1_Credit_Union", "entityType": "organization", "observations": ["Creditor issuing adverse action (Doc 26 - Risk Based Pricing)"] },
+    { "name": "OneMain_Financial", "entityType": "organization", "observations": ["Creditor issuing adverse actions (Docs 27, 33)"] },
+    { "name": "LightStream_Truist", "entityType": "organization", "observations": ["Creditor issuing adverse action (Doc 29)"] },
+    { "name": "LendingPoint_FinWise_Bank", "entityType": "organization", "observations": ["Creditor issuing adverse action (Doc 30)"] },
+    { "name": "SmartBiz_Loans", "entityType": "organization", "observations": ["Creditor issuing adverse action (Doc 31 - Business Loan Referral Denial)"] },
+    { "name": "Reprise_Financial_WebBank", "entityType": "organization", "observations": ["Creditor issuing adverse action (Doc 32)"] },
+    { "name": "SoFi_Bank_NA", "entityType": "organization", "observations": ["Creditor issuing adverse action (Doc 36)"] },
+    { "name": "Westlake_Financial", "entityType": "organization", "observations": ["Creditor issuing adverse action (Doc 37)"] },
+    { "name": "US_Bank_NA", "entityType": "organization", "observations": ["Creditor issuing adverse action (Doc 38)"] },
+    { "name": "Adverse_Action_Doc_1", "entityType": "document", "observations": ["Source: Bank_of_America", "Date: 2024-03-07", "Type: Credit Limit Reduction", "Recipient: Nyree_Hinton", "Account: 1775", "Reason: High utilization, # accts w balances, delinquency", "CRA: TransUnion"] },
+    { "name": "Adverse_Action_Doc_2", "entityType": "document", "observations": ["Source: Huebner_Chevrolet_Subaru", "Date: 2024-02-13", "Type: Vehicle Financing Denial", "Recipient: Nyree_Hinton", "Reason: Inability to find finance company", "CRA: Not Specified (Equifax/Experian/TransUnion possible)"] },
+    { "name": "Adverse_Action_Doc_3", "entityType": "document", "observations": ["Source: Chase_Card_Services", "Date: 2024-01-18", "Type: Credit Limit Reduction", "Recipient: Nyree_Hinton", "Account: 0757", "Reason: Derogatory items, delinquency, high usage", "CRA: Experian"] },
+    { "name": "Adverse_Action_Doc_4", "entityType": "document", "observations": ["Source: Chase_Card_Services", "Date: 2024-01-18", "Type: Credit Limit Reduction", "Recipient: Nyree_Hinton", "Account: 7293 (Amazon)", "Reason: Derogatory items, delinquency, high usage", "CRA: Experian"] },
+    { "name": "Adverse_Action_Doc_5", "entityType": "document", "observations": ["Source: Ally_Bank", "Date: 2024-03-12", "Type: Auto Financing Denial", "Recipient: Nyree_Hinton", "Initiator: Carmax", "Reason: Based on credit report", "CRA: Experian, SageStream_LLC", "Score: Not Available (Experian), Not Available (SageStream) on 2024-02-26"] },
+    { "name": "Adverse_Action_Doc_6", "entityType": "document", "observations": ["Source: Ally_Bank", "Date: 2024-04-09", "Type: Auto Financing Denial", "Recipient: Nyree_Hinton", "Initiator: St. Charles Motor Cars", "Reason: Based on credit report/score", "CRA: TransUnion, Experian, SageStream_LLC", "Score: 686 (TransUnion), N/A (Experian), N/A (SageStream) on 2024-03-26"] },
+    { "name": "Adverse_Action_Doc_7", "entityType": "document", "observations": ["Source: Ally_Bank", "Date: 2024-10-07", "Type: Auto Financing Denial (Modified Offer)", "Recipient: Nyree_Hinton", "Initiator: Carbeeco", "Reason: Based on credit report/score", "CRA: Experian, TransUnion, SageStream_LLC", "Score: 681/679 (Experian), N/A (SageStream) on 2024-09-16"] },
+    { "name": "Adverse_Action_Doc_8", "entityType": "document", "observations": ["Source: Chase_Auto", "Date: 2024-02-11", "Type: Vehicle Credit Denial", "Recipient: Nyree_Hinton", "Reason: Foreclosure, Repossession, Collection, Charge-off", "CRA: Implied Experian", "Score: 542 on 2024-01-31"] },
+    { "name": "Adverse_Action_Doc_9", "entityType": "document", "observations": ["Source: Chase_Auto (Email)", "Date: 2024-02-08", "Type: Auto Financing Denial Notification", "Recipient: Nyree_Hinton", "Refers to decision date 2024-01-31 (Doc 8)"] },
+    { "name": "Adverse_Action_Doc_10", "entityType": "document", "observations": ["Source: Essex_Property_Trust", "Date: 2024-06-04", "Type: Conditional Rental Approval", "Recipient: Nyree_Hinton", "Condition: Requires $2,187 additional security deposit", "Reason: High balances, inquiries, recent auto delinquency", "CRA: TransUnion (Consumer/Rental), Background Data Solutions, Funnel Leasing", "Score: 605 (TransUnion) on 2024-06-05"] },
+    { "name": "Adverse_Action_Doc_11", "entityType": "document", "observations": ["Source: Unknown Credit Monitoring", "Date: 2024-01-19", "Type: Credit Score Update Alert", "Recipient: Nyree_Hinton", "Details: Score dropped 75 points since 2023-10-05", "CRA: TransUnion", "Score: 583 on 2024-01-19"] },
+    { "name": "Adverse_Action_Doc_12", "entityType": "document", "observations": ["Source: Capital_One_Auto_Finance", "Date: 2024-09-24", "Type: Auto Financing Denial", "Recipient: Nyree_Hinton", "Initiator: VOLVO PALO ALTO", "Reason: Too many delinquent Capital One obligations (Internal History)", "CRA: None Pulled"] },
+    { "name": "Adverse_Action_Doc_13", "entityType": "document", "observations": ["Source: Capital_One_Auto_Finance", "Date: 2024-03-06", "Type: Auto Financing Denial", "Recipient: Nyree_Hinton", "Reason: Too many delinquent Capital One obligations (Internal History)", "CRA: None Pulled (Assumed Internal)"] },
+    { "name": "Adverse_Action_Doc_14", "entityType": "document", "observations": ["Source: Bank_of_America", "Date: 2024-01-03", "Type: Credit Limit Reduction", "Recipient: Nyree_Hinton", "Account: 4041", "Reason: Limited deposit balances, # accts w balances, delinquency", "CRA: TransUnion"] },
+    { "name": "Adverse_Action_Doc_15", "entityType": "document", "observations": ["Source: PA_Forward_Student_Loans", "Date: 2024-02-08", "Type: Student Loan Denial (Offer w/ Co-signer)", "Recipient: Nyree_Hinton", "Reason: Credit Score below minimum", "CRA: Not Specified (Implied Experian/TransUnion/Equifax)"] },
+    { "name": "Adverse_Action_Doc_16", "entityType": "document", "observations": ["Source: Apple_Card_Goldman_Sachs", "Date: 2024-01-16", "Type: Credit Limit Reduction", "Recipient: Nyree_Hinton", "Reason: Recently reported past due", "CRA: TransUnion"] },
+    { "name": "Adverse_Action_Doc_17", "entityType": "document", "observations": ["Source: American_Credit_Acceptance", "Date: 2024-03-03", "Type: Auto Loan Denial (Modified Offer)", "Recipient: Nyree_Hinton", "Initiator: CARMAX 7810-LAX", "Reason: Not specified", "CRA: TransUnion"] },
+    { "name": "Adverse_Action_Doc_18", "entityType": "document", "observations": ["Source: Citi", "Date: 2024-02-05", "Type: Credit Limit Reduction", "Recipient: Nyree_Hinton", "Account: 1752", "Reason: Score too low, high balances, past due accounts", "CRA: Equifax"] },
+    { "name": "Adverse_Action_Doc_19", "entityType": "document", "observations": ["Source: Bank_of_Lake_Mills_MPOWER", "Date: 2024-01-24", "Type: Student Loan Denial", "Recipient: Nyree_Hinton", "Reason: Delinquent past/present credit obligations", "CRA: TransUnion"] },
+    { "name": "Adverse_Action_Doc_20", "entityType": "document", "observations": ["Source: Bank_of_America", "Date: Associated with 2024-03-07 (Doc 1)", "Type: Credit Score Disclosure", "Recipient: Nyree_Hinton", "CRA: TransUnion", "Score: 628 (FICO) on 2024-02-19"] },
+    { "name": "Adverse_Action_Doc_21", "entityType": "document", "observations": ["Source: Earnest_Operations_LLC", "Date: 2024-01-23", "Type: Loan Denial", "Recipient: Nyree_Hinton", "Reason: FICO score below minimum", "CRA: Experian", "Score: 617 on 2024-01-23"] },
+    { "name": "Adverse_Action_Doc_22", "entityType": "document", "observations": ["Source: Exeter_Finance_LLC", "Date: 2024-03-17", "Type: Auto Loan Denial", "Recipient: Nyree_Hinton", "Initiator: CARMAX - LAX #7810", "Reason: Not specified", "CRA: None Obtained"] },
+    { "name": "Adverse_Action_Doc_23", "entityType": "document", "observations": ["Source: Monterra_Credit_Union", "Date: After 2024-09-16", "Type: Credit Request Denial", "Recipient: Nyree_Hinton", "Reason: Other (Not detailed)", "CRA: Experian", "Score: 697 on 2024-09-16"] },
+    { "name": "Adverse_Action_Doc_24", "entityType": "document", "observations": ["Source: Global_Lending_Services", "Date: 2024-04-18 (Decision 2024-03-26)", "Type: Auto Loan Denial", "Recipient: Nyree_Hinton", "Initiator: ST CHARLES MOTOR CARS LLC", "Reason: Key factors (Not detailed)", "CRA: Experian, Equifax, LexisNexis, SageStream_LLC, NCTUE"] },
+    { "name": "Adverse_Action_Doc_25", "entityType": "document", "observations": ["Source: American_Express", "Date: 2024-01-23", "Type: Assignment of Preset Spending Limit", "Recipient: Nyree_Hinton", "Account: 095008", "Limit: 5700.00", "Reason: FICO score, past due with other creditor", "CRA: Experian", "Score: 618 (FICO) on 2024-01-08"] },
+    { "name": "Adverse_Action_Doc_26", "entityType": "document", "observations": ["Source: Golden_1_Credit_Union", "Date: 2024-09-17", "Type: Risk-Based Pricing Notice", "Recipient: Nyree_Hinton", "Reason: Terms less favorable due to credit history", "CRA: Experian"] },
+    { "name": "Adverse_Action_Doc_27", "entityType": "document", "observations": ["Source: OneMain_Financial", "Date: 2024-03-26", "Type: Loan Denial", "Recipient: Nyree_Hinton", "Reason: No credit file", "CRA: None Found"] },
+    { "name": "Adverse_Action_Doc_28", "entityType": "document", "observations": ["Source: Monterra_Credit_Union", "Date: Associated with Doc 23", "Type: Credit Score Disclosure", "Recipient: Nyree_Hinton", "CRA: Experian", "Score: 697 on 2024-09-16"] },
+    { "name": "Adverse_Action_Doc_29", "entityType": "document", "observations": ["Source: LightStream_Truist", "Date: 2024-02-26", "Type: Installment Loan Denial", "Recipient: Nyree_Hinton", "Reason: Serious delinquency, high balances, recent delinquency", "CRA: TransUnion", "Score: 628 on 2024-02-26"] },
+    { "name": "Adverse_Action_Doc_30", "entityType": "document", "observations": ["Source: LendingPoint_FinWise_Bank", "Date: 2024-10-11", "Type: Consumer Loan Denial", "Recipient: Nyree_Hinton", "Initiator: Experian API Referral", "Reason: Key factors affecting score", "CRA: TransUnion", "Score: 634 on 2024-09-24"] },
+    { "name": "Adverse_Action_Doc_31", "entityType": "document", "observations": ["Source: SmartBiz_Loans", "Date: Around 2024-08-08", "Type: Business Loan Referral Denial", "Recipient: Nyree_Hinton / The_AI_Remedy", "Reason: Owner score low, business score low, insufficient revenue", "CRA: Experian", "Score: 568 (FICO V9) on 2024-08-08"] },
+    { "name": "Adverse_Action_Doc_32", "entityType": "document", "observations": ["Source: Reprise_Financial_WebBank", "Date: 2024-10-20", "Type: Loan Denial", "Recipient: Nyree_Hinton", "Reason: Key factors affecting score", "CRA: Experian", "Score: 645 on 2024-09-24"] },
+    { "name": "Adverse_Action_Doc_33", "entityType": "document", "observations": ["Source: OneMain_Financial", "Date: 2024-01-30", "Type: Loan Denial", "Recipient: Nyree_Hinton", "Reason: Not specified", "CRA: Experian"] },
+    { "name": "Adverse_Action_Doc_34", "entityType": "document", "observations": ["Source: Chase_Auto", "Date: 2024-03-17", "Type: Vehicle Credit Denial", "Recipient: Nyree_Hinton", "Initiator: LAND ROVER NAPERVILLE", "Reason: Foreclosure, Repossession, Collection, Charge-off", "CRA: Implied Experian", "Score: 525 on 2024-03-06"] },
+    { "name": "Adverse_Action_Doc_35", "entityType": "document", "observations": ["Source: American_Express (Email)", "Date: 2024-02-08", "Type: Assignment of Preset Spending Limit Notification", "Recipient: Nyree_Hinton", "Account: 095008", "Limit: 5700.00", "Refers to decision date 2024-01-23 (Doc 25)"] },
+    { "name": "Adverse_Action_Doc_36", "entityType": "document", "observations": ["Source: SoFi_Bank_NA", "Date: 2024-07-24", "Type: Loan Denial", "Recipient: Nyree_Hinton", "Reason: Delinquent past/present credit obligations", "CRA: Experian, TransUnion, SageStream_LLC / LexisNexis"] },
+    { "name": "Adverse_Action_Doc_37", "entityType": "document", "observations": ["Source: Westlake_Financial", "Date: 2024-04-22", "Type: Credit Denied", "Recipient: Nyree_Hinton", "Initiator: ST.CHARLES MOTORCARS", "Reason: Frozen credit file", "CRA: NOWCOM_Corporation (potentially others)", "Score: 0 on 2024-03-26"] },
+    { "name": "Adverse_Action_Doc_38", "entityType": "document", "observations": ["Source: US_Bank_NA", "Date: 2024-09-30", "Type: Auto Loan Denial", "Recipient: Nyree_Hinton", "Initiator: VOLVO PALO ALTO", "Reason: Credit doesn't support LTV, excessive balances, excessive inquiries", "CRA: Experian", "Score: 643 on 2024-09-16"] },
+    { "name": "CR_NEED_01", "entityType": "evidence_need", "observations": ["ID: CR-NEED-01", "CRA: TransUnion", "Date Range: Feb/Mar 2024", "Reason: Basis for BoA (Doc 1)", "Status: Outstanding"] },
+    { "name": "CR_NEED_02", "entityType": "evidence_need", "observations": ["ID: CR-NEED-02", "CRA: Experian", "Date Range: Jan 2024", "Reason: Basis for Chase (Docs 3,4,8), Earnest (Doc 21), AmEx (Doc 25), OneMain (Doc 33)", "Status: Outstanding"] },
+    { "name": "CR_NEED_03", "entityType": "evidence_need", "observations": ["ID: CR-NEED-03", "CRA: Experian", "Date Range: Feb 2024", "Reason: Basis for Ally (Doc 5)", "Status: Outstanding"] },
+    { "name": "CR_NEED_04", "entityType": "evidence_need", "observations": ["ID: CR-NEED-04", "CRA: SageStream_LLC", "Date Range: Feb 2024", "Reason: Basis for Ally (Doc 5)", "Status: Outstanding"] },
+    { "name": "CR_NEED_05", "entityType": "evidence_need", "observations": ["ID: CR-NEED-05", "CRA: TransUnion", "Date Range: Mar 2024", "Reason: Basis for Ally (Doc 6), Am Cred Acc (Doc 17)", "Status: Outstanding"] },
+    { "name": "CR_NEED_06", "entityType": "evidence_need", "observations": ["ID: CR-NEED-06", "CRA: Experian", "Date Range: Mar 2024", "Reason: Basis for Ally (Doc 6), Exeter (Doc 22), Global (Doc 24), Chase (Doc 34), Westlake (Doc 37)", "Status: Outstanding"] },
+    { "name": "CR_NEED_07", "entityType": "evidence_need", "observations": ["ID: CR-NEED-07", "CRA: SageStream_LLC", "Date Range: Mar 2024", "Reason: Basis for Ally (Doc 6), Global (Doc 24), Westlake (Doc 37)", "Status: Outstanding"] },
+    { "name": "CR_NEED_08", "entityType": "evidence_need", "observations": ["ID: CR-NEED-08", "CRA: Experian", "Date Range: Sep 2024", "Reason: Basis for Ally (Doc 7), Monterra (Doc 23/28), Golden1 (Doc 26), Reprise (Doc 32), US Bank (Doc 38)", "Status: Outstanding"] },
+    { "name": "CR_NEED_09", "entityType": "evidence_need", "observations": ["ID: CR-NEED-09", "CRA: TransUnion", "Date Range: Sep 2024", "Reason: Basis for Ally (Doc 7), LendingPoint (Doc 30)", "Status: Outstanding"] },
+    { "name": "CR_NEED_10", "entityType": "evidence_need", "observations": ["ID: CR-NEED-10", "CRA: SageStream_LLC", "Date Range: Sep 2024", "Reason: Basis for Ally (Doc 7)", "Status: Outstanding"] },
+    { "name": "CR_NEED_11", "entityType": "evidence_need", "observations": ["ID: CR-NEED-11", "CRA: TransUnion", "Date Range: Jun 2024", "Reason: Basis for Essex (Doc 10)", "Status: Partially Satisfied/Context Provided"] },
+    { "name": "CR_NEED_12", "entityType": "evidence_need", "observations": ["ID: CR-NEED-12", "CRA: TransUnion", "Date Range: Dec 2023 / Jan 2024", "Reason: Basis for BoA (Doc 14), Apple (Doc 16), BoLM (Doc 19)", "Status: Outstanding"] },
+    { "name": "CR_NEED_13", "entityType": "evidence_need", "observations": ["ID: CR-NEED-13", "CRA: Experian", "Date Range: Jan 2024", "Reason: Basis for PA Forward (Doc 15)", "Status: Outstanding"] },
+    { "name": "CR_NEED_14", "entityType": "evidence_need", "observations": ["ID: CR-NEED-14", "CRA: TransUnion", "Date Range: Jan 2024", "Reason: Basis for PA Forward (Doc 15)", "Status: Outstanding"] },
+    { "name": "CR_NEED_15", "entityType": "evidence_need", "observations": ["ID: CR-NEED-15", "CRA: Equifax", "Date Range: Jan 2024", "Reason: Basis for PA Forward (Doc 15)", "Status: Outstanding"] },
+    { "name": "CR_NEED_16", "entityType": "evidence_need", "observations": ["ID: CR-NEED-16", "CRA: Equifax", "Date Range: Jan/Feb 2024", "Reason: Basis for Citi (Doc 18)", "Status: Outstanding"] },
+    { "name": "CR_NEED_17", "entityType": "evidence_need", "observations": ["ID: CR-NEED-17", "CRA: Equifax", "Date Range: Mar 2024", "Reason: Basis for Exeter (Doc 22), Global (Doc 24), Westlake (Doc 37)", "Status: Outstanding"] },
+    { "name": "CR_NEED_18", "entityType": "evidence_need", "observations": ["ID: CR-NEED-18", "CRA: NCTUE", "Date Range: Mar 2024", "Reason: Listed as source by Global (Doc 24)", "Status: Outstanding"] },
+    { "name": "CR_NEED_19", "entityType": "evidence_need", "observations": ["ID: CR-NEED-19", "CRA: TransUnion", "Date Range: Feb 2024", "Reason: Basis for LightStream (Doc 29)", "Status: Partially Satisfied/Context Provided"] },
+    { "name": "CR_NEED_20", "entityType": "evidence_need", "observations": ["ID: CR-NEED-20", "CRA: Experian", "Date Range: Aug 2024", "Reason: Basis for SmartBiz (Doc 31)", "Status: Outstanding"] },
+    { "name": "CR_NEED_21", "entityType": "evidence_need", "observations": ["ID: CR-NEED-21", "CRA: Experian", "Date Range: Jul 2024", "Reason: Basis for SoFi (Doc 36)", "Status: Outstanding"] },
+    { "name": "CR_NEED_22", "entityType": "evidence_need", "observations": ["ID: CR-NEED-22", "CRA: TransUnion", "Date Range: Jul 2024", "Reason: Basis for SoFi (Doc 36)", "Status: Outstanding"] },
+    { "name": "CR_NEED_23", "entityType": "evidence_need", "observations": ["ID: CR-NEED-23", "CRA: SageStream_LLC", "Date Range: Jul 2024", "Reason: Basis for SoFi (Doc 36)", "Status: Outstanding"] },
+    { "name": "CR_NEED_24", "entityType": "evidence_need", "observations": ["ID: CR-NEED-24", "CRA: Experian", "Date Range: Mar/Apr 2024", "Reason: Basis for Westlake (Doc 37) 'Frozen file' claim", "Status: Outstanding"] },
+    { "name": "CR_NEED_25", "entityType": "evidence_need", "observations": ["ID: CR-NEED-25", "CRA: TransUnion", "Date Range: Mar/Apr 2024", "Reason: Basis for Westlake (Doc 37) 'Frozen file' claim", "Status: Outstanding"] },
+    { "name": "CR_NEED_26", "entityType": "evidence_need", "observations": ["ID: CR-NEED-26", "CRA: Equifax", "Date Range: Mar/Apr 2024", "Reason: Basis for Westlake (Doc 37) 'Frozen file' claim", "Status: Outstanding"] },
+    { "name": "CR_NEED_27", "entityType": "evidence_need", "observations": ["ID: CR-NEED-27", "CRA: NOWCOM_Corporation", "Date Range: Mar/Apr 2024", "Reason: Listed as source by Westlake (Doc 37)", "Status: Outstanding"] },
+    { "name": "BASELINE-01", "entityType": "evidence_need", "observations": ["ID: BASELINE-01", "CRA: Experian", "Date Range: Jun/Jul 2023", "Reason: Establish baseline creditworthiness", "Status: Outstanding"] },
+    { "name": "BASELINE-02", "entityType": "evidence_need", "observations": ["ID: BASELINE-02", "CRA: TransUnion", "Date Range: Jun/Jul 2023", "Reason: Establish baseline creditworthiness", "Status: Outstanding"] },
+    { "name": "BASELINE-03", "entityType": "evidence_need", "observations": ["ID: BASELINE-03", "CRA: Equifax", "Date Range: Jun/Jul 2023", "Reason: Establish baseline creditworthiness", "Status: Outstanding"] },
+    { "name": "CURRENT-01", "entityType": "evidence_need", "observations": ["ID: CURRENT-01", "CRA: Experian", "Date Range: Most Recent", "Reason: Show current status", "Status: Satisfied (May 7 2024 report)"] },
+    { "name": "CURRENT-02", "entityType": "evidence_need", "observations": ["ID: CURRENT-02", "CRA: TransUnion", "Date Range: Most Recent", "Reason: Show current status", "Status: Satisfied (Jun 4 2024 report)"] },
+    { "name": "CURRENT-03", "entityType": "evidence_need", "observations": ["ID: CURRENT-03", "CRA: Equifax", "Date Range: Most Recent", "Reason: Show current status", "Status: Satisfied (Jun 4 2024 report)"] }
+
+  ],
+  "relations": [
+    { "from": "Memory_Quantifier_Project", "to": "React", "relationType": "uses_technology" },
+    { "from": "Memory_Quantifier_Project", "to": "Vite", "relationType": "uses_technology" },
+    { "from": "Memory_Quantifier_Project", "to": "TailwindCSS", "relationType": "uses_technology" },
+    { "from": "Memory_Quantifier_Project", "to": "Express.js", "relationType": "uses_technology" },
+    { "from": "Memory_Quantifier_Project", "to": "Node.js", "relationType": "uses_technology" },
+    { "from": "Memory_Quantifier_Project", "to": "PostgreSQL", "relationType": "uses_technology" },
+    { "from": "Memory_Quantifier_Project", "to": "Drizzle_ORM", "relationType": "uses_technology" },
+    { "from": "Memory_Quantifier_Project", "to": "Passport.js", "relationType": "uses_technology" },
+    { "from": "Memory_Quantifier_Project", "to": "TypeScript", "relationType": "uses_technology" },
+    { "from": "Memory_Quantifier_Project", "to": "RESTful_API", "relationType": "implements_concept" },
+    { "from": "Memory_Quantifier_Project", "to": "WebSocket", "relationType": "supports_technology" },
+    { "from": "Memory_Quantifier_Project", "to": "Users_Data_Model", "relationType": "includes_data_model" },
+    { "from": "Memory_Quantifier_Project", "to": "Adverse_Actions_Data_Model", "relationType": "includes_data_model" },
+    { "from": "Memory_Quantifier_Project", "to": "Credit_Reports_Data_Model", "relationType": "includes_data_model" },
+    { "from": "Memory_Quantifier_Project", "to": "Damages_Data_Model", "relationType": "includes_data_model" },
+    { "from": "Memory_Quantifier_Project", "to": "Tasks_Data_Model", "relationType": "includes_data_model" },
+    { "from": "Memory_Quantifier_Project", "to": "Activities_Data_Model", "relationType": "includes_data_model" },
+    { "from": "Memory_Quantifier_Project", "to": "Hinton_v_Capital_One_Case", "relationType": "provides_context_for" },
+    { "from": "Hinton_v_Capital_One_Case", "to": "Nyree_Hinton", "relationType": "involves_plaintiff" },
+    { "from": "Hinton_v_Capital_One_Case", "to": "Capital_One", "relationType": "involves_defendant" },
+    { "from": "Nyree_Hinton", "to": "Hinton_v_Capital_One_Case", "relationType": "filed" },
+    { "from": "Nyree_Hinton", "to": "Tesla", "relationType": "purchased" },
+    { "from": "Nyree_Hinton", "to": "Experian", "relationType": "sent_dispute_to" },
+    { "from": "Nyree_Hinton", "to": "TransUnion", "relationType": "sent_dispute_to" },
+    { "from": "Nyree_Hinton", "to": "Equifax", "relationType": "sent_dispute_to" },
+    { "from": "Nyree_Hinton", "to": "Capital_One", "relationType": "sent_dispute_to" },
+    { "from": "Nyree_Hinton", "to": "Capital_One", "relationType": "sent_CLRA_notice_to" },
+    { "from": "Nyree_Hinton", "to": "Experian", "relationType": "settled_with" },
+    { "from": "Nyree_Hinton", "to": "TransUnion", "relationType": "settled_with" },
+    { "from": "Nyree_Hinton", "to": "Equifax", "relationType": "settled_with" },
+    { "from": "Nyree_Hinton", "to": "Law_Offices_of_Todd_M_Friedman_PC", "relationType": "represented_by" },
+    { "from": "Nyree_Hinton", "to": "The_AI_Remedy", "relationType": "operates" },
+    { "from": "Capital_One", "to": "Nyree_Hinton", "relationType": "financed_vehicle_for" },
+    { "from": "Capital_One", "to": "Nyree_Hinton", "relationType": "allegedly_restricted_portal_for" },
+    { "from": "Capital_One", "to": "Experian", "relationType": "allegedly_reported_inaccurately_to" },
+    { "from": "Capital_One", "to": "TransUnion", "relationType": "allegedly_reported_inaccurately_to" },
+    { "from": "Capital_One", "to": "Equifax", "relationType": "allegedly_reported_inaccurately_to" },
+    { "from": "Capital_One", "to": "Nyree_Hinton", "relationType": "failed_mediation_with" },
+    { "from": "Bank_of_America", "to": "Adverse_Action_Doc_1", "relationType": "issued" },
+    { "from": "Adverse_Action_Doc_1", "to": "Nyree_Hinton", "relationType": "received_by" },
+    { "from": "Adverse_Action_Doc_1", "to": "TransUnion", "relationType": "cites_report_from" },
+    { "from": "Huebner_Chevrolet_Subaru", "to": "Adverse_Action_Doc_2", "relationType": "issued" },
+    { "from": "Chase_Card_Services", "to": "Adverse_Action_Doc_3", "relationType": "issued" },
+    { "from": "Chase_Card_Services", "to": "Adverse_Action_Doc_4", "relationType": "issued" },
+    { "from": "Ally_Bank", "to": "Adverse_Action_Doc_5", "relationType": "issued" },
+    { "from": "Ally_Bank", "to": "Adverse_Action_Doc_6", "relationType": "issued" },
+    { "from": "Ally_Bank", "to": "Adverse_Action_Doc_7", "relationType": "issued" },
+    { "from": "Chase_Auto", "to": "Adverse_Action_Doc_8", "relationType": "issued" },
+    { "from": "Chase_Auto", "to": "Adverse_Action_Doc_9", "relationType": "issued" },
+    { "from": "Essex_Property_Trust", "to": "Adverse_Action_Doc_10", "relationType": "issued" },
+    { "from": "Capital_One_Auto_Finance", "to": "Adverse_Action_Doc_12", "relationType": "issued" },
+    { "from": "Capital_One_Auto_Finance", "to": "Adverse_Action_Doc_13", "relationType": "issued" },
+    { "from": "Bank_of_America", "to": "Adverse_Action_Doc_14", "relationType": "issued" },
+    { "from": "PA_Forward_Student_Loans", "to": "Adverse_Action_Doc_15", "relationType": "issued" },
+    { "from": "Apple_Card_Goldman_Sachs", "to": "Adverse_Action_Doc_16", "relationType": "issued" },
+    { "from": "American_Credit_Acceptance", "to": "Adverse_Action_Doc_17", "relationType": "issued" },
+    { "from": "Citi", "to": "Adverse_Action_Doc_18", "relationType": "issued" },
+    { "from": "Bank_of_Lake_Mills_MPOWER", "to": "Adverse_Action_Doc_19", "relationType": "issued" },
+    { "from": "Bank_of_America", "to": "Adverse_Action_Doc_20", "relationType": "issued" },
+    { "from": "Earnest_Operations_LLC", "to": "Adverse_Action_Doc_21", "relationType": "issued" },
+    { "from": "Exeter_Finance_LLC", "to": "Adverse_Action_Doc_22", "relationType": "issued" },
+    { "from": "Monterra_Credit_Union", "to": "Adverse_Action_Doc_23", "relationType": "issued" },
+    { "from": "Global_Lending_Services", "to": "Adverse_Action_Doc_24", "relationType": "issued" },
+    { "from": "American_Express", "to": "Adverse_Action_Doc_25", "relationType": "issued" },
+    { "from": "Golden_1_Credit_Union", "to": "Adverse_Action_Doc_26", "relationType": "issued" },
+    { "from": "OneMain_Financial", "to": "Adverse_Action_Doc_27", "relationType": "issued" },
+    { "from": "Monterra_Credit_Union", "to": "Adverse_Action_Doc_28", "relationType": "issued" },
+    { "from": "LightStream_Truist", "to": "Adverse_Action_Doc_29", "relationType": "issued" },
+    { "from": "LendingPoint_FinWise_Bank", "to": "Adverse_Action_Doc_30", "relationType": "issued" },
+    { "from": "SmartBiz_Loans", "to": "Adverse_Action_Doc_31", "relationType": "issued" },
+    { "from": "Reprise_Financial_WebBank", "to": "Adverse_Action_Doc_32", "relationType": "issued" },
+    { "from": "OneMain_Financial", "to": "Adverse_Action_Doc_33", "relationType": "issued" },
+    { "from": "Chase_Auto", "to": "Adverse_Action_Doc_34", "relationType": "issued" },
+    { "from": "American_Express", "to": "Adverse_Action_Doc_35", "relationType": "issued" },
+    { "from": "SoFi_Bank_NA", "to": "Adverse_Action_Doc_36", "relationType": "issued" },
+    { "from": "Westlake_Financial", "to": "Adverse_Action_Doc_37", "relationType": "issued" },
+    { "from": "US_Bank_NA", "to": "Adverse_Action_Doc_38", "relationType": "issued" },
+    { "from": "Adverse_Action_Doc_31", "to": "The_AI_Remedy", "relationType": "related_to" },
+    { "from": "Law_Offices_of_Todd_M_Friedman_PC", "to": "Nyree_Hinton", "relationType": "notified_of_withdrawal" },
+    { "from": "Meghan_George", "to": "Law_Offices_of_Todd_M_Friedman_PC", "relationType": "works_at" },
+    { "from": "Quantification_Framework", "to": "Pecuniary_Damages", "relationType": "defines" },
+    { "from": "Quantification_Framework", "to": "NonPecuniary_Damages", "relationType": "defines" },
+    { "from": "Pecuniary_Damages", "to": "PEC-COST", "relationType": "includes_category" },
+    { "from": "Pecuniary_Damages", "to": "PEC-PAY", "relationType": "includes_category" },
+    { "from": "Pecuniary_Damages", "to": "PEC-FEE", "relationType": "includes_category" },
+    { "from": "Pecuniary_Damages", "to": "PEC-DEP", "relationType": "includes_category" },
+    { "from": "Pecuniary_Damages", "to": "PEC-OOP", "relationType": "includes_category" },
+    { "from": "Pecuniary_Damages", "to": "PEC-OPP", "relationType": "includes_category" },
+    { "from": "NonPecuniary_Damages", "to": "NONPEC-ED", "relationType": "includes_category" },
+    { "from": "NonPecuniary_Damages", "to": "NONPEC-REP", "relationType": "includes_category" },
+    { "from": "Quantification_Framework", "to": "PREQ-01", "relationType": "requires_evidence" },
+    { "from": "PEC-PAY", "to": "PEC-PAY-01", "relationType": "requires_evidence" },
+    { "from": "PEC-PAY", "to": "Adverse_Action_Doc_10", "relationType": "potentially_applies_to" },
+    { "from": "PEC-COST", "to": "Adverse_Action_Doc_26", "relationType": "potentially_applies_to" },
+    { "from": "PREQ-01", "to": "Hinton_v_Capital_One_Case", "relationType": "is_critical_for" },
+    { "from": "CR_NEED_01", "to": "Adverse_Action_Doc_1", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_02", "to": "Adverse_Action_Doc_3", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_02", "to": "Adverse_Action_Doc_4", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_02", "to": "Adverse_Action_Doc_8", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_02", "to": "Adverse_Action_Doc_21", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_02", "to": "Adverse_Action_Doc_25", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_02", "to": "Adverse_Action_Doc_33", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_03", "to": "Adverse_Action_Doc_5", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_04", "to": "Adverse_Action_Doc_5", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_05", "to": "Adverse_Action_Doc_6", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_05", "to": "Adverse_Action_Doc_17", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_06", "to": "Adverse_Action_Doc_6", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_06", "to": "Adverse_Action_Doc_22", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_06", "to": "Adverse_Action_Doc_24", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_06", "to": "Adverse_Action_Doc_34", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_06", "to": "Adverse_Action_Doc_37", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_07", "to": "Adverse_Action_Doc_6", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_07", "to": "Adverse_Action_Doc_24", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_07", "to": "Adverse_Action_Doc_37", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_08", "to": "Adverse_Action_Doc_7", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_08", "to": "Adverse_Action_Doc_23", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_08", "to": "Adverse_Action_Doc_26", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_08", "to": "Adverse_Action_Doc_28", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_08", "to": "Adverse_Action_Doc_32", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_08", "to": "Adverse_Action_Doc_38", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_09", "to": "Adverse_Action_Doc_7", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_09", "to": "Adverse_Action_Doc_30", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_10", "to": "Adverse_Action_Doc_7", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_11", "to": "Adverse_Action_Doc_10", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_12", "to": "Adverse_Action_Doc_14", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_12", "to": "Adverse_Action_Doc_16", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_12", "to": "Adverse_Action_Doc_19", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_13", "to": "Adverse_Action_Doc_15", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_14", "to": "Adverse_Action_Doc_15", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_15", "to": "Adverse_Action_Doc_15", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_16", "to": "Adverse_Action_Doc_18", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_17", "to": "Adverse_Action_Doc_22", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_17", "to": "Adverse_Action_Doc_24", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_17", "to": "Adverse_Action_Doc_37", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_18", "to": "Adverse_Action_Doc_24", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_19", "to": "Adverse_Action_Doc_29", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_20", "to": "Adverse_Action_Doc_31", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_21", "to": "Adverse_Action_Doc_36", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_22", "to": "Adverse_Action_Doc_36", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_23", "to": "Adverse_Action_Doc_36", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_24", "to": "Adverse_Action_Doc_37", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_25", "to": "Adverse_Action_Doc_37", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_26", "to": "Adverse_Action_Doc_37", "relationType": "needed_to_analyze" },
+    { "from": "CR_NEED_27", "to": "Adverse_Action_Doc_37", "relationType": "needed_to_analyze" }
+  ]
+}
