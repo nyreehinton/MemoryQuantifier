@@ -1,0 +1,39 @@
+Structure and components controlling the Damages Quantification Hub. Here's the complete breakdown:
+
+1. **Main Page Component**:
+   `client/src/pages/damages-quantification.tsx` - This is the parent page that:
+
+- Renders the main layout
+- Includes the header with "Export" and "Add Claim" buttons
+- Imports and renders the main `DamagesHub` component
+
+2. **Core Hub Component**:
+   `client/src/components/dashboard/damages-hub.tsx` - This is the main component that:
+
+- Fetches data from two API endpoints:
+  - `/api/damages` - Gets all damage claims
+  - `/api/adverse-actions` - Gets all adverse actions
+- Manages the tab state for different damage categories
+- Renders the following sections:
+  - Overview tab with damages summary
+  - Individual category tabs (PEC-PAY, PEC-COST, etc.)
+  - Documentation status chart
+  - Critical documentation needs
+
+3. **Data Source**:
+   `server/api/damages.ts` - This file contains all the damage claims data, including:
+
+- Individual claims for each category
+- Required documentation for each claim
+- Status tracking
+- Source document references
+
+4. **Issue with PEC-COST Claims**:
+   The reason you're not seeing all the PEC-COST claims is due to how the `getDamagesByCategory` function filters the data in `damages-hub.tsx`. Let me show you the relevant section:
+
+```typescript:client/src/components/dashboard/damages-hub.tsx
+const getDamagesByCategory = (category: string) => {
+  if (category === 'overview') return [];
+  return damages.filter((d) => d.category === category);
+};
+```

@@ -1,6 +1,5 @@
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { Doughnut } from '@/components/ui/chart';
 import { StatusBadge } from '@/components/ui/status-badge';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { formatCurrency } from '@/lib/utils';
@@ -223,6 +222,32 @@ export default function DamagesHub() {
       ? 'Moderate'
       : 'Minor';
 
+  // Calculate credit limit reduction impact
+  const creditLimitReductions = damages.filter(
+    (d) => d.category === 'PEC-COST' && d.title.includes('Credit Limit Reduction')
+  );
+
+  const totalCreditLimitReduction = creditLimitReductions.reduce((total, damage) => {
+    const match = damage.description.match(/\$([0-9,]+)/);
+    return total + (match ? parseInt(match[1].replace(',', '')) : 0);
+  }, 0);
+
+  const creditLimitStats = {
+    totalReductions: creditLimitReductions.length,
+    totalAmountReduced: totalCreditLimitReduction,
+    affectedCards: creditLimitReductions.map((d) => d.title.split('(')[0].trim()),
+    dateRange: {
+      start: creditLimitReductions.reduce((earliest, d) => {
+        if (!d.date) return earliest;
+        return !earliest || d.date < earliest ? d.date : earliest;
+      }, ''),
+      end: creditLimitReductions.reduce((latest, d) => {
+        if (!d.date) return latest;
+        return !latest || d.date > latest ? d.date : latest;
+      }, ''),
+    },
+  };
+
   return (
     <div className="space-y-6">
       <Tabs value={activeCategory} onValueChange={setActiveCategory}>
@@ -247,207 +272,145 @@ export default function DamagesHub() {
         </TabsList>
 
         <TabsContent value="overview" className="pt-6">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
-            <div className="md:col-span-2">
-              <h3 className="text-lg font-medium mb-4 text-foreground">Damages Summary</h3>
-              <Card className="card-concrete">
-                <CardContent className="p-6">
-                  <dl className="space-y-6 text-sm">
-                    {/* Pecuniary Damages Section */}
-                    <div className="space-y-3">
-                      <dt className="font-semibold text-base border-b border-border pb-2 text-foreground">
-                        Pecuniary (Economic) Damages
-                      </dt>
-                      <div className="space-y-3 pl-2">
-                        <div className="grid grid-cols-2 gap-4">
-                          <dt className="text-muted-foreground">Required Payments (PEC-PAY):</dt>
-                          <dd className="font-medium">
-                            {formatCurrency(categorySums['PEC-PAY'] || 0)}
-                          </dd>
-                        </div>
-                        <div className="grid grid-cols-2 gap-4">
-                          <dt className="text-muted-foreground">
-                            Increased Credit Costs (PEC-COST):
-                          </dt>
-                          <dd className="font-medium">
-                            {formatCurrency(categorySums['PEC-COST'] || 0)}
-                          </dd>
-                        </div>
-                        <div className="grid grid-cols-2 gap-4">
-                          <dt className="text-muted-foreground">Application Fees (PEC-FEE):</dt>
-                          <dd className="font-medium">
-                            {formatCurrency(categorySums['PEC-FEE'] || 0)}
-                          </dd>
-                        </div>
-                        <div className="grid grid-cols-2 gap-4">
-                          <dt className="text-muted-foreground">Lost Deposits (PEC-DEP):</dt>
-                          <dd className="font-medium">
-                            {formatCurrency(categorySums['PEC-DEP'] || 0)}
-                          </dd>
-                        </div>
-                        <div className="grid grid-cols-2 gap-4">
-                          <dt className="text-muted-foreground">
-                            Out-of-Pocket Expenses (PEC-OOP):
-                          </dt>
-                          <dd className="font-medium">
-                            {formatCurrency(categorySums['PEC-OOP'] || 0)}
-                          </dd>
-                        </div>
-                        <div className="grid grid-cols-2 gap-4">
-                          <dt className="text-muted-foreground">Lost Opportunities (PEC-OPP):</dt>
-                          <dd className="font-medium">
-                            {formatCurrency(categorySums['PEC-OPP'] || 0)}
-                          </dd>
-                        </div>
-                        <div className="grid grid-cols-2 gap-4 border-t pt-2 border-muted">
-                          <dt className="font-medium">Total Economic Damages:</dt>
-                          <dd className="font-bold">{formatCurrency(categorySums['PEC'] || 0)}</dd>
-                        </div>
-                      </div>
-                    </div>
-
-                    {/* Non-Pecuniary Damages Section */}
-                    <div className="space-y-3">
-                      <dt className="font-semibold text-base border-b border-border pb-2 text-foreground">
-                        Non-Pecuniary (Non-Economic) Damages
-                      </dt>
-                      <div className="space-y-3 pl-2">
-                        <div className="grid grid-cols-2 gap-4">
-                          <dt className="text-muted-foreground">Emotional Distress (NONPEC-ED):</dt>
-                          <dd className="font-medium text-foreground">
-                            {emotionalDistressLevel}
-                            <span className="text-xs text-muted-foreground ml-2">
-                              ({actionStats.emotionalDistressCount} Adverse Actions)
-                            </span>
-                          </dd>
-                        </div>
-                        <div className="grid grid-cols-2 gap-4">
-                          <dt className="text-muted-foreground">Reputational Harm (NONPEC-REP):</dt>
-                          <dd className="font-medium text-foreground">
-                            {reputationalHarmLevel}
-                            <span className="text-xs text-muted-foreground ml-2">
-                              ({actionStats.uniqueInstitutions} Institutions)
-                            </span>
-                          </dd>
-                        </div>
-                        <div className="text-xs text-muted-foreground mt-2 bg-accent/30 p-3 rounded-lg">
-                          <p>
-                            <strong className="text-foreground">Aggravating Factors:</strong>
-                          </p>
-                          <ul className="list-disc pl-4 mt-1 space-y-1">
-                            <li>Occurred during critical personal period (child's birth)</li>
-                            <li>Prevented replacement of defective vehicle</li>
-                            <li>Contrasts with prior unblemished credit history</li>
-                            <li>Forced withdrawal from Harvard University</li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </dl>
-                </CardContent>
-              </Card>
-            </div>
-
-            <div>
-              <h3 className="text-lg font-medium mb-4 text-foreground">Documentation Status</h3>
-              <Card className="card-concrete">
-                <CardContent className="p-6">
-                  <div className="mb-6">
-                    <Doughnut data={chartData} options={chartOptions} />
-                  </div>
-                  <div className="text-xs text-center text-muted-foreground">
-                    <p className="font-medium">Critical Documentation Needs:</p>
-                    <ul className="mt-2 text-left list-disc pl-4 space-y-1">
-                      {criticalDocs.map((doc) => (
-                        <li key={doc.doc_id}>
-                          {doc.name}
-                          <span className="text-xs text-muted-foreground ml-1">({doc.doc_id})</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
-          </div>
-
           <div className="space-y-6">
             <div>
-              <h3 className="text-lg font-medium mb-4">
-                Supporting Adverse Actions ({actionStats.totalActions})
-              </h3>
+              <h3 className="text-lg font-medium mb-4">Quantification Framework</h3>
               <Card className="card-concrete">
                 <CardContent className="p-6">
                   <div className="space-y-4">
                     <div className="flex justify-between text-sm border-b pb-2">
-                      <span className="font-medium">Summary of Adverse Actions:</span>
-                      <span>
-                        {actionStats.totalActions} Total Actions from{' '}
-                        {actionStats.uniqueInstitutions} Institutions
-                      </span>
+                      <span className="font-medium">Framework Overview:</span>
+                      <span>Version 2.0 (Updated 2024-04-22)</span>
                     </div>
                     <div className="text-sm space-y-2">
                       <p>
-                        These adverse actions form the basis for the damage claims below. Each
-                        adverse action has been analyzed for:
+                        This framework provides a structured approach to quantifying damages from{' '}
+                        {actionStats.totalActions} adverse actions across{' '}
+                        {actionStats.uniqueInstitutions} institutions:
                       </p>
-                      <ul className="list-disc pl-4 space-y-1 text-muted-foreground">
-                        <li>Applicable pecuniary (economic) damages</li>
-                        <li>Non-pecuniary impacts (emotional distress, reputational harm)</li>
-                        <li>Required documentation and evidence</li>
-                      </ul>
+                      <div className="space-y-4 mt-4">
+                        <div>
+                          <h4 className="font-medium">Pecuniary (Economic) Damages:</h4>
+                          <ul className="list-disc pl-4 space-y-1 text-muted-foreground mt-2">
+                            <li>
+                              Credit Limit Reductions: {creditLimitStats.totalReductions} accounts
+                              affected, total reduction{' '}
+                              {formatCurrency(creditLimitStats.totalAmountReduced)}
+                            </li>
+                            <li>
+                              Required Additional Payments: Documented direct costs like security
+                              deposits
+                            </li>
+                            <li>
+                              Lost Opportunities: Harvard program withdrawal, business loan impacts
+                            </li>
+                            <li>Out-of-Pocket Expenses: Direct costs from remediation efforts</li>
+                          </ul>
+                        </div>
+                        <div>
+                          <h4 className="font-medium">Non-Pecuniary Impact Analysis:</h4>
+                          <ul className="list-disc pl-4 space-y-1 text-muted-foreground mt-2">
+                            <li>
+                              Emotional Distress: {emotionalDistressLevel} (
+                              {actionStats.emotionalDistressCount} supporting actions)
+                            </li>
+                            <li>
+                              Reputational Harm: {reputationalHarmLevel} impact across{' '}
+                              {actionStats.uniqueInstitutions} institutions
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
                     </div>
-                    <Button variant="outline" size="sm" className="w-full">
-                      View All Adverse Actions
-                    </Button>
                   </div>
                 </CardContent>
               </Card>
             </div>
+          </div>
+        </TabsContent>
 
-            <div>
-              <h3 className="text-lg font-medium mb-4">Consolidated Damage Claims</h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {damages.map((damage) => (
-                  <DamageCard key={damage.id} damage={damage} />
-                ))}
+        <TabsContent value="PEC-COST" className="pt-6">
+          <div className="mb-6">
+            <Card className="card-concrete">
+              <CardContent className="pt-6">
+                <div className="flex justify-between items-center">
+                  <h3 className="text-lg font-semibold">Increased Cost of Credit Claims</h3>
+                  <Button size="sm" className="button-concrete">
+                    Add PEC-COST Claim
+                  </Button>
+                </div>
+                <div className="space-y-4 mt-4">
+                  <div className="text-sm space-y-2">
+                    <p className="font-medium">Required Documentation for Credit Cost Claims:</p>
+                    <ul className="list-disc pl-4 space-y-1 text-muted-foreground">
+                      <li>Final Credit Agreement showing unfavorable terms</li>
+                      <li>Risk-Based Pricing Notice / Adverse Action Notice</li>
+                      <li>Proof of "But-For" Terms (e.g., rate sheets, pre-approval offers)</li>
+                      <li>Amortization Schedule showing total cost difference</li>
+                      <li>Proof of additional fees/deposits paid</li>
+                    </ul>
+                  </div>
+                  <div className="text-sm mt-4">
+                    <p className="font-medium">Summary of Claims:</p>
+                    <ul className="list-disc pl-4 space-y-1 text-muted-foreground mt-2">
+                      <li>
+                        Credit Limit Reductions: {creditLimitStats.totalReductions} accounts
+                        affected, total reduction{' '}
+                        {formatCurrency(creditLimitStats.totalAmountReduced)}
+                      </li>
+                      <li>Auto Financing Denials/Modifications: 8 instances</li>
+                      <li>Student/Personal Loan Denials: 8 instances</li>
+                      <li>Explicit Unfavorable Terms Notices: 2 instances</li>
+                    </ul>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {getDamagesByCategory('PEC-COST').map((damage: DamageItem) => (
+              <DamageCard key={damage.id} damage={damage} />
+            ))}
+            {getDamagesByCategory('PEC-COST').length === 0 && (
+              <div className="col-span-full py-8 text-center text-muted-foreground">
+                No claims in this category yet. Click "Add PEC-COST Claim" to get started.
               </div>
-            </div>
+            )}
           </div>
         </TabsContent>
 
         {/* Render tabs for each damage category */}
-        {[
-          'PEC-PAY',
-          'PEC-COST',
-          'PEC-FEE',
-          'PEC-DEP',
-          'PEC-OOP',
-          'PEC-OPP',
-          'NONPEC-ED',
-          'NONPEC-REP',
-        ].map((category) => (
-          <TabsContent key={category} value={category} className="pt-6">
-            <div className="flex justify-between items-center mb-6">
-              <h3 className="text-lg font-medium">{category} Damages</h3>
-              <Button size="sm" className="button-concrete">
-                Add {category} Claim
-              </Button>
-            </div>
+        {['PEC-PAY', 'PEC-FEE', 'PEC-DEP', 'PEC-OOP', 'PEC-OPP', 'NONPEC-ED', 'NONPEC-REP'].map(
+          (category) => (
+            <TabsContent key={category} value={category} className="pt-6">
+              <div className="flex justify-between items-center mb-6">
+                <h3 className="text-lg font-medium">{category} Damages</h3>
+                {category === 'PEC-COST' && (
+                  <div className="text-sm text-muted-foreground">
+                    {creditLimitStats.totalReductions} credit limit reductions totaling{' '}
+                    {formatCurrency(creditLimitStats.totalAmountReduced)}
+                  </div>
+                )}
+                <Button size="sm" className="button-concrete">
+                  Add {category} Claim
+                </Button>
+              </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {getDamagesByCategory(category).map((damage) => (
-                <DamageCard key={damage.id} damage={damage} />
-              ))}
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {getDamagesByCategory(category).map((damage) => (
+                  <DamageCard key={damage.id} damage={damage} />
+                ))}
 
-              {getDamagesByCategory(category).length === 0 && (
-                <div className="col-span-full py-8 text-center text-muted-foreground">
-                  No claims in this category yet. Click "Add {category} Claim" to get started.
-                </div>
-              )}
-            </div>
-          </TabsContent>
-        ))}
+                {getDamagesByCategory(category).length === 0 && (
+                  <div className="col-span-full py-8 text-center text-muted-foreground">
+                    No claims in this category yet. Click "Add {category} Claim" to get started.
+                  </div>
+                )}
+              </div>
+            </TabsContent>
+          )
+        )}
       </Tabs>
     </div>
   );
