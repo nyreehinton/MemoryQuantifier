@@ -1,0 +1,69 @@
+{
+  "credit_notifications": [
+    {
+      "date": "2023-10-19",
+      "event": "Account Flagged",
+      "description": "CAPITAL ONE AUTO FINAN has flagged your account as 30 Days Past Due."
+    },
+    {
+      "date": "2023-10-19",
+      "event": "Score Drop",
+      "description": "Your FICO® Score has decreased by 43 points."
+    },
+    {
+      "date": "2023-10-19",
+      "event": "Rating Change",
+      "description": "Your Credit Rating has changed from Good to Fair."
+    },
+    {
+      "date": "2023-11-05",
+      "event": "Score Increase",
+      "description": "Good news: Your FICO® Score has increased by 8 points!"
+    },
+    {
+      "date": "2023-11-18",
+      "event": "Score Drop",
+      "description": "Your FICO® Score has decreased by 26 points."
+    },
+    {
+      "date": "2023-11-21",
+      "event": "Account Flagged",
+      "description": "CAPITAL ONE AUTO FINAN has flagged your account as 60 Days Past Due."
+    },
+    {
+      "date": "2023-12-18",
+      "event": "Score Drop",
+      "description": "Your FICO® Score has decreased by 6 points."
+    },
+    {
+      "date": "2023-12-21",
+      "event": "Score Drop",
+      "description": "Your FICO® Score has decreased by 2 points."
+    },
+    {
+      "date": "2023-12-21",
+      "event": "Account Flagged",
+      "description": "CAPITAL ONE AUTO FINAN has flagged your account as 90 Days Past Due."
+    },
+    {
+      "date": "2023-12-31",
+      "event": "Dispute Opened",
+      "description": "You have opened an Account Dispute on your Experian credit report."
+    },
+    {
+      "date": "2024-01-05",
+      "event": "Dispute Opened",
+      "description": "You have opened an Account Dispute on your Experian credit report."
+    },
+    {
+      "date": "2024-01-05",
+      "event": "Dispute Modified",
+      "description": "Your original Dispute was Modified"
+    },
+    {
+      "date": "2024-01-08",
+      "event": "Score Drop",
+      "description": "Your FICO® Score has decreased by 14 points."
+    }
+  ]
+}

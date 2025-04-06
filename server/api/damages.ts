@@ -23,15 +23,20 @@ export const damagesData: DamageItem[] = [
     status: 'Pending',
     required_documents: [
       createReqDoc(
-        'PEC-PAY-01-01',
-        'Proof of Payment',
-        'Receipt, bank statement, lease addendum showing $2,187 paid.'
+        'PREQ-01-Essex-TU',
+        '[IE] TransUnion Report used by Essex',
+        'Credit report pulled by TU around 2024-06-05 showing adverse credit history.',
+        'Verified'
       ),
       createReqDoc(
-        'PREQ-01-Essex-TU',
-        'TransUnion Report used by Essex',
-        'Credit report pulled by TU around 2024-06-05.',
-        'Verified'
+        'PEC-PAY-01-02',
+        '[C] Essex Security Deposit Policy',
+        'Documentation showing Essex required increased deposit due to credit report findings.'
+      ),
+      createReqDoc(
+        'PEC-PAY-01-01',
+        '[A] Proof of Payment',
+        'Receipt, bank statement, lease addendum showing $2,187 paid.'
       ),
     ],
     description: 'Additional $2,187 security deposit required by Essex.',
@@ -41,35 +46,13 @@ export const damagesData: DamageItem[] = [
     id: 'PEC-PAY-02',
     title: 'Required Tesla Repairs & Transportation Costs',
     category: 'PEC-PAY',
-    source_docs: [2, 5, 6, 12, 24, 38], // Auto loan denials
+    source_docs: [2, 5, 6, 12, 24, 38, 40],
     claimed_value: 14690.66,
     status: 'Pending',
     required_documents: [
       createReqDoc(
-        'PEC-PAY-02-01',
-        'Paid Repair Invoices',
-        'Paid repair invoices totaling $699.61:\n' +
-          '- Feb 2023: $217.51 (Invoice #3000S0006277027)\n' +
-          '- Jun 2023: $482.10 (Invoice #3000S0007380537)',
-        'Verified'
-      ),
-      createReqDoc(
-        'PEC-PAY-02-02',
-        'Required Future Repairs',
-        'Upcoming required repairs totaling $13,991.05:\n' +
-          '- Jan 2024: $3,620.65 (Estimate #3000-009-0016233315)\n' +
-          '- Oct 2024: $10,370.40 (Estimate #3000-009-0021563621)',
-        'Verified'
-      ),
-      createReqDoc(
-        'PEC-PAY-02-03',
-        'Alternative Transportation Expenses',
-        'Receipts for rentals, ride-sharing, or other transportation needed while Tesla was unusable',
-        'Needed'
-      ),
-      createReqDoc(
         'PEC-PAY-02-04',
-        'Auto Loan Denial Documentation',
+        '[IE] Auto Loan Denial Documentation',
         'Sequence of denials preventing vehicle replacement:\n' +
           '- Huebner Chevrolet (2/13/24)\n' +
           '- Ally/Carmax (3/12/24)\n' +
@@ -79,10 +62,41 @@ export const damagesData: DamageItem[] = [
           '- US Bank/Volvo (4/10/24)',
         'Verified'
       ),
+      createReqDoc(
+        'PEC-PAY-02-05',
+        '[C] Credit Impact Documentation',
+        'Credit deterioration preventing vehicle replacement:\n' +
+          '- Oct 19, 2023: Rating dropped from Good to Fair\n' +
+          '- Oct-Jan: 91-point FICO score drop\n' +
+          '- Multiple disputes filed Dec 2023-Jan 2024',
+        'Verified'
+      ),
+      createReqDoc(
+        'PEC-PAY-02-01',
+        '[A] Paid Repair Invoices',
+        'Paid repair invoices totaling $699.61:\n' +
+          '- Feb 2023: $217.51 (Invoice #3000S0006277027)\n' +
+          '- Jun 2023: $482.10 (Invoice #3000S0007380537)',
+        'Verified'
+      ),
+      createReqDoc(
+        'PEC-PAY-02-02',
+        '[A] Required Future Repairs',
+        'Upcoming required repairs totaling $13,991.05:\n' +
+          '- Jan 2024: $3,620.65 (Estimate #3000-009-0016233315)\n' +
+          '- Oct 2024: $10,370.40 (Estimate #3000-009-0021563621)',
+        'Verified'
+      ),
+      createReqDoc(
+        'PEC-PAY-02-03',
+        '[A] Alternative Transportation Expenses',
+        'Receipts for rentals, ride-sharing, or other transportation needed while Tesla was unusable',
+        'Needed'
+      ),
     ],
     description:
-      'Required additional payments for Tesla repairs ($14,690.66) and alternative transportation due to inability to replace defective vehicle following multiple auto loan denials. Includes $699.61 in paid repairs and $13,991.05 in required upcoming repairs.',
-    date: '2024-02-13', // Date of first auto loan denial
+      'Required additional payments for Tesla repairs ($14,690.66) and alternative transportation due to inability to replace defective vehicle. Credit rating downgrade and 91-point score drop documented as preventing access to replacement financing.',
+    date: '2024-02-13',
   },
 
   // PEC-COST: Increased Cost of Credit (Unfavorable Terms on Specific Loan)
@@ -95,32 +109,40 @@ export const damagesData: DamageItem[] = [
     status: 'Pending',
     required_documents: [
       createReqDoc(
-        'PEC-COST-01-01',
-        'Final Loan Agreement (Golden 1)',
-        'Signed agreement showing actual rate/fees: $8,819.01 finance charge + $740.25 in fees',
-        'Verified'
+        'PREQ-01-Golden1-Exp',
+        '[IE] Experian Report used by Golden 1',
+        'Credit report pulled by Experian around 2024-09-17 showing adverse credit history.',
+        'Needed'
       ),
       createReqDoc(
         'PEC-COST-01-02',
-        "Proof of 'But-For' Terms (Golden 1)",
-        'Bank of America terms showing $3,500.04 finance charge + $1,061.24 in fees',
+        '[C] Proof of "But-For" Terms',
+        'Bank of America terms showing baseline rates that would have been offered:\n' +
+          '- Finance Charge: $3,500.04\n' +
+          '- Fees: $1,061.24 (License/Reg/Title: $710, ERT Fee: $27, Documentary Fee: $324.24)',
+        'Verified'
+      ),
+      createReqDoc(
+        'PEC-COST-01-01',
+        '[A] Final Loan Agreement',
+        'Verified documentation showing:\n' +
+          '- Interest Paid (Oct-Dec 2024): $572.26\n' +
+          '- Finance Charge: $8,819.01\n' +
+          '- Fees: $740.25 (Document Processing: $85, Emissions Testing: $50, EVR Fee: $33, DMV & Registration: $564, Emissions Cert: $8.25)',
         'Verified'
       ),
       createReqDoc(
         'PEC-COST-01-03',
-        'Cost Differential Calculation',
-        'Total cost differential of $4,997.98 ($9,559.26 actual - $4,561.28 but-for)',
+        '[A] Cost Differential Calculation',
+        'Verified calculation showing:\n' +
+          '- Actual total cost: $9,559.26 ($8,819.01 finance + $740.25 fees)\n' +
+          '- But-for total cost: $4,561.28 ($3,500.04 finance + $1,061.24 fees)\n' +
+          '- Total cost differential: $4,997.98',
         'Verified'
-      ),
-      createReqDoc(
-        'PREQ-01-Golden1-Exp',
-        'Experian Report used by Golden 1',
-        'Credit report pulled by Experian around 2024-09-17.',
-        'Needed'
       ),
     ],
     description:
-      'Increased cost of $4,997.98 on Golden 1 loan due to less favorable terms (actual total cost $9,559.26 vs but-for cost $4,561.28).',
+      'Verified increased cost of $4,997.98 on Golden 1 loan. Actual total cost $9,559.26 (finance charge $8,819.01 + fees $740.25) vs but-for cost $4,561.28 (finance charge $3,500.04 + fees $1,061.24).',
     date: '2024-09-17',
   },
 
@@ -134,30 +156,30 @@ export const damagesData: DamageItem[] = [
     status: 'Pending',
     required_documents: [
       createReqDoc(
+        'PREQ-01-BofA-1775-TU',
+        '[IE] TransUnion Report used by BofA (Mar 2024)',
+        'Report pulled by TU around 2024-03-07 showing adverse credit history.',
+        'Verified'
+      ),
+      createReqDoc(
         'PEC-COST-02-01',
-        'Statements Post-Reduction (BofA 1775)',
-        'BofA statements AFTER 2024-03-07.'
+        '[C] Statements Post-Reduction (BofA 1775)',
+        'BofA statements AFTER 2024-03-07 showing credit line reduction due to adverse credit.'
       ),
       createReqDoc(
         'PEC-COST-02-02',
-        'Statements for Alternative Credit Used',
+        '[A] Statements for Alternative Credit Used',
         'Statements from higher-APR sources used AFTER 2024-03-07.'
       ),
       createReqDoc(
         'PEC-COST-02-03',
-        'APR Documentation',
+        '[A] APR Documentation',
         'Proof of APRs for BofA 1775 and alternative source.'
       ),
       createReqDoc(
         'PEC-COST-02-04',
-        'Cost Differential Calculation',
+        '[A] Cost Differential Calculation',
         'Calculation comparing interest costs for specific transactions.'
-      ),
-      createReqDoc(
-        'PREQ-01-BofA-1775-TU',
-        'TransUnion Report used by BofA (Mar 2024)',
-        'Report pulled by TU around 2024-03-07.',
-        'Verified'
       ),
     ],
     description:
@@ -174,19 +196,24 @@ export const damagesData: DamageItem[] = [
     required_documents: [
       createReqDoc(
         'PEC-COST-03-01',
-        'Statements Post-Reduction (Chase 0757)',
+        '[IE] Statements Post-Reduction (Chase 0757)',
         'Chase statements showing reduction from original $5,500 limit',
         'Verified'
       ),
       createReqDoc(
+        'PEC-COST-03-04',
+        '[C] Chase Credit Line Reduction Notice',
+        'Documentation showing reduction was due to adverse credit history'
+      ),
+      createReqDoc(
         'PEC-COST-03-02',
-        'APR Documentation',
+        '[A] APR Documentation',
         'Documentation of APR changes and terms',
         'Needed'
       ),
       createReqDoc(
         'PEC-COST-03-03',
-        'Cost Differential Calculation',
+        '[A] Cost Differential Calculation',
         'Calculation of increased costs due to credit line reduction',
         'Needed'
       ),
@@ -205,19 +232,24 @@ export const damagesData: DamageItem[] = [
     required_documents: [
       createReqDoc(
         'PEC-COST-04-01',
-        'Statements Post-Reduction (Chase 7293)',
+        '[IE] Statements Post-Reduction (Chase 7293)',
         'Monthly statements showing reduction from $5,500 credit line and APR of 27.49% in January 2024',
         'Verified'
       ),
       createReqDoc(
+        'PEC-COST-04-04',
+        '[C] Chase Credit Line Reduction Notice',
+        'Documentation showing reduction and APR increase were due to adverse credit history'
+      ),
+      createReqDoc(
         'PEC-COST-04-02',
-        'APR Documentation',
+        '[A] APR Documentation',
         'Documentation of APR increase from 27.24% to 27.49%',
         'Verified'
       ),
       createReqDoc(
         'PEC-COST-04-03',
-        'Cost Differential Calculation',
+        '[A] Cost Differential Calculation',
         'Calculation of increased costs due to credit line reduction and APR increase',
         'Needed'
       ),
@@ -236,19 +268,24 @@ export const damagesData: DamageItem[] = [
     required_documents: [
       createReqDoc(
         'PEC-COST-05-01',
-        'Statements Post-Reduction (BofA 4041)',
+        '[IE] Statements Post-Reduction (BofA 4041)',
         'Monthly statements showing reduction to $2,500 credit line from original $6,200',
         'Verified'
       ),
       createReqDoc(
+        'PEC-COST-05-04',
+        '[C] BofA Credit Line Reduction Notice',
+        'Documentation showing reduction was due to adverse credit history'
+      ),
+      createReqDoc(
         'PEC-COST-05-02',
-        'APR Documentation',
+        '[A] APR Documentation',
         'Documentation of APR at 27.74%',
         'Verified'
       ),
       createReqDoc(
         'PEC-COST-05-03',
-        'Cost Differential Calculation',
+        '[A] Cost Differential Calculation',
         'Calculation of increased costs due to credit line reduction',
         'Needed'
       ),
@@ -267,19 +304,24 @@ export const damagesData: DamageItem[] = [
     required_documents: [
       createReqDoc(
         'PEC-COST-06-01',
-        'Statements Post-Reduction (Apple Card)',
+        '[IE] Statements Post-Reduction (Apple Card)',
         'Monthly statements showing reduction from $3,300 credit line and APR of 27.24% in January 2024',
         'Verified'
       ),
       createReqDoc(
+        'PEC-COST-06-04',
+        '[C] Apple Card Credit Line Reduction Notice',
+        'Documentation showing reduction and APR increase were due to adverse credit history'
+      ),
+      createReqDoc(
         'PEC-COST-06-02',
-        'APR Documentation',
+        '[A] APR Documentation',
         'Documentation of APR increase from 26.99% to 27.24%',
         'Verified'
       ),
       createReqDoc(
         'PEC-COST-06-03',
-        'Cost Differential Calculation',
+        '[A] Cost Differential Calculation',
         'Calculation of increased costs due to credit line reduction and APR increase',
         'Needed'
       ),
@@ -298,19 +340,24 @@ export const damagesData: DamageItem[] = [
     required_documents: [
       createReqDoc(
         'PEC-COST-07-01',
-        'Statements Post-Reduction (Citi Double Cash)',
+        '[IE] Statements Post-Reduction (Citi Double Cash)',
         'Monthly statements showing reduction from $2,500 credit line and APR changes',
         'Verified'
       ),
       createReqDoc(
+        'PEC-COST-07-04',
+        '[C] Citi Credit Line Reduction Notice',
+        'Documentation showing reduction and APR changes were due to adverse credit history'
+      ),
+      createReqDoc(
         'PEC-COST-07-02',
-        'APR Documentation',
+        '[A] APR Documentation',
         'Documentation of APR changes to 29.24% (standard) and 26.74% (balance transfers)',
         'Verified'
       ),
       createReqDoc(
         'PEC-COST-07-03',
-        'Cost Differential Calculation',
+        '[A] Cost Differential Calculation',
         'Calculation of increased costs due to credit line reduction and APR changes',
         'Needed'
       ),
@@ -329,19 +376,24 @@ export const damagesData: DamageItem[] = [
     required_documents: [
       createReqDoc(
         'PEC-COST-08-01',
-        'Statements Post-Reduction (Amex)',
+        '[IE] Statements Post-Reduction (Amex)',
         'Monthly statements showing reduction to $5,500 from original $100,000 credit line',
         'Verified'
       ),
       createReqDoc(
+        'PEC-COST-08-04',
+        '[C] Amex Credit Line Reduction Notice',
+        'Documentation showing reduction and APR increase were due to adverse credit history'
+      ),
+      createReqDoc(
         'PEC-COST-08-02',
-        'APR Documentation',
+        '[A] APR Documentation',
         'Documentation of APR increase from 23.74% to 27.49%',
         'Verified'
       ),
       createReqDoc(
         'PEC-COST-08-03',
-        'Cost Differential Calculation',
+        '[A] Cost Differential Calculation',
         'Calculation of increased costs due to credit line reduction and APR increase',
         'Needed'
       ),
@@ -362,18 +414,23 @@ export const damagesData: DamageItem[] = [
     required_documents: [
       createReqDoc(
         'PEC-COST-09-01',
-        'Huebner Denial Documentation',
+        '[IE] Huebner Denial Documentation',
         'Original denial letter and terms offered for first replacement attempt',
         'Verified'
       ),
       createReqDoc(
+        'PEC-COST-09-04',
+        '[C] Credit Report Used for Denial',
+        'Credit report showing adverse history leading to denial'
+      ),
+      createReqDoc(
         'PEC-COST-09-02',
-        'Alternative Financing Terms',
+        '[A] Alternative Financing Terms',
         'Terms obtained from other lenders, showing increased costs'
       ),
       createReqDoc(
         'PEC-COST-09-03',
-        'Cost Differential Analysis',
+        '[A] Cost Differential Analysis',
         'Analysis of increased costs from denial, contributing to PEC-OPP-02 damages'
       ),
     ],
@@ -391,18 +448,23 @@ export const damagesData: DamageItem[] = [
     required_documents: [
       createReqDoc(
         'PEC-COST-10-01',
-        'Ally Denial Documentation',
+        '[IE] Ally Denial Documentation',
         'Original denial letter and terms offered for second replacement attempt',
         'Verified'
       ),
       createReqDoc(
+        'PEC-COST-10-04',
+        '[C] Credit Report Used for Denial',
+        'Credit report showing adverse history leading to denial'
+      ),
+      createReqDoc(
         'PEC-COST-10-02',
-        'Alternative Financing Terms',
+        '[A] Alternative Financing Terms',
         'Terms obtained from other lenders, showing increased costs'
       ),
       createReqDoc(
         'PEC-COST-10-03',
-        'Cost Differential Analysis',
+        '[A] Cost Differential Analysis',
         'Analysis of increased costs from denial, contributing to PEC-OPP-02 damages'
       ),
     ],
@@ -420,18 +482,23 @@ export const damagesData: DamageItem[] = [
     required_documents: [
       createReqDoc(
         'PEC-COST-11-01',
-        'Ally Denial Documentation',
+        '[IE] Ally Denial Documentation',
         'Original denial letter and terms offered',
         'Verified'
       ),
       createReqDoc(
+        'PEC-COST-11-04',
+        '[C] Credit Report Used for Denial',
+        'Credit report showing adverse history leading to denial'
+      ),
+      createReqDoc(
         'PEC-COST-11-02',
-        'Alternative Financing Terms',
+        '[A] Alternative Financing Terms',
         'Terms obtained from other lender(s)'
       ),
       createReqDoc(
         'PEC-COST-11-03',
-        'Cost Differential Analysis',
+        '[A] Cost Differential Analysis',
         'Comparison of terms and total cost difference'
       ),
     ],
@@ -948,11 +1015,29 @@ export const damagesData: DamageItem[] = [
       createReqDoc(
         'PEC-OPP-02-01',
         'Tesla Repair Documentation',
-        'Service records and repair invoices showing ongoing issues:\n' +
-          '- Feb 2023: $217.51 (Invoice #3000S0006277027)\n' +
-          '- Jun 2023: $482.10 (Invoice #3000S0007380537)\n' +
-          '- Jan 2024: $3,620.65 (Estimate #3000-009-0016233315)\n' +
-          '- Oct 2024: $10,370.40 (Estimate #3000-009-0021563621)',
+        'Verified repair costs from invoices and estimates:\n\n' +
+          'Paid Repairs ($699.61):\n' +
+          '1. Feb 2023 (Invoice #3000S0006277027):\n' +
+          '   - Parts: $165.00\n' +
+          '   - Labor: $39.00\n' +
+          '   - Tax: $13.51\n' +
+          '   - Total: $217.51\n\n' +
+          '2. Jun 2023 (Invoice #3000S0007380537):\n' +
+          '   - Parts: $374.00\n' +
+          '   - Labor: $79.50\n' +
+          '   - Tax: $28.60\n' +
+          '   - Total: $482.10\n\n' +
+          'Required Future Repairs ($13,991.05):\n' +
+          '1. Jan 2024 (Estimate #3000-009-0016233315):\n' +
+          '   - Parts: $2,171.33\n' +
+          '   - Labor: $1,244.00\n' +
+          '   - Tax: $205.32\n' +
+          '   - Total: $3,620.65\n\n' +
+          '2. Oct 2024 (Estimate #3000-009-0021563621):\n' +
+          '   - Parts: $6,906.48\n' +
+          '   - Labor: $2,809.70\n' +
+          '   - Tax: $654.22\n' +
+          '   - Total: $10,370.40',
         'Verified'
       ),
       createReqDoc(
@@ -977,15 +1062,17 @@ export const damagesData: DamageItem[] = [
         'PEC-OPP-02-04',
         'Cost Impact Analysis',
         'Total documented costs through October 2024:\n' +
-          '- Repair Costs: $14,690.66 ($699.61 paid + $13,991.05 estimated)\n' +
-          '- Alternative Transportation: TBD\n' +
-          '- Lost Time/Wages: TBD\n' +
-          '- Credit Impact: See PEC-COST claims',
+          '1. Repair Costs: $14,690.66\n' +
+          '   - Paid repairs: $699.61\n' +
+          '   - Required future repairs: $13,991.05\n' +
+          '2. Alternative Transportation: TBD\n' +
+          '3. Lost Time/Wages: TBD\n' +
+          '4. Credit Impact: See PEC-COST claims',
         'Verified'
       ),
     ],
     description:
-      'Comprehensive damages from inability to replace defective Tesla. Total repair costs of $14,690.66 documented through October 2024, with repairs escalating after loan denials began in February 2024. Each denial extended exposure to repair costs and transportation expenses.',
+      'Comprehensive damages from inability to replace defective Tesla. Total repair costs of $14,690.66 verified through invoices and estimates, including $699.61 in completed repairs and $13,991.05 in required future repairs. Repairs escalated after loan denials began in February 2024, with the largest repair ($10,370.40) scheduled for October 2024.',
     date: '2024-02-13',
   },
   {
@@ -1075,7 +1162,7 @@ export const damagesData: DamageItem[] = [
     id: 'NONPEC-REP-01',
     title: 'Reputational Harm',
     category: 'NONPEC-REP',
-    source_docs: Array.from({ length: 38 }, (_, i) => i + 1), // Links ALL adverse actions
+    source_docs: Array.from({ length: 38 }, (_, i) => i + 1).concat([40]), // Added credit notifications
     claimed_value: null,
     status: 'Pending',
     required_documents: [
@@ -1093,11 +1180,107 @@ export const damagesData: DamageItem[] = [
       createReqDoc(
         'NONPEC-REP-01-03',
         'Credit Score Impact Documentation',
-        'Doc 11 and scores from other notices.',
+        'Cumulative documented impact on creditworthiness:\n' +
+          '1. Baseline (June 11, 2023):\n' +
+          '   - FICO Score: 673\n' +
+          '   - Rating: Good\n' +
+          '   - Perfect payment history\n' +
+          '   - 23 accounts in good standing\n' +
+          '   - 48% credit utilization\n\n' +
+          '2. Initial Impact (Oct 19, 2023):\n' +
+          '   - Score drop: -43 points\n' +
+          '   - Rating downgraded to Fair\n' +
+          '   - First account flagged as past due\n\n' +
+          '3. Continued Deterioration:\n' +
+          '   - Nov 18, 2023: -26 points\n' +
+          '   - Dec 18, 2023: -6 points\n' +
+          '   - Dec 21, 2023: -2 points\n' +
+          '   - Jan 08, 2024: -14 points\n\n' +
+          '4. Cumulative Impact:\n' +
+          '   - Total score drop: 91 points\n' +
+          '   - Rating change: Good to Fair\n' +
+          '   - Multiple disputes filed\n' +
+          '   - Resulted in multiple loan denials',
+        'Verified'
+      ),
+      createReqDoc(
+        'NONPEC-REP-01-04',
+        'Dispute History Documentation',
+        'Timeline of attempts to address issues:\n' +
+          '- Dec 31, 2023: Initial dispute filed\n' +
+          '- Jan 05, 2024: Additional dispute filed\n' +
+          '- Jan 05, 2024: Dispute modification submitted',
         'Verified'
       ),
     ],
-    description: 'Claim for damage to credit reputation among lenders.',
-    date: null, // Ongoing
+    description:
+      'Severe damage to credit reputation documented through 91-point FICO score drop, rating downgrade from Good to Fair, and resulting pattern of denials. Impact began October 2023 and continued to worsen despite multiple disputes.',
+    date: '2023-10-19', // Date of first major impact
+  },
+  {
+    id: 'PEC-COST-25',
+    title: 'Progressive Credit Score Deterioration',
+    category: 'PEC-COST',
+    source_docs: [40], // credit-notifications.json
+    claimed_value: null,
+    status: 'Pending',
+    required_documents: [
+      createReqDoc(
+        'PEC-COST-25-01',
+        'Baseline Credit Profile Documentation',
+        'June 11, 2023 Experian Report showing:\n' +
+          '- FICO Score: 673\n' +
+          '- Rating: Good\n' +
+          '- Total Credit Limit: $43,150\n' +
+          '- Credit Utilization: 48%\n' +
+          '- Perfect Payment History\n' +
+          '- 23 Accounts in Good Standing',
+        'Verified'
+      ),
+      createReqDoc(
+        'PEC-COST-25-02',
+        'Progressive Score Impact Timeline',
+        'Documented sequence of FICO score drops:\n' +
+          '1. Oct 19, 2023: -43 points\n' +
+          '   - Rating downgraded to Fair\n' +
+          '   - First account flagged as past due\n\n' +
+          '2. Nov 05, 2023: +8 points (temporary improvement)\n' +
+          '3. Nov 18, 2023: -26 points\n' +
+          '4. Dec 18, 2023: -6 points\n' +
+          '5. Dec 21, 2023: -2 points\n' +
+          '   - Account flagged as 90 days past due\n' +
+          '6. Jan 08, 2024: -14 points\n\n' +
+          'Net Impact: -91 points from baseline',
+        'Verified'
+      ),
+      createReqDoc(
+        'PEC-COST-25-03',
+        'Remediation Attempts Documentation',
+        'Chronological sequence of dispute actions:\n' +
+          '1. Dec 31, 2023: Initial dispute filed\n' +
+          '2. Jan 05, 2024: Additional dispute filed\n' +
+          '3. Jan 05, 2024: Dispute modification\n\n' +
+          'Impact continued despite remediation attempts',
+        'Verified'
+      ),
+      createReqDoc(
+        'PEC-COST-25-04',
+        'Consequential Damages Timeline',
+        'Sequence of denials following score deterioration:\n' +
+          '1. Auto Loan Denials:\n' +
+          '   - Huebner Chevrolet (2/13/24)\n' +
+          '   - Ally/Carmax (3/12/24)\n' +
+          '   - Multiple others through April 2024\n\n' +
+          '2. Credit Line Reductions:\n' +
+          '   - Multiple cards reduced Jan-Mar 2024\n' +
+          '   - AmEx reduced from $100,000 to $5,500\n\n' +
+          '3. Student/Personal Loan Denials:\n' +
+          '   - Multiple denials Feb-Mar 2024',
+        'Verified'
+      ),
+    ],
+    description:
+      'Comprehensive documentation of credit score deterioration from Good (673) to Fair rating, with 91-point drop over 3 months. Impact began with 43-point drop in October 2023 and continued to worsen despite dispute attempts, leading to multiple denials and credit line reductions.',
+    date: '2023-10-19',
   },
 ];

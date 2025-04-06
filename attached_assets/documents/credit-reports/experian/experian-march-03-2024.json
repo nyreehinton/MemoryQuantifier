@@ -1,0 +1,702 @@
+{
+  "reportHeader": {
+    "preparedFor": "NYREE D. HINTON",
+    "reportProvider": "Experian",
+    "dateGenerated": "2024-03-03",
+    "confidentiality": "Personal & confidential"
+  },
+  "atAGlance": {
+    "ficoScore8": {
+      "score": 617,
+      "date": "2024-03-03",
+      "rating": "Fair",
+      "scaleMin": 300,
+      "scaleMax": 850
+    },
+    "accountSummary": {
+      "openAccounts": 20,
+      "selfReportedAccounts": 0,
+      "accountsEverLate": 1,
+      "closedAccounts": 13,
+      "collections": 0,
+      "averageAccountAge": "5 yrs 5 mos",
+      "oldestAccount": "10 yrs"
+    },
+    "overallCreditUsage": {
+      "percentage": 75,
+      "creditUsed": 26397,
+      "creditLimit": 30110
+    },
+    "debtSummary": {
+      "creditCardAndCreditLineDebt": 26397,
+      "selfReportedAccountBalance": 0,
+      "loanDebt": 46570,
+      "collectionsDebt": 0,
+      "totalDebt": 72967
+    }
+  },
+  "personalInformation": {
+    "name": "NYREE D HINTON",
+    "alsoKnownAs": null,
+    "yearOfBirth": 1996,
+    "addresses": [
+      {
+        "street": "4254 CHURCH RD",
+        "city": "EASTON",
+        "state": "PA",
+        "zip": "18045-2971"
+      },
+      {
+        "street": "5901 CENTER DR APT 456-2",
+        "city": "LOS ANGELES",
+        "state": "CA",
+        "zip": "90045-8957"
+      },
+      {
+        "street": "120 S ORLANDO AVE",
+        "city": "LOS ANGELES",
+        "state": "CA",
+        "zip": "90048-4184"
+      }
+    ],
+    "employers": [
+      "CAPITAL GROUP",
+      "THIRD BRIDGE GROUP LIMI"
+    ],
+    "personalStatements": "No Statement(s) present at this time"
+  },
+  "openAccounts": [
+    {
+      "accountName": "AMEX",
+      "accountNumber": "3499929725268263",
+      "accountType": "Credit card",
+      "dateOpened": "2022-04-05",
+      "status": "Open/Never late.",
+      "balance": 3796,
+      "balanceUpdated": "2024-02-20",
+      "creditLimit": null,
+      "highestBalance": 7479,
+      "monthlyPayment": 0,
+      "terms": "1 Month",
+      "responsibility": "Individual",
+      "paymentHistorySummary": "Exceptional payment history"
+    },
+    {
+      "accountName": "APPLE CARD/GS BANK USA",
+      "accountNumber": "120001XXXXXXXXXX",
+      "accountType": "Credit card",
+      "dateOpened": "2022-03-06",
+      "status": "Open/Never late.",
+      "balance": 1936,
+      "balanceUpdated": "2024-01-31",
+      "creditLimit": 2200,
+      "creditUsage": "88%",
+      "highestBalance": 2976,
+      "monthlyPayment": 106,
+      "lastPaymentDate": "2024-01-30",
+      "responsibility": "Individual",
+      "paymentHistorySummary": "Exceptional payment history"
+    },
+    {
+      "accountName": "BANK OF AMERICA",
+      "accountNumber": "XXXX",
+      "accountType": "Credit card",
+      "dateOpened": "2020-01-07",
+      "status": "Open/Never late.",
+      "balance": 2090,
+      "balanceUpdated": "2024-02-04",
+      "creditLimit": 2500,
+      "creditUsage": "83%",
+      "highestBalance": 2960,
+      "monthlyPayment": 60,
+      "lastPaymentDate": "2024-01-31",
+      "responsibility": "Individual",
+      "paymentHistorySummary": "Exceptional payment history"
+    },
+    {
+      "accountName": "CITICARDS CBNA",
+      "accountNumber": "542418XXXXXX",
+      "accountType": "Credit card",
+      "dateOpened": "2017-11-28",
+      "status": "Open/Never late.",
+      "balance": 1508,
+      "balanceUpdated": "2024-02-05",
+      "creditLimit": 1510,
+      "creditUsage": "99%",
+      "highestBalance": 2279,
+      "monthlyPayment": 51,
+      "lastPaymentDate": "2024-01-28",
+      "responsibility": "Individual",
+      "paymentHistorySummary": "Exceptional payment history",
+      "comments": "FCBA dispute resolved - consumer disagrees"
+    },
+    {
+      "accountName": "DEPT OF EDUCATION/NELN",
+      "accountNumber": "900000XXXXXXXXX",
+      "accountType": "Education",
+      "dateOpened": "2016-08-18",
+      "status": "Open/Never late. Deferred, payments begin May 2024.",
+      "balance": 4502,
+      "balanceUpdated": "2024-01-31",
+      "originalBalance": 4500,
+      "monthlyPayment": 0,
+      "lastPaymentDate": "2023-08-09",
+      "terms": "120 Months",
+      "responsibility": "Individual",
+      "paymentHistorySummary": "Exceptional payment history"
+    },
+    {
+      "accountName": "DEPT OF EDUCATION/NELN",
+      "accountNumber": "900000XXXXXXXXX",
+      "accountType": "Education",
+      "dateOpened": "2016-08-18",
+      "status": "Open/Never late. Deferred, payments begin May 2024.",
+      "balance": 2268,
+      "balanceUpdated": "2024-01-31",
+      "originalBalance": 2000,
+      "monthlyPayment": 0,
+      "lastPaymentDate": "2023-08-09",
+      "terms": "120 Months",
+      "responsibility": "Individual",
+      "paymentHistorySummary": "Exceptional payment history"
+    },
+    {
+      "accountName": "DEPT OF EDUCATION/NELN",
+      "accountNumber": "900000XXXXXXXXX",
+      "accountType": "Education",
+      "dateOpened": "2014-08-27",
+      "status": "Open/Never late. Deferred, payments begin May 2024.",
+      "balance": 3510,
+      "balanceUpdated": "2024-01-31",
+      "originalBalance": 3500,
+      "monthlyPayment": 0,
+      "lastPaymentDate": "2023-08-09",
+      "terms": "120 Months",
+      "responsibility": "Individual",
+      "paymentHistorySummary": "Exceptional payment history"
+    },
+    {
+      "accountName": "DEPT OF EDUCATION/NELN",
+      "accountNumber": "900000XXXXXXXXX",
+      "accountType": "Education",
+      "dateOpened": "2014-08-27",
+      "status": "Open/Never late. Deferred, payments begin May 2024.",
+      "balance": 2532,
+      "balanceUpdated": "2024-01-31",
+      "originalBalance": 2000,
+      "monthlyPayment": 0,
+      "lastPaymentDate": "2023-08-09",
+      "terms": "120 Months",
+      "responsibility": "Individual",
+      "paymentHistorySummary": "Exceptional payment history"
+    },
+    {
+      "accountName": "DEPT OF EDUCATION/NELN",
+      "accountNumber": "900000XXXXXXXXX",
+      "accountType": "Education",
+      "dateOpened": "2015-09-03",
+      "status": "Open/Never late. Deferred, payments begin May 2024.",
+      "balance": 6592,
+      "balanceUpdated": "2024-01-31",
+      "originalBalance": 5500,
+      "monthlyPayment": 0,
+      "lastPaymentDate": "2023-08-09",
+      "terms": "120 Months",
+      "responsibility": "Individual",
+      "paymentHistorySummary": "Exceptional payment history"
+    },
+    {
+      "accountName": "DEPT OF EDUCATION/NELN",
+      "accountNumber": "900000XXXXXXXXX",
+      "accountType": "Education",
+      "dateOpened": "2018-08-10",
+      "status": "Open/Never late. Deferred, payments begin May 2024.",
+      "balance": 2760,
+      "balanceUpdated": "2024-01-31",
+      "originalBalance": 2750,
+      "monthlyPayment": 0,
+      "lastPaymentDate": "2023-08-09",
+      "terms": "120 Months",
+      "responsibility": "Individual",
+      "paymentHistorySummary": "Exceptional payment history"
+    },
+    {
+      "accountName": "DEPT OF EDUCATION/NELN",
+      "accountNumber": "900000XXXXXXXXX",
+      "accountType": "Education",
+      "dateOpened": "2018-08-10",
+      "status": "Open/Never late. Deferred, payments begin May 2024.",
+      "balance": 3818,
+      "balanceUpdated": "2024-01-31",
+      "originalBalance": 3500,
+      "monthlyPayment": 0,
+      "lastPaymentDate": "2023-08-09",
+      "terms": "120 Months",
+      "responsibility": "Individual",
+      "paymentHistorySummary": "Exceptional payment history"
+    },
+    {
+      "accountName": "DEPT OF EDUCATION/NELN",
+      "accountNumber": "900000XXXXXXXXX",
+      "accountType": "Education",
+      "dateOpened": "2017-08-11",
+      "status": "Open/Never late. Deferred, payments begin May 2024.",
+      "balance": 5512,
+      "balanceUpdated": "2024-01-31",
+      "originalBalance": 5500,
+      "monthlyPayment": 0,
+      "lastPaymentDate": "2023-08-09",
+      "terms": "120 Months",
+      "responsibility": "Individual",
+      "paymentHistorySummary": "Exceptional payment history"
+    },
+    {
+      "accountName": "DEPT OF EDUCATION/NELN",
+      "accountNumber": "900000XXXXXXXXX",
+      "accountType": "Education",
+      "dateOpened": "2017-08-11",
+      "status": "Open/Never late. Deferred, payments begin May 2024.",
+      "balance": 2231,
+      "balanceUpdated": "2024-01-31",
+      "originalBalance": 2000,
+      "monthlyPayment": 0,
+      "lastPaymentDate": "2023-08-09",
+      "terms": "120 Months",
+      "responsibility": "Individual",
+      "paymentHistorySummary": "Exceptional payment history"
+    },
+    {
+      "accountName": "DISCOVER BANK",
+      "accountNumber": "601100XXXXXX",
+      "accountType": "Credit card",
+      "dateOpened": "2017-05-14",
+      "status": "Open/Never late.",
+      "balance": 0,
+      "balanceUpdated": "2024-02-25",
+      "creditLimit": 5500,
+      "creditUsage": "0%",
+      "highestBalance": 48,
+      "monthlyPayment": 0,
+      "lastPaymentDate": "2023-02-06",
+      "responsibility": "Authorized user",
+      "paymentHistorySummary": "Exceptional payment history"
+    },
+    {
+      "accountName": "JPMCB CARD",
+      "accountNumber": "426684XXXXXX",
+      "accountType": "Credit card",
+      "dateOpened": "2019-01-10",
+      "status": "Open/Never late.",
+      "balance": 4291,
+      "balanceUpdated": "2024-02-04",
+      "creditLimit": 4600,
+      "creditUsage": "93%",
+      "highestBalance": 5331,
+      "monthlyPayment": 148,
+      "lastPaymentDate": "2024-02-02",
+      "responsibility": "Individual",
+      "paymentHistorySummary": "Exceptional payment history"
+    },
+    {
+      "accountName": "JPMCB CARD",
+      "accountNumber": "414740XXXXXX",
+      "accountType": "Credit Card",
+      "dateOpened": "2022-12-14",
+      "status": "Open/Never late.",
+      "balance": 4065,
+      "balanceUpdated": "2024-02-13",
+      "creditLimit": 4600,
+      "creditUsage": "88%",
+      "highestBalance": 4534,
+      "monthlyPayment": 202,
+      "lastPaymentDate": "2024-02-07",
+      "responsibility": "Individual",
+      "paymentHistorySummary": "Exceptional payment history"
+    },
+    {
+      "accountName": "MACYS/CBNA",
+      "accountNumber": "603534XXXXXXXXXX",
+      "accountType": "Charge Card",
+      "dateOpened": "2017-03-11",
+      "status": "Open/Never late.",
+      "balance": 1655,
+      "balanceUpdated": "2024-02-20",
+      "creditLimit": 6700,
+      "creditUsage": "24%",
+      "highestBalance": 1937,
+      "monthlyPayment": 57,
+      "lastPaymentDate": "2024-02-16",
+      "responsibility": "Individual",
+      "paymentHistorySummary": "Exceptional payment history"
+    },
+    {
+      "accountName": "PENTAGON FEDERAL CR UN",
+      "accountNumber": "332690X",
+      "accountType": "Education",
+      "dateOpened": "2021-06-18",
+      "status": "Open/Never late.",
+      "balance": 43259,
+      "balanceUpdated": "2024-02-29",
+      "originalBalance": 50018,
+      "paidOffPercentage": "14%",
+      "monthlyPayment": 367,
+      "lastPaymentDate": "2024-02-12",
+      "terms": "180 Months",
+      "responsibility": "Joint",
+      "paymentHistorySummary": "Exceptional payment history"
+    },
+    {
+      "accountName": "TEACHERS FED CREDIT UN",
+      "accountNumber": "403090XXXXXXXXXX",
+      "accountType": "Credit card",
+      "dateOpened": "2020-08-12",
+      "status": "Open/Never late.",
+      "balance": 1656,
+      "balanceUpdated": "2024-01-25",
+      "creditLimit": 2500,
+      "creditUsage": "66%",
+      "highestBalance": 2503,
+      "monthlyPayment": 34,
+      "lastPaymentDate": "2023-12-26",
+      "responsibility": "Individual",
+      "paymentHistorySummary": "Exceptional payment history",
+      "comments": "Account previously in dispute - investigation complete, reported by data furnisher"
+    },
+    {
+      "accountName": "UPGRADE INC",
+      "accountNumber": "141003XXX",
+      "accountType": "Unsecured",
+      "dateOpened": "2021-12-31",
+      "status": "Open/Never late.",
+      "balance": 3311,
+      "balanceUpdated": "2024-01-31",
+      "originalBalance": 10000,
+      "paidOffPercentage": "67%",
+      "monthlyPayment": 313,
+      "lastPaymentDate": "2024-01-31",
+      "terms": "36 Months",
+      "responsibility": "Individual",
+      "paymentHistorySummary": "Exceptional payment history"
+    }
+  ],
+  "closedAccounts": [
+    {
+      "accountName": "ALLY FINANCIAL",
+      "accountNumber": "228015XXXXXX",
+      "accountType": "Auto Loan",
+      "dateOpened": "2021-03-05",
+      "dateClosed": "2021-07",
+      "status": "Paid, Closed/Never late.",
+      "originalBalance": 29164,
+      "lastPaymentDate": "2021-07-01",
+      "terms": "75 Months",
+      "responsibility": "Individual",
+      "paymentHistorySummary": "Exceptional payment history"
+    },
+    {
+      "accountName": "BANK OF AMERICA",
+      "accountNumber": "XXXX",
+      "accountType": "Credit card",
+      "dateOpened": "2014-03-26",
+      "dateClosed": "2024-02",
+      "status": "Closed/Never late.",
+      "balance": 1946,
+      "balanceUpdated": "2024-02-04",
+      "creditLimit": 1900,
+      "highestBalance": 6164,
+      "monthlyPayment": 102,
+      "lastPaymentDate": "2024-01-02",
+      "responsibility": "Individual",
+      "paymentHistorySummary": "Exceptional payment history",
+      "comments": "Account closed at consumer's request"
+    },
+    {
+      "accountName": "BANK OF AMERICA, N.A.",
+      "accountNumber": "650100XXXXXXXX",
+      "accountType": "Auto Loan",
+      "dateOpened": "2022-02-22",
+      "dateClosed": "2022-12",
+      "status": "Paid, Closed/Never late.",
+      "originalBalance": 27351,
+      "lastPaymentDate": "2022-12-22",
+      "terms": "72 Months",
+      "responsibility": "Individual",
+      "paymentHistorySummary": "Exceptional payment history"
+    },
+    {
+      "accountName": "CAPITAL ONE",
+      "accountNumber": "517805XXXXXX",
+      "accountType": "Credit card",
+      "dateOpened": "2017-06-07",
+      "dateClosed": "2024-02",
+      "status": "Closed/Never late.",
+      "balance": 3454,
+      "balanceUpdated": "2024-02-06",
+      "creditLimit": 5500,
+      "highestBalance": 5506,
+      "monthlyPayment": 113,
+      "lastPaymentDate": "2024-01-26",
+      "responsibility": "Individual",
+      "paymentHistorySummary": "Exceptional payment history",
+      "comments": "Account closed at consumer's request and in dispute under FCRA"
+    },
+    {
+      "accountName": "CAPITAL ONE AUTO FINAN",
+      "accountNumber": "620102XXXXXXXXXXX",
+      "accountType": "Auto Loan",
+      "dateOpened": "2022-12-09",
+      "dateClosed": "2024-02",
+      "status": "Account charged off. $42,482 written off. $46,039 past due as of Feb 2024.",
+      "balance": 46039,
+      "balanceUpdated": "2024-02-20",
+      "originalBalance": 45553,
+      "pastDueAmount": 46039,
+      "lastPaymentDate": "2023-07-06",
+      "terms": "75 Months",
+      "responsibility": "Individual",
+      "paymentHistorySummary": "4 potentially negative months (Charge off, 30, 60, 90 days past due)",
+      "comments": "Account previously in dispute - investigation complete, reported by data furnisher"
+    },
+    {
+      "accountName": "DISCOVER STUDENT LOANS",
+      "accountNumber": "110027XXXXXXXXX",
+      "accountType": "Education",
+      "dateOpened": "2018-08-17",
+      "dateClosed": "2019-06",
+      "status": "Paid, Closed/Never late.",
+      "originalBalance": 8500,
+      "lastPaymentDate": "2019-06-07",
+      "terms": "180 Months",
+      "responsibility": "Joint",
+      "paymentHistorySummary": "Exceptional payment history"
+    },
+    {
+      "accountName": "JPMCB CARD",
+      "accountNumber": "426684XXXXXX",
+      "accountType": "Credit card",
+      "dateOpened": "2020-12-25",
+      "dateClosed": "2021-01",
+      "status": "Paid, Closed/Never late.",
+      "creditLimit": 500,
+      "responsibility": "Individual",
+      "paymentHistorySummary": "Exceptional payment history",
+      "comments": "Account closed at consumer's request"
+    },
+    {
+      "accountName": "LENDING CLUB CORP",
+      "accountNumber": "161891XXX",
+      "accountType": "Unsecured",
+      "dateOpened": "2019-11-14",
+      "dateClosed": "2023-05",
+      "status": "Paid, Closed/Never late.",
+      "originalBalance": 8800,
+      "lastPaymentDate": "2023-05-31",
+      "terms": "60 Months",
+      "responsibility": "Individual",
+      "paymentHistorySummary": "Exceptional payment history"
+    },
+    {
+      "accountName": "LIGHTSTREAM",
+      "accountNumber": "LS7315XXXX",
+      "accountType": "Unsecured",
+      "dateOpened": "2019-01-04",
+      "dateClosed": "2019-12",
+      "status": "Paid, Closed/Never late.",
+      "originalBalance": 10000,
+      "lastPaymentDate": "2019-12-02",
+      "terms": "36 Months",
+      "responsibility": "Individual",
+      "paymentHistorySummary": "Exceptional payment history"
+    },
+    {
+      "accountName": "MOHELA/SOFI",
+      "accountNumber": "789067XXXXXXXXXX",
+      "accountType": "Education",
+      "dateOpened": "2019-06-03",
+      "dateClosed": "2021-06",
+      "status": "Paid, Closed/Never late.",
+      "originalBalance": 47941,
+      "lastPaymentDate": "2021-06-23",
+      "terms": "241 Months",
+      "responsibility": "Individual",
+      "paymentHistorySummary": "Exceptional payment history"
+    },
+    {
+      "accountName": "PSECU",
+      "accountNumber": "181515XXXXX",
+      "accountType": "Auto Loan",
+      "dateOpened": "2021-06-16",
+      "dateClosed": "2022-01",
+      "status": "Paid, Closed/Never late.",
+      "originalBalance": 28278,
+      "lastPaymentDate": "2022-01-12",
+      "terms": "84 Months",
+      "responsibility": "Individual",
+      "paymentHistorySummary": "Exceptional payment history"
+    },
+    {
+      "accountName": "SALLIE MAE BANK INC",
+      "accountNumber": "585250XXXXXXXXXX",
+      "accountType": "Education",
+      "dateOpened": "2016-05-13",
+      "dateClosed": "2019-06",
+      "status": "Paid, Closed/Never late.",
+      "originalBalance": 1752,
+      "lastPaymentDate": "2019-06-03",
+      "terms": "96 Months",
+      "responsibility": "Joint",
+      "paymentHistorySummary": "Exceptional payment history"
+    },
+    {
+      "accountName": "SALLIE MAE BANK INC",
+      "accountNumber": "585250XXXXXXXXXX",
+      "accountType": "Education",
+      "dateOpened": "2016-08-25",
+      "dateClosed": "2019-06",
+      "status": "Paid, Closed/Never late.",
+      "originalBalance": 22500,
+      "lastPaymentDate": "2019-06-03",
+      "terms": "96 Months",
+      "responsibility": "Joint",
+      "paymentHistorySummary": "Exceptional payment history"
+    },
+    {
+      "accountName": "SALLIE MAE BANK INC",
+      "accountNumber": "585250XXXXXXXXXX",
+      "accountType": "Education",
+      "dateOpened": "2014-08-08",
+      "dateClosed": "2019-06",
+      "status": "Paid, Closed/Never late.",
+      "originalBalance": 14000,
+      "lastPaymentDate": "2019-06-03",
+      "terms": "84 Months",
+      "responsibility": "Joint",
+      "paymentHistorySummary": "Exceptional payment history"
+    },
+    {
+      "accountName": "TEACHERS FED CREDIT UN",
+      "accountNumber": "600722XXXX",
+      "accountType": "Auto Loan",
+      "dateOpened": "2020-04-21",
+      "dateClosed": "2021-07",
+      "status": "Paid, Closed/Never late.",
+      "originalBalance": 20120,
+      "lastPaymentDate": "2021-07-20",
+      "terms": "72 Months",
+      "responsibility": "Individual",
+      "paymentHistorySummary": "Exceptional payment history"
+    }
+  ],
+  "collectionAccounts": {
+    "status": "No collection accounts reported."
+  },
+  "publicRecords": {
+    "status": "No public records reported."
+  },
+  "inquiries": [
+    {
+      "inquirerName": "ALLY FINANCIAL",
+      "date": "2022-12-08",
+      "businessType": "Auto Financing Companies",
+      "removalDate": "2025-01"
+    },
+    {
+      "inquirerName": "AMEX",
+      "date": "2022-04-04",
+      "businessType": "Bank Credit Cards",
+      "removalDate": "2024-05"
+    },
+    {
+      "inquirerName": "BK OF AMER",
+      "date": "2022-02-22",
+      "businessType": "All Banks - non specific",
+      "removalDate": "2024-03"
+    },
+    {
+      "inquirerName": "CBC/GENE PANKEY MOTOR",
+      "date": "2024-01-26",
+      "businessType": "Automobile Dealers, Used",
+      "removalDate": "2026-02"
+    },
+    {
+      "inquirerName": "CBC/VEROS CREDIT LLC",
+      "date": "2024-01-26",
+      "businessType": "Auto Financing Companies",
+      "removalDate": "2026-02"
+    },
+    {
+      "inquirerName": "CITI CARDS CBNA",
+      "date": "2023-06-16",
+      "businessType": "Bank Credit Cards",
+      "removalDate": "2025-07"
+    },
+    {
+      "inquirerName": "ITHINK FINANCIAL CREDI",
+      "date": "2022-12-08",
+      "businessType": "Credit Unions",
+      "removalDate": "2025-01"
+    },
+    {
+      "inquirerName": "JPMCB CARD",
+      "date": "2022-12-14",
+      "businessType": "Bank Credit Cards",
+      "removalDate": "2025-01"
+    },
+    {
+      "inquirerName": "NCCINC/IQ AUTOS",
+      "date": "2022-12-08",
+      "businessType": "Automobile Dealers, New",
+      "removalDate": "2025-01"
+    },
+    {
+      "inquirerName": "ONEMAIN",
+      "date": "2024-01-26",
+      "businessType": "Personal Loan Companies",
+      "removalDate": "2026-02"
+    },
+    {
+      "inquirerName": "PSECU",
+      "date": "2022-02-18",
+      "businessType": "Credit Unions",
+      "removalDate": "2024-03"
+    },
+    {
+      "inquirerName": "PSECU",
+      "date": "2022-07-12",
+      "businessType": "Credit Unions",
+      "removalDate": "2024-08"
+    },
+    {
+      "inquirerName": "US BANK DS NORTH CENTR",
+      "date": "2022-02-22",
+      "businessType": "All Banks - non specific",
+      "removalDate": "2024-03"
+    }
+  ],
+  "scoreFactors": {
+    "helping": [
+      {
+        "factor": "Many accounts paid on time",
+        "details": "You have a sufficient number of accounts that are currently paid as agreed. Number of accounts currently paid as agreed: 21."
+      }
+    ],
+    "hurting": [
+      {
+        "factor": "Serious delinquency",
+        "details": "You have a serious delinquency (60 days past due or greater) or derogatory indicator on your credit report. Number of your accounts that were ever 60 days late or worse or have a derogatory indicator: 1 account."
+      },
+      {
+        "factor": "High credit usage",
+        "details": "You've made heavy use of your available revolving credit. Ratio of your revolving balances to your credit limits: 72%."
+      },
+      {
+        "factor": "Recent missed payment",
+        "details": "You recently missed a payment or had a derogatory indicator reported on your credit report. Your most recent missed payment happened: 1 Month ago."
+      },
+      {
+        "factor": "Short account history",
+        "details": "You have a short credit history. Your oldest account was opened: 10 Years ago. Average age of your accounts: 5 Years, 4 Months."
+      }
+    ]
+  }
+}

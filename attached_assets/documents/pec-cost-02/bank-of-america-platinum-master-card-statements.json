@@ -1,0 +1,1984 @@
+[
+  {
+    "issuer": "BANK OF AMERICA",
+    "accountHolder": "NYREE HINTON",
+    "accountNumber": "5524 3381 4836 8426",
+    "statementPeriod": {
+      "startDate": "2021-12-05",
+      "endDate": "2022-01-04"
+    },
+    "accountSummary": {
+      "previousBalance": 1835.94,
+      "paymentsAndOtherCredits": -135.00,
+      "purchasesAndAdjustments": 193.64,
+      "feesCharged": 0.50,
+      "interestCharged": 36.22,
+      "newBalanceTotal": 1931.30,
+      "totalCreditLine": 2500.00,
+      "totalCreditAvailable": 568.70,
+      "cashCreditLine": 250.00,
+      "creditAvailableForCash": 250.00,
+      "statementClosingDate": "2022-01-04",
+      "daysInBillingCycle": 31
+    },
+    "paymentInformation": {
+      "newBalanceTotal": 1931.30,
+      "currentPaymentDue": 55.00,
+      "totalMinimumPaymentDue": 55.00,
+      "paymentDueDate": "2022-02-01"
+    },
+    "interestChargeCalculation": {
+      "purchases": {
+        "apr": "22.99%V",
+        "balanceSubjectToInterestRate": 1855.00,
+        "interestCharges": 36.22
+      },
+      "balanceTransfers": {
+        "apr": "22.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "directDepositAndCheckCashAdvances": {
+        "apr": "24.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "bankCashAdvances": {
+        "apr": "24.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      }
+    },
+    "totalsYearToDate": {
+      "totalFeesCharged": 0.50,
+      "totalInterestCharged": 36.22
+    }
+  },
+  {
+    "issuer": "BANK OF AMERICA",
+    "accountHolder": "NYREE HINTON",
+    "accountNumber": "5524 3381 4836 8426",
+    "statementPeriod": {
+      "startDate": "2022-01-05",
+      "endDate": "2022-02-04"
+    },
+    "accountSummary": {
+      "previousBalance": 1931.30,
+      "paymentsAndOtherCredits": -425.00,
+      "purchasesAndAdjustments": 27.20,
+      "feesCharged": 0.00,
+      "interestCharged": 30.58,
+      "newBalanceTotal": 1564.08,
+      "totalCreditLine": 2500.00,
+      "totalCreditAvailable": 935.92,
+      "cashCreditLine": 250.00,
+      "creditAvailableForCash": 250.00,
+      "statementClosingDate": "2022-02-04",
+      "daysInBillingCycle": 31
+    },
+    "paymentInformation": {
+      "newBalanceTotal": 1564.08,
+      "currentPaymentDue": 45.00,
+      "totalMinimumPaymentDue": 45.00,
+      "paymentDueDate": "2022-03-01"
+    },
+    "interestChargeCalculation": {
+      "purchases": {
+        "apr": "22.99%V",
+        "balanceSubjectToInterestRate": 1566.05,
+        "interestCharges": 30.58
+      },
+      "balanceTransfers": {
+        "apr": "22.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "directDepositAndCheckCashAdvances": {
+        "apr": "24.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "bankCashAdvances": {
+        "apr": "24.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      }
+    },
+    "totalsYearToDate": {
+      "totalFeesCharged": 0.50,
+      "totalInterestCharged": 66.80
+    }
+  },
+  {
+    "issuer": "BANK OF AMERICA",
+    "accountHolder": "NYREE HINTON",
+    "accountNumber": "5524 3381 4836 8426",
+    "statementPeriod": {
+      "startDate": "2022-02-05",
+      "endDate": "2022-03-04"
+    },
+    "accountSummary": {
+      "previousBalance": 1564.08,
+      "paymentsAndOtherCredits": -50.00,
+      "purchasesAndAdjustments": 0.00,
+      "feesCharged": 0.00,
+      "interestCharged": 27.57,
+      "newBalanceTotal": 1541.65,
+      "totalCreditLine": 2500.00,
+      "totalCreditAvailable": 958.35,
+      "cashCreditLine": 250.00,
+      "creditAvailableForCash": 250.00,
+      "statementClosingDate": "2022-03-04",
+      "daysInBillingCycle": 28
+    },
+    "paymentInformation": {
+      "newBalanceTotal": 1541.65,
+      "currentPaymentDue": 42.00,
+      "totalMinimumPaymentDue": 42.00,
+      "paymentDueDate": "2022-04-01"
+    },
+    "interestChargeCalculation": {
+      "purchases": {
+        "apr": "22.99%V",
+        "balanceSubjectToInterestRate": 1563.13,
+        "interestCharges": 27.57
+      },
+      "balanceTransfers": {
+        "apr": "22.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "directDepositAndCheckCashAdvances": {
+        "apr": "24.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "bankCashAdvances": {
+        "apr": "24.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      }
+    },
+    "totalsYearToDate": {
+      "totalFeesCharged": 0.50,
+      "totalInterestCharged": 94.37
+    }
+  },
+  {
+    "issuer": "BANK OF AMERICA",
+    "accountHolder": "NYREE HINTON",
+    "accountNumber": "5524 3381 4836 8426",
+    "statementPeriod": {
+      "startDate": "2022-03-05",
+      "endDate": "2022-04-04"
+    },
+    "accountSummary": {
+      "previousBalance": 1541.65,
+      "paymentsAndOtherCredits": -50.00,
+      "purchasesAndAdjustments": 61.20,
+      "feesCharged": 0.00,
+      "interestCharged": 30.02,
+      "newBalanceTotal": 1582.87,
+      "totalCreditLine": 2500.00,
+      "totalCreditAvailable": 917.13,
+      "cashCreditLine": 250.00,
+      "creditAvailableForCash": 250.00,
+      "statementClosingDate": "2022-04-04",
+      "daysInBillingCycle": 31
+    },
+    "paymentInformation": {
+      "newBalanceTotal": 1582.87,
+      "currentPaymentDue": 45.00,
+      "totalMinimumPaymentDue": 45.00,
+      "paymentDueDate": "2022-05-01"
+    },
+    "interestChargeCalculation": {
+      "purchases": {
+        "apr": "23.24%V",
+        "balanceSubjectToInterestRate": 1520.79,
+        "interestCharges": 30.02
+      },
+      "balanceTransfers": {
+        "apr": "23.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "directDepositAndCheckCashAdvances": {
+        "apr": "25.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "bankCashAdvances": {
+        "apr": "25.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      }
+    },
+    "totalsYearToDate": {
+      "totalFeesCharged": 0.50,
+      "totalInterestCharged": 124.39
+    }
+  },
+  {
+    "issuer": "BANK OF AMERICA",
+    "accountHolder": "NYREE HINTON",
+    "accountNumber": "5524 3381 4836 8426",
+    "statementPeriod": {
+      "startDate": "2022-04-05",
+      "endDate": "2022-05-04"
+    },
+    "accountSummary": {
+      "previousBalance": 1582.87,
+      "paymentsAndOtherCredits": -585.00,
+      "purchasesAndAdjustments": 392.70,
+      "feesCharged": 0.00,
+      "interestCharged": 25.25,
+      "newBalanceTotal": 1415.82,
+      "totalCreditLine": 2500.00,
+      "totalCreditAvailable": 1084.18,
+      "cashCreditLine": 250.00,
+      "creditAvailableForCash": 250.00,
+      "statementClosingDate": "2022-05-04",
+      "daysInBillingCycle": 30
+    },
+    "paymentInformation": {
+      "newBalanceTotal": 1415.82,
+      "currentPaymentDue": 39.00,
+      "totalMinimumPaymentDue": 39.00,
+      "paymentDueDate": "2022-06-01"
+    },
+    "interestChargeCalculation": {
+      "purchases": {
+        "apr": "23.24%V",
+        "balanceSubjectToInterestRate": 1321.79,
+        "interestCharges": 25.25
+      },
+      "balanceTransfers": {
+        "apr": "23.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "directDepositAndCheckCashAdvances": {
+        "apr": "25.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "bankCashAdvances": {
+        "apr": "25.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      }
+    },
+    "totalsYearToDate": {
+      "totalFeesCharged": 0.50,
+      "totalInterestCharged": 149.64
+    }
+  },
+  {
+    "issuer": "BANK OF AMERICA",
+    "accountHolder": "NYREE HINTON",
+    "accountNumber": "5524 3381 4836 8426",
+    "statementPeriod": {
+      "startDate": "2022-05-05",
+      "endDate": "2022-06-04"
+    },
+    "accountSummary": {
+      "previousBalance": 1415.82,
+      "paymentsAndOtherCredits": -50.00,
+      "purchasesAndAdjustments": 61.20,
+      "feesCharged": 0.00,
+      "interestCharged": 29.50,
+      "newBalanceTotal": 1456.52,
+      "totalCreditLine": 2500.00,
+      "totalCreditAvailable": 1043.48,
+      "cashCreditLine": 250.00,
+      "creditAvailableForCash": 250.00,
+      "statementClosingDate": "2022-06-04",
+      "daysInBillingCycle": 31
+    },
+    "paymentInformation": {
+      "newBalanceTotal": 1456.52,
+      "currentPaymentDue": 43.00,
+      "totalMinimumPaymentDue": 43.00,
+      "paymentDueDate": "2022-07-01"
+    },
+    "interestChargeCalculation": {
+      "purchases": {
+        "apr": "23.74%V",
+        "balanceSubjectToInterestRate": 1462.90,
+        "interestCharges": 29.50
+      },
+      "balanceTransfers": {
+        "apr": "23.74%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "directDepositAndCheckCashAdvances": {
+        "apr": "25.74%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "bankCashAdvances": {
+        "apr": "25.74%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      }
+    },
+    "totalsYearToDate": {
+      "totalFeesCharged": 0.50,
+      "totalInterestCharged": 179.14
+    }
+  },
+  {
+    "issuer": "BANK OF AMERICA",
+    "accountHolder": "NYREE HINTON",
+    "accountNumber": "5524 3381 4836 8426",
+    "statementPeriod": {
+      "startDate": "2022-06-05",
+      "endDate": "2022-07-04"
+    },
+    "accountSummary": {
+      "previousBalance": 1456.52,
+      "paymentsAndOtherCredits": -43.00,
+      "purchasesAndAdjustments": 61.20,
+      "feesCharged": 0.00,
+      "interestCharged": 29.95,
+      "newBalanceTotal": 1504.67,
+      "totalCreditLine": 2500.00,
+      "totalCreditAvailable": 995.33,
+      "cashCreditLine": 250.00,
+      "creditAvailableForCash": 250.00,
+      "statementClosingDate": "2022-07-04",
+      "daysInBillingCycle": 30
+    },
+    "paymentInformation": {
+      "newBalanceTotal": 1504.67,
+      "currentPaymentDue": 44.00,
+      "totalMinimumPaymentDue": 44.00,
+      "paymentDueDate": "2022-08-01"
+    },
+    "interestChargeCalculation": {
+      "purchases": {
+        "apr": "24.49%V",
+        "balanceSubjectToInterestRate": 1487.76,
+        "interestCharges": 29.95
+      },
+      "balanceTransfers": {
+        "apr": "24.49%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "directDepositAndCheckCashAdvances": {
+        "apr": "26.49%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "bankCashAdvances": {
+        "apr": "26.49%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      }
+    },
+    "totalsYearToDate": {
+      "totalFeesCharged": 0.50,
+      "totalInterestCharged": 209.09
+    }
+  },
+  {
+    "issuer": "BANK OF AMERICA",
+    "accountHolder": "NYREE HINTON",
+    "accountNumber": "5524 3381 4836 8426",
+    "statementPeriod": {
+      "startDate": "2022-07-05",
+      "endDate": "2022-08-04"
+    },
+    "accountSummary": {
+      "previousBalance": 1504.67,
+      "paymentsAndOtherCredits": -100.00,
+      "purchasesAndAdjustments": 153.01,
+      "feesCharged": 0.00,
+      "interestCharged": 34.20,
+      "newBalanceTotal": 1591.88,
+      "totalCreditLine": 2500.00,
+      "totalCreditAvailable": 908.12,
+      "cashCreditLine": 250.00,
+      "creditAvailableForCash": 250.00,
+      "statementClosingDate": "2022-08-04",
+      "daysInBillingCycle": 31
+    },
+    "paymentInformation": {
+      "newBalanceTotal": 1591.88,
+      "currentPaymentDue": 49.00,
+      "totalMinimumPaymentDue": 49.00,
+      "paymentDueDate": "2022-09-01"
+    },
+    "interestChargeCalculation": {
+      "purchases": {
+        "apr": "25.24%V",
+        "balanceSubjectToInterestRate": 1595.57,
+        "interestCharges": 34.20
+      },
+      "balanceTransfers": {
+        "apr": "25.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "directDepositAndCheckCashAdvances": {
+        "apr": "27.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "bankCashAdvances": {
+        "apr": "27.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      }
+    },
+    "totalsYearToDate": {
+      "totalFeesCharged": 0.50,
+      "totalInterestCharged": 243.29
+    }
+  },
+  {
+    "issuer": "BANK OF AMERICA",
+    "accountHolder": "NYREE HINTON",
+    "accountNumber": "5524 3381 4836 8426",
+    "statementPeriod": {
+      "startDate": "2022-08-05",
+      "endDate": "2022-09-04"
+    },
+    "accountSummary": {
+      "previousBalance": 1591.88,
+      "paymentsAndOtherCredits": -100.00,
+      "purchasesAndAdjustments": 0.00,
+      "feesCharged": 0.00,
+      "interestCharged": 32.81,
+      "newBalanceTotal": 1524.69,
+      "totalCreditLine": 2500.00,
+      "totalCreditAvailable": 975.31,
+      "cashCreditLine": 250.00,
+      "creditAvailableForCash": 250.00,
+      "statementClosingDate": "2022-09-04",
+      "daysInBillingCycle": 31
+    },
+    "paymentInformation": {
+      "newBalanceTotal": 1524.69,
+      "currentPaymentDue": 47.00,
+      "totalMinimumPaymentDue": 47.00,
+      "paymentDueDate": "2022-10-01"
+    },
+    "interestChargeCalculation": {
+      "purchases": {
+        "apr": "25.24%V",
+        "balanceSubjectToInterestRate": 1530.46,
+        "interestCharges": 32.81
+      },
+      "balanceTransfers": {
+        "apr": "25.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "directDepositAndCheckCashAdvances": {
+        "apr": "27.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "bankCashAdvances": {
+        "apr": "27.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      }
+    },
+    "totalsYearToDate": {
+      "totalFeesCharged": 0.50,
+      "totalInterestCharged": 276.10
+    }
+  },
+  {
+    "issuer": "BANK OF AMERICA",
+    "accountHolder": "NYREE HINTON",
+    "accountNumber": "5524 3381 4836 8426",
+    "statementPeriod": {
+      "startDate": "2022-09-05",
+      "endDate": "2022-10-04"
+    },
+    "accountSummary": {
+      "previousBalance": 1524.69,
+      "paymentsAndOtherCredits": -47.00,
+      "purchasesAndAdjustments": 75.53,
+      "feesCharged": 0.00,
+      "interestCharged": 34.18,
+      "newBalanceTotal": 1587.40,
+      "totalCreditLine": 2500.00,
+      "totalCreditAvailable": 912.60,
+      "cashCreditLine": 250.00,
+      "creditAvailableForCash": 250.00,
+      "statementClosingDate": "2022-10-04",
+      "daysInBillingCycle": 30
+    },
+    "paymentInformation": {
+      "newBalanceTotal": 1587.40,
+      "currentPaymentDue": 49.00,
+      "totalMinimumPaymentDue": 49.00,
+      "paymentDueDate": "2022-11-01"
+    },
+    "interestChargeCalculation": {
+      "purchases": {
+        "apr": "25.99%V",
+        "balanceSubjectToInterestRate": 1600.14,
+        "interestCharges": 34.18
+      },
+      "balanceTransfers": {
+        "apr": "25.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "directDepositAndCheckCashAdvances": {
+        "apr": "27.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "bankCashAdvances": {
+        "apr": "27.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      }
+    },
+    "totalsYearToDate": {
+      "totalFeesCharged": 0.50,
+      "totalInterestCharged": 310.28
+    }
+  },
+  {
+    "issuer": "BANK OF AMERICA",
+    "accountHolder": "NYREE HINTON",
+    "accountNumber": "5524 3381 4836 8426",
+    "statementPeriod": {
+      "startDate": "2022-10-05",
+      "endDate": "2022-11-04"
+    },
+    "accountSummary": {
+      "previousBalance": 1587.40,
+      "paymentsAndOtherCredits": -49.00,
+      "purchasesAndAdjustments": 53.83,
+      "feesCharged": 28.00,
+      "interestCharged": 36.62,
+      "newBalanceTotal": 1656.85,
+      "totalCreditLine": 2500.00,
+      "totalCreditAvailable": 843.15,
+      "cashCreditLine": 250.00,
+      "creditAvailableForCash": 250.00,
+      "statementClosingDate": "2022-11-04",
+      "daysInBillingCycle": 31
+    },
+    "paymentInformation": {
+      "newBalanceTotal": 1656.85,
+      "currentPaymentDue": 80.00,
+      "totalMinimumPaymentDue": 80.00,
+      "paymentDueDate": "2022-12-01"
+    },
+    "interestChargeCalculation": {
+      "purchases": {
+        "apr": "25.99%V",
+        "balanceSubjectToInterestRate": 1659.13,
+        "interestCharges": 36.62
+      },
+      "balanceTransfers": {
+        "apr": "25.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "directDepositAndCheckCashAdvances": {
+        "apr": "27.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "bankCashAdvances": {
+        "apr": "27.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      }
+    },
+    "totalsYearToDate": {
+      "totalFeesCharged": 28.50,
+      "totalInterestCharged": 346.90
+    }
+  },
+  {
+    "issuer": "BANK OF AMERICA",
+    "accountHolder": "NYREE HINTON",
+    "accountNumber": "5524 3381 4836 8426",
+    "statementPeriod": {
+      "startDate": "2022-11-05",
+      "endDate": "2022-12-04"
+    },
+    "accountSummary": {
+      "previousBalance": 1656.85,
+      "paymentsAndOtherCredits": -1720.00,
+      "purchasesAndAdjustments": 228.59,
+      "feesCharged": 0.00,
+      "interestCharged": 20.80,
+      "newBalanceTotal": 186.24,
+      "totalCreditLine": 2500.00,
+      "totalCreditAvailable": 2313.76,
+      "cashCreditLine": 250.00,
+      "creditAvailableForCash": 250.00,
+      "statementClosingDate": "2022-12-04",
+      "daysInBillingCycle": 30
+    },
+    "paymentInformation": {
+      "newBalanceTotal": 186.24,
+      "currentPaymentDue": 25.00,
+      "totalMinimumPaymentDue": 25.00,
+      "paymentDueDate": "2023-01-01"
+    },
+    "interestChargeCalculation": {
+      "purchases": {
+        "apr": "26.74%V",
+        "balanceSubjectToInterestRate": 946.52,
+        "interestCharges": 20.80
+      },
+      "balanceTransfers": {
+        "apr": "26.74%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "directDepositAndCheckCashAdvances": {
+        "apr": "28.74%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "bankCashAdvances": {
+        "apr": "28.74%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      }
+    },
+    "totalsYearToDate": {
+      "totalFeesCharged": 28.50,
+      "totalInterestCharged": 367.70
+    }
+  }
+[
+  {
+    "issuer": "BANK OF AMERICA",
+    "accountHolder": "NYREE HINTON",
+    "accountNumber": "5524 3381 4836 8426",
+    "statementPeriod": {
+      "startDate": "2022-12-05",
+      "endDate": "2023-01-04"
+    },
+    "accountSummary": {
+      "previousBalance": 186.24,
+      "paymentsAndOtherCredits": -225.00,
+      "purchasesAndAdjustments": 1722.70,
+      "feesCharged": 13.65,
+      "interestCharged": 0.00,
+      "newBalanceTotal": 1697.59,
+      "totalCreditLine": 2500.00,
+      "totalCreditAvailable": 802.41,
+      "cashCreditLine": 250.00,
+      "creditAvailableForCash": 250.00,
+      "statementClosingDate": "2023-01-04",
+      "daysInBillingCycle": 31
+    },
+    "paymentInformation": {
+      "newBalanceTotal": 1697.59,
+      "currentPaymentDue": 25.00,
+      "totalMinimumPaymentDue": 25.00,
+      "paymentDueDate": "2023-02-01"
+    },
+    "interestChargeCalculation": {
+      "purchases": {
+        "apr": "27.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "balanceTransfers": {
+        "apr": "27.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "directDepositAndCheckCashAdvances": {
+        "apr": "29.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "bankCashAdvances": {
+        "apr": "29.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      }
+    },
+    "totalsYearToDate": {
+      "totalFeesCharged": 13.65,
+      "totalInterestCharged": 0.00
+    }
+  },
+  {
+    "issuer": "BANK OF AMERICA",
+    "accountHolder": "NYREE HINTON",
+    "accountNumber": "5524 3381 4836 8426",
+    "statementPeriod": {
+      "startDate": "2023-01-05",
+      "endDate": "2023-02-04"
+    },
+    "accountSummary": {
+      "previousBalance": 1697.59,
+      "paymentsAndOtherCredits": -200.00,
+      "purchasesAndAdjustments": 399.68,
+      "feesCharged": 0.00,
+      "interestCharged": 38.72,
+      "newBalanceTotal": 1935.99,
+      "totalCreditLine": 2500.00,
+      "totalCreditAvailable": 564.01,
+      "cashCreditLine": 250.00,
+      "creditAvailableForCash": 250.00,
+      "statementClosingDate": "2023-02-04",
+      "daysInBillingCycle": 31
+    },
+    "paymentInformation": {
+      "newBalanceTotal": 1935.99,
+      "currentPaymentDue": 57.00,
+      "totalMinimumPaymentDue": 57.00,
+      "paymentDueDate": "2023-03-01"
+    },
+    "interestChargeCalculation": {
+      "purchases": {
+        "apr": "27.24%V",
+        "balanceSubjectToInterestRate": 1673.63,
+        "interestCharges": 38.72
+      },
+      "balanceTransfers": {
+        "apr": "27.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "directDepositAndCheckCashAdvances": {
+        "apr": "29.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "bankCashAdvances": {
+        "apr": "29.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      }
+    },
+    "totalsYearToDate": {
+      "totalFeesCharged": 13.65,
+      "totalInterestCharged": 38.72
+    }
+  },
+  {
+    "issuer": "BANK OF AMERICA",
+    "accountHolder": "NYREE HINTON",
+    "accountNumber": "5524 3381 4836 8426",
+    "statementPeriod": {
+      "startDate": "2023-02-05",
+      "endDate": "2023-03-04"
+    },
+    "accountSummary": {
+      "previousBalance": 1935.99,
+      "paymentsAndOtherCredits": -2240.00,
+      "purchasesAndAdjustments": 462.02,
+      "feesCharged": 0.00,
+      "interestCharged": 6.12,
+      "newBalanceTotal": 164.13,
+      "totalCreditLine": 2500.00,
+      "totalCreditAvailable": 2335.87,
+      "cashCreditLine": 250.00,
+      "creditAvailableForCash": 250.00,
+      "statementClosingDate": "2023-03-04",
+      "daysInBillingCycle": 28
+    },
+    "paymentInformation": {
+      "newBalanceTotal": 164.13,
+      "currentPaymentDue": 25.00,
+      "totalMinimumPaymentDue": 25.00,
+      "paymentDueDate": "2023-04-01"
+    },
+    "interestChargeCalculation": {
+      "purchases": {
+        "apr": "27.49%V",
+        "balanceSubjectToInterestRate": 290.18,
+        "interestCharges": 6.12
+      },
+      "balanceTransfers": {
+        "apr": "27.49%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "directDepositAndCheckCashAdvances": {
+        "apr": "29.49%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "bankCashAdvances": {
+        "apr": "29.49%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      }
+    },
+    "totalsYearToDate": {
+      "totalFeesCharged": 13.65,
+      "totalInterestCharged": 44.84
+    }
+  },
+  {
+    "issuer": "BANK OF AMERICA",
+    "accountHolder": "NYREE HINTON",
+    "accountNumber": "5524 3381 4836 8426",
+    "statementPeriod": {
+      "startDate": "2023-03-05",
+      "endDate": "2023-04-04"
+    },
+    "accountSummary": {
+      "previousBalance": 164.13,
+      "paymentsAndOtherCredits": -225.00,
+      "purchasesAndAdjustments": 638.36,
+      "feesCharged": 0.00,
+      "interestCharged": 0.00,
+      "newBalanceTotal": 577.49,
+      "totalCreditLine": 2500.00,
+      "totalCreditAvailable": 1922.51,
+      "cashCreditLine": 250.00,
+      "creditAvailableForCash": 250.00,
+      "statementClosingDate": "2023-04-04",
+      "daysInBillingCycle": 31
+    },
+    "paymentInformation": {
+      "newBalanceTotal": 577.49,
+      "currentPaymentDue": 25.00,
+      "totalMinimumPaymentDue": 25.00,
+      "paymentDueDate": "2023-05-01"
+    },
+    "interestChargeCalculation": {
+      "purchases": {
+        "apr": "27.74%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "balanceTransfers": {
+        "apr": "27.74%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "directDepositAndCheckCashAdvances": {
+        "apr": "29.74%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "bankCashAdvances": {
+        "apr": "29.74%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      }
+    },
+    "totalsYearToDate": {
+      "totalFeesCharged": 13.65,
+      "totalInterestCharged": 44.84
+    }
+  },
+  {
+    "issuer": "BANK OF AMERICA",
+    "accountHolder": "NYREE HINTON",
+    "accountNumber": "5524 3381 4836 8426",
+    "statementPeriod": {
+      "startDate": "2023-04-05",
+      "endDate": "2023-05-04"
+    },
+    "accountSummary": {
+      "previousBalance": 577.49,
+      "paymentsAndOtherCredits": -1373.08,
+      "purchasesAndAdjustments": 2459.95,
+      "feesCharged": 0.00,
+      "interestCharged": 0.00,
+      "newBalanceTotal": 1664.36,
+      "totalCreditLine": 2500.00,
+      "totalCreditAvailable": 835.64,
+      "cashCreditLine": 250.00,
+      "creditAvailableForCash": 250.00,
+      "statementClosingDate": "2023-05-04",
+      "daysInBillingCycle": 30
+    },
+    "paymentInformation": {
+      "newBalanceTotal": 1664.36,
+      "currentPaymentDue": 25.00,
+      "totalMinimumPaymentDue": 25.00,
+      "paymentDueDate": "2023-06-01"
+    },
+    "interestChargeCalculation": {
+      "purchases": {
+        "apr": "27.74%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "balanceTransfers": {
+        "apr": "27.74%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "directDepositAndCheckCashAdvances": {
+        "apr": "29.74%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "bankCashAdvances": {
+        "apr": "29.74%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      }
+    },
+    "totalsYearToDate": {
+      "totalFeesCharged": 13.65,
+      "totalInterestCharged": 44.84
+    }
+  },
+  {
+    "issuer": "BANK OF AMERICA",
+    "accountHolder": "NYREE HINTON",
+    "accountNumber": "5524 3300 2949 0262",
+    "statementPeriod": {
+      "startDate": "2023-05-05",
+      "endDate": "2023-06-04"
+    },
+    "accountSummary": {
+      "previousBalance": 1664.36,
+      "paymentsAndOtherCredits": -779.95,
+      "purchasesAndAdjustments": 1328.87,
+      "feesCharged": 0.00,
+      "interestCharged": 40.42,
+      "newBalanceTotal": 2253.70,
+      "totalCreditLine": 2500.00,
+      "totalCreditAvailable": 246.30,
+      "cashCreditLine": 250.00,
+      "creditAvailableForCash": 246.30,
+      "statementClosingDate": "2023-06-04",
+      "daysInBillingCycle": 31
+    },
+    "paymentInformation": {
+      "newBalanceTotal": 2253.70,
+      "currentPaymentDue": 62.00,
+      "totalMinimumPaymentDue": 62.00,
+      "paymentDueDate": "2023-07-01"
+    },
+    "interestChargeCalculation": {
+      "purchases": {
+        "apr": "27.99%V",
+        "balanceSubjectToInterestRate": 1700.43,
+        "interestCharges": 40.42
+      },
+      "balanceTransfers": {
+        "apr": "27.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "directDepositAndCheckCashAdvances": {
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "bankCashAdvances": {
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      }
+    },
+    "totalsYearToDate": {
+      "totalFeesCharged": 13.65,
+      "totalInterestCharged": 85.26
+    }
+  },
+  {
+    "issuer": "BANK OF AMERICA",
+    "accountHolder": "NYREE HINTON",
+    "accountNumber": "5524 3300 2949 0262",
+    "statementPeriod": {
+      "startDate": "2023-06-05",
+      "endDate": "2023-07-04"
+    },
+    "accountSummary": {
+      "previousBalance": 2253.70,
+      "paymentsAndOtherCredits": -100.00,
+      "purchasesAndAdjustments": 281.84,
+      "feesCharged": 0.00,
+      "interestCharged": 55.94,
+      "newBalanceTotal": 2491.48,
+      "totalCreditLine": 2500.00,
+      "totalCreditAvailable": 8.52,
+      "cashCreditLine": 250.00,
+      "creditAvailableForCash": 8.52,
+      "statementClosingDate": "2023-07-04",
+      "daysInBillingCycle": 30
+    },
+    "paymentInformation": {
+      "newBalanceTotal": 2491.48,
+      "currentPaymentDue": 80.00,
+      "totalMinimumPaymentDue": 80.00,
+      "paymentDueDate": "2023-08-01"
+    },
+    "interestChargeCalculation": {
+      "purchases": {
+        "apr": "27.99%V",
+        "balanceSubjectToInterestRate": 2431.78,
+        "interestCharges": 55.94
+      },
+      "balanceTransfers": {
+        "apr": "27.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "directDepositAndCheckCashAdvances": {
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "bankCashAdvances": {
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      }
+    },
+    "totalsYearToDate": {
+      "totalFeesCharged": 13.65,
+      "totalInterestCharged": 141.20
+    }
+  },
+  {
+    "issuer": "BANK OF AMERICA",
+    "accountHolder": "NYREE HINTON",
+    "accountNumber": "5524 3300 2949 0262",
+    "statementPeriod": {
+      "startDate": "2023-07-05",
+      "endDate": "2023-08-04"
+    },
+    "accountSummary": {
+      "previousBalance": 2491.48,
+      "paymentsAndOtherCredits": -2007.07,
+      "purchasesAndAdjustments": 843.39,
+      "feesCharged": 0.00,
+      "interestCharged": 38.15,
+      "newBalanceTotal": 1365.95,
+      "totalCreditLine": 2500.00,
+      "totalCreditAvailable": 1134.05,
+      "cashCreditLine": 250.00,
+      "creditAvailableForCash": 250.00,
+      "statementClosingDate": "2023-08-04",
+      "daysInBillingCycle": 31
+    },
+    "paymentInformation": {
+      "newBalanceTotal": 1365.95,
+      "currentPaymentDue": 51.00,
+      "totalMinimumPaymentDue": 51.00,
+      "paymentDueDate": "2023-09-01"
+    },
+    "interestChargeCalculation": {
+      "purchases": {
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 1590.73,
+        "interestCharges": 38.15
+      },
+      "balanceTransfers": {
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "directDepositAndCheckCashAdvances": {
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "bankCashAdvances": {
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      }
+    },
+    "totalsYearToDate": {
+      "totalFeesCharged": 13.65,
+      "totalInterestCharged": 179.35
+    }
+  },
+  {
+    "issuer": "BANK OF AMERICA",
+    "accountHolder": "NYREE HINTON",
+    "accountNumber": "5524 3300 2949 0262",
+    "statementPeriod": {
+      "startDate": "2023-08-05",
+      "endDate": "2023-09-04"
+    },
+    "accountSummary": {
+      "previousBalance": 1365.95,
+      "paymentsAndOtherCredits": -1349.61,
+      "purchasesAndAdjustments": 1388.84,
+      "feesCharged": 0.00,
+      "interestCharged": 23.45,
+      "newBalanceTotal": 1428.63,
+      "totalCreditLine": 2500.00,
+      "totalCreditAvailable": 1071.37,
+      "cashCreditLine": 250.00,
+      "creditAvailableForCash": 250.00,
+      "statementClosingDate": "2023-09-04",
+      "daysInBillingCycle": 31
+    },
+    "paymentInformation": {
+      "newBalanceTotal": 1428.63,
+      "currentPaymentDue": 37.00,
+      "totalMinimumPaymentDue": 37.00,
+      "paymentDueDate": "2023-10-01"
+    },
+    "interestChargeCalculation": {
+      "purchases": {
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 977.59,
+        "interestCharges": 23.45
+      },
+      "balanceTransfers": {
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "directDepositAndCheckCashAdvances": {
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "bankCashAdvances": {
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      }
+    },
+    "totalsYearToDate": {
+      "totalFeesCharged": 13.65,
+      "totalInterestCharged": 202.80
+    }
+  },
+  {
+    "issuer": "BANK OF AMERICA",
+    "accountHolder": "NYREE HINTON",
+    "accountNumber": "5524 3300 2949 0262",
+    "statementPeriod": {
+      "startDate": "2023-09-05",
+      "endDate": "2023-10-04"
+    },
+    "accountSummary": {
+      "previousBalance": 1428.63,
+      "paymentsAndOtherCredits": -50.00,
+      "purchasesAndAdjustments": 338.90,
+      "feesCharged": 0.00,
+      "interestCharged": 37.35,
+      "newBalanceTotal": 1754.88,
+      "totalCreditLine": 2500.00,
+      "totalCreditAvailable": 745.12,
+      "cashCreditLine": 250.00,
+      "creditAvailableForCash": 250.00,
+      "statementClosingDate": "2023-10-04",
+      "daysInBillingCycle": 30
+    },
+    "paymentInformation": {
+      "newBalanceTotal": 1754.88,
+      "currentPaymentDue": 54.00,
+      "totalMinimumPaymentDue": 54.00,
+      "paymentDueDate": "2023-11-01"
+    },
+    "interestChargeCalculation": {
+      "purchases": {
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 1608.96,
+        "interestCharges": 37.35
+      },
+      "balanceTransfers": {
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "directDepositAndCheckCashAdvances": {
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "bankCashAdvances": {
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      }
+    },
+    "totalsYearToDate": {
+      "totalFeesCharged": 13.65,
+      "totalInterestCharged": 240.15
+    }
+  },
+  {
+    "issuer": "BANK OF AMERICA",
+    "accountHolder": "NYREE HINTON",
+    "accountNumber": "5524 3300 2949 0262",
+    "statementPeriod": {
+      "startDate": "2023-10-05",
+      "endDate": "2023-11-04"
+    },
+    "accountSummary": {
+      "previousBalance": 1754.88,
+      "paymentsAndOtherCredits": -1248.03,
+      "purchasesAndAdjustments": 1737.93,
+      "feesCharged": 0.00,
+      "interestCharged": 40.56,
+      "newBalanceTotal": 2285.34,
+      "totalCreditLine": 2500.00,
+      "totalCreditAvailable": 214.66,
+      "cashCreditLine": 250.00,
+      "creditAvailableForCash": 214.66,
+      "statementClosingDate": "2023-11-04",
+      "daysInBillingCycle": 31
+    },
+    "paymentInformation": {
+      "newBalanceTotal": 2285.34,
+      "currentPaymentDue": 61.00,
+      "totalMinimumPaymentDue": 61.00,
+      "paymentDueDate": "2023-12-01"
+    },
+    "interestChargeCalculation": {
+      "purchases": {
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 1690.98,
+        "interestCharges": 40.56
+      },
+      "balanceTransfers": {
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "directDepositAndCheckCashAdvances": {
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "bankCashAdvances": {
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      }
+    },
+    "totalsYearToDate": {
+      "totalFeesCharged": 13.65,
+      "totalInterestCharged": 255.17
+    }
+  },
+  {
+    "issuer": "BANK OF AMERICA",
+    "accountHolder": "NYREE HINTON",
+    "accountNumber": "5524 3300 2949 0262",
+    "statementPeriod": {
+      "startDate": "2023-11-05",
+      "endDate": "2023-12-04"
+    },
+    "accountSummary": {
+      "previousBalance": 2285.34,
+      "paymentsAndOtherCredits": -200.00,
+      "purchasesAndAdjustments": 413.47,
+      "feesCharged": 0.00,
+      "interestCharged": 50.29,
+      "newBalanceTotal": 2549.10,
+      "totalCreditLine": 2500.00,
+      "totalCreditAvailable": 0.00,
+      "cashCreditLine": 250.00,
+      "creditAvailableForCash": 0.00,
+      "statementClosingDate": "2023-12-04",
+      "daysInBillingCycle": 30
+    },
+    "paymentInformation": {
+      "newBalanceTotal": 2549.10,
+      "currentPaymentDue": 73.00,
+      "totalMinimumPaymentDue": 73.00,
+      "paymentDueDate": "2024-01-01"
+    },
+    "interestChargeCalculation": {
+      "purchases": {
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 2166.47,
+        "interestCharges": 50.29
+      },
+      "balanceTransfers": {
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "directDepositAndCheckCashAdvances": {
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "bankCashAdvances": {
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      }
+    },
+    "totalsYearToDate": {
+      "totalFeesCharged": 13.65,
+      "totalInterestCharged": 305.46
+    }
+  }
+[
+  {
+    "issuer": "BANK OF AMERICA",
+    "accountHolder": "NYREE HINTON",
+    "accountNumber": "5524 3373 6981 1775",
+    "statementPeriod": {
+      "startDate": "2023-12-05",
+      "endDate": "2024-01-04"
+    },
+    "accountSummary": {
+      "previousBalance": 2549.10,
+      "paymentsAndOtherCredits": -1341.80,
+      "purchasesAndAdjustments": 876.48,
+      "feesCharged": 0.32,
+      "interestCharged": 41.69,
+      "newBalanceTotal": 2125.79,
+      "totalCreditLine": 2500.00,
+      "totalCreditAvailable": 374.21,
+      "cashCreditLine": 250.00,
+      "creditAvailableForCash": 250.00,
+      "statementClosingDate": "2024-01-04",
+      "daysInBillingCycle": 31
+    },
+    "paymentInformation": {
+      "newBalanceTotal": 2125.79,
+      "currentPaymentDue": 62.00,
+      "totalMinimumPaymentDue": 62.00,
+      "paymentDueDate": "2024-02-01"
+    },
+    "interestChargeCalculation": {
+      "purchases": {
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 1738.14,
+        "interestCharges": 41.69
+      },
+      "balanceTransfers": {
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "directDepositAndCheckCashAdvances": {
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "bankCashAdvances": {
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      }
+    },
+    "totalsYearToDate": {
+      "totalFeesCharged": 0.00,
+      "totalInterestCharged": 41.69
+    }
+  },
+  {
+    "issuer": "BANK OF AMERICA",
+    "accountHolder": "NYREE HINTON",
+    "accountNumber": "5524 3373 6981 1775",
+    "statementPeriod": {
+      "startDate": "2024-01-05",
+      "endDate": "2024-02-04"
+    },
+    "accountSummary": {
+      "previousBalance": 2125.79,
+      "paymentsAndOtherCredits": -76.00,
+      "purchasesAndAdjustments": 1.00,
+      "feesCharged": 0.00,
+      "interestCharged": 39.95,
+      "newBalanceTotal": 2090.74,
+      "totalCreditLine": 2500.00,
+      "totalCreditAvailable": 409.26,
+      "cashCreditLine": 250.00,
+      "creditAvailableForCash": 250.00,
+      "statementClosingDate": "2024-02-04",
+      "daysInBillingCycle": 31
+    },
+    "paymentInformation": {
+      "newBalanceTotal": 2090.74,
+      "currentPaymentDue": 60.00,
+      "totalMinimumPaymentDue": 60.00,
+      "paymentDueDate": "2024-03-01"
+    },
+    "interestChargeCalculation": {
+      "purchases": {
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 1665.67,
+        "interestCharges": 39.95
+      },
+      "balanceTransfers": {
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "directDepositAndCheckCashAdvances": {
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "bankCashAdvances": {
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      }
+    },
+    "totalsYearToDate": {
+      "totalFeesCharged": 0.00,
+      "totalInterestCharged": 81.64
+    }
+  },
+  {
+    "issuer": "BANK OF AMERICA",
+    "accountHolder": "NYREE HINTON",
+    "accountNumber": "5524 3373 6981 1775",
+    "statementPeriod": {
+      "startDate": "2024-02-05",
+      "endDate": "2024-03-04"
+    },
+    "accountSummary": {
+      "previousBalance": 2090.74,
+      "paymentsAndOtherCredits": -180.00,
+      "purchasesAndAdjustments": 0.00,
+      "feesCharged": 0.00,
+      "interestCharged": 43.60,
+      "newBalanceTotal": 1954.34,
+      "totalCreditLine": 2500.00,
+      "totalCreditAvailable": 545.66,
+      "cashCreditLine": 250.00,
+      "creditAvailableForCash": 250.00,
+      "statementClosingDate": "2024-03-04",
+      "daysInBillingCycle": 29
+    },
+    "paymentInformation": {
+      "newBalanceTotal": 1954.34,
+      "currentPaymentDue": 62.00,
+      "totalMinimumPaymentDue": 62.00,
+      "paymentDueDate": "2024-04-01"
+    },
+    "interestChargeCalculation": {
+      "purchases": {
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 1943.24,
+        "interestCharges": 43.60
+      },
+      "balanceTransfers": {
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "directDepositAndCheckCashAdvances": {
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "bankCashAdvances": {
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      }
+    },
+    "totalsYearToDate": {
+      "totalFeesCharged": 0.00,
+      "totalInterestCharged": 125.24
+    }
+  },
+  {
+    "issuer": "BANK OF AMERICA",
+    "accountHolder": "NYREE HINTON",
+    "accountNumber": "5524 3373 6981 1775",
+    "statementPeriod": {
+      "startDate": "2024-03-05",
+      "endDate": "2024-04-04"
+    },
+    "accountSummary": {
+      "previousBalance": 1954.34,
+      "paymentsAndOtherCredits": -75.00,
+      "purchasesAndAdjustments": 0.00,
+      "feesCharged": 0.00,
+      "interestCharged": 45.66,
+      "newBalanceTotal": 1925.00,
+      "totalCreditLine": 2000.00,
+      "totalCreditAvailable": 75.00,
+      "cashCreditLine": 200.00,
+      "creditAvailableForCash": 75.00,
+      "statementClosingDate": "2024-04-04",
+      "daysInBillingCycle": 31
+    },
+    "paymentInformation": {
+      "newBalanceTotal": 1925.00,
+      "currentPaymentDue": 64.00,
+      "totalMinimumPaymentDue": 64.00,
+      "paymentDueDate": "2024-05-01"
+    },
+    "interestChargeCalculation": {
+      "purchases": {
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 1903.78,
+        "interestCharges": 45.66
+      },
+      "balanceTransfers": {
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "directDepositAndCheckCashAdvances": {
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "bankCashAdvances": {
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      }
+    },
+    "totalsYearToDate": {
+      "totalFeesCharged": 0.00,
+      "totalInterestCharged": 170.90
+    }
+  },
+  {
+    "issuer": "BANK OF AMERICA",
+    "accountHolder": "NYREE HINTON",
+    "accountNumber": "5524 3373 6981 1775",
+    "statementPeriod": {
+      "startDate": "2024-04-05",
+      "endDate": "2024-05-04"
+    },
+    "accountSummary": {
+      "previousBalance": 1925.00,
+      "paymentsAndOtherCredits": -75.00,
+      "purchasesAndAdjustments": 0.00,
+      "feesCharged": 0.00,
+      "interestCharged": 44.19,
+      "newBalanceTotal": 1894.19,
+      "totalCreditLine": 2000.00,
+      "totalCreditAvailable": 105.81,
+      "cashCreditLine": 200.00,
+      "creditAvailableForCash": 105.81,
+      "statementClosingDate": "2024-05-04",
+      "daysInBillingCycle": 30
+    },
+    "paymentInformation": {
+      "newBalanceTotal": 1894.19,
+      "currentPaymentDue": 62.00,
+      "totalMinimumPaymentDue": 62.00,
+      "paymentDueDate": "2024-06-01"
+    },
+    "interestChargeCalculation": {
+      "purchases": {
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 1903.98,
+        "interestCharges": 44.19
+      },
+      "balanceTransfers": {
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "directDepositAndCheckCashAdvances": {
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "bankCashAdvances": {
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      }
+    },
+    "totalsYearToDate": {
+      "totalFeesCharged": 0.00,
+      "totalInterestCharged": 215.09
+    }
+  },
+  {
+    "issuer": "BANK OF AMERICA",
+    "accountHolder": "NYREE HINTON",
+    "accountNumber": "5524 3373 6981 1775",
+    "statementPeriod": {
+      "startDate": "2024-05-05",
+      "endDate": "2024-06-04"
+    },
+    "accountSummary": {
+      "previousBalance": 1894.19,
+      "paymentsAndOtherCredits": -70.00,
+      "purchasesAndAdjustments": 0.00,
+      "feesCharged": 0.00,
+      "interestCharged": 45.25,
+      "newBalanceTotal": 1869.44,
+      "totalCreditLine": 2000.00,
+      "totalCreditAvailable": 130.56,
+      "cashCreditLine": 200.00,
+      "creditAvailableForCash": 130.56,
+      "statementClosingDate": "2024-06-04",
+      "daysInBillingCycle": 31
+    },
+    "paymentInformation": {
+      "newBalanceTotal": 1869.44,
+      "currentPaymentDue": 63.00,
+      "totalMinimumPaymentDue": 63.00,
+      "paymentDueDate": "2024-07-01"
+    },
+    "interestChargeCalculation": {
+      "purchases": {
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 1886.84,
+        "interestCharges": 45.25
+      },
+      "balanceTransfers": {
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "directDepositAndCheckCashAdvances": {
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "bankCashAdvances": {
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      }
+    },
+    "totalsYearToDate": {
+      "totalFeesCharged": 0.00,
+      "totalInterestCharged": 260.34
+    }
+  },
+  {
+    "issuer": "BANK OF AMERICA",
+    "accountHolder": "NYREE HINTON",
+    "accountNumber": "5524 3373 6981 1775",
+    "statementPeriod": {
+      "startDate": "2024-06-05",
+      "endDate": "2024-07-04"
+    },
+    "accountSummary": {
+      "previousBalance": 1869.44,
+      "paymentsAndOtherCredits": -125.00,
+      "purchasesAndAdjustments": 0.00,
+      "feesCharged": 0.00,
+      "interestCharged": 41.14,
+      "newBalanceTotal": 1785.58,
+      "totalCreditLine": 2000.00,
+      "totalCreditAvailable": 214.42,
+      "cashCreditLine": 200.00,
+      "creditAvailableForCash": 200.00,
+      "statementClosingDate": "2024-07-04",
+      "daysInBillingCycle": 30
+    },
+    "paymentInformation": {
+      "newBalanceTotal": 1785.58,
+      "currentPaymentDue": 58.00,
+      "totalMinimumPaymentDue": 58.00,
+      "paymentDueDate": "2024-08-01"
+    },
+    "interestChargeCalculation": {
+      "purchases": {
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 1772.67,
+        "interestCharges": 41.14
+      },
+      "balanceTransfers": {
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "directDepositAndCheckCashAdvances": {
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "bankCashAdvances": {
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      }
+    },
+    "totalsYearToDate": {
+      "totalFeesCharged": 0.00,
+      "totalInterestCharged": 301.48
+    }
+  },
+  {
+    "issuer": "BANK OF AMERICA",
+    "accountHolder": "NYREE HINTON",
+    "accountNumber": "5524 3373 6981 1775",
+    "statementPeriod": {
+      "startDate": "2024-07-05",
+      "endDate": "2024-08-04"
+    },
+    "accountSummary": {
+      "previousBalance": 1785.58,
+      "paymentsAndOtherCredits": -65.00,
+      "purchasesAndAdjustments": 169.00,
+      "feesCharged": 0.00,
+      "interestCharged": 43.92,
+      "newBalanceTotal": 1933.50,
+      "totalCreditLine": 2000.00,
+      "totalCreditAvailable": 66.50,
+      "cashCreditLine": 200.00,
+      "creditAvailableForCash": 66.50,
+      "statementClosingDate": "2024-08-04",
+      "daysInBillingCycle": 31
+    },
+    "paymentInformation": {
+      "newBalanceTotal": 1933.50,
+      "currentPaymentDue": 62.00,
+      "totalMinimumPaymentDue": 62.00,
+      "paymentDueDate": "2024-09-01"
+    },
+    "interestChargeCalculation": {
+      "purchases": {
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 1831.25,
+        "interestCharges": 43.92
+      },
+      "balanceTransfers": {
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "directDepositAndCheckCashAdvances": {
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "bankCashAdvances": {
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      }
+    },
+    "totalsYearToDate": {
+      "totalFeesCharged": 0.00,
+      "totalInterestCharged": 345.40
+    }
+  },
+  {
+    "issuer": "BANK OF AMERICA",
+    "accountHolder": "NYREE HINTON",
+    "accountNumber": "5524 3373 6981 1775",
+    "statementPeriod": {
+      "startDate": "2024-08-05",
+      "endDate": "2024-09-04"
+    },
+    "accountSummary": {
+      "previousBalance": 1933.50,
+      "paymentsAndOtherCredits": -65.00,
+      "purchasesAndAdjustments": 34.33,
+      "feesCharged": 0.00,
+      "interestCharged": 46.64,
+      "newBalanceTotal": 1949.47,
+      "totalCreditLine": 2000.00,
+      "totalCreditAvailable": 50.53,
+      "cashCreditLine": 200.00,
+      "creditAvailableForCash": 50.53,
+      "statementClosingDate": "2024-09-04",
+      "daysInBillingCycle": 31
+    },
+    "paymentInformation": {
+      "newBalanceTotal": 1949.47,
+      "currentPaymentDue": 65.00,
+      "totalMinimumPaymentDue": 65.00,
+      "paymentDueDate": "2024-10-01"
+    },
+    "interestChargeCalculation": {
+      "purchases": {
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 1944.63,
+        "interestCharges": 46.64
+      },
+      "balanceTransfers": {
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "directDepositAndCheckCashAdvances": {
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "bankCashAdvances": {
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      }
+    },
+    "totalsYearToDate": {
+      "totalFeesCharged": 0.00,
+      "totalInterestCharged": 392.04
+    }
+  },
+  {
+    "issuer": "BANK OF AMERICA",
+    "accountHolder": "NYREE HINTON",
+    "accountNumber": "5524 3373 6981 1775",
+    "statementPeriod": {
+      "startDate": "2024-09-05",
+      "endDate": "2024-10-04"
+    },
+    "accountSummary": {
+      "previousBalance": 1949.47,
+      "paymentsAndOtherCredits": -520.00,
+      "purchasesAndAdjustments": 598.96,
+      "feesCharged": 0.00,
+      "interestCharged": 44.23,
+      "newBalanceTotal": 2072.66,
+      "totalCreditLine": 2000.00,
+      "totalCreditAvailable": 0.00,
+      "cashCreditLine": 200.00,
+      "creditAvailableForCash": 0.00,
+      "statementClosingDate": "2024-10-04",
+      "daysInBillingCycle": 30
+    },
+    "paymentInformation": {
+      "newBalanceTotal": 2072.66,
+      "currentPaymentDue": 64.00,
+      "totalMinimumPaymentDue": 64.00,
+      "paymentDueDate": "2024-11-01"
+    },
+    "interestChargeCalculation": {
+      "purchases": {
+        "apr": "27.74%V",
+        "balanceSubjectToInterestRate": 1940.03,
+        "interestCharges": 44.23
+      },
+      "balanceTransfers": {
+        "apr": "27.74%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "directDepositAndCheckCashAdvances": {
+        "apr": "29.49%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "bankCashAdvances": {
+        "apr": "29.49%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      }
+    },
+    "totalsYearToDate": {
+      "totalFeesCharged": 0.00,
+      "totalInterestCharged": 436.27
+    }
+  },
+  {
+    "issuer": "BANK OF AMERICA",
+    "accountHolder": "NYREE HINTON",
+    "accountNumber": "5524 3373 6981 1775",
+    "statementPeriod": {
+      "startDate": "2024-10-05",
+      "endDate": "2024-11-04"
+    },
+    "accountSummary": {
+      "previousBalance": 2072.66,
+      "paymentsAndOtherCredits": -380.00,
+      "purchasesAndAdjustments": 249.62,
+      "feesCharged": 0.00,
+      "interestCharged": 47.01,
+      "newBalanceTotal": 1989.29,
+      "totalCreditLine": 2000.00,
+      "totalCreditAvailable": 10.71,
+      "cashCreditLine": 200.00,
+      "creditAvailableForCash": 10.71,
+      "statementClosingDate": "2024-11-04",
+      "daysInBillingCycle": 31
+    },
+    "paymentInformation": {
+      "newBalanceTotal": 1989.29,
+      "currentPaymentDue": 66.00,
+      "totalMinimumPaymentDue": 66.00,
+      "paymentDueDate": "2024-12-01"
+    },
+    "interestChargeCalculation": {
+      "purchases": {
+        "apr": "27.74%V",
+        "balanceSubjectToInterestRate": 1995.40,
+        "interestCharges": 47.01
+      },
+      "balanceTransfers": {
+        "apr": "27.74%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "directDepositAndCheckCashAdvances": {
+        "apr": "29.49%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "bankCashAdvances": {
+        "apr": "29.49%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      }
+    },
+    "totalsYearToDate": {
+      "totalFeesCharged": 0.00,
+      "totalInterestCharged": 483.28
+    }
+  },
+  {
+    "issuer": "BANK OF AMERICA",
+    "accountHolder": "NYREE HINTON",
+    "accountNumber": "5524 3373 6981 1775",
+    "statementPeriod": {
+      "startDate": "2024-11-05",
+      "endDate": "2024-12-04"
+    },
+    "accountSummary": {
+      "previousBalance": 1989.29,
+      "paymentsAndOtherCredits": -260.00,
+      "purchasesAndAdjustments": 249.62,
+      "feesCharged": 0.00,
+      "interestCharged": 45.32,
+      "newBalanceTotal": 2024.23,
+      "totalCreditLine": 2000.00,
+      "totalCreditAvailable": 0.00,
+      "cashCreditLine": 200.00,
+      "creditAvailableForCash": 0.00,
+      "statementClosingDate": "2024-12-04",
+      "daysInBillingCycle": 30
+    },
+    "paymentInformation": {
+      "newBalanceTotal": 2024.23,
+      "currentPaymentDue": 65.00,
+      "totalMinimumPaymentDue": 65.00,
+      "paymentDueDate": "2025-01-01"
+    },
+    "interestChargeCalculation": {
+      "purchases": {
+        "apr": "27.49%V",
+        "balanceSubjectToInterestRate": 2005.60,
+        "interestCharges": 45.32
+      },
+      "balanceTransfers": {
+        "apr": "27.49%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "directDepositAndCheckCashAdvances": {
+        "apr": "29.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      },
+      "bankCashAdvances": {
+        "apr": "29.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharges": 0.00
+      }
+    },
+    "totalsYearToDate": {
+      "totalFeesCharged": 0.00,
+      "totalInterestCharged": 528.60
+    }
+  }
+]

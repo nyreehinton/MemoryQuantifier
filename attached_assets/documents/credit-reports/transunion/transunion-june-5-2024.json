@@ -1,0 +1,1344 @@
+{
+  "reportHeader": {
+    "reportFormat": "TransUnion Credit Report (Summary Format)",
+    "requestedBy": "Essex API",
+    "property": "Tiffany Court",
+    "propertyLocation": null,
+    "dateTimeRequested": "6/5/2024 3:59 PM (Central)",
+    "informationSubmittedByApplicant": {
+      "name": "Nyree Hinton",
+      "address": "5901 Center Dr, Los Angeles, CA 90045"
+    }
+  },
+  "personalInformation": {
+    "name": "Nyree Daquan Hinton",
+    "ssnMessage": "SSN Match (confirmed by bureau)",
+    "addresses": [
+      {
+        "type": "Current Address",
+        "street": "5901 Center Dr, 456",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90045",
+        "reportedDate": "09/23"
+      },
+      {
+        "type": "Current Address",
+        "street": "133 Glance",
+        "city": "Irvine",
+        "state": "CA",
+        "zip": "92618",
+        "reportedDate": "05/23"
+      },
+      {
+        "type": "Current Address",
+        "street": "120 S Orlando Av, 208",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90048"
+      }
+    ],
+    "phoneNumbers": [
+      {
+        "number": "732-979-6264",
+        "type": "Cellular"
+      }
+    ],
+    "employment": [
+      {
+        "employerName": "Capital Group"
+      },
+      {
+        "employerName": "Third Bridge Limited"
+      }
+    ]
+  },
+  "profileSummary": {
+    "recordCounts": {
+      "tradelines": 37,
+      "collections": 0,
+      "publicRecords": 0,
+      "inquiries": 13
+    },
+    "derogatoryItems": {
+      "negativeTradelines": 1,
+      "tradelinesWithHistoricalNegatives": 0,
+      "occurrenceHistoricalNegatives": 0
+    }
+  },
+  "tradelineSummary": {
+    "byType": [
+      {
+        "type": "Revolving",
+        "count": 11,
+        "highCredit": "$20,543",
+        "creditLimit": "$28,100",
+        "balance": "$16,327",
+        "pastDue": "$0",
+        "payment": "$559",
+        "available": "42%"
+      },
+      {
+        "type": "Installment",
+        "count": 23,
+        "highCredit": "$91,268",
+        "creditLimit": "$0",
+        "balance": "$79,194",
+        "pastDue": "$0",
+        "payment": "$680",
+        "available": "N/A"
+      },
+      {
+        "type": "Mortgage",
+        "count": 0,
+        "highCredit": "N/A",
+        "creditLimit": "N/A",
+        "balance": "N/A",
+        "pastDue": "N/A",
+        "payment": "N/A",
+        "available": "N/A"
+      },
+      {
+        "type": "Open",
+        "count": 3,
+        "highCredit": "$7,479",
+        "creditLimit": "$0",
+        "balance": "$4,694",
+        "pastDue": "$0",
+        "payment": "$0",
+        "available": "37%"
+      },
+      {
+        "type": "Closed w Bal",
+        "count": null,
+        "highCredit": "N/A",
+        "creditLimit": "N/A",
+        "balance": "$53,922",
+        "pastDue": "$47,369",
+        "payment": "$218",
+        "available": "N/A"
+      }
+    ],
+    "total": {
+      "count": 37,
+      "highCredit": "$119,290",
+      "creditLimit": "$28,100",
+      "balance": "$154,137",
+      "pastDue": "$47,369",
+      "payment": "$1,457",
+      "available": "N/A"
+    }
+  },
+  "creditScores": [
+    {
+      "scoreName": "ResidentScore 4.0",
+      "score": 605,
+      "factors": [
+        "Balance of non-mortgage accounts is too high",
+        "Too many inquiries",
+        "Revolving account balances are too high in proportion to credit limits",
+        "Length of time since most recent auto delinquency is too short"
+      ]
+    }
+  ],
+  "tradelines": {
+    "summary": {
+      "count": 37,
+      "balanceTotal": "$154,137",
+      "totalCreditLimit": "$37,510",
+      "totalPastDue": "$47,369"
+    },
+    "trades": [
+      {
+        "creditorName": "CAP ONE AUTO",
+        "industry": "Finance or Personal",
+        "loanType": "Automobile",
+        "loanTerms": "Installment 075 Monthly",
+        "accountType": "Individual account",
+        "openedDate": "12/22",
+        "verifiedDate": "05/24",
+        "closedDate": "01/24",
+        "paidDate": null,
+        "balance": "$47,369",
+        "pastDue": "$47,369",
+        "creditLimit": "N/A",
+        "paymentAmount": "N/A",
+        "status": "09: Charged off as Bad Debt",
+        "remarks": "Dispute resolved reported by grantor",
+        "notes": "Automated account",
+        "paymentHistory": "No payment history reported"
+      },
+      {
+        "creditorName": "PENTAGON FCU",
+        "industry": "Credit Union and Finance other than personal",
+        "loanType": "Student Loan",
+        "loanTerms": "Installment 180 Monthly",
+        "accountType": "Joint account",
+        "openedDate": "06/21",
+        "verifiedDate": "05/24",
+        "closedDate": null,
+        "paidDate": null,
+        "balance": "$42,559",
+        "pastDue": "$0",
+        "creditLimit": "N/A",
+        "paymentAmount": "$367",
+        "status": "01: Paid or paying as agreed",
+        "notes": "Automated account",
+        "paymentHistory": {
+          "summaryMonths": 35,
+          "latePayments": {
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120+": 0
+          },
+          "monthlyStatus": {
+            "2024": ["OK","OK","OK","OK"],
+            "2023": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2021": ["OK","OK","OK","OK","OK","OK","OK"]
+          }
+        }
+      },
+      {
+        "creditorName": "DISCOVERBANK",
+        "industry": "Banks",
+        "loanType": "Credit Card",
+        "loanTerms": "Revolving",
+        "accountType": "Authorized account",
+        "openedDate": "05/17",
+        "verifiedDate": "05/24",
+        "closedDate": null,
+        "paidDate": null,
+        "balance": "$0",
+        "pastDue": "$0",
+        "creditLimit": "$5,500",
+        "paymentAmount": "N/A",
+        "status": "01: Paid or paying as agreed",
+        "notes": "Automated account",
+        "paymentHistory": {
+          "summaryMonths": 48,
+          "latePayments": {
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120+": 0
+          },
+           "monthlyStatus": {
+            "2024": ["OK","OK","OK","OK"],
+            "2023": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2021": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2020": ["OK","OK","OK","OK","OK","OK","OK","OK"]
+          }
+        }
+      },
+      {
+        "creditorName": "TEACHERS FCU",
+        "industry": "Credit Union and Finance other than personal",
+        "loanType": "Credit Card",
+        "loanTerms": "Revolving MIN",
+        "accountType": "Individual account",
+        "openedDate": "08/20",
+        "verifiedDate": "05/24",
+        "closedDate": null,
+        "paidDate": null,
+        "balance": "$2,244",
+        "pastDue": "$0",
+        "creditLimit": "$2,500",
+        "paymentAmount": "$45",
+        "status": "01: Paid or paying as agreed",
+        "remarks": "Dispute resolved reported by grantor",
+        "notes": "Automated account",
+        "paymentHistory": {
+          "summaryMonths": 44,
+          "latePayments": {
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120+": 0
+          },
+          "monthlyStatus": {
+            "2024": ["OK","OK","OK","OK"],
+            "2023": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2021": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2020": ["OK","OK","OK","OK"]
+          }
+        }
+      },
+      {
+        "creditorName": "AMEX",
+        "industry": "Banks",
+        "loanType": "Credit Card",
+        "loanTerms": "Open",
+        "accountType": "Individual account",
+        "openedDate": "04/22",
+        "verifiedDate": "05/24",
+        "closedDate": null,
+        "paidDate": null,
+        "balance": "$3,882",
+        "pastDue": "$0",
+        "creditLimit": "N/A",
+        "paymentAmount": "N/A",
+        "status": "01: Paid or paying as agreed",
+        "notes": "Automated account",
+        "paymentHistory": {
+          "summaryMonths": 24,
+          "latePayments": {
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120+": 0
+          },
+           "monthlyStatus": {
+            "2024": ["OK","OK","OK","OK"],
+            "2023": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK"]
+          }
+        }
+      },
+      {
+        "creditorName": "MACYS/CBNA",
+        "industry": "Department stores & Other Retail",
+        "loanType": "Charge Account",
+        "loanTerms": "Revolving MIN",
+        "accountType": "Individual account",
+        "openedDate": "03/17",
+        "verifiedDate": "05/24",
+        "closedDate": null,
+        "paidDate": null,
+        "balance": "$1,629",
+        "pastDue": "$0",
+        "creditLimit": "$6,700",
+        "paymentAmount": "$61",
+        "status": "01: Paid or paying as agreed",
+        "notes": "Automated account",
+        "paymentHistory": {
+          "summaryMonths": 48,
+          "latePayments": {
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120+": 0
+          },
+          "monthlyStatus": {
+            "2024": ["OK","OK","OK","OK"],
+            "2023": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2021": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2020": ["OK","OK","OK","OK"]
+          }
+        }
+      },
+      {
+        "creditorName": "JPMCB CARD",
+        "industry": "Banks",
+        "loanType": "Flexible Spending Credit Card",
+        "loanTerms": "Revolving MIN",
+        "accountType": "Individual account",
+        "openedDate": "12/22",
+        "verifiedDate": "05/24",
+        "closedDate": null,
+        "paidDate": null,
+        "balance": "$4,117",
+        "pastDue": "$0",
+        "creditLimit": "$4,600",
+        "paymentAmount": "$184",
+        "status": "01: Paid or paying as agreed",
+        "notes": "Automated account",
+         "paymentHistory": {
+          "summaryMonths": 16,
+          "latePayments": {
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120+": 0
+          },
+          "monthlyStatus": {
+            "2024": ["OK","OK","OK","OK"],
+            "2023": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"]
+          }
+        }
+      },
+      {
+        "creditorName": "CAPITAL ONE",
+        "industry": "Banks",
+        "loanType": "Credit Card",
+        "loanTerms": "Revolving MIN",
+        "accountType": "Individual account",
+        "openedDate": "06/17",
+        "verifiedDate": "05/24",
+        "closedDate": "01/24",
+        "paidDate": null,
+        "balance": "$3,341",
+        "pastDue": "$0",
+        "creditLimit": "$5,500",
+        "paymentAmount": "$114",
+        "status": "01: Paid or paying as agreed",
+        "remarks": "Dispute of account information/closed by consumer",
+        "notes": "Automated account",
+        "paymentHistory": {
+          "summaryMonths": 48,
+          "latePayments": {
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120+": 0
+          },
+          "monthlyStatus": {
+            "2024": ["OK","OK","OK","OK"],
+            "2023": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2021": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2020": ["OK","OK","OK","OK"]
+          }
+        }
+      },
+      {
+        "creditorName": "BK OF AMER",
+        "industry": "Banks",
+        "loanType": "Credit Card",
+        "loanTerms": "Revolving MIN",
+        "accountType": "Individual account",
+        "openedDate": "03/14",
+        "verifiedDate": "05/24",
+        "closedDate": "01/24",
+        "paidDate": null,
+        "balance": "$1,779",
+        "pastDue": "$0",
+        "creditLimit": "$1,900",
+        "paymentAmount": "$58",
+        "status": "01: Paid or paying as agreed",
+        "remarks": "Account closed by consumer",
+        "notes": "Automated account",
+        "paymentHistory": {
+          "summaryMonths": 48,
+          "latePayments": {
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120+": 0
+          },
+           "monthlyStatus": {
+            "2024": ["OK","OK","OK","OK"],
+            "2023": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2021": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2020": ["OK","OK","OK","OK"]
+          }
+        }
+      },
+      {
+        "creditorName": "BK OF AMER",
+        "industry": "Banks",
+        "loanType": "Credit Card",
+        "loanTerms": "Revolving MIN",
+        "accountType": "Individual account",
+        "openedDate": "01/20",
+        "verifiedDate": "05/24",
+        "closedDate": null,
+        "paidDate": null,
+        "balance": "$1,894",
+        "pastDue": "$0",
+        "creditLimit": "$2,000",
+        "paymentAmount": "$62",
+        "status": "01: Paid or paying as agreed",
+        "notes": "Automated account",
+        "paymentHistory": {
+          "summaryMonths": 48,
+          "latePayments": {
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120+": 0
+          },
+          "monthlyStatus": {
+            "2024": ["OK","OK","OK","OK"],
+            "2023": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2021": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2020": ["OK","OK","OK","OK"]
+          }
+        }
+      },
+      {
+        "creditorName": "CITI",
+        "industry": "Banks",
+        "loanType": "Credit Card",
+        "loanTerms": "Revolving MIN",
+        "accountType": "Individual account",
+        "openedDate": "11/17",
+        "verifiedDate": "05/24",
+        "closedDate": "02/24",
+        "paidDate": null,
+        "balance": "$1,433",
+        "pastDue": "$0",
+        "creditLimit": "$1,510",
+        "paymentAmount": "$46",
+        "status": "01: Paid or paying as agreed",
+        "remarks": "Dispute resolved; consumer disagrees/account closed by consumer",
+        "notes": "Automated account",
+        "paymentHistory": {
+          "summaryMonths": 48,
+          "latePayments": {
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120+": 0
+          },
+          "monthlyStatus": {
+            "2024": ["OK","OK","OK","OK"],
+            "2023": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2021": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2020": ["OK","OK","OK","OK"]
+          }
+        }
+      },
+      {
+        "creditorName": "JPMCB CARD",
+        "industry": "Banks",
+        "loanType": "Credit Card",
+        "loanTerms": "Revolving MIN",
+        "accountType": "Individual account",
+        "openedDate": "01/19",
+        "verifiedDate": "05/24",
+        "closedDate": null,
+        "paidDate": null,
+        "balance": "$4,346",
+        "pastDue": "$0",
+        "creditLimit": "$4,600",
+        "paymentAmount": "$145",
+        "status": "01: Paid or paying as agreed",
+        "notes": "Automated account",
+        "paymentHistory": {
+          "summaryMonths": 48,
+           "latePayments": {
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120+": 0
+          },
+          "monthlyStatus": {
+            "2024": ["OK","OK","OK","OK"],
+            "2023": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2021": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2020": ["OK","OK","OK","OK"]
+          }
+        }
+      },
+      {
+        "creditorName": "DEPTEDNELNET", // Student Loan 1
+        "industry": "Employment or Education",
+        "loanType": "Student Loan",
+        "loanTerms": "Installment 120 Monthly",
+        "accountType": "Individual account",
+        "openedDate": "09/15",
+        "verifiedDate": "04/24",
+        "closedDate": null,
+        "paidDate": null,
+        "balance": "$6,659",
+        "pastDue": "$0",
+        "creditLimit": "N/A",
+        "paymentAmount": "N/A",
+        "status": "01: Paid or paying as agreed",
+        "remarks": "Payment deferred",
+        "notes": "Automated account",
+        "paymentHistory": {
+          "summaryMonths": 48,
+          "latePayments": {
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120+": 0
+          },
+          "monthlyStatus": {
+            "2024": ["N/A","N/A","N/A"],
+            "2023": ["N/A","N/A","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2021": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2020": ["OK","OK","OK","OK","OK","OK","OK","OK"]
+          }
+        }
+      },
+       {
+        "creditorName": "DEPTEDNELNET", // Student Loan 2
+        "industry": "Employment or Education",
+        "loanType": "Student Loan",
+        "loanTerms": "Installment 120 Monthly",
+        "accountType": "Individual account",
+        "openedDate": "08/14",
+        "verifiedDate": "04/24",
+        "closedDate": null,
+        "paidDate": null,
+        "balance": "$2,560",
+        "pastDue": "$0",
+        "creditLimit": "N/A",
+        "paymentAmount": "N/A",
+        "status": "01: Paid or paying as agreed",
+        "remarks": "Payment deferred",
+        "notes": "Automated account",
+        "paymentHistory": {
+          "summaryMonths": 48,
+           "latePayments": {
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120+": 0
+          },
+          "monthlyStatus": {
+            "2024": ["N/A","N/A","N/A"],
+            "2023": ["N/A","N/A","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2021": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2020": ["OK","OK","OK","OK","OK","OK","OK","OK"]
+          }
+        }
+      },
+       {
+        "creditorName": "DEPTEDNELNET", // Student Loan 3
+        "industry": "Employment or Education",
+        "loanType": "Student Loan",
+        "loanTerms": "Installment 120 Monthly",
+        "accountType": "Individual account",
+        "openedDate": "08/14",
+        "verifiedDate": "04/24",
+        "closedDate": null,
+        "paidDate": null,
+        "balance": "$3,510",
+        "pastDue": "$0",
+        "creditLimit": "N/A",
+        "paymentAmount": "N/A",
+        "status": "01: Paid or paying as agreed",
+        "remarks": "Payment deferred",
+        "notes": "Automated account",
+        "paymentHistory": {
+          "summaryMonths": 48,
+           "latePayments": {
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120+": 0
+          },
+          "monthlyStatus": {
+            "2024": ["N/A","N/A","N/A"],
+            "2023": ["N/A","N/A","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2021": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2020": ["OK","OK","OK","OK","OK","OK","OK","OK"]
+          }
+        }
+      },
+      {
+        "creditorName": "FAMILY LA CO",
+        "industry": "Government",
+        "loanType": "Child Support",
+        "loanTerms": "Open",
+        "accountType": "Individual account",
+        "openedDate": "03/23",
+        "verifiedDate": "04/24",
+        "closedDate": null,
+        "paidDate": null,
+        "balance": "$812",
+        "pastDue": "$0",
+        "creditLimit": "N/A",
+        "paymentAmount": "N/A",
+        "status": "01: Paid or paying as agreed",
+        "notes": "Automated account",
+        "paymentHistory": {
+          "summaryMonths": 12,
+          "latePayments": {
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120+": 0
+          },
+           "monthlyStatus": {
+            "2024": ["OK","OK","OK","N/A"],
+            "2023": ["OK","OK","OK","OK","OK","OK","OK","OK"]
+          }
+        }
+      },
+      {
+        "creditorName": "DEPTEDNELNET", // Student Loan 4
+        "industry": "Employment or Education",
+        "loanType": "Student Loan",
+        "loanTerms": "Installment 120 Monthly",
+        "accountType": "Individual account",
+        "openedDate": "08/17",
+        "verifiedDate": "04/24",
+        "closedDate": null,
+        "paidDate": null,
+        "balance": "$2,255",
+        "pastDue": "$0",
+        "creditLimit": "N/A",
+        "paymentAmount": "N/A",
+        "status": "01: Paid or paying as agreed",
+        "remarks": "Payment deferred",
+        "notes": "Automated account",
+        "paymentHistory": {
+          "summaryMonths": 48,
+          "latePayments": {
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120+": 0
+          },
+          "monthlyStatus": {
+            "2024": ["N/A","N/A","N/A"],
+            "2023": ["N/A","N/A","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2021": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2020": ["OK","OK","OK","OK","OK","OK","OK","OK"]
+          }
+        }
+      },
+      {
+        "creditorName": "GS BANK USA",
+        "industry": "Banks",
+        "loanType": "Credit Card",
+        "loanTerms": "Revolving MIN",
+        "accountType": "Individual account",
+        "openedDate": "03/22",
+        "verifiedDate": "04/24",
+        "closedDate": null,
+        "paidDate": null,
+        "balance": "$2,097",
+        "pastDue": "$0",
+        "creditLimit": "$2,200",
+        "paymentAmount": "$62",
+        "status": "01: Paid or paying as agreed",
+        "notes": "Automated account",
+         "paymentHistory": {
+          "summaryMonths": 25, // Based on grid end
+           "latePayments": {
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120+": 0
+          },
+          "monthlyStatus": {
+            "2024": ["OK","OK","OK"],
+            "2023": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"]
+          }
+        }
+      },
+      {
+        "creditorName": "DEPTEDNELNET", // Student Loan 5
+        "industry": "Employment or Education",
+        "loanType": "Student Loan",
+        "loanTerms": "Installment 120 Monthly",
+        "accountType": "Individual account",
+        "openedDate": "08/17",
+        "verifiedDate": "04/24",
+        "closedDate": null,
+        "paidDate": null,
+        "balance": "$5,512",
+        "pastDue": "$0",
+        "creditLimit": "N/A",
+        "paymentAmount": "N/A",
+        "status": "01: Paid or paying as agreed",
+        "remarks": "Payment deferred",
+        "notes": "Automated account",
+        "paymentHistory": {
+          "summaryMonths": 48,
+          "latePayments": {
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120+": 0
+          },
+          "monthlyStatus": {
+            "2024": ["N/A","N/A","N/A"],
+            "2023": ["N/A","N/A","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2021": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2020": ["OK","OK","OK","OK","OK","OK","OK","OK"]
+          }
+        }
+      },
+       {
+        "creditorName": "DEPTEDNELNET", // Student Loan 6
+        "industry": "Employment or Education",
+        "loanType": "Student Loan",
+        "loanTerms": "Installment 120 Monthly",
+        "accountType": "Individual account",
+        "openedDate": "08/18",
+        "verifiedDate": "04/24",
+        "closedDate": null,
+        "paidDate": null,
+        "balance": "$3,863",
+        "pastDue": "$0",
+        "creditLimit": "N/A",
+        "paymentAmount": "N/A",
+        "status": "01: Paid or paying as agreed",
+        "remarks": "Payment deferred",
+        "notes": "Automated account",
+        "paymentHistory": {
+          "summaryMonths": 48,
+           "latePayments": {
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120+": 0
+          },
+           "monthlyStatus": {
+            "2024": ["N/A","N/A","N/A"],
+            "2023": ["N/A","N/A","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2021": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2020": ["OK","OK","OK","OK","OK","OK","OK","OK"]
+          }
+        }
+      },
+       {
+        "creditorName": "DEPTEDNELNET", // Student Loan 7
+        "industry": "Employment or Education",
+        "loanType": "Student Loan",
+        "loanTerms": "Installment 120 Monthly",
+        "accountType": "Individual account",
+        "openedDate": "08/18",
+        "verifiedDate": "04/24",
+        "closedDate": null,
+        "paidDate": null,
+        "balance": "$2,760",
+        "pastDue": "$0",
+        "creditLimit": "N/A",
+        "paymentAmount": "N/A",
+        "status": "01: Paid or paying as agreed",
+        "remarks": "Payment deferred",
+        "notes": "Automated account",
+        "paymentHistory": {
+          "summaryMonths": 48,
+          "latePayments": {
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120+": 0
+          },
+          "monthlyStatus": {
+            "2024": ["N/A","N/A","N/A"],
+            "2023": ["N/A","N/A","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2021": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2020": ["OK","OK","OK","OK","OK","OK","OK","OK"]
+          }
+        }
+      },
+      {
+        "creditorName": "DEPTEDNELNET", // Student Loan 8
+        "industry": "Employment or Education",
+        "loanType": "Student Loan",
+        "loanTerms": "Installment 120 Monthly",
+        "accountType": "Individual account",
+        "openedDate": "08/16",
+        "verifiedDate": "04/24",
+        "closedDate": null,
+        "paidDate": null,
+        "balance": "$2,288",
+        "pastDue": "$0",
+        "creditLimit": "N/A",
+        "paymentAmount": "N/A",
+        "status": "01: Paid or paying as agreed",
+        "remarks": "Payment deferred",
+        "notes": "Automated account",
+        "paymentHistory": {
+          "summaryMonths": 48,
+          "latePayments": {
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120+": 0
+          },
+           "monthlyStatus": {
+            "2024": ["N/A","N/A","N/A"],
+            "2023": ["N/A","N/A","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2021": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2020": ["OK","OK","OK","OK","OK","OK","OK","OK"]
+          }
+        }
+      },
+       {
+        "creditorName": "DEPTEDNELNET", // Student Loan 9
+        "industry": "Employment or Education",
+        "loanType": "Student Loan",
+        "loanTerms": "Installment 120 Monthly",
+        "accountType": "Individual account",
+        "openedDate": "08/16",
+        "verifiedDate": "04/24",
+        "closedDate": null,
+        "paidDate": null,
+        "balance": "$4,502",
+        "pastDue": "$0",
+        "creditLimit": "N/A",
+        "paymentAmount": "N/A",
+        "status": "01: Paid or paying as agreed",
+        "remarks": "Payment deferred",
+        "notes": "Automated account",
+        "paymentHistory": {
+          "summaryMonths": 48,
+          "latePayments": {
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120+": 0
+          },
+          "monthlyStatus": {
+            "2024": ["N/A","N/A","N/A"],
+            "2023": ["N/A","N/A","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2021": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"]
+          }
+        }
+      },
+      {
+        "creditorName": "UPGRADE INC",
+        "industry": "Finance or Personal",
+        "loanType": "Unsecured",
+        "loanTerms": "Installment 036 Monthly",
+        "accountType": "Individual account",
+        "openedDate": "12/21",
+        "verifiedDate": "03/24",
+        "closedDate": null,
+        "paidDate": null,
+        "balance": "$2,726",
+        "pastDue": "$0",
+        "creditLimit": "N/A",
+        "paymentAmount": "$313",
+        "status": "01: Paid or paying as agreed",
+        "notes": "Automated account",
+        "paymentHistory": {
+          "summaryMonths": 27,
+          "latePayments": {
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120+": 0
+          },
+           "monthlyStatus": {
+            "2024": ["OK","OK"],
+            "2023": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2021": ["OK"]
+          }
+        }
+      },
+      {
+        "creditorName": "LENDCLUB BNK",
+        "industry": "Banks",
+        "loanType": "Unsecured",
+        "loanTerms": "Installment 060 Monthly",
+        "accountType": "Individual account",
+        "openedDate": "11/19",
+        "verifiedDate": "05/23",
+        "closedDate": "05/23",
+        "paidDate": null,
+        "balance": "$0",
+        "pastDue": "$0",
+        "creditLimit": "N/A",
+        "paymentAmount": "N/A",
+        "status": "01: Paid or paying as agreed",
+        "remarks": "Closed",
+        "notes": "Automated account",
+        "paymentHistory": {
+          "summaryMonths": 42,
+          "latePayments": {
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120+": 0
+          },
+          "monthlyStatus": {
+            "2023": ["OK","OK","OK","OK"],
+            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2021": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2020": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2019": ["OK","OK"]
+          }
+        }
+      },
+       {
+        "creditorName": "BK OF AMER",
+        "industry": "Banks",
+        "loanType": "Automobile",
+        "loanTerms": "Installment 072 Monthly",
+        "accountType": "Individual account",
+        "openedDate": "02/22",
+        "verifiedDate": "12/22",
+        "closedDate": "12/22",
+        "paidDate": null,
+        "balance": "$0",
+        "pastDue": "$0",
+        "creditLimit": "N/A",
+        "paymentAmount": "N/A",
+        "status": "01: Paid or paying as agreed",
+        "remarks": "Closed",
+        "notes": "Automated account",
+        "paymentHistory": {
+          "summaryMonths": 9,
+           "latePayments": {
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120+": 0
+          },
+          "monthlyStatus": {
+            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK"]
+          }
+        }
+      },
+       {
+        "creditorName": "EQR/PEGASUS",
+        "industry": "Real estate and Public Accommodations",
+        "loanType": "Rental Agreement",
+        "loanTerms": "Open 001 Monthly",
+        "accountType": "Joint account",
+        "openedDate": "02/22",
+        "verifiedDate": "07/22",
+        "closedDate": "03/22",
+        "paidDate": null,
+        "balance": "$0",
+        "pastDue": "$0",
+        "creditLimit": "N/A",
+        "paymentAmount": "N/A",
+        "status": "01: Paid or paying as agreed",
+        "remarks": "Closed",
+        "notes": "Automated account",
+        "paymentHistory": {
+          "summaryMonths": 5,
+          "latePayments": {
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120+": 0
+          },
+          "monthlyStatus": {
+            "2022": ["OK","OK","OK","OK","OK"]
+          }
+        }
+      },
+      {
+        "creditorName": "PA STA EMPCU",
+        "industry": "Credit Union and Finance other than personal",
+        "loanType": "Automobile",
+        "loanTerms": "Installment 084 Monthly",
+        "accountType": "Individual account",
+        "openedDate": "06/21",
+        "verifiedDate": "01/22",
+        "closedDate": "01/22",
+        "paidDate": null,
+        "balance": "$0",
+        "pastDue": "$0",
+        "creditLimit": "N/A",
+        "paymentAmount": "N/A",
+        "status": "01: Paid or paying as agreed",
+        "remarks": "Closed",
+        "notes": "Automated account",
+        "paymentHistory": {
+          "summaryMonths": 7,
+          "latePayments": {
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120+": 0
+          },
+          "monthlyStatus": {
+            "2021": ["OK","OK","OK","OK","OK","OK","OK"]
+          }
+        }
+      },
+      {
+        "creditorName": "TEACHERS FCU",
+        "industry": "Credit Union and Finance other than personal",
+        "loanType": "Automobile",
+        "loanTerms": "Installment 072 Monthly",
+        "accountType": "Individual account",
+        "openedDate": "04/20",
+        "verifiedDate": "07/21",
+        "closedDate": "07/21",
+        "paidDate": null,
+        "balance": "$0",
+        "pastDue": "$0",
+        "creditLimit": "N/A",
+        "paymentAmount": "N/A",
+        "status": "01: Paid or paying as agreed",
+        "remarks": "Closed",
+        "notes": "Automated account",
+        "paymentHistory": {
+          "summaryMonths": 15,
+          "latePayments": {
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120+": 0
+          },
+          "monthlyStatus": {
+            "2021": ["OK","OK","OK","OK","OK","OK"],
+            "2020": ["OK","OK","OK","OK","OK","OK","OK","OK","OK"]
+          }
+        }
+      },
+      {
+        "creditorName": "ALLY FINCL",
+        "industry": "Finance or Personal",
+        "loanType": "Automobile",
+        "loanTerms": "Installment 075 Monthly",
+        "accountType": "Individual account",
+        "openedDate": "03/21",
+        "verifiedDate": "07/21",
+        "closedDate": "07/21",
+        "paidDate": null,
+        "balance": "$0",
+        "pastDue": "$0",
+        "creditLimit": "N/A",
+        "paymentAmount": "N/A",
+        "status": "01: Paid or paying as agreed",
+        "remarks": "Closed",
+        "notes": "Automated account",
+        "paymentHistory": {
+          "summaryMonths": 3,
+          "latePayments": {
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120+": 0
+          },
+          "monthlyStatus": {
+            "2021": ["OK","OK","OK"]
+          }
+        }
+      },
+      {
+        "creditorName": "MOHELA/SOFI",
+        "industry": "Employment or Education",
+        "loanType": "Student Loan",
+        "loanTerms": "Installment 241 Monthly",
+        "accountType": "Individual account",
+        "openedDate": "06/19",
+        "verifiedDate": "06/21",
+        "closedDate": "06/21",
+        "paidDate": null,
+        "balance": "$0",
+        "pastDue": "$0",
+        "creditLimit": "N/A",
+        "paymentAmount": "N/A",
+        "status": "01: Paid or paying as agreed",
+        "remarks": "Closed",
+        "notes": "Automated account",
+        "paymentHistory": {
+          "summaryMonths": 24,
+          "latePayments": {
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120+": 0
+          },
+           "monthlyStatus": {
+            "2021": ["OK","OK","OK","OK","OK"],
+            "2020": ["OK","OK","OK","OK","N/A","N/A","N/A","OK","OK","OK","OK","OK"],
+            "2019": ["N/A","N/A","N/A","N/A","N/A","N/A","OK"]
+          }
+        }
+      },
+      {
+        "creditorName": "JPMCB CARD",
+        "industry": "Banks",
+        "loanType": "Credit Card",
+        "loanTerms": "Revolving",
+        "accountType": "Individual account",
+        "openedDate": "12/20",
+        "verifiedDate": "01/21",
+        "closedDate": "12/20",
+        "paidDate": null,
+        "balance": "$0",
+        "pastDue": "$0",
+        "creditLimit": "$500",
+        "paymentAmount": "N/A",
+        "status": "01: Paid or paying as agreed",
+        "remarks": "Account closed by consumer",
+        "notes": "Automated account",
+        "paymentHistory": "No payment history reported"
+      },
+      {
+        "creditorName": "LIGHTSTREAM",
+        "industry": "Banks",
+        "loanType": "Unsecured",
+        "loanTerms": "Installment 036 Monthly",
+        "accountType": "Individual account",
+        "openedDate": "01/19",
+        "verifiedDate": "12/19",
+        "closedDate": "12/19",
+        "paidDate": null,
+        "balance": "$0",
+        "pastDue": "$0",
+        "creditLimit": "N/A",
+        "paymentAmount": "N/A",
+        "status": "01: Paid or paying as agreed",
+        "remarks": "Closed",
+        "notes": "Automated account",
+        "paymentHistory": {
+          "summaryMonths": 11,
+          "latePayments": {
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120+": 0
+          },
+          "monthlyStatus": {
+            "2019": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"]
+          }
+        }
+      },
+      {
+        "creditorName": "DISCOVER SL",
+        "industry": "Banks",
+        "loanType": "Student Loan",
+        "loanTerms": "Installment 180 Monthly",
+        "accountType": "Joint account",
+        "openedDate": "08/18",
+        "verifiedDate": "06/19",
+        "closedDate": "06/19",
+        "paidDate": null,
+        "balance": "$0",
+        "pastDue": "$0",
+        "creditLimit": "N/A",
+        "paymentAmount": "N/A",
+        "status": "01: Paid or paying as agreed",
+        "remarks": "Closed",
+        "notes": "Automated account",
+        "paymentHistory": {
+          "summaryMonths": 9,
+          "latePayments": {
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120+": 0
+          },
+          "monthlyStatus": {
+            "2019": ["OK","OK","OK","OK","OK"],
+            "2018": ["OK","OK","OK","OK"]
+          }
+        }
+      },
+      {
+        "creditorName": "SALLIE MAE", // Student Loan 10
+        "industry": "Banks",
+        "loanType": "Student Loan",
+        "loanTerms": "Installment 096 Monthly",
+        "accountType": "Joint account",
+        "openedDate": "05/16",
+        "verifiedDate": "06/19",
+        "closedDate": "06/19",
+        "paidDate": null,
+        "balance": "$0",
+        "pastDue": "$0",
+        "creditLimit": "N/A",
+        "paymentAmount": "N/A",
+        "status": "01: Paid or paying as agreed",
+        "remarks": "Closed",
+        "notes": "Automated account",
+        "paymentHistory": {
+          "summaryMonths": 35,
+          "latePayments": {
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120+": 0
+          },
+          "monthlyStatus": {
+            "2019": ["OK","OK","OK","OK","OK"],
+            "2018": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2017": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2016": ["OK","OK","OK","OK","OK","OK"]
+          }
+        }
+      },
+      {
+        "creditorName": "SALLIE MAE", // Student Loan 11
+        "industry": "Banks",
+        "loanType": "Student Loan",
+        "loanTerms": "Installment 096 Monthly",
+        "accountType": "Joint account",
+        "openedDate": "08/16",
+        "verifiedDate": "06/19",
+        "closedDate": "06/19",
+        "paidDate": null,
+        "balance": "$0",
+        "pastDue": "$0",
+        "creditLimit": "N/A",
+        "paymentAmount": "N/A",
+        "status": "01: Paid or paying as agreed",
+        "remarks": "Closed",
+        "notes": "Automated account",
+        "paymentHistory": {
+          "summaryMonths": 33,
+           "latePayments": {
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120+": 0
+          },
+          "monthlyStatus": {
+            "2019": ["OK","OK","OK","OK","OK"],
+            "2018": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2017": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2016": ["OK","OK","OK","OK"]
+          }
+        }
+      },
+      {
+        "creditorName": "SALLIE MAE", // Student Loan 12
+        "industry": "Banks",
+        "loanType": "Student Loan",
+        "loanTerms": "Installment 084 Monthly",
+        "accountType": "Joint account",
+        "openedDate": "08/14",
+        "verifiedDate": "06/19",
+        "closedDate": "06/19",
+        "paidDate": null,
+        "balance": "$0",
+        "pastDue": "$0",
+        "creditLimit": "N/A",
+        "paymentAmount": "N/A",
+        "status": "01: Paid or paying as agreed",
+        "remarks": "Closed",
+        "notes": "Automated account",
+        "paymentHistory": {
+          "summaryMonths": 48, // Assuming based on grid start/end
+          "latePayments": {
+            "30": 0,
+            "60": 0,
+            "90": 0,
+            "120+": 0
+          },
+           "monthlyStatus": {
+            "2019": ["OK","OK","OK","OK","OK"],
+            "2018": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2017": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2016": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+            "2015": ["OK","OK","OK","OK","OK","OK","OK"]
+          }
+        }
+      }
+    ]
+  },
+  "inquiries": [
+    { "date": "03/26/2024", "name": "ALLY FINANCI", "kindOfBusiness": "Finance or Personal" },
+    { "date": "03/26/2024", "name": "ST CHARLES M", "kindOfBusiness": "Automotive" },
+    { "date": "03/06/2024", "name": "PATRICK JAGU", "kindOfBusiness": "Automotive" },
+    { "date": "03/06/2024", "name": "JPMCB AUTO", "kindOfBusiness": "Banks" },
+    { "date": "02/27/2024", "name": "AFFINITY AUT", "kindOfBusiness": "Automotive" },
+    { "date": "02/26/2024", "name": "LIGHTSTREAM", "kindOfBusiness": "Banks" },
+    { "date": "01/31/2024", "name": "JPMCB AUTO", "kindOfBusiness": "Banks" },
+    { "date": "01/26/2024", "name": "ONEMAIN", "kindOfBusiness": "Finance or Personal" },
+    { "date": "01/19/2024", "name": "PHEAA", "kindOfBusiness": "Finance or Personal" },
+    { "date": "12/14/2022", "name": "JPMCB CARD", "kindOfBusiness": "Banks" },
+    { "date": "12/08/2022", "name": "ALLY FINANCI", "kindOfBusiness": "Finance or Personal" },
+    { "date": "12/08/2022", "name": "COAF", "kindOfBusiness": "Finance or Personal" },
+    { "date": "12/07/2022", "name": "JPMCB AUTO", "kindOfBusiness": "Banks" }
+  ]
+}
