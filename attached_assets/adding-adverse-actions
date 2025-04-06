@@ -1,0 +1,139 @@
+# Guide: Adding New Adverse Actions to the System
+
+## 1. File Location
+
+All adverse actions are stored in `server/api/adverseActions.ts`. This is the single source of truth for adverse action data.
+
+## 2. Required Fields
+
+Every adverse action must include these mandatory fields:
+
+- `document_index`: Unique numerical identifier
+- `document_source`: Source document description
+- `sender_name`: Name of the institution sending the notice
+- `recipient_name`: Name of the recipient
+- `date`: Date of the adverse action
+- `action_type`: Type of adverse action
+- `credit_report_agency`: Credit reporting agency used
+- `reasons`: Array of reasons for the adverse action
+
+## 3. Using the Helper Function
+
+Always use the `createAdverseAction` helper function to ensure proper formatting. Example:
+
+```typescript
+createAdverseAction({
+  document_index: nextIndex,
+  document_source: 'Institution Name (Document Type)',
+  sender_name: 'Institution Name',
+  sender_address: 'Full Address',
+  recipient_name: 'Recipient Name',
+  recipient_address: 'Recipient Address',
+  date: 'YYYY-MM-DD',
+  action_type: 'Type of Action',
+  details: {
+    // Optional structured details
+    account_ending_in: '1234',
+    new_credit_line: '1000.00',
+  },
+  reasons: ['Reason 1', 'Reason 2'],
+  credit_report_agency: 'Agency Name',
+  credit_report_agency_details: 'Agency Contact Info',
+  credit_score: null, // or number if available
+  credit_score_date: null, // or "YYYY-MM-DD" if available
+  credit_score_range: null, // or "XXX-YYY" if available
+  credit_score_factors: null, // or array of factors if available
+});
+```
+
+## 4. Damage Assessment Fields
+
+Always include damage assessment fields when applicable:
+
+```typescript
+applicable_pecuniary_damages: [
+  {
+    id: "PEC-TYPE", // Standard ID format
+    status: "Applicable - Quantification TBD",
+    notes: "Specific impact description",
+    evidence_needed_ref: ["Evidence-Code-01", "Evidence-Code-02"]
+  }
+],
+applicable_non_pecuniary_damages: [
+  {
+    id: "NONPEC-TYPE",
+    status: "Applicable",
+    notes: "Impact description",
+    evidence_needed_ref: ["Evidence-Code-01 to 05"]
+  }
+]
+```
+
+## 5. Standard ID Formats
+
+Use these standard IDs for damage types:
+
+- Pecuniary Damages:
+
+  - `PEC-COST`: Higher-cost alternative financing
+  - `PEC-FEE`: Application fees
+  - `PEC-DEP`: Lost deposits
+  - `PEC-OOP`: Out-of-pocket expenses
+  - `PEC-PAY`: Direct payments required
+  - `PEC-OPP`: Lost opportunities
+
+- Non-Pecuniary Damages:
+  - `NONPEC-ED`: Emotional distress
+  - `NONPEC-REP`: Reputational harm
+
+## 6. Best Practices
+
+1. **Document Index**: Use the next sequential number for `document_index`
+2. **Dates**: Use ISO format (YYYY-MM-DD)
+3. **Null Values**: Use `null` instead of empty strings for missing data
+4. **Details Object**: Structure consistently based on action type:
+   - Credit Limit Changes: Include `account_ending_in` and `new_credit_line`
+   - Application Denials: Include `application_number` if available
+   - Modified Offers: Include both original and modified terms
+
+## 7. Adding New Entries
+
+1. Open `server/api/adverseActions.ts`
+2. Add new entry at the end of the `adverseActionsData` array
+3. Use the `createAdverseAction` helper function
+4. Ensure all mandatory fields are completed
+5. Add appropriate damage assessments
+6. Save the file and restart the development server
+
+## 8. Validation Steps
+
+After adding a new entry:
+
+1. Start the development server (`npm run dev`)
+2. Check the Adverse Actions Center UI
+3. Verify the new entry appears in the table
+4. Confirm all details are displayed correctly
+5. Test filtering and pagination
+6. Verify damage assessments are properly linked
+
+## 9. Common Action Types
+
+Use these standard action type descriptions:
+
+- "Credit Limit Reduction"
+- "Auto Financing Application Denial"
+- "Rental Application Conditional Approval"
+- "Student Loan Application Denial"
+- "Vehicle Credit Application Denial"
+
+## 10. Troubleshooting
+
+If the new entry doesn't appear:
+
+1. Check for syntax errors in the JSON structure
+2. Verify all required fields are present
+3. Confirm the `document_index` is unique
+4. Restart the development server
+5. Clear browser cache if needed
+
+Would you like me to provide specific examples for any of these sections or explain any part in more detail?

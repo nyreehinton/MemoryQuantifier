@@ -4,8 +4,9 @@ import { Doughnut } from '@/components/ui/chart';
 import { StatusBadge } from '@/components/ui/status-badge';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { formatCurrency } from '@/lib/utils';
-import { DamageItem } from '@/types';
-import { useQuery } from '@tanstack/react-query';
+import { AdverseAction, DamageItem } from '@/types';
+import { QueryFunction, useQuery } from '@tanstack/react-query';
+import { ChartOptions, TooltipItem } from 'chart.js';
 import { useState } from 'react';
 
 // Component to render an individual damage claim card
@@ -60,23 +61,48 @@ function DamageCard({ damage }: { damage: DamageItem }) {
   );
 }
 
+interface DoughnutChartData {
+  labels: string[];
+  datasets: {
+    data: number[];
+    backgroundColor: string[];
+    borderWidth: number;
+  }[];
+}
+
 export default function DamagesHub() {
   const [activeCategory, setActiveCategory] = useState<string>('overview');
 
-  const { data: damages, isLoading } = useQuery<DamageItem[]>({
+  const fetchDamages: QueryFunction<DamageItem[]> = async () => {
+    const response = await fetch('/api/damages');
+    return response.json();
+  };
+
+  const fetchAdverseActions: QueryFunction<AdverseAction[]> = async () => {
+    const response = await fetch('/api/adverse-actions');
+    return response.json();
+  };
+
+  const { data: damages, isLoading: damagesLoading } = useQuery<DamageItem[]>({
     queryKey: ['/api/damages'],
+    queryFn: fetchDamages,
   });
 
-  if (isLoading) {
-    return <div className="flex justify-center p-8">Loading damages data...</div>;
+  const { data: adverseActions, isLoading: actionsLoading } = useQuery<AdverseAction[]>({
+    queryKey: ['/api/adverse-actions'],
+    queryFn: fetchAdverseActions,
+  });
+
+  if (damagesLoading || actionsLoading) {
+    return <div className="flex justify-center p-8">Loading data...</div>;
   }
 
-  if (!damages) {
-    return <div className="flex justify-center p-8">No damages data available</div>;
+  if (!damages || !adverseActions) {
+    return <div className="flex justify-center p-8">No data available</div>;
   }
 
   // Calculate summary data
-  const categorySums = damages.reduce((acc, damage) => {
+  const categorySums = damages.reduce((acc: Record<string, number>, damage: DamageItem) => {
     const category = damage.category.split('-')[0] as 'PEC' | 'NONPEC';
     const subCategory = damage.category;
 
@@ -90,6 +116,18 @@ export default function DamagesHub() {
     return acc;
   }, {} as Record<string, number>);
 
+  // Calculate adverse action statistics
+  const actionStats = {
+    totalActions: adverseActions.length,
+    uniqueInstitutions: new Set(adverseActions.map((a: AdverseAction) => a.sender_name)).size,
+    emotionalDistressCount: adverseActions.filter((a: AdverseAction) =>
+      a.applicable_non_pecuniary_damages?.some((d) => d.id === 'NONPEC-ED')
+    ).length,
+    reputationalHarmCount: adverseActions.filter((a: AdverseAction) =>
+      a.applicable_non_pecuniary_damages?.some((d) => d.id === 'NONPEC-REP')
+    ).length,
+  };
+
   // Document status counts for the chart
   const documentStatusCounts = damages
     .flatMap((d) => d.required_documents)
@@ -102,7 +140,7 @@ export default function DamagesHub() {
     );
 
   // Chart data
-  const chartData = {
+  const chartData: DoughnutChartData = {
     labels: ['Verified', 'Received', 'Requested', 'Needed', 'N/A'],
     datasets: [
       {
@@ -125,11 +163,65 @@ export default function DamagesHub() {
     ],
   };
 
+  const chartOptions: ChartOptions<'doughnut'> = {
+    cutout: '60%',
+    plugins: {
+      legend: {
+        display: false,
+      },
+      tooltip: {
+        callbacks: {
+          label: function (context: TooltipItem<'doughnut'>) {
+            const label = context.label || '';
+            const value = context.raw || 0;
+            const total = (context.dataset.data as number[]).reduce(
+              (acc: number, data: number) => acc + data,
+              0
+            );
+            const percentage = Math.round(((value as number) / total) * 100);
+            return `${label}: ${value} (${percentage}%)`;
+          },
+        },
+      },
+    },
+  };
+
   // Filter damages by category for each tab
   const getDamagesByCategory = (category: string) => {
     if (category === 'overview') return [];
     return damages.filter((d) => d.category === category);
   };
+
+  // Calculate critical documentation needs
+  const criticalDocs = damages
+    .flatMap((d) => d.required_documents)
+    .filter((doc) => doc.status === 'Needed')
+    .sort((a, b) => {
+      // Prioritize high-value claims
+      const aValue = damages.find((d) => d.required_documents.includes(a))?.claimed_value || 0;
+      const bValue = damages.find((d) => d.required_documents.includes(b))?.claimed_value || 0;
+      return bValue - aValue;
+    })
+    .slice(0, 5); // Show top 5 critical docs
+
+  // Calculate non-pecuniary impact levels
+  const emotionalDistressLevel =
+    actionStats.emotionalDistressCount >= 30
+      ? 'Severe'
+      : actionStats.emotionalDistressCount >= 20
+      ? 'Substantial'
+      : actionStats.emotionalDistressCount >= 10
+      ? 'Moderate'
+      : 'Minor';
+
+  const reputationalHarmLevel =
+    actionStats.uniqueInstitutions >= 25
+      ? 'Severe'
+      : actionStats.uniqueInstitutions >= 15
+      ? 'Substantial'
+      : actionStats.uniqueInstitutions >= 8
+      ? 'Moderate'
+      : 'Minor';
 
   return (
     <div className="space-y-6">
@@ -223,18 +315,18 @@ export default function DamagesHub() {
                         <div className="grid grid-cols-2 gap-4">
                           <dt className="text-muted-foreground">Emotional Distress (NONPEC-ED):</dt>
                           <dd className="font-medium text-foreground">
-                            Substantial
+                            {emotionalDistressLevel}
                             <span className="text-xs text-muted-foreground ml-2">
-                              (43 Adverse Actions)
+                              ({actionStats.emotionalDistressCount} Adverse Actions)
                             </span>
                           </dd>
                         </div>
                         <div className="grid grid-cols-2 gap-4">
                           <dt className="text-muted-foreground">Reputational Harm (NONPEC-REP):</dt>
                           <dd className="font-medium text-foreground">
-                            Substantial
+                            {reputationalHarmLevel}
                             <span className="text-xs text-muted-foreground ml-2">
-                              (28 Institutions)
+                              ({actionStats.uniqueInstitutions} Institutions)
                             </span>
                           </dd>
                         </div>
@@ -261,48 +353,17 @@ export default function DamagesHub() {
               <Card className="card-concrete">
                 <CardContent className="p-6">
                   <div className="mb-6">
-                    <Doughnut
-                      data={chartData}
-                      options={{
-                        cutout: '70%',
-                        plugins: {
-                          legend: {
-                            position: 'bottom',
-                            labels: {
-                              boxWidth: 12,
-                              padding: 16,
-                              font: {
-                                size: 12,
-                                color: 'rgb(156, 163, 175)', // gray-400 for better visibility
-                              },
-                            },
-                          },
-                          tooltip: {
-                            callbacks: {
-                              label: function (context) {
-                                const label = context.label || '';
-                                const value = context.raw || 0;
-                                const total = (context.dataset.data as number[]).reduce(
-                                  (acc, data) => acc + (data as number),
-                                  0
-                                );
-                                const percentage = Math.round(((value as number) / total) * 100);
-                                return `${label}: ${value} (${percentage}%)`;
-                              },
-                            },
-                          },
-                        },
-                      }}
-                    />
+                    <Doughnut data={chartData} options={chartOptions} />
                   </div>
                   <div className="text-xs text-center text-muted-foreground">
                     <p className="font-medium">Critical Documentation Needs:</p>
                     <ul className="mt-2 text-left list-disc pl-4 space-y-1">
-                      <li>Credit Reports Used by Creditors (PREQ-01)</li>
-                      <li>Essex Payment Proof (PEC-PAY-01)</li>
-                      <li>Harvard Withdrawal Documentation (PEC-OPP)</li>
-                      <li>Opportunity Insights Study</li>
-                      <li>Plaintiff's Detailed Testimony (NONPEC-ED-01)</li>
+                      {criticalDocs.map((doc) => (
+                        <li key={doc.doc_id}>
+                          {doc.name}
+                          <span className="text-xs text-muted-foreground ml-1">({doc.doc_id})</span>
+                        </li>
+                      ))}
                     </ul>
                   </div>
                 </CardContent>
@@ -310,11 +371,48 @@ export default function DamagesHub() {
             </div>
           </div>
 
-          <h3 className="text-lg font-medium mb-4">All Claims</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {damages.map((damage) => (
-              <DamageCard key={damage.id} damage={damage} />
-            ))}
+          <div className="space-y-6">
+            <div>
+              <h3 className="text-lg font-medium mb-4">
+                Supporting Adverse Actions ({actionStats.totalActions})
+              </h3>
+              <Card className="card-concrete">
+                <CardContent className="p-6">
+                  <div className="space-y-4">
+                    <div className="flex justify-between text-sm border-b pb-2">
+                      <span className="font-medium">Summary of Adverse Actions:</span>
+                      <span>
+                        {actionStats.totalActions} Total Actions from{' '}
+                        {actionStats.uniqueInstitutions} Institutions
+                      </span>
+                    </div>
+                    <div className="text-sm space-y-2">
+                      <p>
+                        These adverse actions form the basis for the damage claims below. Each
+                        adverse action has been analyzed for:
+                      </p>
+                      <ul className="list-disc pl-4 space-y-1 text-muted-foreground">
+                        <li>Applicable pecuniary (economic) damages</li>
+                        <li>Non-pecuniary impacts (emotional distress, reputational harm)</li>
+                        <li>Required documentation and evidence</li>
+                      </ul>
+                    </div>
+                    <Button variant="outline" size="sm" className="w-full">
+                      View All Adverse Actions
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-medium mb-4">Consolidated Damage Claims</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {damages.map((damage) => (
+                  <DamageCard key={damage.id} damage={damage} />
+                ))}
+              </div>
+            </div>
           </div>
         </TabsContent>
 

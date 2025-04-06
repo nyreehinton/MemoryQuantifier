@@ -1,15 +1,36 @@
 // Adverse Action Types
-export type CreditReportAgency = "Experian" | "TransUnion" | "Equifax" | "SageStream" | "LexisNexis" | "Multiple" | string;
-
-export type ActionType = 
-  | "Credit Limit Reduction" 
-  | "Vehicle Financing Application Denial" 
-  | "Auto Financing Application Denial" 
-  | "Auto Loan Denial" 
-  | "Rental Application Conditional Approval" 
-  | "Credit Score Change Alert" 
-  | "Loan Denial"
+export type CreditReportAgency =
+  | 'Experian'
+  | 'TransUnion'
+  | 'Equifax'
+  | 'SageStream'
+  | 'LexisNexis'
+  | 'Multiple'
   | string;
+
+export type ActionType =
+  | 'Credit Limit Reduction'
+  | 'Vehicle Financing Application Denial'
+  | 'Auto Financing Application Denial'
+  | 'Auto Loan Denial'
+  | 'Rental Application Conditional Approval'
+  | 'Credit Score Change Alert'
+  | 'Loan Denial'
+  | string;
+
+export interface PecuniaryDamage {
+  id: string;
+  status: string;
+  notes: string;
+  evidence_needed_ref: string[];
+}
+
+export interface NonPecuniaryDamage {
+  id: string;
+  status: string;
+  notes: string;
+  evidence_needed_ref: string[];
+}
 
 export interface AdverseAction {
   document_index: number;
@@ -20,6 +41,8 @@ export interface AdverseAction {
   recipient_address?: string;
   recipient_email?: string;
   date: string;
+  application_date?: string;
+  decision_date?: string;
   action_type: ActionType;
   initiated_by?: string;
   details?: any;
@@ -30,10 +53,18 @@ export interface AdverseAction {
   credit_score_date?: string | null;
   credit_score_range?: string | null;
   credit_score_factors?: string[] | null;
+  comparison?: string;
+  applicable_pecuniary_damages?: PecuniaryDamage[];
+  applicable_non_pecuniary_damages?: NonPecuniaryDamage[];
 }
 
 // Credit Reports Types
-export type ReportStatus = "Outstanding" | "Requested" | "Partially Satisfied" | "Satisfied" | "N/A";
+export type ReportStatus =
+  | 'Outstanding'
+  | 'Requested'
+  | 'Partially Satisfied'
+  | 'Satisfied'
+  | 'N/A';
 
 export interface CreditReport {
   report_need_id: string;
@@ -48,17 +79,17 @@ export interface CreditReport {
 }
 
 // Damages Types
-export type DamageCategory = 
-  | "PEC-PAY"   // Required Payments
-  | "PEC-COST"  // Increased Credit Costs
-  | "PEC-FEE"   // Application Fees
-  | "PEC-DEP"   // Lost Deposits
-  | "PEC-OOP"   // Out-of-Pocket Expenses
-  | "PEC-OPP"   // Lost Opportunities
-  | "NONPEC-ED" // Emotional Distress
-  | "NONPEC-REP"; // Reputational Harm
+export type DamageCategory =
+  | 'PEC-PAY' // Required Payments
+  | 'PEC-COST' // Increased Credit Costs
+  | 'PEC-FEE' // Application Fees
+  | 'PEC-DEP' // Lost Deposits
+  | 'PEC-OOP' // Out-of-Pocket Expenses
+  | 'PEC-OPP' // Lost Opportunities
+  | 'NONPEC-ED' // Emotional Distress
+  | 'NONPEC-REP'; // Reputational Harm
 
-export type DocumentStatus = "Needed" | "Requested" | "Received" | "Verified" | "N/A";
+export type DocumentStatus = 'Needed' | 'Requested' | 'Received' | 'Verified' | 'N/A';
 
 export interface RequiredDocument {
   doc_id: string;
@@ -74,15 +105,15 @@ export interface DamageItem {
   category: DamageCategory;
   source_docs: number[];
   claimed_value: number | null;
-  status: "Verified" | "Pending" | "Potential";
+  status: 'Verified' | 'Pending' | 'Potential';
   required_documents: RequiredDocument[];
   description: string;
   date?: string;
 }
 
 // Task Types
-export type TaskPriority = "High" | "Medium" | "Low";
-export type TaskStatus = "To Do" | "In Progress" | "Complete";
+export type TaskPriority = 'High' | 'Medium' | 'Low';
+export type TaskStatus = 'To Do' | 'In Progress' | 'Complete';
 
 export interface Task {
   id: string;
@@ -97,7 +128,7 @@ export interface Task {
 }
 
 // Activity Types
-export type ActivityType = "Added" | "Updated" | "Created" | "Completed" | "Requested";
+export type ActivityType = 'Added' | 'Updated' | 'Created' | 'Completed' | 'Requested';
 
 export interface Activity {
   id: string;

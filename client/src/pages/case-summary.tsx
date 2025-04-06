@@ -48,7 +48,7 @@ const CaseSummary = () => {
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
         <div className="grid gap-4 md:grid-cols-2">
-          <Card className="card-concrete">
+          <Card className="card-concrete relative before:absolute before:-inset-[1px] before:rounded-lg before:border-2 before:border-yellow-500/50 before:pointer-events-none">
             <CardHeader>
               <CardTitle>Case Overview</CardTitle>
             </CardHeader>
