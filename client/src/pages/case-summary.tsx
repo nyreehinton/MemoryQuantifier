@@ -71,8 +71,8 @@ const CaseSummary = () => {
                   While settlements have been reached with all three major credit reporting
                   agencies, the case continues against Capital One, with urgent need for successor
                   counsel. The withdrawal notice from current representation after failed mediation
-                  blindsided Mr. Hinton completely—prior to medeiation, he inquired about counsel's
-                  appitite for continued litigation should mediation fail...
+                  blindsided Mr. Hinton, despite his inquiry prior to mediation about counsel's
+                  appetite for continued litigation should mediation fail.
                 </p>
               </div>
             </CardContent>

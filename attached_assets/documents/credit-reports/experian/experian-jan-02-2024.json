@@ -1,0 +1,558 @@
+{
+  "reportPreparedFor": "NYREE D. HINTON",
+  "reportDateGenerated": "2024-01-02",
+  "reportType": "Experian Credit Report",
+  "confidentiality": "Personal & confidential",
+  "ficoScore8": {
+    "score": 632,
+    "rating": "Fair",
+    "scaleMin": 300,
+    "scaleMax": 850,
+    "experianDataDate": "2024-01-02"
+  },
+  "accountSummary": {
+    "openAccounts": 23,
+    "selfReportedAccounts": 0,
+    "accountsEverLate": 1,
+    "closedAccounts": 0,
+    "collections": 0,
+    "averageAccountAge": "5 yrs 3 mos",
+    "oldestAccount": "9 yrs 10 mos"
+  },
+  "overallCreditUsage": {
+    "usagePercentage": 46,
+    "creditUsed": 24492,
+    "creditLimit": 43150
+  },
+  "debtSummary": {
+    "creditCardAndCreditLineDebt": 24492,
+    "selfReportedAccountBalance": 0,
+    "loanDebt": 92416,
+    "collectionsDebt": 0,
+    "totalDebt": 116908
+  }
+}
+{
+  "name": "NYREE D HINTON",
+  "alsoKnownAs": null,
+  "generationalIdentifier": null,
+  "yearOfBirth": 1996,
+  "addresses": [
+    {
+      "street": "5901 CENTER DR APT 456-2",
+      "city": "LOS ANGELES",
+      "state": "CA",
+      "zip": "90045-8957"
+    },
+    {
+      "street": "4254 CHURCH RD",
+      "city": "EASTON",
+      "state": "PA",
+      "zip": "18045-2971"
+    },
+    {
+      "street": "120 S ORLANDO AVE",
+      "city": "LOS ANGELES",
+      "state": "CA",
+      "zip": "90048-4184"
+    }
+  ],
+  "employers": [
+    {
+      "name": "CAPITAL GROUP"
+    },
+    {
+      "name": "THIRD BRIDGE GROUP LIMI"
+    }
+  ],
+  "personalStatements": "No Statement(s) present at this time"
+}
+[
+  {
+    "accountName": "ALLY FINANCIAL",
+    "accountNumber": "228015XXXXXX",
+    "accountType": "Auto Loan",
+    "dateOpened": "2021-03-05",
+    "dateClosed": "2021-07",
+    "status": "Paid, Closed/Never late.",
+    "statusUpdated": "2021-07",
+    "paymentHistoryStatus": "Exceptional payment history",
+    "paymentHistorySummary": "Closed (CLS) status in July 2021. Prior months show on-time.",
+    "balance": null,
+    "balanceUpdated": null,
+    "creditLimit": null,
+    "creditUsage": null,
+    "monthlyPayment": null,
+    "lastPaymentDate": "2021-07-01",
+    "highestBalance": null,
+    "terms": "75 Months",
+    "responsibility": "Individual",
+    "originalCreditor": null,
+    "companySold": null,
+    "originalBalance": 29164,
+    "contactInfo": {
+      "address": "200 RENAISSANCE CTR # BO DETROIT, MI 48243",
+      "phone": "(800) 200-4622"
+    },
+    "comments": null
+  },
+  {
+    "accountName": "BANK OF AMERICA, N.A.",
+    "accountNumber": "650100XXXXXXXX",
+    "accountType": "Auto Loan",
+    "dateOpened": "2022-02-22",
+    "dateClosed": "2022-12",
+    "status": "Paid, Closed/Never late.",
+    "statusUpdated": "2022-12",
+    "paymentHistoryStatus": "Exceptional payment history",
+    "paymentHistorySummary": "Closed (CLS) status in Dec 2022. Prior months show on-time.",
+    "balance": null,
+    "balanceUpdated": null,
+    "creditLimit": null,
+    "creditUsage": null,
+    "monthlyPayment": null,
+    "lastPaymentDate": "2022-12-22",
+    "highestBalance": null,
+    "terms": "72 Months",
+    "responsibility": "Individual",
+    "originalCreditor": null,
+    "companySold": null,
+    "originalBalance": 27351,
+    "contactInfo": {
+      "address": "4909 SAVARESE CIR TAMPA, FL 33634",
+      "phone": "(800) 669-6607"
+    },
+    "comments": null
+  },
+  {
+    "accountName": "DISCOVER STUDENT LOANS",
+    "accountNumber": "110027XXXXXXXXX",
+    "accountType": "Education",
+    "dateOpened": "2018-08-17",
+    "dateClosed": "2019-06",
+    "status": "Paid, Closed/Never late.",
+    "statusUpdated": "2019-06",
+    "paymentHistoryStatus": "Exceptional payment history",
+    "paymentHistorySummary": "Closed (CLS) status in June 2019. Prior months show on-time.",
+    "balance": null,
+    "balanceUpdated": null,
+    "creditLimit": null,
+    "creditUsage": null,
+    "monthlyPayment": null,
+    "lastPaymentDate": "2019-06-07",
+    "highestBalance": null,
+    "terms": "180 Months",
+    "responsibility": "Joint",
+    "originalCreditor": null,
+    "companySold": null,
+    "originalBalance": 8500,
+    "contactInfo": {
+      "address": "PO BOX 30948 SALT LAKE CITY, UT 84130",
+      "phone": "(800) 973-4064"
+    },
+    "comments": null
+  },
+  {
+    "accountName": "JPMCB CARD",
+    "accountNumber": "426684XXXXXX",
+    "accountType": "Credit card",
+    "dateOpened": "2020-12-25",
+    "dateClosed": "2021-01",
+    "status": "Paid, Closed/Never late.",
+    "statusUpdated": "2021-01",
+    "paymentHistoryStatus": "Exceptional payment history",
+     "paymentHistorySummary": "Closed (CLS) status in Jan 2021.",
+    "balance": null,
+    "balanceUpdated": null,
+    "creditLimit": 500,
+    "creditUsage": null,
+    "monthlyPayment": null,
+    "lastPaymentDate": null,
+    "highestBalance": null,
+    "terms": null,
+    "responsibility": "Individual",
+    "originalCreditor": null,
+    "companySold": null,
+    "originalBalance": null,
+    "contactInfo": {
+      "address": "PO BOX 15369 WILMINGTON, DE 19850",
+      "phone": "(800) 945-2000"
+    },
+    "comments": "Account closed at consumer's request"
+  },
+  {
+    "accountName": "LENDING CLUB CORP",
+    "accountNumber": "161891XXX",
+    "accountType": "Unsecured",
+    "dateOpened": "2019-11-14",
+    "dateClosed": "2023-05",
+    "status": "Paid, Closed/Never late.",
+    "statusUpdated": "2023-05",
+    "paymentHistoryStatus": "Exceptional payment history",
+    "paymentHistorySummary": "Closed (CLS) status in May 2023. Prior months 2019-2023 show on-time.",
+    "balance": null,
+    "balanceUpdated": null,
+    "creditLimit": null,
+    "creditUsage": null,
+    "monthlyPayment": null,
+    "lastPaymentDate": "2023-05-31",
+    "highestBalance": null,
+    "terms": "60 Months",
+    "responsibility": "Individual",
+    "originalCreditor": null,
+    "companySold": null,
+    "originalBalance": 8800,
+    "contactInfo": {
+      "address": "595 MARKET ST STE 200 SAN FRANCISCO, CA 94105",
+      "phone": "(888) 596-3157"
+    },
+    "comments": null
+  },
+  {
+    "accountName": "LIGHTSTREAM",
+    "accountNumber": "LS7315XXXX",
+    "accountType": "Unsecured",
+    "dateOpened": "2019-01-04",
+    "dateClosed": "2019-12",
+    "status": "Paid, Closed/Never late.",
+    "statusUpdated": "2019-12",
+    "paymentHistoryStatus": "Exceptional payment history",
+     "paymentHistorySummary": "Closed (CLS) status in Dec 2019. Prior months in 2019 show on-time.",
+    "balance": null,
+    "balanceUpdated": null,
+    "creditLimit": null,
+    "creditUsage": null,
+    "monthlyPayment": null,
+    "lastPaymentDate": "2019-12-02",
+    "highestBalance": null,
+    "terms": "36 Months",
+    "responsibility": "Individual",
+    "originalCreditor": null,
+    "companySold": null,
+    "originalBalance": 10000,
+    "contactInfo": {
+      "address": "PO BOX 849 WILSON, NC 27894",
+      "phone": "(619) 744-8100"
+    },
+    "comments": null
+  },
+  {
+    "accountName": "MOHELA/SOFI",
+    "accountNumber": "789067XXXXXXXXXX",
+    "accountType": "Education",
+    "dateOpened": "2019-06-03",
+    "dateClosed": "2021-06",
+    "status": "Paid, Closed/Never late.",
+    "statusUpdated": "2021-06",
+    "paymentHistoryStatus": "Exceptional payment history",
+    "paymentHistorySummary": "Closed (CLS) status in June 2021. Prior months 2019-2021 show on-time or No Data (ND).",
+    "balance": null,
+    "balanceUpdated": null,
+    "creditLimit": null,
+    "creditUsage": null,
+    "monthlyPayment": null,
+    "lastPaymentDate": "2021-06-23",
+    "highestBalance": null,
+    "terms": "241 Months",
+    "responsibility": "Individual",
+    "originalCreditor": null,
+    "companySold": null,
+    "originalBalance": 47941,
+    "contactInfo": {
+      "address": "633 SPIRIT DR CHESTERFIELD, MO 63005",
+      "phone": "(800) 666-4352"
+    },
+    "comments": null
+  },
+  {
+    "accountName": "PSECU",
+    "accountNumber": "181515XXXXX",
+    "accountType": "Auto Loan",
+    "dateOpened": "2021-06-16",
+    "dateClosed": "2022-01",
+    "status": "Paid, Closed/Never late.",
+    "statusUpdated": "2022-01",
+    "paymentHistoryStatus": "Exceptional payment history",
+    "paymentHistorySummary": "Closed (CLS) status in Jan 2022. Prior months 2021 show on-time.",
+    "balance": null,
+    "balanceUpdated": null,
+    "creditLimit": null,
+    "creditUsage": null,
+    "monthlyPayment": null,
+    "lastPaymentDate": "2022-01-12",
+    "highestBalance": null,
+    "terms": "84 Months",
+    "responsibility": "Individual",
+    "originalCreditor": null,
+    "companySold": null,
+    "originalBalance": 28278,
+    "contactInfo": {
+      "address": "1500 ELMERTON AVE HARRISBURG, PA 17110",
+      "phone": "(800) 237-7328"
+    },
+    "comments": null
+  },
+  {
+    "accountName": "SALLIE MAE BANK INC",
+    "accountNumber": "585250XXXXXXXXXX",
+    "accountType": "Education",
+    "dateOpened": "2014-08-08",
+    "dateClosed": "2019-06",
+    "status": "Paid, Closed/Never late.",
+    "statusUpdated": "2019-06",
+    "paymentHistoryStatus": "Exceptional payment history",
+    "paymentHistorySummary": "Closed (CLS) status in June 2019. Prior months 2014-2019 show on-time.",
+    "balance": null,
+    "balanceUpdated": null,
+    "creditLimit": null,
+    "creditUsage": null,
+    "monthlyPayment": null,
+    "lastPaymentDate": "2019-06-03",
+    "highestBalance": null,
+    "terms": "84 Months",
+    "responsibility": "Joint",
+    "originalCreditor": null,
+    "companySold": null,
+    "originalBalance": 14000,
+    "contactInfo": {
+      "address": "PO BOX 3229 WILMINGTON, DE 19804",
+      "phone": null
+    },
+    "comments": null
+  },
+  {
+    "accountName": "SALLIE MAE BANK INC",
+    "accountNumber": "585250XXXXXXXXXX",
+    "accountType": "Education",
+    "dateOpened": "2016-05-13",
+    "dateClosed": "2019-06",
+    "status": "Paid, Closed/Never late.",
+    "statusUpdated": "2019-06",
+    "paymentHistoryStatus": "Exceptional payment history",
+    "paymentHistorySummary": "Closed (CLS) status in June 2019. Prior months 2016-2019 show on-time.",
+    "balance": null,
+    "balanceUpdated": null,
+    "creditLimit": null,
+    "creditUsage": null,
+    "monthlyPayment": null,
+    "lastPaymentDate": "2019-06-03",
+    "highestBalance": null,
+    "terms": "96 Months",
+    "responsibility": "Joint",
+    "originalCreditor": null,
+    "companySold": null,
+    "originalBalance": 1752,
+    "contactInfo": {
+      "address": "PO BOX 3229 WILMINGTON, DE 19804",
+      "phone": null
+    },
+    "comments": null
+  },
+  {
+    "accountName": "SALLIE MAE BANK INC",
+    "accountNumber": "585250XXXXXXXXXX",
+    "accountType": "Education",
+    "dateOpened": "2016-08-25",
+    "dateClosed": "2019-06",
+    "status": "Paid, Closed/Never late.",
+    "statusUpdated": "2019-06",
+    "paymentHistoryStatus": "Exceptional payment history",
+    "paymentHistorySummary": "Closed (CLS) status in June 2019. Prior months 2016-2019 show on-time.",
+    "balance": null,
+    "balanceUpdated": null,
+    "creditLimit": null,
+    "creditUsage": null,
+    "monthlyPayment": null,
+    "lastPaymentDate": "2019-06-03",
+    "highestBalance": null,
+    "terms": "96 Months",
+    "responsibility": "Joint",
+    "originalCreditor": null,
+    "companySold": null,
+    "originalBalance": 22500,
+    "contactInfo": {
+      "address": "PO BOX 3229 WILMINGTON, DE 19804",
+      "phone": null
+    },
+    "comments": null
+  },
+  {
+    "accountName": "TEACHERS FED CREDIT UN",
+    "accountNumber": "600722XXXX",
+    "accountType": "Auto Loan",
+    "dateOpened": "2020-04-21",
+    "dateClosed": "2021-07",
+    "status": "Paid, Closed/Never late.",
+    "statusUpdated": "2021-07",
+    "paymentHistoryStatus": "Exceptional payment history",
+    "paymentHistorySummary": "Closed (CLS) status in July 2021. Prior months 2020-2021 show on-time.",
+    "balance": null,
+    "balanceUpdated": null,
+    "creditLimit": null,
+    "creditUsage": null,
+    "monthlyPayment": null,
+    "lastPaymentDate": "2021-07-20",
+    "highestBalance": null,
+    "terms": "72 Months",
+    "responsibility": "Individual",
+    "originalCreditor": null,
+    "companySold": null,
+    "originalBalance": 20120,
+    "contactInfo": {
+      "address": "102 MOTOR PKWY HAUPPAUGE, NY 11788",
+      "phone": "(631) 698-7000"
+    },
+    "comments": null
+  }
+]
+{
+  "status": "No collection accounts reported."
+}
+[
+  {
+    "inquirerName": "ALLY FINANCIAL",
+    "dateOfInquiry": "2022-12-08",
+    "businessType": "Auto Financing Companies",
+    "address": "200 RENAISSANCE CTR DETROIT, MI 48243",
+    "phone": "(248) 263-3004",
+    "scheduledRemovalMonth": "2025-01"
+  },
+  {
+    "inquirerName": "AMEX",
+    "dateOfInquiry": "2022-04-04",
+    "businessType": "Bank Credit Cards",
+    "address": "200 VESEY ST NEW YORK, NY 10285",
+    "phone": "(800) 874-2717",
+    "scheduledRemovalMonth": "2024-05"
+  },
+  {
+    "inquirerName": "BK OF AMER",
+    "dateOfInquiry": "2022-02-22",
+    "businessType": "All Banks - non specific",
+    "address": "PO BOX 982238 EL PASO, TX 79998",
+    "phone": "(800) 421-2110",
+    "scheduledRemovalMonth": "2024-03"
+  },
+  {
+    "inquirerName": "CAPITAL ONE AUTO FIN",
+    "dateOfInquiry": "2022-12-08",
+    "businessType": "Auto Financing Companies",
+    "address": "PO BOX 259407 PLANO, TX 75025",
+    "phone": "(800) 946-0332",
+    "scheduledRemovalMonth": "2025-01"
+  },
+  {
+    "inquirerName": "CITI CARDS CBNA",
+    "dateOfInquiry": "2023-06-16",
+    "businessType": "Bank Credit Cards",
+    "address": "PO BOX 6000 SIOUX FALLS, SD 57117",
+    "phone": "(800) 950-5114",
+    "scheduledRemovalMonth": "2025-07"
+  },
+  {
+    "inquirerName": "ITHINK FINANCIAL CREDI",
+    "dateOfInquiry": "2022-12-08",
+    "businessType": "Credit Unions",
+    "address": "1000 NW 17TH AVE DELRAY BEACH, FL 33445",
+    "phone": "(561) 982-4700",
+    "scheduledRemovalMonth": "2025-01"
+  },
+  {
+    "inquirerName": "JPMCB CARD",
+    "dateOfInquiry": "2022-12-14",
+    "businessType": "Bank Credit Cards",
+    "address": "PO BOX 15298 WILMINGTON, DE 19850",
+    "phone": "(800) 432-3117",
+    "scheduledRemovalMonth": "2025-01"
+  },
+  {
+    "inquirerName": "NCCINC/IQ AUTOS",
+    "dateOfInquiry": "2022-12-08",
+    "businessType": "Automobile Dealers, New",
+    "address": "499 ROSWELL ST NE MARIETTA, GA 30060",
+    "phone": "(770) 422-6161",
+    "scheduledRemovalMonth": "2025-01"
+  },
+  {
+    "inquirerName": "PSECU",
+    "dateOfInquiry": "2022-07-12",
+    "businessType": "Credit Unions",
+    "address": "1500 ELMERTON AVE HARRISBURG, PA 17110",
+    "phone": "(717) 234-8484",
+    "scheduledRemovalMonth": "2024-08"
+  },
+  {
+    "inquirerName": "PSECU",
+    "dateOfInquiry": "2022-02-18",
+    "businessType": "Credit Unions",
+    "address": "1500 ELMERTON AVE HARRISBURG, PA 17110",
+    "phone": "(717) 234-8484",
+    "scheduledRemovalMonth": "2024-03"
+  },
+  {
+    "inquirerName": "US BANK DS NORTH CENTR",
+    "dateOfInquiry": "2022-02-22",
+    "businessType": "All Banks - non specific",
+    "address": "205 W 4TH ST STE 700 CINCINNATI, OH 45202",
+    "phone": "(303) 626-9326",
+    "scheduledRemovalMonth": "2024-03"
+  }
+]
+{
+  "scoreModel": "FICO® Score 8",
+  "score": 632,
+  "rating": "Fair",
+  "scoreAnalysisDate": "2024-01-02",
+  "scoreComparison": "Below the average score of U.S. consumers",
+  "factorsHelping": [
+    {
+      "factor": "Many accounts paid on time",
+      "details": "You have a sufficient number of accounts that are currently paid as agreed.",
+      "metrics": {
+        "accountsCurrentlyPaidAsAgreed": 20
+      },
+      "comparison": "FICO High Achievers have an average of 6 accounts currently being paid as agreed."
+    },
+    {
+      "factor": "Recent credit card usage",
+      "details": "You've shown recent use of credit cards and/or bank-issued open-ended accounts. Demonstrates recent and responsible use.",
+      "metrics": null,
+      "comparison": null
+    }
+  ],
+  "factorsHurting": [
+    {
+      "factor": "Serious delinquency",
+      "details": "You have a serious delinquency (60 days past due or greater) or derogatory indicator on your credit report.",
+      "metrics": {
+        "accountsEver60DaysLateOrWorseOrDerogatory": 1
+      },
+      "comparison": "Virtually no FICO High Achievers have a 60 days late payment or worse listed on their credit report."
+    },
+    {
+      "factor": "Recent missed payment",
+      "details": "You recently missed a payment or had a derogatory indicator reported on your credit report.",
+      "metrics": {
+        "mostRecentMissedPayment": "2 Months ago"
+      },
+      "comparison": "About 98% of FICO High Achievers have no missed payments at all. But of those who do, the missed payment happened nearly 4 years ago, on average."
+    },
+    {
+      "factor": "High credit usage",
+      "details": "You've made heavy use of your available revolving credit.",
+      "metrics": {
+        "revolvingBalanceToCreditLimitRatio": "53%"
+      },
+      "comparison": "For FICO High Achievers, the average ratio of the revolving account balances to credit limits is less than 7%."
+    },
+    {
+      "factor": "Short account history",
+      "details": "You have a short credit history.",
+      "metrics": {
+        "oldestAccountOpened": "9 Years, 10 Months ago",
+        "averageAgeOfAccounts": "5 Years, 2 Months"
+      },
+      "comparison": "FICO High Achievers opened their oldest account 25 years ago, on average. Most FICO High Achievers have an average age of accounts of 9 years or more."
+    }
+  ]
+}

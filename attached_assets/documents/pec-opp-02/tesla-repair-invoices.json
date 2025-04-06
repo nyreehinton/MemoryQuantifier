@@ -1,0 +1,142 @@
+[
+  {
+    "invoiceNumber": "3000S0006277027",
+    "invoiceDate": "2023-02-06",
+    "dueDate": "2023-02-06",
+    "serviceProvider": {
+      "name": "Tesla, Inc.",
+      "address": "3371 Brunswick Pike, Lawrence Township, NJ, US 8648",
+      "phone": "609-806-2611"
+    },
+    "customer": {
+      "name": "Nyree Hinton",
+      "address": "4254 Church Road, Easton, PA 18045",
+      "email": "nyreehinton@gmail.com",
+      "phone": null
+    },
+    "vehicle": {
+      "vin": "5YJYGDEE1LF040216",
+      "year": "2020",
+      "model": "MODEL Y",
+      "licensePlate": null,
+      "color": "Pearl White Multi-Coat"
+    },
+    "odometerIn": "39882 Miles",
+    "odometerOut": null,
+    "serviceAdvisor": "Louis Casper",
+    "totalParts": 165.00,
+    "totalLabor": 39.00,
+    "discount": 0.00,
+    "subtotal": 204.00,
+    "tax": 13.51,
+    "totalAmount": 217.51,
+    "totalPaid": 217.51,
+    "amountDue": 0.00,
+    "status": "Paid"
+  },
+  {
+    "estimateNumber": "3000-009-0016233315",
+    "estimateDate": "2024-01-24",
+    "dueDate": "2024-01-24",
+    "serviceProvider": {
+      "name": "Tesla, Inc",
+      "address": "5840 W Centinela Avenue, Los Angeles, CA, US 90045",
+      "phone": "310-649-5463"
+    },
+    "customer": {
+      "name": "Nyree Hinton",
+      "address": "4254 Church Road, Easton, PA 18045",
+      "email": "nyreehinton@gmail.com",
+      "phone": null
+    },
+    "vehicle": {
+      "vin": "5YJYGDEE1LF040216",
+      "year": "2020",
+      "model": "MODEL Y",
+      "licensePlate": null,
+      "color": "Pearl White Multi-Coat"
+    },
+    "odometerIn": null,
+    "odometerOut": null,
+    "serviceAdvisor": "Nathaniel Morales",
+    "totalParts": 2171.33,
+    "totalLabor": 1244.00,
+    "discount": 0.00,
+    "subtotal": 3415.33,
+    "tax": 205.32,
+    "totalAmount": 3620.65,
+    "totalPaid": null,
+    "amountDue": 3620.65,
+    "status": "Estimate"
+  },
+  {
+    "invoiceNumber": "3000S0007380537",
+    "invoiceDate": "2023-06-28",
+    "dueDate": "2023-06-28",
+    "serviceProvider": {
+      "name": "Tesla, Inc",
+      "address": "2801 Barranca Pkwy, Irvine, CA, US 92606",
+      "phone": null
+    },
+    "customer": {
+      "name": "Nyree Hinton",
+      "address": "4254 Church Road, Easton, PA 18045",
+      "email": "nyreehinton@gmail.com",
+      "phone": "7329796264"
+    },
+    "vehicle": {
+      "vin": "5YJYGDEE1LF040216",
+      "year": "2020",
+      "model": "MODEL Y",
+      "licensePlate": null,
+      "color": "Pearl White Multi-Coat"
+    },
+    "odometerIn": "49517 Miles",
+    "odometerOut": "49520 Miles",
+    "serviceAdvisor": "Desislav Petkov",
+    "totalParts": 374.00,
+    "totalLabor": 79.50,
+    "discount": 0.00,
+    "subtotal": 453.50,
+    "tax": 28.60,
+    "totalAmount": 482.10,
+    "totalPaid": 482.10,
+    "amountDue": 0.00,
+    "status": "Paid"
+  },
+  {
+    "estimateNumber": "3000-009-0021563621",
+    "estimateDate": "2024-10-31",
+    "dueDate": "2024-10-31",
+    "serviceProvider": {
+      "name": "Tesla, Inc",
+      "address": "11163 Santa Monica Boulevard, Los Angeles, CA, US 90025-3313",
+      "phone": "(310) 473-8337"
+    },
+    "customer": {
+      "name": "Nyree Hinton",
+      "address": "4254 Church Road, Easton, PA 18045",
+      "email": "nyreehinton@gmail.com",
+      "phone": "+17329796264"
+    },
+    "vehicle": {
+      "vin": "5YJYGDEE1LF040216",
+      "year": "2020",
+      "model": "MODEL Y",
+      "licensePlate": null,
+      "color": "Pearl White Multi-Coat"
+    },
+    "odometerIn": "68573 Miles",
+    "odometerOut": null,
+    "serviceAdvisor": "Javier Romo",
+    "totalParts": 6906.48,
+    "totalLabor": 2809.70,
+    "discount": 0.00,
+    "subtotal": 9716.18,
+    "tax": 654.22,
+    "totalAmount": 10370.40,
+    "totalPaid": null,
+    "amountDue": 10370.40,
+    "status": "Estimate"
+  }
+]

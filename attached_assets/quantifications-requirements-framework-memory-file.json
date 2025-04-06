@@ -1,0 +1,196 @@
+[
+  {
+    "framework_section": "Prerequisites",
+    "description": "Fundamental evidence required to establish the link between alleged inaccurate reporting and the adverse actions listed in the 'Damages Quantification Hub'.",
+    "requirements": [
+      {
+        "item_id": "PREQ-01",
+        "item_name": "Credit Reports Used by Creditors",
+        "details": "Obtain the actual consumer credit reports pulled by specific creditors around the time of their adverse decisions, as required for nearly all claims. This involves pursuing the reports identified in 'cra-needed-memory-file-update-1.json' AND verifying/obtaining the specific reports mentioned within individual claim requirements in the 'Damages Quantification Hub' (e.g., 'TransUnion Report used by Essex' for PEC-PAY-01, 'Experian Report used by Golden 1' for PEC-COST-01, 'Experian Report used by Amex (Jan 2024)' for PEC-COST-08, etc.).",
+        "purpose": "To prove the alleged inaccurate information furnished by the defendant(s) was present and visible to the decision-maker at the time of the adverse action, establishing the primary causal link required under FCRA/CCRAA/UCL.",
+        "notes": "Essential foundational evidence. Success in obtaining these specific reports directly impacts the ability to prove causation for each corresponding damage claim listed in the Hub."
+      }
+    ]
+  },
+  {
+    "framework_section": "Pecuniary Damages - Quantification",
+    "description": "Documentation needed to calculate specific monetary losses for the claims identified in the 'Damages Quantification Hub'.",
+    "categories": [
+      {
+        "category_id": "PEC-PAY",
+        "category_name": "Required Additional Payments Due to Adverse Action",
+        "relevant_claims_hub": ["PEC-PAY-01: Essex Additional Security Deposit ($2,187)"],
+        "required_documentation": [
+          {"doc_id": "PEC-PAY-D01", "name": "Proof of Payment (Essex)", "details": "Evidence the required $2,187 additional security deposit was actually paid to Essex Property Trust for Tiffany Court (receipt, bank statement, cashed check image). Corresponds to 'Proof of Payment' in Hub for PEC-PAY-01."},
+          {"doc_id": "PEC-PAY-D02", "name": "Adverse Action Notice (Essex)", "details": "Doc 10, confirming the requirement and linking it to credit info."},
+          {"doc_id": "PEC-PAY-D03", "name": "Credit Report (Essex)", "details": "The specific TransUnion report(s) used by Essex around June 2024 (Ref: CR-NEED-11 / Hub PEC-PAY-01 requirement). Needed for causation (PREQ-01)."}
+        ],
+        "quantification_method": "Direct value stated ($2,187) confirmed by proof of payment and linked to adverse action caused by inaccurate report.",
+        "notes": "Claim PEC-PAY-01 in Hub."
+      },
+      {
+        "category_id": "PEC-COST",
+        "category_name": "Increased Cost of Credit / Unfavorable Terms / Higher Cost Alternative Financing",
+        "relevant_claims_hub": [
+            "PEC-COST-01: Golden1 Unfavorable Loan Terms (Doc 26)",
+            "PEC-COST-02: BofA Limit Reduction (1775) Impact (Doc 1, 20)",
+            "PEC-COST-03: Chase Limit Reduction (0757) Impact (Doc 3)",
+            "PEC-COST-04: Chase Amazon Limit Reduction (7293) Impact (Doc 4)",
+            "PEC-COST-05: BofA Limit Reduction (4041) Impact (Doc 14)",
+            "PEC-COST-06: Apple Card Limit Reduction Impact (Doc 16)",
+            "PEC-COST-07: Citi Double Cash Limit Reduction (1752) Impact (Doc 18)",
+            "PEC-COST-08: Amex Preset Limit (095008) Impact (Doc 25, 35)",
+            "PEC-COST-09: Huebner Chevrolet - Higher Cost Alternative Financing (Doc 2)",
+            "PEC-COST-10: Ally/Carmax - Higher Cost Alternative Financing (Doc 5)",
+            "PEC-COST-11: Ally/St. Charles - Higher Cost Alternative Financing (Doc 6)",
+            "PEC-COST-12: Ally/Carbeeco - Modified Terms (if accepted) (Doc 7)",
+            "PEC-COST-13: American Credit Acceptance/Carmax - Modified Terms (if accepted) (Doc 17)",
+            "PEC-COST-14: Capital One/Volvo Palo Alto - Higher Cost Alternative (Doc 12)",
+            "PEC-COST-15: Global Lending/St. Charles - Higher Cost Alternative (Doc 24)",
+            "PEC-COST-16: US Bank/Volvo Palo Alto - Higher Cost Alternative (Doc 38)",
+            "PEC-COST-17: PA Forward Student Loans - Higher Cost Alternative (Doc 15)",
+            "PEC-COST-18: Bank of Lake Mills/MPOWER - Higher Cost Alternative (Doc 19)",
+            "PEC-COST-19: Earnest - Higher Cost Alternative (Doc 21)",
+            "PEC-COST-20: Monterra Credit Union - Higher Cost Alternative (Doc 23)",
+            "PEC-COST-21: OneMain Financial - Higher Cost Alternative (Doc 27, 33 - consolidate or clarify which denial)",
+            "PEC-COST-22: LightStream/Truist - Higher Cost Alternative (Doc 29)",
+            "PEC-COST-23: LendingPoint/FinWise - Higher Cost Alternative (Doc 30)",
+            "PEC-COST-24: SoFi Bank - Higher Cost Alternative (Doc 36)"
+         ],
+        "required_documentation": [
+          {"doc_id": "PEC-COST-D01", "name": "Final Loan/Credit Agreement or Terms Received", "details": "Signed contract/terms for the actual credit received (e.g., Golden1 Loan Doc 26 for PEC-COST-01). For limit reductions (PEC-COST-02 to 08), need statements showing reduced limit. For modified terms (PEC-COST-12, 13), need the accepted modified agreement."},
+          {"doc_id": "PEC-COST-D02", "name": "Adverse Action / RBP / Denial Notice", "details": "The notice linking terms/denial/limit change to credit info (Docs 1, 3, 4, 14, 16, 18, 25, 26, 2, 5, 6, 7, 17, 12, 24, 38, 15, 19, 21, 23, 27/33, 29, 30, 36). Corresponds to 'Denial Documentation' etc. in Hub."},
+          {"doc_id": "PEC-COST-D03", "name": "Proof of 'But-For' Terms / Alternative Financing Terms", "details": "Evidence of terms likely qualified for without error OR terms of alternative financing obtained. Includes: lender rate sheets, post-correction quotes, expert report, actual agreement for alternative financing obtained after denial. Corresponds to 'Proof of But-For Terms', 'Alternative Financing Terms', 'Original Terms Offered' in Hub."},
+          {"doc_id": "PEC-COST-D04", "name": "Cost Differential Calculation / Analysis", "details": "Mathematical comparison showing total $ difference between actual cost/terms and 'but-for' scenario or alternative obtained. Corresponds to 'Cost Differential Calculation/Analysis' in Hub."},
+          {"doc_id": "PEC-COST-D05", "name": "Proof of Payment / Usage / Impact", "details": "Evidence showing actual costs incurred or impact. Includes: 'Statements Post-Reduction', 'Statements for Alternative Credit Used', 'APR Documentation', proof specific fees/deposits related to these terms were paid. Needed to show actual damages from limit cuts or higher cost alternatives."},
+          {"doc_id": "PEC-COST-D06", "name": "Specific Credit Report Used", "details": "The specific CRA report(s) used by the creditor for the decision, as listed in Hub (e.g., Experian for Golden1, TransUnion for BofA Mar'24, Experian for Chase Jan'24, etc.). Needed for causation (PREQ-01)."}
+        ],
+        "quantification_method": "Calculate difference between actual cost paid/impact experienced and estimated cost/impact under 'but-for' terms or vs. alternative. Requires establishing the 'but-for' scenario or alternative credibly.",
+        "notes": "Covers claims PEC-COST-01 through PEC-COST-24 in Hub. Requires careful calculation for each instance. TBD status indicates quantification needed."
+      },
+      {
+        "category_id": "PEC-FEE",
+        "category_name": "Non-Refundable Application Fees for Denied Credit",
+        "relevant_claims_hub": [
+            "PEC-FEE-01: Huebner Chevrolet Application Fee (Doc 2)",
+            "PEC-FEE-02: Ally Auto Application Fee (Carmax) (Doc 5)"
+            // Note: Hub only lists these two, but category potentially applies to other denials if fees paid.
+            ],
+        "required_documentation": [
+          {"doc_id": "PEC-FEE-D01", "name": "Proof of Fee Payment", "details": "Bank/credit card statement or lender receipt showing fee payment to Huebner (for PEC-FEE-01) or Ally/Carmax (for PEC-FEE-02). Corresponds to 'Proof of Fee Payment' in Hub."},
+          {"doc_id": "PEC-FEE-D02", "name": "Application Terms/Agreement", "details": "Lender documentation showing fee amount and non-refundable status for Huebner (PEC-FEE-01) or Ally/Carmax (PEC-FEE-02). Corresponds to 'Application Terms' in Hub."},
+          {"doc_id": "PEC-FEE-D03", "name": "Denial Notice", "details": "The denial document (Doc 2 for Huebner, Doc 5 for Ally)."},
+          {"doc_id": "PEC-FEE-D04", "name": "Specific Credit Report Used", "details": "The specific CRA report(s) used by the creditor (e.g., Experian used by Ally Feb 2024 for PEC-FEE-02). Needed for causation (PREQ-01)."}
+        ],
+        "quantification_method": "Sum of documented non-refundable fees paid for applications denied due to inaccurate info.",
+        "notes": "Claims PEC-FEE-01, PEC-FEE-02 in Hub. Investigate if fees paid for other denials too."
+      },
+      {
+        "category_id": "PEC-DEP",
+        "category_name": "Lost Deposits on Failed Transactions Due to Denial",
+        "relevant_claims_hub": ["PEC-DEP-01: Lost Deposit on Vehicle Purchase (TBD)"],
+        "required_documentation": [
+          {"doc_id": "PEC-DEP-D01", "name": "Purchase Agreement", "details": "Contract for the specific vehicle showing deposit amount. Corresponds to 'Purchase Agreement' in Hub."},
+          {"doc_id": "PEC-DEP-D02", "name": "Proof of Deposit Payment", "details": "Receipt, bank statement, check image. Corresponds to 'Proof of Deposit Payment' in Hub."},
+          {"doc_id": "PEC-DEP-D03", "name": "Proof of Forfeiture", "details": "Communication from seller or contract clause confirming forfeiture due to inability to secure financing linked temporally to a specific denial (Docs 2, 5, 6, 7, 8, 17, 22, 24, 34, 37, 38). Corresponds to 'Proof of Forfeiture' in Hub."},
+          {"doc_id": "PEC-DEP-D04", "name": "Specific Credit Report Used", "details": "The specific CRA report(s) used by the denying lender. Corresponds to 'Credit Reports Used for Auto Denials' in Hub. Needed for causation (PREQ-01)."}
+        ],
+        "quantification_method": "Amount of the forfeited deposit.",
+        "notes": "Claim PEC-DEP-01 in Hub. Requires strong link between a specific denial listed and the transaction failure."
+      },
+      {
+        "category_id": "PEC-OOP",
+        "category_name": "Out-of-Pocket Expenses for Remediation",
+        "relevant_claims_hub": ["PEC-OOP-01: Out-of-Pocket Remediation Costs ($323.6)"],
+        "required_documentation": [
+          {"doc_id": "PEC-OOP-D01", "name": "Itemized List & Receipts/Logs/Statements", "details": "Detailed list of expenses (certified mail, copies, notary, travel, credit reports/monitoring purchased *due to* issue, phone calls) with corresponding proof (receipts, logs, statements). Corresponds to 'Itemized List of Expenses', 'Supporting Receipts/Logs/Statements' in Hub."},
+          {"doc_id": "PEC-OOP-D02", "name": "Copies of Dispute Letters/Communications", "details": "Documents the efforts made, contextualizing the expenses."}
+        ],
+        "quantification_method": "Summation of documented, directly related expenses ($323.6 claimed).",
+        "notes": "Claim PEC-OOP-01 in Hub."
+      },
+      {
+        "category_id": "PEC-OPP",
+        "category_name": "Quantifiable Lost Opportunity Costs",
+        "relevant_claims_hub": [
+            "PEC-OPP-01: Harvard Education Loss (Claimed) ($1,140,000)",
+            "PEC-OPP-02: Inability to Replace Defective Vehicle Impact (TBD)",
+            "PEC-OPP-03: Lost Business Opportunity (The AI Remedy) (TBD)"
+            ],
+        "required_documentation": [
+          {"doc_id": "PEC-OPP-D01", "name": "Proof of Specific Opportunity & Causation", "details": "Evidence of the opportunity itself: Harvard enrollment/withdrawal proof (OPP-01); Tesla defectiveness proof, repair invoices, replacement vehicle need (OPP-02); Business plan, AI Remedy specifics (OPP-03). Link to specific denials: Student loan denials (Docs 15, 19, 36 for OPP-01); Auto denials (Docs 2, 5, 6, 7, 8, 17, 22, 24, 29, 34, 37, 38 for OPP-02); SmartBiz denial (Doc 31 for OPP-03)."},
+          {"doc_id": "PEC-OPP-D02", "name": "Proof & Calculation of Financial Impact", "details": "Evidence quantifying the loss: Opportunity Insights Harvard Study, Expert Report/Calculation validating $1.14M loss (OPP-01); Alternative transport costs, replacement vehicle financing docs showing higher cost or inability to purchase (OPP-02); Lost contracts/revenue evidence, financial statements (OPP-03). Corresponds to items listed under Required Documentation in Hub for each OPP claim."},
+          {"doc_id": "PEC-OPP-D03", "name": "Specific Credit Reports Used", "details": "The specific CRA reports used by denying lenders (Student Loan Denials for OPP-01, Auto Denials for OPP-02, Experian/SmartBiz for OPP-03). Corresponds to 'Credit Reports Used...' in Hub. Needed for causation (PREQ-01)."}
+        ],
+        "quantification_method": "Calculate specific financial delta ($1,140,000 claimed for OPP-01). Requires robust evidence and potentially expert analysis.",
+        "notes": "Claims PEC-OPP-01, PEC-OPP-02, PEC-OPP-03 in Hub. Causation and quantification can be complex."
+      }
+    ]
+  },
+  {
+    "framework_section": "Non-Pecuniary Damages - Supporting Evidence",
+    "description": "Evidence needed to justify a monetary award for intangible harm (emotional distress, humiliation, reputational damage) resulting from the pattern of adverse actions identified in the Hub.",
+    "categories": [
+      {
+        "category_id": "NONPEC-ED",
+        "category_name": "Emotional Distress / Mental Anguish / Humiliation",
+        "relevant_claims_hub": ["NONPEC-ED-01: Emotional Distress (TBD)"],
+        "supporting_evidence": [
+          {"evidence_id": "NONPEC-ED-D01", "name": "Plaintiff's Detailed Testimony", "details": "Specific feelings linked chronologically to receiving specific adverse actions (Docs 1-38 as listed in Hub source), dispute efforts, life impacts. Corresponds to 'Plaintiff's Detailed Testimony' in Hub."},
+          {"evidence_id": "NONPEC-ED-D02", "name": "Pattern of Adverse Actions Proof", "details": "Use Hub list/timeline (Docs 1-38) to show frequency, duration, severity. Corresponds to 'Pattern of Adverse Actions Proof' in Hub."},
+          {"evidence_id": "NONPEC-ED-D03", "name": "Corroborating Witness Testimony", "details": "Statements from others observing distress. Corresponds to 'Corroborating Witness Statements' in Hub."},
+          {"evidence_id": "NONPEC-ED-D04", "name": "Medical/Therapy Records (If Applicable)", "details": "Documentation of treatment sought. Corresponds to 'Medical/Therapy Records (If Applicable)' in Hub."},
+          {"evidence_id": "NONPEC-ED-D05", "name": "Evidence of Time/Effort Spent", "details": "Dispute letters, communication logs, time logs. Corresponds to 'Evidence of Time/Effort Spent' in Hub."}
+        ],
+        "quantification_method": "Argumentative, based on severity, duration, egregiousness, supported by evidence.",
+        "notes": "Claim NONPEC-ED-01 in Hub. Relies heavily on testimony and the documented pattern."
+      },
+	  {
+        "category_id": "NONPEC-REP",
+        "category_name": "Reputational Harm",
+        "relevant_claims_hub": ["NONPEC-REP-01: Reputational Harm (TBD)"],
+        "supporting_evidence": [
+		  {"evidence_id": "NONPEC-REP-D01", "name": "Plaintiff's Testimony", "details": "Impact of denials/adverse actions (Docs 1-38) on perceived creditworthiness, difficulty explaining. Corresponds to 'Plaintiff's Testimony' in Hub."},
+          {"evidence_id": "NONPEC-REP-D02", "name": "Pattern of Adverse Actions Proof", "details": "Use Hub list/timeline (Docs 1-38) to show widespread negative perception by creditors. Corresponds to 'Pattern of Adverse Actions Proof' in Hub."},
+		  {"evidence_id": "NONPEC-REP-D03", "name": "Credit Score Impact Documentation", "details": "Evidence of score drops (Doc 11) and low scores cited in denials (multiple docs listed in Hub source). Corresponds to 'Credit Score Impact Documentation' in Hub."}
+		],
+		"quantification_method": "Argumentative, intertwined with emotional distress damages.",
+		"notes": "Claim NONPEC-REP-01 in Hub. Focus on breadth/nature of negative perception created."
+	  }
+    ]
+  },
+  {
+    "framework_section": "Additional Recovery Considerations",
+    "description": "Factors beyond direct compensatory damages relevant to overall potential recovery.",
+    "considerations": [
+      {
+        "item_id": "ADD-01",
+        "item_name": "Loss of Use of Funds",
+        "details": "Evaluate if funds tied up (e.g., $2,187 Essex deposit in PEC-PAY-01) resulted in lost interest/return.",
+        "purpose": "Capture minor pecuniary losses.",
+        "notes": "Requires specific proof of alternative use."
+      },
+      {
+        "item_id": "ADD-02",
+        "item_name": "Punitive Damages (Willful Violations)",
+        "details": "Assess evidence gathered (pattern, defendant conduct) for willfulness under FCRA § 1681n / CCRAA § 1785.31(b) / potentially UCL.",
+        "purpose": "Support argument for damages punishing egregious conduct.",
+        "notes": "Quantification by fact-finder. Evidence is key."
+      },
+      {
+        "item_id": "ADD-03",
+        "item_name": "Statutory Damages Election",
+        "details": "Under FCRA § 1681n, if willfulness proven, plaintiff may elect $100-$1000 per violation instead of actual damages.",
+        "purpose": "Acknowledge legal alternative.",
+        "notes": "Likely less than actual damages here."
+      },
+      {
+        "item_id": "ADD-04",
+        "item_name": "Attorney's Fees and Costs",
+        "details": "Recoverable if plaintiff prevails under FCRA (§ 1681n/o) / CCRAA (§ 1785.31).",
+        "purpose": "Statutory provision for legal expenses.",
+        "notes": "Quantified separately by attorney."
+      }
+    ]
+  }
+]

@@ -1,0 +1,3060 @@
+[
+  {
+    "issuer": "Bank of America",
+    "account_number": "5524 3381 4836 8426",
+    "name": "NYREE HINTON",
+    "address": "4254 CHURCH RD, EASTON PA 18045-2971",
+    "statement_period": "December 5 - January 4, 2023",
+    "statement_closing_date": "01/04/2023",
+    "payment_due_date": "02/01/2023",
+    "new_balance_total": 1697.59,
+    "current_payment_due": 25.00,
+    "total_minimum_payment_due": 25.00,
+    "previous_balance": 186.24,
+    "payments_credits": -225.00,
+    "purchases_adjustments": 1722.70,
+    "fees_charged": 13.65,
+    "interest_charged": 0.00,
+    "total_credit_line": 2500.00,
+    "total_credit_available": 802.41,
+    "cash_credit_line": 250.00,
+    "cash_credit_available": 250.00,
+    "apr": [
+      {
+        "type": "Purchases",
+        "rate": "27.24%V"
+      },
+      {
+        "type": "Balance Transfers",
+        "rate": "27.24%V"
+      },
+      {
+        "type": "Direct Deposit and Check Cash Advances",
+        "rate": "29.24%V"
+      },
+      {
+        "type": "Bank Cash Advances",
+        "rate": "29.24%V"
+      }
+    ]
+  },
+  {
+    "issuer": "Bank of America",
+    "account_number": "5524 3381 4836 8426",
+    "name": "NYREE HINTON",
+    "address": "4254 CHURCH RD, EASTON PA 18045-2971",
+    "statement_period": "January 5 - February 4, 2023",
+    "statement_closing_date": "02/04/2023",
+    "payment_due_date": "03/01/2023",
+    "new_balance_total": 1935.99,
+    "current_payment_due": 57.00,
+    "total_minimum_payment_due": 57.00,
+    "previous_balance": 1697.59,
+    "payments_credits": -200.00,
+    "purchases_adjustments": 399.68,
+    "fees_charged": 0.00,
+    "interest_charged": 38.72,
+    "total_credit_line": 2500.00,
+    "total_credit_available": 564.01,
+    "cash_credit_line": 250.00,
+    "cash_credit_available": 250.00,
+    "apr": [
+      {
+        "type": "Purchases",
+        "rate": "27.24%V"
+      },
+      {
+        "type": "Balance Transfers",
+        "rate": "27.24%V"
+      },
+      {
+        "type": "Direct Deposit and Check Cash Advances",
+        "rate": "29.24%V"
+      },
+      {
+        "type": "Bank Cash Advances",
+        "rate": "29.24%V"
+      }
+    ]
+  },
+  {
+    "issuer": "Bank of America",
+    "account_number": "5524 3381 4836 8426",
+    "name": "NYREE HINTON",
+    "address": "4254 CHURCH RD, EASTON PA 18045-2971",
+    "statement_period": "February 5 - March 4, 2023",
+    "statement_closing_date": "03/04/2023",
+    "payment_due_date": "04/01/2023",
+    "new_balance_total": 164.13,
+    "current_payment_due": 25.00,
+    "total_minimum_payment_due": 25.00,
+    "previous_balance": 1935.99,
+    "payments_credits": -2240.00,
+    "purchases_adjustments": 462.02,
+    "fees_charged": 0.00,
+    "interest_charged": 6.12,
+    "total_credit_line": 2500.00,
+    "total_credit_available": 2335.87,
+    "cash_credit_line": 250.00,
+    "cash_credit_available": 250.00,
+    "apr": [
+      {
+        "type": "Purchases",
+        "rate": "27.49%V"
+      },
+      {
+        "type": "Balance Transfers",
+        "rate": "27.49%V"
+      },
+      {
+        "type": "Direct Deposit and Check Cash Advances",
+        "rate": "29.49%V"
+      },
+      {
+        "type": "Bank Cash Advances",
+        "rate": "29.49%V"
+      }
+    ]
+  },
+  {
+    "issuer": "Bank of America",
+    "account_number": "5524 3381 4836 8426",
+    "name": "NYREE HINTON",
+    "address": "4254 CHURCH RD, EASTON PA 18045-2971",
+    "statement_period": "March 5 - April 4, 2023",
+    "statement_closing_date": "04/04/2023",
+    "payment_due_date": "05/01/2023",
+    "new_balance_total": 577.49,
+    "current_payment_due": 25.00,
+    "total_minimum_payment_due": 25.00,
+    "previous_balance": 164.13,
+    "payments_credits": -225.00,
+    "purchases_adjustments": 638.36,
+    "fees_charged": 0.00,
+    "interest_charged": 0.00,
+    "total_credit_line": 2500.00,
+    "total_credit_available": 1922.51,
+    "cash_credit_line": 250.00,
+    "cash_credit_available": 250.00,
+    "apr": [
+      {
+        "type": "Purchases",
+        "rate": "27.74%V"
+      },
+      {
+        "type": "Balance Transfers",
+        "rate": "27.74%V"
+      },
+      {
+        "type": "Direct Deposit and Check Cash Advances",
+        "rate": "29.74%V"
+      },
+      {
+        "type": "Bank Cash Advances",
+        "rate": "29.74%V"
+      }
+    ]
+  },
+  {
+    "issuer": "Bank of America",
+    "account_number": "5524 3381 4836 8426",
+    "name": "NYREE HINTON",
+    "address": "4254 CHURCH RD, EASTON PA 18045-2971",
+    "statement_period": "April 5 - May 4, 2023",
+    "statement_closing_date": "05/04/2023",
+    "payment_due_date": "06/01/2023",
+    "new_balance_total": 1664.36,
+    "current_payment_due": 25.00,
+    "total_minimum_payment_due": 25.00,
+    "previous_balance": 577.49,
+    "payments_credits": -1373.08,
+    "purchases_adjustments": 2459.95,
+    "fees_charged": 0.00,
+    "interest_charged": 0.00,
+    "total_credit_line": 2500.00,
+    "total_credit_available": 835.64,
+    "cash_credit_line": 250.00,
+    "cash_credit_available": 250.00,
+    "apr": [
+      {
+        "type": "Purchases",
+        "rate": "27.74%V"
+      },
+      {
+        "type": "Balance Transfers",
+        "rate": "27.74%V"
+      },
+      {
+        "type": "Direct Deposit and Check Cash Advances",
+        "rate": "29.74%V"
+      },
+      {
+        "type": "Bank Cash Advances",
+        "rate": "29.74%V"
+      }
+    ]
+  },
+  {
+    "issuer": "Bank of America",
+    "account_number": "5524 3300 2949 0262",
+    "name": "NYREE HINTON",
+    "address": "133 GLANCE, IRVINE CA 92618-1426",
+    "statement_period": "May 5 - June 4, 2023",
+    "statement_closing_date": "06/04/2023",
+    "payment_due_date": "07/01/2023",
+    "new_balance_total": 2253.70,
+    "current_payment_due": 62.00,
+    "total_minimum_payment_due": 62.00,
+    "previous_balance": 1664.36,
+    "payments_credits": -779.95,
+    "purchases_adjustments": 1328.87,
+    "fees_charged": 0.00,
+    "interest_charged": 40.42,
+    "total_credit_line": 2500.00,
+    "total_credit_available": 246.30,
+    "cash_credit_line": 250.00,
+    "cash_credit_available": 246.30,
+    "apr": [
+      {
+        "type": "Purchases",
+        "rate": "27.99%V"
+      },
+      {
+        "type": "Balance Transfers",
+        "rate": "27.99%V"
+      },
+      {
+        "type": "Direct Deposit and Check Cash Advances",
+        "rate": "29.99%V"
+      },
+      {
+        "type": "Bank Cash Advances",
+        "rate": "29.99%V"
+      }
+    ]
+  },
+  {
+    "issuer": "Bank of America",
+    "account_number": "5524 3300 2949 0262",
+    "name": "NYREE HINTON",
+    "address": "133 GLANCE, IRVINE CA 92618-1426",
+    "statement_period": "June 5 - July 4, 2023",
+    "statement_closing_date": "07/04/2023",
+    "payment_due_date": "08/01/2023",
+    "new_balance_total": 2491.48,
+    "current_payment_due": 80.00,
+    "total_minimum_payment_due": 80.00,
+    "previous_balance": 2253.70,
+    "payments_credits": -100.00,
+    "purchases_adjustments": 281.84,
+    "fees_charged": 0.00,
+    "interest_charged": 55.94,
+    "total_credit_line": 2500.00,
+    "total_credit_available": 8.52,
+    "cash_credit_line": 250.00,
+    "cash_credit_available": 8.52,
+    "apr": [
+      {
+        "type": "Purchases",
+        "rate": "27.99%V"
+      },
+      {
+        "type": "Balance Transfers",
+        "rate": "27.99%V"
+      },
+      {
+        "type": "Direct Deposit and Check Cash Advances",
+        "rate": "29.99%V"
+      },
+      {
+        "type": "Bank Cash Advances",
+        "rate": "29.99%V"
+      }
+    ]
+  },
+  {
+    "issuer": "Bank of America",
+    "account_number": "5524 3300 2949 0262",
+    "name": "NYREE HINTON",
+    "address": "4254 CHURCH RD, EASTON PA 18045-2971",
+    "statement_period": "July 5 - August 4, 2023",
+    "statement_closing_date": "08/04/2023",
+    "payment_due_date": "09/01/2023",
+    "new_balance_total": 1365.95,
+    "current_payment_due": 51.00,
+    "total_minimum_payment_due": 51.00,
+    "previous_balance": 2491.48,
+    "payments_credits": -2007.07,
+    "purchases_adjustments": 843.39,
+    "fees_charged": 0.00,
+    "interest_charged": 38.15,
+    "total_credit_line": 2500.00,
+    "total_credit_available": 1134.05,
+    "cash_credit_line": 250.00,
+    "cash_credit_available": 250.00,
+    "apr": [
+      {
+        "type": "Purchases",
+        "rate": "28.24%V"
+      },
+      {
+        "type": "Balance Transfers",
+        "rate": "28.24%V"
+      },
+      {
+        "type": "Direct Deposit and Check Cash Advances",
+        "rate": "29.99%V"
+      },
+      {
+        "type": "Bank Cash Advances",
+        "rate": "29.99%V"
+      }
+    ]
+  },
+  {
+    "issuer": "Bank of America",
+    "account_number": "5524 3300 2949 0262",
+    "name": "NYREE HINTON",
+    "address": "4254 CHURCH RD, EASTON PA 18045-2971",
+    "statement_period": "August 5 - September 4, 2023",
+    "statement_closing_date": "09/04/2023",
+    "payment_due_date": "10/01/2023",
+    "new_balance_total": 1428.63,
+    "current_payment_due": 37.00,
+    "total_minimum_payment_due": 37.00,
+    "previous_balance": 1365.95,
+    "payments_credits": -1349.61,
+    "purchases_adjustments": 1388.84,
+    "fees_charged": 0.00,
+    "interest_charged": 23.45,
+    "total_credit_line": 2500.00,
+    "total_credit_available": 1071.37,
+    "cash_credit_line": 250.00,
+    "cash_credit_available": 250.00,
+    "apr": [
+      {
+        "type": "Purchases",
+        "rate": "28.24%V"
+      },
+      {
+        "type": "Balance Transfers",
+        "rate": "28.24%V"
+      },
+      {
+        "type": "Direct Deposit and Check Cash Advances",
+        "rate": "29.99%V"
+      },
+      {
+        "type": "Bank Cash Advances",
+        "rate": "29.99%V"
+      }
+    ]
+  },
+  {
+    "issuer": "Bank of America",
+    "account_number": "5524 3300 2949 0262",
+    "name": "NYREE HINTON",
+    "address": "4254 CHURCH RD, EASTON PA 18045-2971",
+    "statement_period": "September 5 - October 4, 2023",
+    "statement_closing_date": "10/04/2023",
+    "payment_due_date": "11/01/2023",
+    "new_balance_total": 1754.88,
+    "current_payment_due": 54.00,
+    "total_minimum_payment_due": 54.00,
+    "previous_balance": 1428.63,
+    "payments_credits": -50.00,
+    "purchases_adjustments": 338.90,
+    "fees_charged": 0.00,
+    "interest_charged": 37.35,
+    "total_credit_line": 2500.00,
+    "total_credit_available": 745.12,
+    "cash_credit_line": 250.00,
+    "cash_credit_available": 250.00,
+    "apr": [
+      {
+        "type": "Purchases",
+        "rate": "28.24%V"
+      },
+      {
+        "type": "Balance Transfers",
+        "rate": "28.24%V"
+      },
+      {
+        "type": "Direct Deposit and Check Cash Advances",
+        "rate": "29.99%V"
+      },
+      {
+        "type": "Bank Cash Advances",
+        "rate": "29.99%V"
+      }
+    ]
+  },
+  {
+    "issuer": "Bank of America",
+    "account_number": "5524 3300 2949 0262",
+    "name": "NYREE HINTON",
+    "address": "4254 CHURCH RD, EASTON PA 18045-2971",
+    "statement_period": "October 5 - November 4, 2023",
+    "statement_closing_date": "11/04/2023",
+    "payment_due_date": "12/01/2023",
+    "new_balance_total": 2285.34,
+    "current_payment_due": 61.00,
+    "total_minimum_payment_due": 61.00,
+    "previous_balance": 1754.88,
+    "payments_credits": -1248.03,
+    "purchases_adjustments": 1737.93,
+    "fees_charged": 0.00,
+    "interest_charged": 40.56,
+    "total_credit_line": 2500.00,
+    "total_credit_available": 214.66,
+    "cash_credit_line": 250.00,
+    "cash_credit_available": 214.66,
+    "apr": [
+      {
+        "type": "Purchases",
+        "rate": "28.24%V"
+      },
+      {
+        "type": "Balance Transfers",
+        "rate": "28.24%V"
+      },
+      {
+        "type": "Direct Deposit and Check Cash Advances",
+        "rate": "29.99%V"
+      },
+      {
+        "type": "Bank Cash Advances",
+        "rate": "29.99%V"
+      }
+    ]
+  },
+  {
+    "issuer": "Bank of America",
+    "account_number": "5524 3300 2949 0262",
+    "name": "NYREE HINTON",
+    "address": "4254 CHURCH RD, EASTON PA 18045-2971",
+    "statement_period": "November 5 - December 4, 2023",
+    "statement_closing_date": "12/04/2023",
+    "payment_due_date": "01/01/2024",
+    "new_balance_total": 2549.10,
+    "current_payment_due": 73.00,
+    "total_minimum_payment_due": 73.00,
+    "previous_balance": 2285.34,
+    "payments_credits": -200.00,
+    "purchases_adjustments": 413.47,
+    "fees_charged": 0.00,
+    "interest_charged": 50.29,
+    "total_credit_line": 2500.00,
+    "total_credit_available": 0.00,
+    "cash_credit_line": 250.00,
+    "cash_credit_available": 0.00,
+    "apr": [
+      {
+        "type": "Purchases",
+        "rate": "28.24%V"
+      },
+      {
+        "type": "Balance Transfers",
+        "rate": "28.24%V"
+      },
+      {
+        "type": "Direct Deposit and Check Cash Advances",
+        "rate": "29.99%V"
+      },
+      {
+        "type": "Bank Cash Advances",
+        "rate": "29.99%V"
+      }
+    ]
+  }
+[
+  {
+    "issuer": "Bank of America",
+    "accountHolder": {
+      "name": "NYREE HINTON",
+      "address": {
+        "street": "4254 CHURCH RD",
+        "city": "EASTON",
+        "state": "PA",
+        "zip": "18045-2971"
+      }
+    },
+    "accountNumber": "4400 XXXX XXXX 4041",
+    "statementPeriod": {
+      "startDate": "2023-12-05",
+      "endDate": "2024-01-04"
+    },
+    "statementClosingDate": "2024-01-04",
+    "daysInBillingCycle": 31,
+    "paymentInfo": {
+      "newBalanceTotal": 1862.19,
+      "totalMinimumPaymentDue": 61.00,
+      "paymentDueDate": "2024-02-01",
+      "pastDueAmount": null
+    },
+    "accountSummary": {
+      "previousBalance": 1736.54,
+      "paymentsAndCredits": -58.00,
+      "purchasesAndAdjustments": 139.95,
+      "feesCharged": 0.00,
+      "interestCharged": 43.70,
+      "newBalance": 1862.19
+    },
+    "creditDetails": {
+      "totalCreditLine": 1900.00,
+      "totalCreditAvailable": 37.81,
+      "cashCreditLine": 200.00,
+      "cashCreditAvailable": 37.81
+    },
+    "interestChargeCalculation": [
+      {
+        "typeOfBalance": "Purchases",
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 1822.00,
+        "interestCharged": 43.70,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Balance Transfers",
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Direct Deposit and Check Cash Advances",
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Bank Cash Advances",
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      }
+    ],
+    "rewardsSummary": {
+      "baseCashBackEarned": 1.40,
+      "categoryBonusEarned": null,
+      "relationshipBonusEarned": 0.14,
+      "cashBackRedeemed": null,
+      "totalCashBackAvailable": 2.00
+    },
+    "warnings": {
+      "latePayment": {
+        "fee": 39.00,
+        "penaltyAPR": "29.99%"
+      },
+      "minimumPayment": {
+        "onlyMinPayment": {
+          "payoffTimeYears": 12,
+          "estimatedTotal": 5043.00
+        },
+        "higherPaymentExample": {
+          "monthlyPayment": 77.00,
+          "payoffTimeMonths": 36,
+          "estimatedTotal": 2772.00,
+          "savings": 2271.00
+        }
+      }
+    },
+    "yearToDateTotals": {
+      "feesCharged": 0.00,
+      "interestCharged": 43.70
+    }
+  },
+  {
+    "issuer": "Bank of America",
+    "accountHolder": {
+      "name": "NYREE HINTON",
+      "address": {
+        "street": "4254 CHURCH RD",
+        "city": "EASTON",
+        "state": "PA",
+        "zip": "18045-2971"
+      }
+    },
+    "accountNumber": "4400 XXXX XXXX 4041",
+    "statementPeriod": {
+      "startDate": "2024-01-05",
+      "endDate": "2024-02-04"
+    },
+    "statementClosingDate": "2024-02-04",
+    "daysInBillingCycle": 31,
+    "paymentInfo": {
+      "newBalanceTotal": 1946.50,
+      "totalMinimumPaymentDue": 163.00,
+      "paymentDueDate": "2024-03-01",
+      "pastDueAmount": 61.00
+    },
+    "accountSummary": {
+      "previousBalance": 1862.19,
+      "paymentsAndCredits": 0.00,
+      "purchasesAndAdjustments": 0.00,
+      "feesCharged": 39.00,
+      "interestCharged": 45.31,
+      "newBalance": 1946.50
+    },
+    "creditDetails": {
+      "totalCreditLine": 1900.00,
+      "totalCreditAvailable": 0.00,
+      "cashCreditLine": 200.00,
+      "cashCreditAvailable": 0.00
+    },
+    "interestChargeCalculation": [
+      {
+        "typeOfBalance": "Purchases",
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 1888.99,
+        "interestCharged": 45.31,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Balance Transfers",
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Direct Deposit and Check Cash Advances",
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Bank Cash Advances",
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      }
+    ],
+    "rewardsSummary": {
+      "baseCashBackEarned": 0.00,
+      "categoryBonusEarned": null,
+      "relationshipBonusEarned": null,
+      "cashBackRedeemed": null,
+      "totalCashBackAvailable": 2.00
+    },
+    "warnings": {
+      "latePayment": {
+        "fee": 39.00,
+        "penaltyAPR": "29.99%"
+      },
+      "minimumPayment": {
+        "onlyMinPayment": {
+          "payoffTimeYears": 12,
+          "estimatedTotal": 5082.00
+        },
+        "higherPaymentExample": null
+      }
+    },
+    "yearToDateTotals": {
+      "feesCharged": 39.00,
+      "interestCharged": 89.01
+    }
+  },
+  {
+    "issuer": "Bank of America",
+    "accountHolder": {
+      "name": "NYREE HINTON",
+      "address": {
+        "street": "4254 CHURCH RD",
+        "city": "EASTON",
+        "state": "PA",
+        "zip": "18045-2971"
+      }
+    },
+    "accountNumber": "4400 XXXX XXXX 4041",
+    "statementPeriod": {
+      "startDate": "2024-02-05",
+      "endDate": "2024-03-04"
+    },
+    "statementClosingDate": "2024-03-04",
+    "daysInBillingCycle": 29,
+    "paymentInfo": {
+      "newBalanceTotal": 1822.30,
+      "totalMinimumPaymentDue": 58.00,
+      "paymentDueDate": "2024-04-01",
+      "pastDueAmount": null
+    },
+    "accountSummary": {
+      "previousBalance": 1946.50,
+      "paymentsAndCredits": -165.00,
+      "purchasesAndAdjustments": 0.00,
+      "feesCharged": 0.00,
+      "interestCharged": 40.80,
+      "newBalance": 1822.30
+    },
+    "creditDetails": {
+      "totalCreditLine": 1900.00,
+      "totalCreditAvailable": 77.70,
+      "cashCreditLine": 200.00,
+      "cashCreditAvailable": 77.70
+    },
+    "interestChargeCalculation": [
+      {
+        "typeOfBalance": "Purchases",
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 1818.35,
+        "interestCharged": 40.80,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Balance Transfers",
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Direct Deposit and Check Cash Advances",
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Bank Cash Advances",
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      }
+    ],
+    "rewardsSummary": {
+      "baseCashBackEarned": 0.00,
+      "categoryBonusEarned": null,
+      "relationshipBonusEarned": null,
+      "cashBackRedeemed": null,
+      "totalCashBackAvailable": 2.00
+    },
+    "warnings": {
+      "latePayment": {
+        "fee": 39.00,
+        "penaltyAPR": "29.99%"
+      },
+      "minimumPayment": {
+        "onlyMinPayment": {
+          "payoffTimeYears": 12,
+          "estimatedTotal": 4912.00
+        },
+        "higherPaymentExample": {
+          "monthlyPayment": 76.00,
+          "payoffTimeMonths": 36,
+          "estimatedTotal": 2736.00,
+          "savings": 2176.00
+        }
+      }
+    },
+    "yearToDateTotals": {
+      "feesCharged": 39.00,
+      "interestCharged": 129.81
+    }
+  },
+  {
+    "issuer": "Bank of America",
+    "accountHolder": {
+      "name": "NYREE HINTON",
+      "address": {
+        "street": "4254 CHURCH RD",
+        "city": "EASTON",
+        "state": "PA",
+        "zip": "18045-2971"
+      }
+    },
+    "accountNumber": "4400 XXXX XXXX 4041",
+    "statementPeriod": {
+      "startDate": "2024-03-05",
+      "endDate": "2024-04-04"
+    },
+    "statementClosingDate": "2024-04-04",
+    "daysInBillingCycle": 31,
+    "paymentInfo": {
+      "newBalanceTotal": 1808.20,
+      "totalMinimumPaymentDue": 61.00,
+      "paymentDueDate": "2024-05-01",
+      "pastDueAmount": null
+    },
+    "accountSummary": {
+      "previousBalance": 1822.30,
+      "paymentsAndCredits": -58.00,
+      "purchasesAndAdjustments": 0.00,
+      "feesCharged": 0.00,
+      "interestCharged": 43.90,
+      "newBalance": 1808.20
+    },
+    "creditDetails": {
+      "totalCreditLine": 1900.00,
+      "totalCreditAvailable": 91.80,
+      "cashCreditLine": 200.00,
+      "cashCreditAvailable": 91.80
+    },
+    "interestChargeCalculation": [
+      {
+        "typeOfBalance": "Purchases",
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 1830.47,
+        "interestCharged": 43.90,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Balance Transfers",
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Direct Deposit and Check Cash Advances",
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Bank Cash Advances",
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      }
+    ],
+    "rewardsSummary": {
+      "baseCashBackEarned": 0.00,
+      "categoryBonusEarned": null,
+      "relationshipBonusEarned": null,
+      "cashBackRedeemed": null,
+      "totalCashBackAvailable": 2.00
+    },
+    "warnings": {
+      "latePayment": {
+        "fee": 39.00,
+        "penaltyAPR": "29.99%"
+      },
+      "minimumPayment": {
+        "onlyMinPayment": {
+          "payoffTimeYears": 12,
+          "estimatedTotal": 4861.00
+        },
+        "higherPaymentExample": {
+          "monthlyPayment": 75.00,
+          "payoffTimeMonths": 36,
+          "estimatedTotal": 2700.00,
+          "savings": 2161.00
+        }
+      }
+    },
+    "yearToDateTotals": {
+      "feesCharged": 39.00,
+      "interestCharged": 173.71
+    }
+  },
+  {
+    "issuer": "Bank of America",
+    "accountHolder": {
+      "name": "NYREE HINTON",
+      "address": {
+        "street": "4254 CHURCH RD",
+        "city": "EASTON",
+        "state": "PA",
+        "zip": "18045-2971"
+      }
+    },
+    "accountNumber": "4400 XXXX XXXX 4041",
+    "statementPeriod": {
+      "startDate": "2024-04-05",
+      "endDate": "2024-05-04"
+    },
+    "statementClosingDate": "2024-05-04",
+    "daysInBillingCycle": 30,
+    "paymentInfo": {
+      "newBalanceTotal": 1779.72,
+      "totalMinimumPaymentDue": 58.00,
+      "paymentDueDate": "2024-06-01",
+      "pastDueAmount": null
+    },
+    "accountSummary": {
+      "previousBalance": 1808.20,
+      "paymentsAndCredits": -70.00,
+      "purchasesAndAdjustments": 0.00,
+      "feesCharged": 0.00,
+      "interestCharged": 41.52,
+      "newBalance": 1779.72
+    },
+    "creditDetails": {
+      "totalCreditLine": 1900.00,
+      "totalCreditAvailable": 120.28,
+      "cashCreditLine": 200.00,
+      "cashCreditAvailable": 120.28
+    },
+    "interestChargeCalculation": [
+      {
+        "typeOfBalance": "Purchases",
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 1788.72,
+        "interestCharged": 41.52,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Balance Transfers",
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Direct Deposit and Check Cash Advances",
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Bank Cash Advances",
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      }
+    ],
+    "rewardsSummary": {
+      "baseCashBackEarned": 0.00,
+      "categoryBonusEarned": null,
+      "relationshipBonusEarned": null,
+      "cashBackRedeemed": null,
+      "totalCashBackAvailable": 2.00
+    },
+    "warnings": {
+      "latePayment": {
+        "fee": 39.00,
+        "penaltyAPR": "29.99%"
+      },
+      "minimumPayment": {
+        "onlyMinPayment": {
+          "payoffTimeYears": 12,
+          "estimatedTotal": 4779.00
+        },
+        "higherPaymentExample": {
+          "monthlyPayment": 74.00,
+          "payoffTimeMonths": 36,
+          "estimatedTotal": 2664.00,
+          "savings": 2115.00
+        }
+      }
+    },
+    "yearToDateTotals": {
+      "feesCharged": 39.00,
+      "interestCharged": 215.23
+    }
+  },
+  {
+    "issuer": "Bank of America",
+    "accountHolder": {
+      "name": "NYREE HINTON",
+      "address": {
+        "street": "4254 CHURCH RD",
+        "city": "EASTON",
+        "state": "PA",
+        "zip": "18045-2971"
+      }
+    },
+    "accountNumber": "4400 XXXX XXXX 4041",
+    "statementPeriod": {
+      "startDate": "2024-05-05",
+      "endDate": "2024-06-04"
+    },
+    "statementClosingDate": "2024-06-04",
+    "daysInBillingCycle": 31,
+    "paymentInfo": {
+      "newBalanceTotal": 1862.03,
+      "totalMinimumPaymentDue": 158.00,
+      "paymentDueDate": "2024-07-01",
+      "pastDueAmount": 58.00
+    },
+    "accountSummary": {
+      "previousBalance": 1779.72,
+      "paymentsAndCredits": 0.00,
+      "purchasesAndAdjustments": 0.00,
+      "feesCharged": 39.00,
+      "interestCharged": 43.31,
+      "newBalance": 1862.03
+    },
+    "creditDetails": {
+      "totalCreditLine": 1900.00,
+      "totalCreditAvailable": 37.97,
+      "cashCreditLine": 200.00,
+      "cashCreditAvailable": 37.97
+    },
+    "interestChargeCalculation": [
+      {
+        "typeOfBalance": "Purchases",
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 1805.56,
+        "interestCharged": 43.31,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Balance Transfers",
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Direct Deposit and Check Cash Advances",
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Bank Cash Advances",
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      }
+    ],
+    "rewardsSummary": {
+      "baseCashBackEarned": 0.00,
+      "categoryBonusEarned": null,
+      "relationshipBonusEarned": null,
+      "cashBackRedeemed": null,
+      "totalCashBackAvailable": 0.00
+    },
+    "warnings": {
+      "latePayment": {
+        "fee": 39.00,
+        "penaltyAPR": "29.99%"
+      },
+      "minimumPayment": {
+        "onlyMinPayment": {
+          "payoffTimeYears": 12,
+          "estimatedTotal": 4818.00
+        },
+        "higherPaymentExample": null
+      }
+    },
+    "yearToDateTotals": {
+      "feesCharged": 78.00,
+      "interestCharged": 258.54
+    }
+  },
+  {
+    "issuer": "Bank of America",
+    "accountHolder": {
+      "name": "NYREE HINTON",
+      "address": {
+        "street": "4254 CHURCH RD",
+        "city": "EASTON",
+        "state": "PA",
+        "zip": "18045-2971"
+      }
+    },
+    "accountNumber": "4400 XXXX XXXX 4041",
+    "statementPeriod": {
+      "startDate": "2024-06-05",
+      "endDate": "2024-07-04"
+    },
+    "statementClosingDate": "2024-07-04",
+    "daysInBillingCycle": 30,
+    "paymentInfo": {
+      "newBalanceTotal": 1737.01,
+      "totalMinimumPaymentDue": 56.00,
+      "paymentDueDate": "2024-08-01",
+      "pastDueAmount": null
+    },
+    "accountSummary": {
+      "previousBalance": 1862.03,
+      "paymentsAndCredits": -165.00,
+      "purchasesAndAdjustments": 0.00,
+      "feesCharged": 0.00,
+      "interestCharged": 39.98,
+      "newBalance": 1737.01
+    },
+    "creditDetails": {
+      "totalCreditLine": 1900.00,
+      "totalCreditAvailable": 162.99,
+      "cashCreditLine": 200.00,
+      "cashCreditAvailable": 162.99
+    },
+    "interestChargeCalculation": [
+      {
+        "typeOfBalance": "Purchases",
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 1722.34,
+        "interestCharged": 39.98,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Balance Transfers",
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Direct Deposit and Check Cash Advances",
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Bank Cash Advances",
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      }
+    ],
+    "rewardsSummary": {
+      "baseCashBackEarned": 0.00,
+      "categoryBonusEarned": null,
+      "relationshipBonusEarned": null,
+      "cashBackRedeemed": null,
+      "totalCashBackAvailable": 0.00
+    },
+    "warnings": {
+      "latePayment": {
+        "fee": 39.00,
+        "penaltyAPR": "29.99%"
+      },
+      "minimumPayment": {
+        "onlyMinPayment": {
+          "payoffTimeYears": 12,
+          "estimatedTotal": 4622.00
+        },
+        "higherPaymentExample": {
+          "monthlyPayment": 72.00,
+          "payoffTimeMonths": 36,
+          "estimatedTotal": 2592.00,
+          "savings": 2030.00
+        }
+      }
+    },
+    "yearToDateTotals": {
+      "feesCharged": 78.00,
+      "interestCharged": 298.52
+    }
+  },
+  {
+    "issuer": "Bank of America",
+    "accountHolder": {
+      "name": "NYREE HINTON",
+      "address": {
+        "street": "4254 CHURCH RD",
+        "city": "EASTON",
+        "state": "PA",
+        "zip": "18045-2971"
+      }
+    },
+    "accountNumber": "4400 XXXX XXXX 4041",
+    "statementPeriod": {
+      "startDate": "2024-07-05",
+      "endDate": "2024-08-04"
+    },
+    "statementClosingDate": "2024-08-04",
+    "daysInBillingCycle": 31,
+    "paymentInfo": {
+      "newBalanceTotal": 1713.70,
+      "totalMinimumPaymentDue": 58.00,
+      "paymentDueDate": "2024-09-01",
+      "pastDueAmount": null
+    },
+    "accountSummary": {
+      "previousBalance": 1737.01,
+      "paymentsAndCredits": -65.00,
+      "purchasesAndAdjustments": 0.00,
+      "feesCharged": 0.00,
+      "interestCharged": 41.69,
+      "newBalance": 1713.70
+    },
+    "creditDetails": {
+      "totalCreditLine": 1900.00,
+      "totalCreditAvailable": 186.30,
+      "cashCreditLine": 200.00,
+      "cashCreditAvailable": 186.30
+    },
+    "interestChargeCalculation": [
+      {
+        "typeOfBalance": "Purchases",
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 1738.38,
+        "interestCharged": 41.69,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Balance Transfers",
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Direct Deposit and Check Cash Advances",
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Bank Cash Advances",
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      }
+    ],
+    "rewardsSummary": {
+      "baseCashBackEarned": 0.00,
+      "categoryBonusEarned": null,
+      "relationshipBonusEarned": null,
+      "cashBackRedeemed": null,
+      "totalCashBackAvailable": 0.00
+    },
+    "warnings": {
+      "latePayment": {
+        "fee": 39.00,
+        "penaltyAPR": "29.99%"
+      },
+      "minimumPayment": {
+        "onlyMinPayment": {
+          "payoffTimeYears": 11,
+          "estimatedTotal": 4552.00
+        },
+        "higherPaymentExample": {
+          "monthlyPayment": 71.00,
+          "payoffTimeMonths": 36,
+          "estimatedTotal": 2556.00,
+          "savings": 1996.00
+        }
+      }
+    },
+    "yearToDateTotals": {
+      "feesCharged": 78.00,
+      "interestCharged": 340.21
+    }
+  },
+  {
+    "issuer": "Bank of America",
+    "accountHolder": {
+      "name": "NYREE HINTON",
+      "address": {
+        "street": "4254 CHURCH RD",
+        "city": "EASTON",
+        "state": "PA",
+        "zip": "18045-2971"
+      }
+    },
+    "accountNumber": "4400 XXXX XXXX 4041",
+    "statementPeriod": {
+      "startDate": "2024-08-05",
+      "endDate": "2024-09-04"
+    },
+    "statementClosingDate": "2024-09-04",
+    "daysInBillingCycle": 31,
+    "paymentInfo": {
+      "newBalanceTotal": 1794.40,
+      "totalMinimumPaymentDue": 155.00,
+      "paymentDueDate": "2024-10-01",
+      "pastDueAmount": 58.00
+    },
+    "accountSummary": {
+      "previousBalance": 1713.70,
+      "paymentsAndCredits": 0.00,
+      "purchasesAndAdjustments": 0.00,
+      "feesCharged": 39.00,
+      "interestCharged": 41.70,
+      "newBalance": 1794.40
+    },
+    "creditDetails": {
+      "totalCreditLine": 1900.00,
+      "totalCreditAvailable": 105.60,
+      "cashCreditLine": 200.00,
+      "cashCreditAvailable": 105.60
+    },
+    "interestChargeCalculation": [
+      {
+        "typeOfBalance": "Purchases",
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 1738.77,
+        "interestCharged": 41.70,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Balance Transfers",
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Direct Deposit and Check Cash Advances",
+        "apr": "28.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Bank Cash Advances",
+        "apr": "29.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      }
+    ],
+    "rewardsSummary": {
+      "baseCashBackEarned": 0.00,
+      "categoryBonusEarned": null,
+      "relationshipBonusEarned": null,
+      "cashBackRedeemed": null,
+      "totalCashBackAvailable": 0.00
+    },
+    "warnings": {
+      "latePayment": {
+        "fee": 39.00,
+        "penaltyAPR": "29.99%"
+      },
+      "minimumPayment": {
+        "onlyMinPayment": {
+          "payoffTimeYears": 11,
+          "estimatedTotal": 4593.00
+        },
+        "higherPaymentExample": null
+      }
+    },
+    "yearToDateTotals": {
+      "feesCharged": 117.00,
+      "interestCharged": 381.91
+    }
+  },
+  {
+    "issuer": "Bank of America",
+    "accountHolder": {
+      "name": "NYREE HINTON",
+      "address": {
+        "street": "4254 CHURCH RD",
+        "city": "EASTON",
+        "state": "PA",
+        "zip": "18045-2971"
+      }
+    },
+    "accountNumber": "4400 XXXX XXXX 4041",
+    "statementPeriod": {
+      "startDate": "2024-09-05",
+      "endDate": "2024-10-04"
+    },
+    "statementClosingDate": "2024-10-04",
+    "daysInBillingCycle": 30,
+    "paymentInfo": {
+      "newBalanceTotal": 1672.96,
+      "totalMinimumPaymentDue": 54.00,
+      "paymentDueDate": "2024-11-01",
+      "pastDueAmount": null
+    },
+    "accountSummary": {
+      "previousBalance": 1794.40,
+      "paymentsAndCredits": -160.00,
+      "purchasesAndAdjustments": 0.00,
+      "feesCharged": 0.00,
+      "interestCharged": 38.56,
+      "newBalance": 1672.96
+    },
+    "creditDetails": {
+      "totalCreditLine": 1900.00,
+      "totalCreditAvailable": 227.04,
+      "cashCreditLine": 200.00,
+      "cashCreditAvailable": 200.00
+    },
+    "interestChargeCalculation": [
+      {
+        "typeOfBalance": "Purchases",
+        "apr": "27.74%V",
+        "balanceSubjectToInterestRate": 1691.11,
+        "interestCharged": 38.56,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Balance Transfers",
+        "apr": "27.74%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Direct Deposit and Check Cash Advances",
+        "apr": "27.74%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Bank Cash Advances",
+        "apr": "29.49%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      }
+    ],
+    "rewardsSummary": {
+      "baseCashBackEarned": 0.00,
+      "categoryBonusEarned": null,
+      "relationshipBonusEarned": null,
+      "cashBackRedeemed": null,
+      "totalCashBackAvailable": 0.00
+    },
+    "warnings": {
+      "latePayment": {
+        "fee": 39.00,
+        "penaltyAPR": "29.99%"
+      },
+      "minimumPayment": {
+        "onlyMinPayment": {
+          "payoffTimeYears": 11,
+          "estimatedTotal": 4352.00
+        },
+        "higherPaymentExample": {
+          "monthlyPayment": 69.00,
+          "payoffTimeMonths": 36,
+          "estimatedTotal": 2484.00,
+          "savings": 1868.00
+        }
+      }
+    },
+    "yearToDateTotals": {
+      "feesCharged": 117.00,
+      "interestCharged": 420.47
+    }
+  },
+  {
+    "issuer": "Bank of America",
+    "accountHolder": {
+      "name": "NYREE HINTON",
+      "address": {
+        "street": "4254 CHURCH RD",
+        "city": "EASTON",
+        "state": "PA",
+        "zip": "18045-2971"
+      }
+    },
+    "accountNumber": "4400 XXXX XXXX 4041",
+    "statementPeriod": {
+      "startDate": "2024-10-05",
+      "endDate": "2024-11-04"
+    },
+    "statementClosingDate": "2024-11-04",
+    "daysInBillingCycle": 31,
+    "paymentInfo": {
+      "newBalanceTotal": 1647.13,
+      "totalMinimumPaymentDue": 55.00,
+      "paymentDueDate": "2024-12-01",
+      "pastDueAmount": null
+    },
+    "accountSummary": {
+      "previousBalance": 1672.96,
+      "paymentsAndCredits": -65.00,
+      "purchasesAndAdjustments": 0.00,
+      "feesCharged": 0.00,
+      "interestCharged": 39.17,
+      "newBalance": 1647.13
+    },
+    "creditDetails": {
+      "totalCreditLine": 1900.00,
+      "totalCreditAvailable": 252.87,
+      "cashCreditLine": 200.00,
+      "cashCreditAvailable": 200.00
+    },
+    "interestChargeCalculation": [
+      {
+        "typeOfBalance": "Purchases",
+        "apr": "27.74%V",
+        "balanceSubjectToInterestRate": 1662.67,
+        "interestCharged": 39.17,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Balance Transfers",
+        "apr": "27.74%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Direct Deposit and Check Cash Advances",
+        "apr": "27.74%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Bank Cash Advances",
+        "apr": "29.49%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      }
+    ],
+    "rewardsSummary": {
+      "baseCashBackEarned": 0.00,
+      "categoryBonusEarned": null,
+      "relationshipBonusEarned": null,
+      "cashBackRedeemed": null,
+      "totalCashBackAvailable": 0.00
+    },
+    "warnings": {
+      "latePayment": {
+        "fee": 39.00,
+        "penaltyAPR": "29.99%"
+      },
+      "minimumPayment": {
+        "onlyMinPayment": {
+          "payoffTimeYears": 11,
+          "estimatedTotal": 4256.00
+        },
+        "higherPaymentExample": {
+          "monthlyPayment": 68.00,
+          "payoffTimeMonths": 36,
+          "estimatedTotal": 2448.00,
+          "savings": 1808.00
+        }
+      }
+    },
+    "yearToDateTotals": {
+      "feesCharged": 117.00,
+      "interestCharged": 459.64
+    }
+  },
+  {
+    "issuer": "Bank of America",
+    "accountHolder": {
+      "name": "NYREE HINTON",
+      "address": {
+        "street": "4254 CHURCH RD",
+        "city": "EASTON",
+        "state": "PA",
+        "zip": "18045-2971"
+      }
+    },
+    "accountNumber": "4400 XXXX XXXX 4041",
+    "statementPeriod": {
+      "startDate": "2024-11-05",
+      "endDate": "2024-12-04"
+    },
+    "statementClosingDate": "2024-12-04",
+    "daysInBillingCycle": 30,
+    "paymentInfo": {
+      "newBalanceTotal": 1624.57,
+      "totalMinimumPaymentDue": 53.00,
+      "paymentDueDate": "2025-01-01",
+      "pastDueAmount": null
+    },
+    "accountSummary": {
+      "previousBalance": 1647.13,
+      "paymentsAndCredits": -60.00,
+      "purchasesAndAdjustments": 0.00,
+      "feesCharged": 0.00,
+      "interestCharged": 37.44,
+      "newBalance": 1624.57
+    },
+    "creditDetails": {
+      "totalCreditLine": 1900.00,
+      "totalCreditAvailable": 275.43,
+      "cashCreditLine": 200.00,
+      "cashCreditAvailable": 200.00
+    },
+    "interestChargeCalculation": [
+      {
+        "typeOfBalance": "Purchases",
+        "apr": "27.49%V",
+        "balanceSubjectToInterestRate": 1657.23,
+        "interestCharged": 37.44,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Balance Transfers",
+        "apr": "27.49%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Direct Deposit and Check Cash Advances",
+        "apr": "27.49%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Bank Cash Advances",
+        "apr": "29.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      }
+    ],
+    "rewardsSummary": {
+      "baseCashBackEarned": 0.00,
+      "categoryBonusEarned": null,
+      "relationshipBonusEarned": null,
+      "cashBackRedeemed": null,
+      "totalCashBackAvailable": 0.00
+    },
+    "warnings": {
+      "latePayment": {
+        "fee": 39.00,
+        "penaltyAPR": "29.99%"
+      },
+      "minimumPayment": {
+        "onlyMinPayment": {
+          "payoffTimeYears": 11,
+          "estimatedTotal": 4153.00
+        },
+        "higherPaymentExample": {
+          "monthlyPayment": 67.00,
+          "payoffTimeMonths": 36,
+          "estimatedTotal": 2412.00,
+          "savings": 1741.00
+        }
+      }
+    },
+    "yearToDateTotals": {
+      "feesCharged": 117.00,
+      "interestCharged": 497.08
+    }
+  },
+  {
+    "issuer": "Bank of America",
+    "accountHolder": {
+      "name": "NYREE HINTON",
+      "address": {
+        "street": "4254 CHURCH RD",
+        "city": "EASTON",
+        "state": "PA",
+        "zip": "18045-2971"
+      }
+    },
+    "accountNumber": "4400 XXXX XXXX 4041",
+    "statementPeriod": {
+      "startDate": "2022-05-05",
+      "endDate": "2022-06-04"
+    },
+    "statementClosingDate": "2022-06-04",
+    "daysInBillingCycle": 31,
+    "paymentInfo": {
+      "newBalanceTotal": 4787.04,
+      "totalMinimumPaymentDue": 75.00,
+      "paymentDueDate": "2022-07-01"
+    },
+    "accountSummary": {
+      "previousBalance": 5569.56,
+      "paymentsAndCredits": -810.21,
+      "purchasesAndAdjustments": 0.00,
+      "feesCharged": 0.00,
+      "interestCharged": 27.69,
+      "newBalance": 4787.04
+    },
+    "creditDetails": {
+      "totalCreditLine": 6200.00,
+      "totalCreditAvailable": 1412.96,
+      "cashCreditLine": 200.00,
+      "cashCreditAvailable": 200.00
+    },
+    "interestChargeCalculation": [
+      {
+        "typeOfBalance": "Purchases",
+        "apr": "23.74%V",
+        "balanceSubjectToInterestRate": 1059.74,
+        "interestCharged": 21.37,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Balance Transfers",
+        "apr": "23.74%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Balance Transfers - Promotional APR",
+        "apr": "1.99%",
+        "balanceSubjectToInterestRate": 3738.99,
+        "interestCharged": 6.32,
+        "transactionType": "BT",
+        "offerId": "LK10-05665",
+        "rateEndDate": "2022-08-04"
+      },
+      {
+        "typeOfBalance": "Direct Deposit and Check Cash Advances",
+        "apr": "23.74%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Bank Cash Advances",
+        "apr": "25.74%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      }
+    ],
+    "rewardsSummary": {
+      "baseCashBackEarned": 0.00,
+      "categoryBonusEarned": null,
+      "relationshipBonusEarned": null,
+      "cashBackRedeemed": 10.21,
+      "totalCashBackAvailable": 0.00
+    },
+    "warnings": {
+      "latePayment": {
+        "fee": 39.00,
+        "penaltyAPR": "29.99%"
+      },
+      "minimumPayment": {
+        "onlyMinPayment": {
+          "payoffTimeYears": 20,
+          "estimatedTotal": 13133.00
+        },
+        "higherPaymentExample": {
+          "monthlyPayment": 185.00,
+          "payoffTimeMonths": 36,
+          "estimatedTotal": 6660.00,
+          "savings": 6473.00
+        }
+      }
+    },
+    "yearToDateTotals": {
+      "feesCharged": 0.00,
+      "interestCharged": 163.97
+    }
+  },
+  {
+    "issuer": "Bank of America",
+    "accountHolder": {
+      "name": "NYREE HINTON",
+      "address": {
+        "street": "4254 CHURCH RD",
+        "city": "EASTON",
+        "state": "PA",
+        "zip": "18045-2971"
+      }
+    },
+    "accountNumber": "4400 XXXX XXXX 4041",
+    "statementPeriod": {
+      "startDate": "2022-04-05",
+      "endDate": "2022-05-04"
+    },
+    "statementClosingDate": "2022-05-04",
+    "daysInBillingCycle": 30,
+    "paymentInfo": {
+      "newBalanceTotal": 5569.56,
+      "totalMinimumPaymentDue": 83.00,
+      "paymentDueDate": "2022-06-01"
+    },
+    "accountSummary": {
+      "previousBalance": 4869.15,
+      "paymentsAndCredits": -100.00,
+      "purchasesAndAdjustments": 772.04,
+      "feesCharged": 0.00,
+      "interestCharged": 28.37,
+      "newBalance": 5569.56
+    },
+    "creditDetails": {
+      "totalCreditLine": 6200.00,
+      "totalCreditAvailable": 630.44,
+      "cashCreditLine": 200.00,
+      "cashCreditAvailable": 200.00
+    },
+    "interestChargeCalculation": [
+      {
+        "typeOfBalance": "Purchases",
+        "apr": "23.24%V",
+        "balanceSubjectToInterestRate": 1153.96,
+        "interestCharged": 22.04,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Balance Transfers",
+        "apr": "23.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Balance Transfers - Promotional APR",
+        "apr": "1.99%",
+        "balanceSubjectToInterestRate": 3869.75,
+        "interestCharged": 6.33,
+        "transactionType": "BT",
+        "offerId": "LK10-05665",
+        "rateEndDate": "2022-08-04"
+      },
+      {
+        "typeOfBalance": "Direct Deposit and Check Cash Advances",
+        "apr": "23.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Bank Cash Advances",
+        "apr": "25.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      }
+    ],
+    "rewardsSummary": {
+      "baseCashBackEarned": 7.73,
+      "categoryBonusEarned": 1.55,
+      "relationshipBonusEarned": 0.93,
+      "cashBackRedeemed": null,
+      "totalCashBackAvailable": 10.21
+    },
+    "warnings": {
+      "latePayment": {
+        "fee": 39.00,
+        "penaltyAPR": "29.99%"
+      },
+      "minimumPayment": {
+        "onlyMinPayment": {
+          "payoffTimeYears": 21,
+          "estimatedTotal": 15187.00
+        },
+        "higherPaymentExample": {
+          "monthlyPayment": 213.00,
+          "payoffTimeMonths": 36,
+          "estimatedTotal": 7668.00,
+          "savings": 7519.00
+        }
+      }
+    },
+    "yearToDateTotals": {
+      "feesCharged": 0.00,
+      "interestCharged": 136.28
+    }
+  },
+  {
+    "issuer": "Bank of America",
+    "accountHolder": {
+      "name": "NYREE HINTON",
+      "address": {
+        "street": "4254 CHURCH RD",
+        "city": "EASTON",
+        "state": "PA",
+        "zip": "18045-2971"
+      }
+    },
+    "accountNumber": "4400 XXXX XXXX 4041",
+    "statementPeriod": {
+      "startDate": "2022-03-05",
+      "endDate": "2022-04-04"
+    },
+    "statementClosingDate": "2022-04-04",
+    "daysInBillingCycle": 31,
+    "paymentInfo": {
+      "newBalanceTotal": 4869.15,
+      "totalMinimumPaymentDue": 74.00,
+      "paymentDueDate": "2022-05-01"
+    },
+    "accountSummary": {
+      "previousBalance": 4951.12,
+      "paymentsAndCredits": -108.42,
+      "purchasesAndAdjustments": 0.00,
+      "feesCharged": 0.00,
+      "interestCharged": 26.45,
+      "newBalance": 4869.15
+    },
+    "creditDetails": {
+      "totalCreditLine": 6200.00,
+      "totalCreditAvailable": 1330.85,
+      "cashCreditLine": 200.00,
+      "cashCreditAvailable": 200.00
+    },
+    "interestChargeCalculation": [
+      {
+        "typeOfBalance": "Purchases",
+        "apr": "23.24%V",
+        "balanceSubjectToInterestRate": 1002.20,
+        "interestCharged": 19.78,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Balance Transfers",
+        "apr": "23.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Balance Transfers - Promotional APR",
+        "apr": "1.99%",
+        "balanceSubjectToInterestRate": 3944.23,
+        "interestCharged": 6.67,
+        "transactionType": "BT",
+        "offerId": "LK10-05665",
+        "rateEndDate": "2022-08-04"
+      },
+      {
+        "typeOfBalance": "Direct Deposit and Check Cash Advances",
+        "apr": "23.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Bank Cash Advances",
+        "apr": "25.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      }
+    ],
+    "rewardsSummary": {
+      "baseCashBackEarned": 0.00,
+      "categoryBonusEarned": null,
+      "relationshipBonusEarned": null,
+      "cashBackRedeemed": 8.42,
+      "totalCashBackAvailable": 0.00
+    },
+    "warnings": {
+      "latePayment": {
+        "fee": 39.00,
+        "penaltyAPR": "29.99%"
+      },
+      "minimumPayment": {
+        "onlyMinPayment": {
+          "payoffTimeYears": 20,
+          "estimatedTotal": 13031.00
+        },
+        "higherPaymentExample": {
+          "monthlyPayment": 184.00,
+          "payoffTimeMonths": 36,
+          "estimatedTotal": 6624.00,
+          "savings": 6407.00
+        }
+      }
+    },
+    "yearToDateTotals": {
+      "feesCharged": 0.00,
+      "interestCharged": 107.91
+    }
+  },
+  {
+    "issuer": "Bank of America",
+    "accountHolder": {
+      "name": "NYREE HINTON",
+      "address": {
+        "street": "4254 CHURCH RD",
+        "city": "EASTON",
+        "state": "PA",
+        "zip": "18045-2971"
+      }
+    },
+    "accountNumber": "4400 XXXX XXXX 4041",
+    "statementPeriod": {
+      "startDate": "2022-02-05",
+      "endDate": "2022-03-04"
+    },
+    "statementClosingDate": "2022-03-04",
+    "daysInBillingCycle": 28,
+    "paymentInfo": {
+      "newBalanceTotal": 4951.12,
+      "totalMinimumPaymentDue": 76.00,
+      "paymentDueDate": "2022-04-01"
+    },
+    "accountSummary": {
+      "previousBalance": 5131.58,
+      "paymentsAndCredits": -931.99,
+      "purchasesAndAdjustments": 724.49,
+      "feesCharged": 0.00,
+      "interestCharged": 27.04,
+      "newBalance": 4951.12
+    },
+    "creditDetails": {
+      "totalCreditLine": 6200.00,
+      "totalCreditAvailable": 1248.88,
+      "cashCreditLine": 200.00,
+      "cashCreditAvailable": 200.00
+    },
+    "interestChargeCalculation": [
+      {
+        "typeOfBalance": "Purchases",
+        "apr": "22.99%V",
+        "balanceSubjectToInterestRate": 1190.95,
+        "interestCharged": 21.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Balance Transfers",
+        "apr": "22.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Balance Transfers - Promotional APR",
+        "apr": "1.99%",
+        "balanceSubjectToInterestRate": 3958.33,
+        "interestCharged": 6.04,
+        "transactionType": "BT",
+        "offerId": "LK10-05665",
+        "rateEndDate": "2022-08-04"
+      },
+      {
+        "typeOfBalance": "Direct Deposit and Check Cash Advances",
+        "apr": "22.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Bank Cash Advances",
+        "apr": "24.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      }
+    ],
+    "rewardsSummary": {
+      "baseCashBackEarned": 7.25,
+      "categoryBonusEarned": 0.40,
+      "relationshipBonusEarned": 0.77,
+      "cashBackRedeemed": 5.99,
+      "totalCashBackAvailable": 8.42
+    },
+    "warnings": {
+      "latePayment": {
+        "fee": 39.00,
+        "penaltyAPR": "29.99%"
+      },
+      "minimumPayment": {
+        "onlyMinPayment": {
+          "payoffTimeYears": 20,
+          "estimatedTotal": 13109.00
+        },
+        "higherPaymentExample": {
+          "monthlyPayment": 186.00,
+          "payoffTimeMonths": 36,
+          "estimatedTotal": 6696.00,
+          "savings": 6413.00
+        }
+      }
+    },
+    "yearToDateTotals": {
+      "feesCharged": 0.00,
+      "interestCharged": 81.46
+    }
+  },
+  {
+    "issuer": "Bank of America",
+    "accountHolder": {
+      "name": "NYREE HINTON",
+      "address": {
+        "street": "4254 CHURCH RD",
+        "city": "EASTON",
+        "state": "PA",
+        "zip": "18045-2971"
+      }
+    },
+    "accountNumber": "4400 XXXX XXXX 4041",
+    "statementPeriod": {
+      "startDate": "2022-01-05",
+      "endDate": "2022-02-04"
+    },
+    "statementClosingDate": "2022-02-04",
+    "daysInBillingCycle": 31,
+    "paymentInfo": {
+      "newBalanceTotal": 5131.58,
+      "totalMinimumPaymentDue": 76.00,
+      "paymentDueDate": "2022-03-01"
+    },
+    "accountSummary": {
+      "previousBalance": 5210.69,
+      "paymentsAndCredits": -627.43,
+      "purchasesAndAdjustments": 522.58,
+      "feesCharged": 0.00,
+      "interestCharged": 25.74,
+      "newBalance": 5131.58
+    },
+    "creditDetails": {
+      "totalCreditLine": 6200.00,
+      "totalCreditAvailable": 1068.42,
+      "cashCreditLine": 200.00,
+      "cashCreditAvailable": 200.00
+    },
+    "interestChargeCalculation": [
+      {
+        "typeOfBalance": "Purchases",
+        "apr": "22.99%V",
+        "balanceSubjectToInterestRate": 970.48,
+        "interestCharged": 18.95,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Balance Transfers",
+        "apr": "22.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Balance Transfers - Promotional APR",
+        "apr": "1.99%",
+        "balanceSubjectToInterestRate": 4019.71,
+        "interestCharged": 6.79,
+        "transactionType": "BT",
+        "offerId": "LK10-05665",
+        "rateEndDate": "2022-08-04"
+      },
+      {
+        "typeOfBalance": "Direct Deposit and Check Cash Advances",
+        "apr": "22.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Bank Cash Advances",
+        "apr": "24.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      }
+    ],
+    "rewardsSummary": {
+      "baseCashBackEarned": 4.56,
+      "categoryBonusEarned": 0.81,
+      "relationshipBonusEarned": 0.62,
+      "cashBackRedeemed": 16.34,
+      "totalCashBackAvailable": 5.99
+    },
+    "warnings": {
+      "latePayment": {
+        "fee": 39.00,
+        "penaltyAPR": "29.99%"
+      },
+      "minimumPayment": {
+        "onlyMinPayment": {
+          "payoffTimeYears": 20,
+          "estimatedTotal": 13588.00
+        },
+        "higherPaymentExample": {
+          "monthlyPayment": 191.00,
+          "payoffTimeMonths": 36,
+          "estimatedTotal": 6876.00,
+          "savings": 6712.00
+        }
+      }
+    },
+    "yearToDateTotals": {
+      "feesCharged": 0.00,
+      "interestCharged": 54.42
+    }
+  },
+  {
+    "issuer": "Bank of America",
+    "accountHolder": {
+      "name": "NYREE HINTON",
+      "address": {
+        "street": "4254 CHURCH RD",
+        "city": "EASTON",
+        "state": "PA",
+        "zip": "18045-2971"
+      }
+    },
+    "accountNumber": "4400 XXXX XXXX 4041",
+    "statementPeriod": {
+      "startDate": "2021-12-05",
+      "endDate": "2022-01-04"
+    },
+    "statementClosingDate": "2022-01-04",
+    "daysInBillingCycle": 31,
+    "paymentInfo": {
+      "newBalanceTotal": 5210.69,
+      "totalMinimumPaymentDue": 80.00,
+      "paymentDueDate": "2022-02-01"
+    },
+    "accountSummary": {
+      "previousBalance": 5010.57,
+      "paymentsAndCredits": -698.44,
+      "purchasesAndAdjustments": 869.88,
+      "feesCharged": 0.00,
+      "interestCharged": 28.68,
+      "newBalance": 5210.69
+    },
+    "creditDetails": {
+      "totalCreditLine": 6200.00,
+      "totalCreditAvailable": 989.31,
+      "cashCreditLine": 200.00,
+      "cashCreditAvailable": 200.00
+    },
+    "interestChargeCalculation": [
+      {
+        "typeOfBalance": "Purchases",
+        "apr": "22.99%V",
+        "balanceSubjectToInterestRate": 1114.59,
+        "interestCharged": 21.76,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Balance Transfers",
+        "apr": "22.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Balance Transfers - Promotional APR",
+        "apr": "1.99%",
+        "balanceSubjectToInterestRate": 4092.85,
+        "interestCharged": 6.92,
+        "transactionType": "BT",
+        "offerId": "LK10-05665",
+        "rateEndDate": "2022-08-04"
+      },
+      {
+        "typeOfBalance": "Direct Deposit and Check Cash Advances",
+        "apr": "22.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Bank Cash Advances",
+        "apr": "24.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      }
+    ],
+    "rewardsSummary": {
+      "baseCashBackEarned": 8.70,
+      "categoryBonusEarned": 6.14,
+      "relationshipBonusEarned": 1.50,
+      "cashBackRedeemed": 13.44,
+      "totalCashBackAvailable": 16.34
+    },
+    "warnings": {
+      "latePayment": {
+        "fee": 39.00,
+        "penaltyAPR": "29.99%"
+      },
+      "minimumPayment": {
+        "onlyMinPayment": {
+          "payoffTimeYears": 20,
+          "estimatedTotal": 13749.00
+        },
+        "higherPaymentExample": {
+          "monthlyPayment": 193.00,
+          "payoffTimeMonths": 36,
+          "estimatedTotal": 6948.00,
+          "savings": 6801.00
+        }
+      }
+    },
+    "yearToDateTotals": {
+      "feesCharged": 0.00,
+      "interestCharged": 28.68
+    }
+  },
+  {
+    "issuer": "Bank of America",
+    "accountHolder": {
+      "name": "NYREE HINTON",
+      "address": {
+        "street": "4254 CHURCH RD",
+        "city": "EASTON",
+        "state": "PA",
+        "zip": "18045-2971"
+      }
+    },
+    "accountNumber": "4400 XXXX XXXX 4041",
+    "statementPeriod": {
+      "startDate": "2022-06-05",
+      "endDate": "2022-07-04"
+    },
+    "statementClosingDate": "2022-07-04",
+    "daysInBillingCycle": 30,
+    "paymentInfo": {
+      "newBalanceTotal": 4942.60,
+      "totalMinimumPaymentDue": 78.00,
+      "paymentDueDate": "2022-08-01"
+    },
+    "accountSummary": {
+      "previousBalance": 4787.04,
+      "paymentsAndCredits": -430.00,
+      "purchasesAndAdjustments": 555.76,
+      "feesCharged": 0.00,
+      "interestCharged": 29.80,
+      "newBalance": 4942.60
+    },
+    "creditDetails": {
+      "totalCreditLine": 6200.00,
+      "totalCreditAvailable": 1257.40,
+      "cashCreditLine": 200.00,
+      "cashCreditAvailable": 200.00
+    },
+    "interestChargeCalculation": [
+      {
+        "typeOfBalance": "Purchases",
+        "apr": "24.49%V",
+        "balanceSubjectToInterestRate": 1178.35,
+        "interestCharged": 23.72,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Balance Transfers",
+        "apr": "24.49%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Balance Transfers - Promotional APR",
+        "apr": "1.99%",
+        "balanceSubjectToInterestRate": 3715.05,
+        "interestCharged": 6.08,
+        "transactionType": "BT",
+        "offerId": "LK10-05665",
+        "rateEndDate": "2022-08-04"
+      },
+      {
+        "typeOfBalance": "Direct Deposit and Check Cash Advances",
+        "apr": "24.49%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Bank Cash Advances",
+        "apr": "26.49%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      }
+    ],
+    "rewardsSummary": {
+      "baseCashBackEarned": 5.57,
+      "categoryBonusEarned": 6.28,
+      "relationshipBonusEarned": 1.21,
+      "cashBackRedeemed": null,
+      "totalCashBackAvailable": 13.06
+    },
+    "warnings": {
+      "latePayment": {
+        "fee": 39.00,
+        "penaltyAPR": "29.99%"
+      },
+      "minimumPayment": {
+        "onlyMinPayment": {
+          "payoffTimeYears": 20,
+          "estimatedTotal": 13937.00
+        },
+        "higherPaymentExample": {
+          "monthlyPayment": 194.00,
+          "payoffTimeMonths": 36,
+          "estimatedTotal": 6984.00,
+          "savings": 6953.00
+        }
+      }
+    },
+    "yearToDateTotals": {
+      "feesCharged": 0.00,
+      "interestCharged": 193.77
+    }
+  },
+  {
+    "issuer": "Bank of America",
+    "accountHolder": {
+      "name": "NYREE HINTON",
+      "address": {
+        "street": "4254 CHURCH RD",
+        "city": "EASTON",
+        "state": "PA",
+        "zip": "18045-2971"
+      }
+    },
+    "accountNumber": "4400 XXXX XXXX 4041",
+    "statementPeriod": {
+      "startDate": "2022-07-05",
+      "endDate": "2022-08-04"
+    },
+    "statementClosingDate": "2022-08-04",
+    "daysInBillingCycle": 31,
+    "paymentInfo": {
+      "newBalanceTotal": 5060.78,
+      "totalMinimumPaymentDue": 85.00,
+      "paymentDueDate": "2022-09-01"
+    },
+    "accountSummary": {
+      "previousBalance": 4942.60,
+      "paymentsAndCredits": -320.06,
+      "purchasesAndAdjustments": 402.78,
+      "feesCharged": 0.00,
+      "interestCharged": 35.46,
+      "newBalance": 5060.78
+    },
+    "creditDetails": {
+      "totalCreditLine": 6200.00,
+      "totalCreditAvailable": 1139.22,
+      "cashCreditLine": 200.00,
+      "cashCreditAvailable": 200.00
+    },
+    "interestChargeCalculation": [
+      {
+        "typeOfBalance": "Purchases",
+        "apr": "25.24%V",
+        "balanceSubjectToInterestRate": 1368.88,
+        "interestCharged": 29.34,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Balance Transfers",
+        "apr": "25.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Balance Transfers - Promotional APR",
+        "apr": "1.99%",
+        "balanceSubjectToInterestRate": 3620.80,
+        "interestCharged": 6.12,
+        "transactionType": "BT",
+        "offerId": "LK10-05665",
+        "rateEndDate": "2022-08-04"
+      },
+      {
+        "typeOfBalance": "Direct Deposit and Check Cash Advances",
+        "apr": "25.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Bank Cash Advances",
+        "apr": "27.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      }
+    ],
+    "rewardsSummary": {
+      "baseCashBackEarned": 4.03,
+      "categoryBonusEarned": 7.63,
+      "relationshipBonusEarned": 1.16,
+      "cashBackRedeemed": 13.06,
+      "totalCashBackAvailable": 12.82
+    },
+    "warnings": {
+      "latePayment": {
+        "fee": 39.00,
+        "penaltyAPR": "29.99%"
+      },
+      "minimumPayment": {
+        "onlyMinPayment": {
+          "payoffTimeYears": 20,
+          "estimatedTotal": 14878.00
+        },
+        "higherPaymentExample": {
+          "monthlyPayment": 202.00,
+          "payoffTimeMonths": 36,
+          "estimatedTotal": 7272.00,
+          "savings": 7606.00
+        }
+      }
+    },
+    "yearToDateTotals": {
+      "feesCharged": 0.00,
+      "interestCharged": 229.23
+    }
+  },
+  {
+    "issuer": "Bank of America",
+    "accountHolder": {
+      "name": "NYREE HINTON",
+      "address": {
+        "street": "4254 CHURCH RD",
+        "city": "EASTON",
+        "state": "PA",
+        "zip": "18045-2971"
+      }
+    },
+    "accountNumber": "4400 XXXX XXXX 4041",
+    "statementPeriod": {
+      "startDate": "2022-08-05",
+      "endDate": "2022-09-04"
+    },
+    "statementClosingDate": "2022-09-04",
+    "daysInBillingCycle": 31,
+    "paymentInfo": {
+      "newBalanceTotal": 5793.42,
+      "totalMinimumPaymentDue": 166.00,
+      "paymentDueDate": "2022-10-01"
+    },
+    "accountSummary": {
+      "previousBalance": 5060.78,
+      "paymentsAndCredits": -642.91,
+      "purchasesAndAdjustments": 1265.93,
+      "feesCharged": 0.00,
+      "interestCharged": 109.62,
+      "newBalance": 5793.42
+    },
+    "creditDetails": {
+      "totalCreditLine": 6200.00,
+      "totalCreditAvailable": 406.58,
+      "cashCreditLine": 200.00,
+      "cashCreditAvailable": 200.00
+    },
+    "interestChargeCalculation": [
+      {
+        "typeOfBalance": "Purchases",
+        "apr": "25.24%V",
+        "balanceSubjectToInterestRate": 1867.24,
+        "interestCharged": 40.03,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Balance Transfers",
+        "apr": "25.24%V",
+        "balanceSubjectToInterestRate": 3246.17,
+        "interestCharged": 69.59,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Direct Deposit and Check Cash Advances",
+        "apr": "25.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Bank Cash Advances",
+        "apr": "27.24%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      }
+    ],
+    "rewardsSummary": {
+      "baseCashBackEarned": 11.23,
+      "categoryBonusEarned": 5.97,
+      "relationshipBonusEarned": 1.73,
+      "cashBackRedeemed": 12.82,
+      "totalCashBackAvailable": 18.93
+    },
+    "warnings": {
+      "latePayment": {
+        "fee": 39.00,
+        "penaltyAPR": "29.99%"
+      },
+      "minimumPayment": {
+        "onlyMinPayment": {
+          "payoffTimeYears": 21,
+          "estimatedTotal": 16819.00
+        },
+        "higherPaymentExample": {
+          "monthlyPayment": 231.00,
+          "payoffTimeMonths": 36,
+          "estimatedTotal": 8316.00,
+          "savings": 8503.00
+        }
+      }
+    },
+    "yearToDateTotals": {
+      "feesCharged": 0.00,
+      "interestCharged": 338.85
+    }
+  },
+  {
+    "issuer": "Bank of America",
+    "accountHolder": {
+      "name": "NYREE HINTON",
+      "address": {
+        "street": "4254 CHURCH RD",
+        "city": "EASTON",
+        "state": "PA",
+        "zip": "18045-2971"
+      }
+    },
+    "accountNumber": "4400 XXXX XXXX 4041",
+    "statementPeriod": {
+      "startDate": "2022-09-05",
+      "endDate": "2022-10-04"
+    },
+    "statementClosingDate": "2022-10-04",
+    "daysInBillingCycle": 30,
+    "paymentInfo": {
+      "newBalanceTotal": 5762.25,
+      "totalMinimumPaymentDue": 177.00,
+      "paymentDueDate": "2022-11-01"
+    },
+    "accountSummary": {
+      "previousBalance": 5793.42,
+      "paymentsAndCredits": -483.93,
+      "purchasesAndAdjustments": 331.95,
+      "feesCharged": 0.00,
+      "interestCharged": 120.81,
+      "newBalance": 5762.25
+    },
+    "creditDetails": {
+      "totalCreditLine": 6200.00,
+      "totalCreditAvailable": 437.75,
+      "cashCreditLine": 200.00,
+      "cashCreditAvailable": 200.00
+    },
+    "interestChargeCalculation": [
+      {
+        "typeOfBalance": "Purchases",
+        "apr": "25.99%V",
+        "balanceSubjectToInterestRate": 2876.77,
+        "interestCharged": 61.45,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Balance Transfers",
+        "apr": "25.99%V",
+        "balanceSubjectToInterestRate": 2778.79,
+        "interestCharged": 59.36,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Direct Deposit and Check Cash Advances",
+        "apr": "25.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Bank Cash Advances",
+        "apr": "27.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      }
+    ],
+    "rewardsSummary": {
+      "baseCashBackEarned": 3.31,
+      "categoryBonusEarned": 6.64,
+      "relationshipBonusEarned": 0.99,
+      "cashBackRedeemed": 18.93,
+      "totalCashBackAvailable": 10.94
+    },
+    "warnings": {
+      "latePayment": {
+        "fee": 39.00,
+        "penaltyAPR": "29.99%"
+      },
+      "minimumPayment": {
+        "onlyMinPayment": {
+          "payoffTimeYears": 21,
+          "estimatedTotal": 17041.00
+        },
+        "higherPaymentExample": {
+          "monthlyPayment": 232.00,
+          "payoffTimeMonths": 36,
+          "estimatedTotal": 8352.00,
+          "savings": 8689.00
+        }
+      }
+    },
+    "yearToDateTotals": {
+      "feesCharged": 0.00,
+      "interestCharged": 459.66
+    }
+  },
+  {
+    "issuer": "Bank of America",
+    "accountHolder": {
+      "name": "NYREE HINTON",
+      "address": {
+        "street": "4254 CHURCH RD",
+        "city": "EASTON",
+        "state": "PA",
+        "zip": "18045-2971"
+      }
+    },
+    "accountNumber": "4400 XXXX XXXX 4041",
+    "statementPeriod": {
+      "startDate": "2022-10-05",
+      "endDate": "2022-11-04"
+    },
+    "statementClosingDate": "2022-11-04",
+    "daysInBillingCycle": 31,
+    "paymentInfo": {
+      "newBalanceTotal": 4761.38,
+      "totalMinimumPaymentDue": 171.00,
+      "paymentDueDate": "2022-12-01"
+    },
+    "accountSummary": {
+      "previousBalance": 5762.25,
+      "paymentsAndCredits": -1410.94,
+      "purchasesAndAdjustments": 284.59,
+      "feesCharged": 0.00,
+      "interestCharged": 125.48,
+      "newBalance": 4761.38
+    },
+    "creditDetails": {
+      "totalCreditLine": 6200.00,
+      "totalCreditAvailable": 1438.62,
+      "cashCreditLine": 200.00,
+      "cashCreditAvailable": 200.00
+    },
+    "interestChargeCalculation": [
+      {
+        "typeOfBalance": "Purchases",
+        "apr": "25.99%V",
+        "balanceSubjectToInterestRate": 3237.96,
+        "interestCharged": 71.47,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Balance Transfers",
+        "apr": "25.99%V",
+        "balanceSubjectToInterestRate": 2446.86,
+        "interestCharged": 54.01,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Direct Deposit and Check Cash Advances",
+        "apr": "25.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Bank Cash Advances",
+        "apr": "27.99%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      }
+    ],
+    "rewardsSummary": {
+      "baseCashBackEarned": 2.85,
+      "categoryBonusEarned": 4.94,
+      "relationshipBonusEarned": 0.77,
+      "cashBackRedeemed": 10.94,
+      "totalCashBackAvailable": 8.56
+    },
+    "warnings": {
+      "latePayment": {
+        "fee": 39.00,
+        "penaltyAPR": "29.99%"
+      },
+      "minimumPayment": {
+        "onlyMinPayment": {
+          "payoffTimeYears": 20,
+          "estimatedTotal": 13841.00
+        },
+        "higherPaymentExample": {
+          "monthlyPayment": 192.00,
+          "payoffTimeMonths": 36,
+          "estimatedTotal": 6912.00,
+          "savings": 6929.00
+        }
+      }
+    },
+    "yearToDateTotals": {
+      "feesCharged": 0.00,
+      "interestCharged": 585.14
+    }
+  },
+  {
+    "issuer": "Bank of America",
+    "accountHolder": {
+      "name": "NYREE HINTON",
+      "address": {
+        "street": "4254 CHURCH RD",
+        "city": "EASTON",
+        "state": "PA",
+        "zip": "18045-2971"
+      }
+    },
+    "accountNumber": "4400 XXXX XXXX 4041",
+    "statementPeriod": {
+      "startDate": "2022-11-05",
+      "endDate": "2022-12-04"
+    },
+    "statementClosingDate": "2022-12-04",
+    "daysInBillingCycle": 30,
+    "paymentInfo": {
+      "newBalanceTotal": 4540.73,
+      "totalMinimumPaymentDue": 145.00,
+      "paymentDueDate": "2023-01-01"
+    },
+    "accountSummary": {
+      "previousBalance": 4761.38,
+      "paymentsAndCredits": -858.56,
+      "purchasesAndAdjustments": 536.77,
+      "feesCharged": 0.00,
+      "interestCharged": 101.14,
+      "newBalance": 4540.73
+    },
+    "creditDetails": {
+      "totalCreditLine": 6200.00,
+      "totalCreditAvailable": 1659.27,
+      "cashCreditLine": 200.00,
+      "cashCreditAvailable": 200.00
+    },
+    "interestChargeCalculation": [
+      {
+        "typeOfBalance": "Purchases",
+        "apr": "26.74%V",
+        "balanceSubjectToInterestRate": 3692.72,
+        "interestCharged": 81.16,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Balance Transfers",
+        "apr": "26.74%V",
+        "balanceSubjectToInterestRate": 909.14,
+        "interestCharged": 19.98,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Direct Deposit and Check Cash Advances",
+        "apr": "26.74%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      },
+      {
+        "typeOfBalance": "Bank Cash Advances",
+        "apr": "28.74%V",
+        "balanceSubjectToInterestRate": 0.00,
+        "interestCharged": 0.00,
+        "transactionType": null,
+        "offerId": null,
+        "rateEndDate": null
+      }
+    ],
+    "rewardsSummary": {
+      "baseCashBackEarned": 5.37,
+      "categoryBonusEarned": 6.35,
+      "relationshipBonusEarned": 1.18,
+      "cashBackRedeemed": 8.56,
+      "totalCashBackAvailable": 12.90
+    },
+    "warnings": {
+      "latePayment": {
+        "fee": 39.00,
+        "penaltyAPR": "29.99%"
+      },
+      "minimumPayment": {
+        "onlyMinPayment": {
+          "payoffTimeYears": 19,
+          "estimatedTotal": 13449.00
+        },
+        "higherPaymentExample": {
+          "monthlyPayment": 185.00,
+          "payoffTimeMonths": 36,
+          "estimatedTotal": 6660.00,
+          "savings": 6789.00
+        }
+      }
+    },
+    "yearToDateTotals": {
+      "feesCharged": 0.00,
+      "interestCharged": 686.28
+    }
+  }
+]

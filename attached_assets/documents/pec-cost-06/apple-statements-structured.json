@@ -1,0 +1,299 @@
+[
+  {
+    "statement_period": "Mar 6 – Mar 31, 2022",
+    "balance_as_of_date": "Mar 31, 2022",
+    "balance_amount": "213.98",
+    "minimum_payment_due": "74.91",
+    "interest_rate_apr": "21.99%",
+    "interest_rate_variable": true,
+    "interest_charged": "0.00"
+  },
+  {
+    "statement_period": "Apr 1 – Apr 30, 2022",
+    "balance_as_of_date": "Apr 30, 2022",
+    "balance_amount": "269.71",
+    "minimum_payment_due": "74.91",
+    "interest_rate_apr": "22.24%",
+    "interest_rate_variable": true,
+    "interest_charged": "3.80"
+  },
+  {
+    "statement_period": "May 1 – May 31, 2022",
+    "balance_as_of_date": "May 31, 2022",
+    "balance_amount": "397.81",
+    "minimum_payment_due": "74.91",
+    "interest_rate_apr": "22.24%",
+    "interest_rate_variable": true,
+    "interest_charged": "5.08"
+  },
+  {
+    "statement_period": "Jun 1 – Jun 30, 2022",
+    "balance_as_of_date": "Jun 30, 2022",
+    "balance_amount": "480.94",
+    "minimum_payment_due": "74.91",
+    "interest_rate_apr": "22.74%",
+    "interest_rate_variable": true,
+    "interest_charged": "7.79"
+  },
+  {
+    "statement_period": "Jul 1 – Jul 31, 2022",
+    "balance_as_of_date": "Jul 31, 2022",
+    "balance_amount": "934.02",
+    "minimum_payment_due": "74.91",
+    "interest_rate_apr": "23.49%",
+    "interest_rate_variable": true,
+    "interest_charged": "12.36"
+  },
+  {
+    "statement_period": "Aug 1 – Aug 31, 2022",
+    "balance_as_of_date": "Aug 31, 2022",
+    "balance_amount": "653.22",
+    "minimum_payment_due": "74.91",
+    "interest_rate_apr": "24.24%",
+    "interest_rate_variable": true,
+    "interest_charged": "5.35"
+  },
+  {
+    "statement_period": "Sep 1 – Sep 30, 2022",
+    "balance_as_of_date": "Sep 30, 2022",
+    "balance_amount": "485.41",
+    "minimum_payment_due": "74.91",
+    "interest_rate_apr": "24.24%",
+    "interest_rate_variable": true,
+    "interest_charged": "0.00"
+  },
+  {
+    "statement_period": "Oct 1 – Oct 31, 2022",
+    "balance_as_of_date": "Oct 31, 2022",
+    "balance_amount": "1959.10",
+    "minimum_payment_due": "74.91",
+    "interest_rate_apr": "24.99%",
+    "interest_rate_variable": true,
+    "interest_charged": "0.00"
+  },
+  {
+    "statement_period": "Nov 1 – Nov 30, 2022",
+    "balance_as_of_date": "Nov 30, 2022",
+    "balance_amount": "1705.81",
+    "minimum_payment_due": "90.91",
+    "interest_rate_apr": "24.99%",
+    "interest_rate_variable": true,
+    "interest_charged": "23.45"
+  },
+  {
+    "statement_period": "Dec 1 – Dec 31, 2022",
+    "balance_as_of_date": "Dec 31, 2022",
+    "balance_amount": "1743.23",
+    "minimum_payment_due": "105.91",
+    "interest_rate_apr": "25.74%",
+    "interest_rate_variable": true,
+    "interest_charged": "38.58"
+  },
+  {
+    "statement_period": "Jan 1 – Jan 31, 2023",
+    "balance_as_of_date": "Jan 31, 2023",
+    "balance_amount": "2186.87",
+    "minimum_payment_due": "117.91",
+    "interest_rate_apr": "26.24%",
+    "interest_rate_variable": true,
+    "interest_charged": "45.93"
+  },
+  {
+    "statement_period": "Feb 1 – Feb 28, 2023",
+    "balance_as_of_date": "Feb 28, 2023",
+    "balance_amount": "1805.53",
+    "minimum_payment_due": "108.91",
+    "interest_rate_apr": "26.24%",
+    "interest_rate_variable": true,
+    "interest_charged": "40.86"
+  },
+  {
+    "statement_period": "Mar 1 – Mar 31, 2023",
+    "balance_as_of_date": "Mar 31, 2023",
+    "balance_amount": "2033.54",
+    "minimum_payment_due": "112.91",
+    "interest_rate_apr": "26.49%",
+    "interest_rate_variable": true,
+    "interest_charged": "42.53"
+  },
+  {
+    "statement_period": "Apr 1 – Apr 30, 2023",
+    "balance_as_of_date": "Apr 30, 2023",
+    "balance_amount": "2200.72",
+    "minimum_payment_due": "118.91",
+    "interest_rate_apr": "26.74%",
+    "interest_rate_variable": true,
+    "interest_charged": "46.87"
+  },
+  {
+    "statement_period": "May 1 – May 31, 2023",
+    "balance_as_of_date": "May 31, 2023",
+    "balance_amount": "2245.33",
+    "minimum_payment_due": "117.62",
+    "interest_rate_apr": "26.74%",
+    "interest_rate_variable": true,
+    "interest_charged": "50.17"
+  },
+  {
+    "statement_period": "Jun 1 – Jun 30, 2023",
+    "balance_as_of_date": "Jun 30, 2023",
+    "balance_amount": "2467.67",
+    "minimum_payment_due": "119.62",
+    "interest_rate_apr": "26.99%",
+    "interest_rate_variable": true,
+    "interest_charged": "51.12"
+  },
+  {
+    "statement_period": "Jul 1 – Jul 31, 2023",
+    "balance_as_of_date": "Jul 31, 2023",
+    "balance_amount": "1201.96",
+    "minimum_payment_due": "74.62",
+    "interest_rate_apr": "26.99%",
+    "interest_rate_variable": true,
+    "interest_charged": "18.04"
+  },
+  {
+    "statement_period": "Aug 1 – Aug 31, 2023",
+    "balance_as_of_date": "Aug 31, 2023",
+    "balance_amount": "1394.69",
+    "minimum_payment_due": "86.62",
+    "interest_rate_apr": "27.24%",
+    "interest_rate_variable": true,
+    "interest_charged": "28.12"
+  },
+  {
+    "statement_period": "Sep 1 – Sep 30, 2023",
+    "balance_as_of_date": "Sep 30, 2023",
+    "balance_amount": "1860.56",
+    "minimum_payment_due": "97.62",
+    "interest_rate_apr": "27.24%",
+    "interest_rate_variable": true,
+    "interest_charged": "33.76"
+  },
+  {
+    "statement_period": "Oct 1 – Oct 31, 2023",
+    "balance_as_of_date": "Oct 31, 2023",
+    "balance_amount": "1941.58",
+    "minimum_payment_due": "99.62",
+    "interest_rate_apr": "27.24%",
+    "interest_rate_variable": true,
+    "interest_charged": "38.95"
+  },
+  {
+    "statement_period": "Dec 1 – Dec 31, 2023",
+    "balance_as_of_date": "Dec 31, 2023",
+    "balance_amount": "1958.77",
+    "minimum_payment_due": "106.62",
+    "interest_rate_apr": "27.24%",
+    "interest_rate_variable": true,
+    "interest_charged": "44.89"
+  },
+  {
+    "statement_period": "Jan 1 – Jan 31, 2024",
+    "balance_as_of_date": "Jan 31, 2024",
+    "balance_amount": "1895.16",
+    "minimum_payment_due": "105.62",
+    "interest_rate_apr": "27.24%",
+    "interest_rate_variable": true,
+    "interest_charged": "44.74"
+  },
+  {
+    "statement_period": "Feb 1 – Feb 29, 2024",
+    "balance_as_of_date": "Feb 29, 2024",
+    "balance_amount": "1886.84",
+    "minimum_payment_due": "100.74",
+    "interest_rate_apr": "27.24%",
+    "interest_rate_variable": true,
+    "interest_charged": "40.50"
+  },
+  {
+    "statement_period": "Mar 1 – Mar 31, 2024",
+    "balance_as_of_date": "Mar 31, 2024",
+    "balance_amount": "1850.50",
+    "minimum_payment_due": "62.00",
+    "interest_rate_apr": "27.24%",
+    "interest_rate_variable": true,
+    "interest_charged": "43.17"
+  },
+  {
+    "statement_period": "Apr 1 – Apr 30, 2024",
+    "balance_as_of_date": "Apr 30, 2024",
+    "balance_amount": "2097.47",
+    "minimum_payment_due": "66.00",
+    "interest_rate_apr": "27.24%",
+    "interest_rate_variable": true,
+    "interest_charged": "44.96"
+  },
+  {
+    "statement_period": "May 1 – May 31, 2024",
+    "balance_as_of_date": "May 31, 2024",
+    "balance_amount": "1942.03",
+    "minimum_payment_due": "65.00",
+    "interest_rate_apr": "27.24%",
+    "interest_rate_variable": true,
+    "interest_charged": "44.75"
+  },
+  {
+    "statement_period": "Jun 1 – Jun 30, 2024",
+    "balance_as_of_date": "Jun 30, 2024",
+    "balance_amount": "1918.32",
+    "minimum_payment_due": "59.00",
+    "interest_rate_apr": "26.99%",
+    "interest_rate_variable": true,
+    "interest_charged": "51.12"
+  },
+  {
+    "statement_period": "Jul 1 – Jul 31, 2024",
+    "balance_as_of_date": "Jul 31, 2024",
+    "balance_amount": "1920.70",
+    "minimum_payment_due": "65.00",
+    "interest_rate_apr": "27.24%",
+    "interest_rate_variable": true,
+    "interest_charged": "42.53"
+  },
+  {
+    "statement_period": "Aug 1 – Aug 31, 2024",
+    "balance_as_of_date": "Aug 31, 2024",
+    "balance_amount": "1596.24",
+    "minimum_payment_due": "57.00",
+    "interest_rate_apr": "27.24%",
+    "interest_rate_variable": true,
+    "interest_charged": "32.06"
+  },
+  {
+    "statement_period": "Sep 1 – Sep 30, 2024",
+    "balance_as_of_date": "Sep 30, 2024",
+    "balance_amount": "1956.17",
+    "minimum_payment_due": "59.00",
+    "interest_rate_apr": "27.24%",
+    "interest_rate_variable": true,
+    "interest_charged": "38.30"
+  },
+  {
+    "statement_period": "Oct 1 – Oct 31, 2024",
+    "balance_as_of_date": "Oct 31, 2024",
+    "balance_amount": "2015.90",
+    "minimum_payment_due": "65.00",
+    "interest_rate_apr": "26.74%",
+    "interest_rate_variable": true,
+    "interest_charged": "44.44"
+  },
+  {
+    "statement_period": "Nov 1 – Nov 30, 2024",
+    "balance_as_of_date": "Nov 30, 2024",
+    "balance_amount": "2161.20",
+    "minimum_payment_due": "67.00",
+    "interest_rate_apr": "26.74%",
+    "interest_rate_variable": true,
+    "interest_charged": "43.49"
+  },
+  {
+    "statement_period": "Dec 1 – Dec 31, 2024",
+    "balance_as_of_date": "Dec 31, 2024",
+    "balance_amount": "2167.14",
+    "minimum_payment_due": "67.00",
+    "interest_rate_apr": "26.49%",
+    "interest_rate_variable": true,
+    "interest_charged": "44.85"
+  }
+]

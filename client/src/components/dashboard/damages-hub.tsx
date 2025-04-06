@@ -2,14 +2,108 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { StatusBadge } from '@/components/ui/status-badge';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { useCreditReports } from '@/contexts/CreditReportsContext';
 import { formatCurrency } from '@/lib/utils';
 import { AdverseAction, DamageItem } from '@/types';
 import { QueryFunction, useQuery } from '@tanstack/react-query';
-import { ChartOptions, TooltipItem } from 'chart.js';
+import { ArrowRight, ChevronRight, FileText, Scale } from 'lucide-react';
 import { useState } from 'react';
 
+// Legal framework scopes
+const LEGAL_SCOPES = {
+  UCL: {
+    id: 'UCL',
+    title: 'Unfair Competition Law',
+    description: 'Cal. Bus. & Prof. Code § 17200 - Restitution for unfair business practices',
+  },
+  CCRAA: {
+    id: 'CCRAA',
+    title: 'CA Consumer Credit Reporting Agencies Act',
+    description: 'Cal. Civil Code § 1785 - Credit reporting violations',
+  },
+  FCRA: {
+    id: 'FCRA',
+    title: 'Fair Credit Reporting Act',
+    description: '15 U.S.C. § 1681 - Federal credit reporting violations',
+  },
+  RFDCPA: {
+    id: 'RFDCPA',
+    title: 'Rosenthal Fair Debt Collection Practices Act',
+    description: 'Cal. Civil Code § 1788 - Debt collection practices',
+  },
+  GF_FD: {
+    id: 'GF_FD',
+    title: 'Good Faith & Fair Dealing',
+    description: 'Implied covenant in contracts - Bad faith conduct',
+  },
+};
+
+// Component to render a credit report document
+function CreditReportDoc({
+  doc,
+}: {
+  doc: { doc_id: string; name: string; details: string; status: string };
+}) {
+  const { creditReports, updateCreditReport } = useCreditReports();
+  const report = creditReports[doc.doc_id];
+
+  // Only handle credit report documents
+  if (!doc.doc_id.startsWith('PREQ-01-')) {
+    return (
+      <li key={doc.doc_id} className="flex items-center">
+        <span
+          className={`inline-block h-2 w-2 rounded-full mr-2 ${
+            doc.status === 'Verified'
+              ? 'bg-emerald-600'
+              : doc.status === 'Received'
+              ? 'bg-amber-600'
+              : 'bg-red-700'
+          }`}
+        ></span>
+        {doc.name}
+      </li>
+    );
+  }
+
+  const handleStatusUpdate = (newStatus: typeof report.status) => {
+    updateCreditReport(doc.doc_id, { status: newStatus });
+  };
+
+  return (
+    <li key={doc.doc_id} className="flex items-center justify-between group">
+      <div className="flex items-center">
+        <span
+          className={`inline-block h-2 w-2 rounded-full mr-2 ${
+            report?.status === 'Verified'
+              ? 'bg-emerald-600'
+              : report?.status === 'Received'
+              ? 'bg-amber-600'
+              : 'bg-red-700'
+          }`}
+        ></span>
+        <span className="flex-1">{doc.name}</span>
+      </div>
+      <div className="opacity-0 group-hover:opacity-100 transition-opacity">
+        <select
+          aria-label={`Update status for ${doc.name}`}
+          title={`Update status for ${doc.name}`}
+          value={report?.status || 'Needed'}
+          onChange={(e) => handleStatusUpdate(e.target.value as typeof report.status)}
+          className="text-xs bg-transparent border-none p-0 ml-2"
+        >
+          <option value="Needed">Needed</option>
+          <option value="Requested">Requested</option>
+          <option value="Received">Received</option>
+          <option value="Verified">Verified</option>
+          <option value="N/A">N/A</option>
+        </select>
+      </div>
+    </li>
+  );
+}
+
 // Component to render an individual damage claim card
-function DamageCard({ damage }: { damage: DamageItem }) {
+function DamageCard({ damage, legalScopes }: { damage: DamageItem; legalScopes: string[] }) {
   return (
     <Card className="overflow-hidden h-full card-concrete">
       <div className="bg-card px-4 py-3 border-b border-border">
@@ -20,24 +114,20 @@ function DamageCard({ damage }: { damage: DamageItem }) {
         <p className="text-sm mt-1 text-muted-foreground">
           {damage.title} ({formatCurrency(damage.claimed_value)})
         </p>
+        <div className="flex gap-1 mt-2">
+          {legalScopes.map((scope) => (
+            <span key={scope} className="text-xs px-2 py-0.5 bg-secondary rounded-full">
+              {scope}
+            </span>
+          ))}
+        </div>
       </div>
       <CardContent className="p-4">
         <div className="mb-4">
           <h5 className="text-sm font-medium mb-2">Required Documentation</h5>
           <ul className="text-xs text-muted-foreground space-y-2">
             {damage.required_documents.map((doc) => (
-              <li key={doc.doc_id} className="flex items-center">
-                <span
-                  className={`inline-block h-2 w-2 rounded-full mr-2 ${
-                    doc.status === 'Verified'
-                      ? 'bg-emerald-600'
-                      : doc.status === 'Received'
-                      ? 'bg-amber-600'
-                      : 'bg-red-700'
-                  }`}
-                ></span>
-                {doc.name}
-              </li>
+              <CreditReportDoc key={doc.doc_id} doc={doc} />
             ))}
           </ul>
         </div>
@@ -60,17 +150,182 @@ function DamageCard({ damage }: { damage: DamageItem }) {
   );
 }
 
-interface DoughnutChartData {
-  labels: string[];
-  datasets: {
-    data: number[];
-    backgroundColor: string[];
-    borderWidth: number;
-  }[];
+// Component to render legal scope summary
+function LegalScopeSummary({
+  scope,
+  damages,
+  totalValue,
+}: {
+  scope: (typeof LEGAL_SCOPES)[keyof typeof LEGAL_SCOPES];
+  damages: DamageItem[];
+  totalValue: number;
+}) {
+  return (
+    <Card className="mb-4">
+      <CardContent className="p-4">
+        <div className="flex justify-between items-start">
+          <div>
+            <h3 className="font-semibold">{scope.title}</h3>
+            <p className="text-sm text-muted-foreground">{scope.description}</p>
+          </div>
+          <div className="text-right">
+            <p className="text-lg font-semibold">{formatCurrency(totalValue)}</p>
+            <p className="text-sm text-muted-foreground">{damages.length} claims</p>
+          </div>
+        </div>
+      </CardContent>
+    </Card>
+  );
+}
+
+// New component for the overview tab
+function OverviewTab({
+  damages,
+  adverseActions,
+  damagesByScope,
+  scopeTotals,
+}: {
+  damages: DamageItem[];
+  adverseActions: AdverseAction[];
+  damagesByScope: Record<string, DamageItem[]>;
+  scopeTotals: Record<string, number>;
+}) {
+  const totalDamages = Object.values(scopeTotals).reduce((sum, value) => sum + value, 0);
+  const uniqueInstitutions = new Set(adverseActions.map((a) => a.sender_name)).size;
+
+  return (
+    <div className="space-y-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+        <Card>
+          <CardContent className="p-6">
+            <div className="flex items-center gap-4">
+              <div className="p-3 bg-primary/10 rounded-full">
+                <Scale className="h-6 w-6 text-primary" />
+              </div>
+              <div>
+                <h3 className="text-2xl font-bold">{formatCurrency(totalDamages)}</h3>
+                <p className="text-sm text-muted-foreground">Total Quantified Damages</p>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+        <Card>
+          <CardContent className="p-6">
+            <div className="flex items-center gap-4">
+              <div className="p-3 bg-primary/10 rounded-full">
+                <FileText className="h-6 w-6 text-primary" />
+              </div>
+              <div>
+                <h3 className="text-2xl font-bold">{adverseActions.length}</h3>
+                <p className="text-sm text-muted-foreground">
+                  Adverse Actions from {uniqueInstitutions} Institutions
+                </p>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+      </div>
+
+      <Card>
+        <CardContent className="p-6">
+          <h3 className="text-lg font-semibold mb-4">Legal Framework Summary</h3>
+          <div className="space-y-6">
+            {Object.values(LEGAL_SCOPES).map((scope) => {
+              const scopeDamages = damagesByScope[scope.id] || [];
+              const scopeTotal = scopeTotals[scope.id] || 0;
+              const percentageOfTotal = totalDamages
+                ? ((scopeTotal / totalDamages) * 100).toFixed(1)
+                : 0;
+
+              return (
+                <div key={scope.id} className="space-y-2">
+                  <div className="flex items-start justify-between">
+                    <div>
+                      <h4 className="font-medium flex items-center gap-2">
+                        {scope.title}
+                        <ChevronRight className="h-4 w-4 text-muted-foreground" />
+                        <span className="text-primary">{scope.id}</span>
+                      </h4>
+                      <p className="text-sm text-muted-foreground">{scope.description}</p>
+                    </div>
+                    <div className="text-right">
+                      <p className="font-semibold">{formatCurrency(scopeTotal)}</p>
+                      <p className="text-sm text-muted-foreground">{percentageOfTotal}% of total</p>
+                    </div>
+                  </div>
+
+                  <div className="relative pt-2">
+                    <div className="bg-muted rounded-full h-2 w-full">
+                      <div
+                        className="bg-primary rounded-full h-2"
+                        style={{ width: `${percentageOfTotal}%` }}
+                      />
+                    </div>
+                  </div>
+
+                  <div className="pl-4 border-l-2 border-muted mt-2">
+                    <div className="text-sm space-y-1">
+                      <p>{scopeDamages.length} claims under this framework</p>
+                      {scopeDamages.length > 0 && (
+                        <div className="flex items-center gap-1 text-muted-foreground">
+                          <ArrowRight className="h-3 w-3" />
+                          Top claim: {scopeDamages[0].title} (
+                          {formatCurrency(scopeDamages[0].claimed_value)})
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </CardContent>
+      </Card>
+
+      <Card>
+        <CardContent className="p-6">
+          <h3 className="text-lg font-semibold mb-4">Documentation Status</h3>
+          <div className="space-y-4">
+            {Object.values(LEGAL_SCOPES).map((scope) => {
+              const scopeDamages = damagesByScope[scope.id] || [];
+              const docs = scopeDamages.flatMap((d) => d.required_documents);
+              const verifiedCount = docs.filter((d) => d.status === 'Verified').length;
+              const totalDocs = docs.length;
+              const verifiedPercentage = totalDocs
+                ? ((verifiedCount / totalDocs) * 100).toFixed(1)
+                : 0;
+
+              return (
+                <div key={scope.id} className="flex items-center gap-4">
+                  <div className="w-16 text-sm font-medium">{scope.id}</div>
+                  <div className="flex-1">
+                    <div className="flex justify-between text-sm mb-1">
+                      <span className="text-muted-foreground">
+                        {verifiedCount} of {totalDocs} verified
+                      </span>
+                      <span>{verifiedPercentage}%</span>
+                    </div>
+                    <div className="bg-muted rounded-full h-2 w-full">
+                      <div
+                        className="bg-emerald-600 rounded-full h-2"
+                        style={{ width: `${verifiedPercentage}%` }}
+                      />
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </CardContent>
+      </Card>
+    </div>
+  );
 }
 
 export default function DamagesHub() {
-  const [activeCategory, setActiveCategory] = useState<string>('overview');
+  const [activeScope, setActiveScope] = useState<'overview' | keyof typeof LEGAL_SCOPES>(
+    'overview'
+  );
 
   const fetchDamages: QueryFunction<DamageItem[]> = async () => {
     const response = await fetch('/api/damages');
@@ -100,318 +355,87 @@ export default function DamagesHub() {
     return <div className="flex justify-center p-8">No data available</div>;
   }
 
-  // Calculate summary data
-  const categorySums = damages.reduce((acc: Record<string, number>, damage: DamageItem) => {
-    const category = damage.category.split('-')[0] as 'PEC' | 'NONPEC';
-    const subCategory = damage.category;
+  // Group damages by legal scope
+  const damagesByScope = damages.reduce((acc, damage) => {
+    const applicableScopes = getApplicableScopes(damage);
 
-    if (!acc[category]) acc[category] = 0;
-    if (!acc[subCategory]) acc[subCategory] = 0;
+    applicableScopes.forEach((scope) => {
+      if (!acc[scope]) acc[scope] = [];
+      acc[scope].push(damage);
+    });
 
-    const value = damage.claimed_value || 0;
-    acc[category] += value;
-    acc[subCategory] += value;
+    return acc;
+  }, {} as Record<string, DamageItem[]>);
 
+  // Calculate totals by scope
+  const scopeTotals = Object.entries(damagesByScope).reduce((acc, [scope, scopeDamages]) => {
+    acc[scope] = scopeDamages.reduce((sum, damage) => sum + (damage.claimed_value || 0), 0);
     return acc;
   }, {} as Record<string, number>);
 
-  // Calculate adverse action statistics
-  const actionStats = {
-    totalActions: adverseActions.length,
-    uniqueInstitutions: new Set(adverseActions.map((a: AdverseAction) => a.sender_name)).size,
-    emotionalDistressCount: adverseActions.filter((a: AdverseAction) =>
-      a.applicable_non_pecuniary_damages?.some((d) => d.id === 'NONPEC-ED')
-    ).length,
-    reputationalHarmCount: adverseActions.filter((a: AdverseAction) =>
-      a.applicable_non_pecuniary_damages?.some((d) => d.id === 'NONPEC-REP')
-    ).length,
-  };
-
-  // Document status counts for the chart
-  const documentStatusCounts = damages
-    .flatMap((d) => d.required_documents)
-    .reduce(
-      (acc, doc) => {
-        acc[doc.status]++;
-        return acc;
-      },
-      { Verified: 0, Received: 0, Requested: 0, Needed: 0, 'N/A': 0 } as Record<string, number>
-    );
-
-  // Chart data
-  const chartData: DoughnutChartData = {
-    labels: ['Verified', 'Received', 'Requested', 'Needed', 'N/A'],
-    datasets: [
-      {
-        data: [
-          documentStatusCounts.Verified,
-          documentStatusCounts.Received,
-          documentStatusCounts.Requested,
-          documentStatusCounts.Needed,
-          documentStatusCounts['N/A'],
-        ],
-        backgroundColor: [
-          'rgb(16, 185, 129)', // Verified - emerald
-          'rgb(245, 158, 11)', // Received - amber
-          'rgb(59, 130, 246)', // Requested - blue
-          'rgb(239, 68, 68)', // Needed - red
-          'rgb(107, 114, 128)', // N/A - cool gray
-        ],
-        borderWidth: 0,
-      },
-    ],
-  };
-
-  const chartOptions: ChartOptions<'doughnut'> = {
-    cutout: '60%',
-    plugins: {
-      legend: {
-        display: false,
-      },
-      tooltip: {
-        callbacks: {
-          label: function (context: TooltipItem<'doughnut'>) {
-            const label = context.label || '';
-            const value = context.raw || 0;
-            const total = (context.dataset.data as number[]).reduce(
-              (acc: number, data: number) => acc + data,
-              0
-            );
-            const percentage = Math.round(((value as number) / total) * 100);
-            return `${label}: ${value} (${percentage}%)`;
-          },
-        },
-      },
-    },
-  };
-
-  // Filter damages by category for each tab
-  const getDamagesByCategory = (category: string) => {
-    if (category === 'overview') return [];
-    return damages.filter((d) => d.category === category);
-  };
-
-  // Calculate critical documentation needs
-  const criticalDocs = damages
-    .flatMap((d) => d.required_documents)
-    .filter((doc) => doc.status === 'Needed')
-    .sort((a, b) => {
-      // Prioritize high-value claims
-      const aValue = damages.find((d) => d.required_documents.includes(a))?.claimed_value || 0;
-      const bValue = damages.find((d) => d.required_documents.includes(b))?.claimed_value || 0;
-      return bValue - aValue;
-    })
-    .slice(0, 5); // Show top 5 critical docs
-
-  // Calculate non-pecuniary impact levels
-  const emotionalDistressLevel =
-    actionStats.emotionalDistressCount >= 30
-      ? 'Severe'
-      : actionStats.emotionalDistressCount >= 20
-      ? 'Substantial'
-      : actionStats.emotionalDistressCount >= 10
-      ? 'Moderate'
-      : 'Minor';
-
-  const reputationalHarmLevel =
-    actionStats.uniqueInstitutions >= 25
-      ? 'Severe'
-      : actionStats.uniqueInstitutions >= 15
-      ? 'Substantial'
-      : actionStats.uniqueInstitutions >= 8
-      ? 'Moderate'
-      : 'Minor';
-
-  // Calculate credit limit reduction impact
-  const creditLimitReductions = damages.filter(
-    (d) => d.category === 'PEC-COST' && d.title.includes('Credit Limit Reduction')
-  );
-
-  const totalCreditLimitReduction = creditLimitReductions.reduce((total, damage) => {
-    const match = damage.description.match(/\$([0-9,]+)/);
-    return total + (match ? parseInt(match[1].replace(',', '')) : 0);
-  }, 0);
-
-  const creditLimitStats = {
-    totalReductions: creditLimitReductions.length,
-    totalAmountReduced: totalCreditLimitReduction,
-    affectedCards: creditLimitReductions.map((d) => d.title.split('(')[0].trim()),
-    dateRange: {
-      start: creditLimitReductions.reduce((earliest, d) => {
-        if (!d.date) return earliest;
-        return !earliest || d.date < earliest ? d.date : earliest;
-      }, ''),
-      end: creditLimitReductions.reduce((latest, d) => {
-        if (!d.date) return latest;
-        return !latest || d.date > latest ? d.date : latest;
-      }, ''),
-    },
-  };
-
   return (
     <div className="space-y-6">
-      <Tabs value={activeCategory} onValueChange={setActiveCategory}>
-        <TabsList className="h-auto flex flex-wrap space-x-0 p-1 bg-secondary rounded-lg overflow-x-auto">
-          <TabsTrigger value="overview" className="tab-concrete rounded px-3 py-2">
-            Overview
-          </TabsTrigger>
-          {[
-            'PEC-PAY',
-            'PEC-COST',
-            'PEC-FEE',
-            'PEC-DEP',
-            'PEC-OOP',
-            'PEC-OPP',
-            'NONPEC-ED',
-            'NONPEC-REP',
-          ].map((category) => (
-            <TabsTrigger key={category} value={category} className="tab-concrete rounded px-3 py-2">
-              {category}
+      <Tabs
+        value={activeScope}
+        onValueChange={(value) => setActiveScope(value as typeof activeScope)}
+      >
+        <TabsList className="grid grid-cols-6 w-full">
+          <TabsTrigger value="overview">Overview</TabsTrigger>
+          {Object.values(LEGAL_SCOPES).map((scope) => (
+            <TabsTrigger key={scope.id} value={scope.id}>
+              {scope.id}
             </TabsTrigger>
           ))}
         </TabsList>
 
-        <TabsContent value="overview" className="pt-6">
-          <div className="space-y-6">
-            <div>
-              <h3 className="text-lg font-medium mb-4">Quantification Framework</h3>
-              <Card className="card-concrete">
-                <CardContent className="p-6">
-                  <div className="space-y-4">
-                    <div className="flex justify-between text-sm border-b pb-2">
-                      <span className="font-medium">Framework Overview:</span>
-                      <span>Version 2.0 (Updated 2024-04-22)</span>
-                    </div>
-                    <div className="text-sm space-y-2">
-                      <p>
-                        This framework provides a structured approach to quantifying damages from{' '}
-                        {actionStats.totalActions} adverse actions across{' '}
-                        {actionStats.uniqueInstitutions} institutions:
-                      </p>
-                      <div className="space-y-4 mt-4">
-                        <div>
-                          <h4 className="font-medium">Pecuniary (Economic) Damages:</h4>
-                          <ul className="list-disc pl-4 space-y-1 text-muted-foreground mt-2">
-                            <li>
-                              Credit Limit Reductions: {creditLimitStats.totalReductions} accounts
-                              affected, total reduction{' '}
-                              {formatCurrency(creditLimitStats.totalAmountReduced)}
-                            </li>
-                            <li>
-                              Required Additional Payments: Documented direct costs like security
-                              deposits
-                            </li>
-                            <li>
-                              Lost Opportunities: Harvard program withdrawal, business loan impacts
-                            </li>
-                            <li>Out-of-Pocket Expenses: Direct costs from remediation efforts</li>
-                          </ul>
-                        </div>
-                        <div>
-                          <h4 className="font-medium">Non-Pecuniary Impact Analysis:</h4>
-                          <ul className="list-disc pl-4 space-y-1 text-muted-foreground mt-2">
-                            <li>
-                              Emotional Distress: {emotionalDistressLevel} (
-                              {actionStats.emotionalDistressCount} supporting actions)
-                            </li>
-                            <li>
-                              Reputational Harm: {reputationalHarmLevel} impact across{' '}
-                              {actionStats.uniqueInstitutions} institutions
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
+        <TabsContent value="overview">
+          <OverviewTab
+            damages={damages}
+            adverseActions={adverseActions}
+            damagesByScope={damagesByScope}
+            scopeTotals={scopeTotals}
+          />
+        </TabsContent>
+
+        {Object.values(LEGAL_SCOPES).map((scope) => (
+          <TabsContent key={scope.id} value={scope.id}>
+            <LegalScopeSummary
+              scope={scope}
+              damages={damagesByScope[scope.id] || []}
+              totalValue={scopeTotals[scope.id] || 0}
+            />
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {(damagesByScope[scope.id] || []).map((damage) => (
+                <DamageCard
+                  key={damage.id}
+                  damage={damage}
+                  legalScopes={getApplicableScopes(damage)}
+                />
+              ))}
             </div>
-          </div>
-        </TabsContent>
-
-        <TabsContent value="PEC-COST" className="pt-6">
-          <div className="mb-6">
-            <Card className="card-concrete">
-              <CardContent className="pt-6">
-                <div className="flex justify-between items-center">
-                  <h3 className="text-lg font-semibold">Increased Cost of Credit Claims</h3>
-                  <Button size="sm" className="button-concrete">
-                    Add PEC-COST Claim
-                  </Button>
-                </div>
-                <div className="space-y-4 mt-4">
-                  <div className="text-sm space-y-2">
-                    <p className="font-medium">Required Documentation for Credit Cost Claims:</p>
-                    <ul className="list-disc pl-4 space-y-1 text-muted-foreground">
-                      <li>Final Credit Agreement showing unfavorable terms</li>
-                      <li>Risk-Based Pricing Notice / Adverse Action Notice</li>
-                      <li>Proof of "But-For" Terms (e.g., rate sheets, pre-approval offers)</li>
-                      <li>Amortization Schedule showing total cost difference</li>
-                      <li>Proof of additional fees/deposits paid</li>
-                    </ul>
-                  </div>
-                  <div className="text-sm mt-4">
-                    <p className="font-medium">Summary of Claims:</p>
-                    <ul className="list-disc pl-4 space-y-1 text-muted-foreground mt-2">
-                      <li>
-                        Credit Limit Reductions: {creditLimitStats.totalReductions} accounts
-                        affected, total reduction{' '}
-                        {formatCurrency(creditLimitStats.totalAmountReduced)}
-                      </li>
-                      <li>Auto Financing Denials/Modifications: 8 instances</li>
-                      <li>Student/Personal Loan Denials: 8 instances</li>
-                      <li>Explicit Unfavorable Terms Notices: 2 instances</li>
-                    </ul>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {getDamagesByCategory('PEC-COST').map((damage: DamageItem) => (
-              <DamageCard key={damage.id} damage={damage} />
-            ))}
-            {getDamagesByCategory('PEC-COST').length === 0 && (
-              <div className="col-span-full py-8 text-center text-muted-foreground">
-                No claims in this category yet. Click "Add PEC-COST Claim" to get started.
-              </div>
-            )}
-          </div>
-        </TabsContent>
-
-        {/* Render tabs for each damage category */}
-        {['PEC-PAY', 'PEC-FEE', 'PEC-DEP', 'PEC-OOP', 'PEC-OPP', 'NONPEC-ED', 'NONPEC-REP'].map(
-          (category) => (
-            <TabsContent key={category} value={category} className="pt-6">
-              <div className="flex justify-between items-center mb-6">
-                <h3 className="text-lg font-medium">{category} Damages</h3>
-                {category === 'PEC-COST' && (
-                  <div className="text-sm text-muted-foreground">
-                    {creditLimitStats.totalReductions} credit limit reductions totaling{' '}
-                    {formatCurrency(creditLimitStats.totalAmountReduced)}
-                  </div>
-                )}
-                <Button size="sm" className="button-concrete">
-                  Add {category} Claim
-                </Button>
-              </div>
-
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {getDamagesByCategory(category).map((damage) => (
-                  <DamageCard key={damage.id} damage={damage} />
-                ))}
-
-                {getDamagesByCategory(category).length === 0 && (
-                  <div className="col-span-full py-8 text-center text-muted-foreground">
-                    No claims in this category yet. Click "Add {category} Claim" to get started.
-                  </div>
-                )}
-              </div>
-            </TabsContent>
-          )
-        )}
+          </TabsContent>
+        ))}
       </Tabs>
     </div>
   );
+}
+
+// Helper function to determine applicable legal scopes for a damage
+// This would need to be implemented based on your specific rules
+function getApplicableScopes(damage: DamageItem): string[] {
+  // This is a placeholder implementation
+  // In reality, this would be based on the damage characteristics
+  // and your specific legal framework
+  switch (damage.category) {
+    case 'PEC-PAY':
+    case 'PEC-COST':
+      return ['UCL', 'CCRAA', 'FCRA'];
+    case 'PEC-FEE':
+      return ['UCL', 'RFDCPA'];
+    case 'PEC-OPP':
+      return ['UCL', 'GF_FD'];
+    default:
+      return ['UCL'];
+  }
 }

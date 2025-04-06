@@ -1,0 +1,566 @@
+{
+  "contract_details": {
+    "contract_number": "000175324",
+    "deal_number": "907590",
+    "customer_number": "577511",
+    "contract_type": "RETAIL INSTALLMENT SALE CONTRACT – SIMPLE FINANCE CHARGE (WITH ARBITRATION PROVISION)",
+    "form_id": "LAW 553-CA-ARB-ea 3/23 v1",
+    "generation_date_time": "09/17/2024 12:43 pm"
+  },
+  "parties": {
+    "buyer": {
+      "name": "NÝREE HINTON",
+      "address": "616 MASSELIN AVE APT 210, LOS ANGELES CA 90036",
+      "county": "LOS ANGELES",
+      "cell": "732-979-6264",
+      "email": "NYREEHINTON@GMAIL.COM"
+    },
+    "co_buyer": {
+      "name": "N/A",
+      "address": "N/A",
+      "cell": "N/A",
+      "email": "N/A"
+    },
+    "seller_creditor": {
+      "name": "VOLVO PALO ALTO",
+      "address": "4190 EL CAMINO REAL, PALO ALTO, CA 94306",
+      "phone": "650-815-4514"
+    },
+    "assignee": {
+      "name": "GOLDEN 1 CREDIT UNION",
+      "assignment_type": "Assigned without recourse"
+    }
+  },
+  "vehicle": {
+    "new_used": "USED",
+    "year": 2020,
+    "make": "JAGUAR",
+    "model": "F-TYPE",
+    "odometer": 22270,
+    "vin": "SAJDD1GX4LCK67497",
+    "primary_use": "Personal, family, or household"
+  },
+  "financial_summary": {
+    "apr": {
+      "rate": 7.59,
+      "label": "ANNUAL PERCENTAGE RATE"
+    },
+    "finance_charge": {
+      "amount": 8819.01,
+      "is_estimate": true,
+      "label": "FINANCE CHARGE"
+    },
+    "amount_financed": {
+      "amount": 35008.83,
+      "is_estimate": true,
+      "label": "Amount Financed"
+    },
+    "total_of_payments": {
+      "amount": 43827.84,
+      "is_estimate": true,
+      "label": "Total of Payments"
+    },
+    "down_payment": {
+      "amount": 5000.0,
+      "label": "Down Payment"
+    },
+    "total_sale_price": {
+      "amount": 48827.84,
+      "is_estimate": true,
+      "label": "Total Sale Price"
+    }
+  },
+  "payment_schedule": {
+    "payments": [
+      {
+        "number_of_payments": 1,
+        "amount": "N/A",
+        "due_description": "N/A"
+      },
+      {
+        "number_of_payments": 1,
+        "amount": "N/A",
+        "due_description": "N/A"
+      },
+      {
+        "number_of_payments": 1,
+        "amount": "N/A",
+        "due_description": "N/A"
+      },
+      {
+        "number_of_payments": 71,
+        "amount": 608.72,
+        "due_description": "MONTHLY beginning 11/01/2024"
+      }
+    ],
+    "final_payment": {
+      "amount": 608.72,
+      "due_date": "10/01/2030"
+    },
+    "total_number_of_payments": 72
+  },
+  "additional_terms": {
+    "late_charge": "If payment is not received in full within 10 days after it is due, you will pay a late charge of 5% of the part of the payment that is late.",
+    "prepayment": "If you pay early, you may be charged a minimum finance charge.",
+    "security_interest": "You are giving a security interest in the vehicle being purchased."
+  },
+  "insurance": {
+    "vehicle_insurance": {
+      "physical_damage_required": true,
+      "comp_fire_theft": {
+        "deductible": "N/A",
+        "term_months": "N/A",
+        "premium": "N/A"
+      },
+      "collision": {
+        "deductible": "N/A",
+        "term_months": "N/A",
+        "premium": "N/A"
+      },
+      "bodily_injury": {
+        "limits": "N/A",
+        "term_months": "N/A",
+        "premium": "N/A"
+      },
+      "property_damage": {
+        "limits": "N/A",
+        "term_months": "N/A",
+        "premium": "N/A"
+      },
+      "medical": {
+        "term_months": "N/A",
+        "premium": "N/A"
+      },
+      "liability_property_coverage_provided_in_agreement": false,
+      "total_premiums": "N/A"
+    },
+    "credit_disability_insurance": {
+      "provided": false
+    }
+  },
+  "trade_in": {
+    "payoff_agreement": {
+      "agreed": true,
+      "payoff_estimate_acknowledged": true,
+      "buyer_responsible_for_shortfall": true,
+      "seller_refunds_overage": true
+    },
+    "vehicle_1": {
+      "year": "N/A",
+      "make": "N/A",
+      "model": "N/A",
+      "odometer": "N/A",
+      "vin": "N/A",
+      "agreed_value": "N/A",
+      "retained_equity": "N/A",
+      "agreed_value_traded_in": "N/A",
+      "prior_credit_lease_balance": "N/A",
+      "net_trade_in": "N/A"
+    },
+    "vehicle_2": {
+      "year": "N/A",
+      "make": "N/A",
+      "model": "N/A",
+      "odometer": "N/A",
+      "vin": "N/A",
+      "agreed_value": "N/A",
+      "retained_equity": "N/A",
+      "agreed_value_traded_in": "N/A",
+      "prior_credit_lease_balance": "N/A",
+      "net_trade_in": "N/A"
+    },
+    "totals": {
+      "total_agreed_value": "N/A",
+      "total_prior_balance": "N/A",
+      "total_net_trade_in": "N/A"
+    }
+  },
+  "itemization_amount_financed": {
+    "total_cash_price_components": {
+      "cash_price_vehicle": 35850.0,
+      "cash_price_accessories": "N/A",
+      "other_nontaxable_1": "N/A",
+      "other_nontaxable_2": "N/A",
+      "document_processing_charge": 85.0,
+      "emissions_testing_charge": 50.0,
+      "theft_deterrent": [
+        {
+          "paid_to": "N/A",
+          "amount": "N/A"
+        }
+      ],
+      "surface_protection": [
+        {
+          "paid_to": "N/A",
+          "amount": "N/A"
+        }
+      ],
+      "ev_charging_station": {
+        "paid_to": "N/A",
+        "amount": "N/A"
+      },
+      "sales_tax": 3418.58,
+      "evr_fee": {
+        "paid_to": "EVR Fee",
+        "amount": 33.0
+      },
+      "service_contracts": [
+        {
+          "paid_to": "N/A",
+          "amount": "N/A"
+        }
+      ],
+      "prior_credit_lease_balance_1": {
+        "paid_to": "N/A",
+        "amount": "N/A"
+      },
+      "prior_credit_lease_balance_2": {
+        "paid_to": "N/A",
+        "amount": "N/A"
+      },
+      "debt_cancellation_gap": {
+        "amount": "N/A"
+      },
+      "used_vehicle_cancellation_option": {
+        "amount": "N/A"
+      },
+      "other_paid_to_1": {
+        "recipient": "N/A",
+        "description": "N/A",
+        "amount": "N/A"
+      },
+      "other_paid_to_2": {
+        "recipient": "N/A",
+        "description": "N/A",
+        "amount": "N/A"
+      }
+    },
+    "total_cash_price": 39436.58,
+    "amounts_paid_to_public_officials": {
+      "vehicle_license_fees_estimate": 218.0,
+      "registration_transfer_titling_fees": 326.0,
+      "california_tire_fees": "N/A",
+      "other_smog_abatement_fee": 20.0,
+      "total_official_fees": 564.0
+    },
+    "amount_paid_to_insurance_companies": "N/A",
+    "state_emissions_certification_exemption_fee": 8.25,
+    "subtotal": 40008.83,
+    "total_downpayment_components": {
+      "total_agreed_value_trade_in": "N/A",
+      "total_less_prior_balance": "N/A",
+      "total_net_trade_in": "N/A",
+      "deferred_downpayment": "N/A",
+      "manufacturer_rebate": "N/A",
+      "other_1": "N/A",
+      "other_2": "N/A",
+      "other_3": "N/A",
+      "cash_cash_equivalent_check_card": 5000.0
+    },
+    "total_downpayment": 5000.0,
+    "amount_financed": 35008.83
+  },
+  "optional_products": {
+    "debt_cancellation_gap": {
+      "purchased": false,
+      "term_months": "N/A",
+      "name": "N/A"
+    },
+    "service_contracts": [
+      {
+        "purchased": false,
+        "company": "N/A",
+        "term_months": "N/A",
+        "term_miles": "N/A"
+      },
+      {
+        "purchased": false,
+        "company": "N/A",
+        "term_months": "N/A",
+        "term_miles": "N/A"
+      },
+      {
+        "purchased": false,
+        "company": "N/A",
+        "term_months": "N/A",
+        "term_miles": "N/A"
+      },
+      {
+        "purchased": false,
+        "company": "N/A",
+        "term_months": "N/A",
+        "term_miles": "N/A"
+      },
+      {
+        "purchased": false,
+        "company": "N/A",
+        "term_months": "N/A",
+        "term_miles": "N/A"
+      }
+    ],
+    "used_vehicle_contract_cancellation_option": {
+      "purchased": false
+    }
+  },
+  "disclosures_and_agreements": {
+    "autobroker_fee_disclosure": {
+      "applicable": false,
+      "broker_name": "N/A"
+    },
+    "arbitration_agreement": {
+      "agreed": true
+    },
+    "warranties_seller_disclaims": {
+      "disclaimed": true,
+      "exception_certified_used": true
+    },
+    "used_car_buyers_guide_part_of_contract": true,
+    "electronic_contracting_acknowledgment": true,
+    "negative_credit_report_notice": true,
+    "dmv_address_authorization_waiver": true,
+    "seller_right_to_cancel": {
+      "provision_exists": true,
+      "accepted_by_buyer": false
+    },
+    "ftc_holder_rule_notice": true,
+    "no_cooling_off_period_notice": true
+  },
+  "signatures": {
+    "buyer_signature_page1": "E-SIGNED by NYREE HINTON",
+    "co_buyer_signature_page1": "N/A",
+    "seller_signature_page1": null,
+    "buyer_arbitration_signature": "E-SIGNED by NYREE HINTON on 2024-09-17 12:51:38 PDT",
+    "co_buyer_arbitration_signature": "N/A",
+    "buyer_optional_gap_signature": "N/A",
+    "buyer_optional_service_contract_signature": "N/A",
+    "buyer_acknowledgment_signature_page6": "E-SIGNED by NYREE HINTON on 2024-09-17 12:52:26 POT",
+    "co_buyer_acknowledgment_signature_page6": "N/A",
+    "buyer_liability_terms_signature_page6": "E-SIGNED by KYREE HINTON on 2024-09-17 12:52:26 POT",
+    "buyer_contract_cancellation_option_signature": "SIGNED by NYREE HINTON",
+    "buyer_contract_cancellation_option_date": "09/17/2024",
+    "co_buyer_contract_cancellation_option_signature": "N/A",
+    "co_buyer_contract_cancellation_option_date": "N/A",
+    "seller_signature_page6": "VOLVO PALO ALTO",
+    "seller_signature_date": "09/17/2024",
+    "seller_representative_signature": "Signed",
+    "seller_representative_title": "FI MANAGER",
+    "assignor_signature": "VOLVO PALO ALTO",
+    "assignor_representative_signature": "Signed",
+    "assignor_representative_title": "FI MANAGER"
+  },
+  "document_type": "Periodic Account Statement and Newsletter",
+  "issuer": {
+    "name": "Golden 1 Credit Union",
+    "address": "P.O. BOX 15966, SACRAMENTO, CA 95852-0966",
+    "contact_phone": "1-877-GOLDEN 1 (1-877-465-3361)",
+    "website": "Golden1.com",
+    "routing_number": "321175261",
+    "nmls_number": "669333",
+    "insured_by": "NCUA"
+  },
+  "recipient": {
+    "name": "NYREE HINTON",
+    "address": "616 MASSELIN AVE APT 210, LOS ANGELES, CA 90036-3732",
+    "member_name": "NYREE HINTON"
+  },
+  "statement_details": {
+    "account_number": "0002863789",
+    "account_name": "General",
+    "statement_period": {
+      "start_date": "10/01/2024",
+      "end_date": "12/31/2024"
+    },
+    "statement_date": "12/31/2024"
+  },
+  "account_summaries": [
+    {
+      "account_type": "Savings",
+      "suffix": "00",
+      "summary": {
+        "beginning_balance_date": "10/01/2024",
+        "beginning_balance": 1.0,
+        "deposits_this_period": 0.0,
+        "withdrawals_this_period": 0.0,
+        "ending_balance_date": "12/31/2024",
+        "ending_balance": 1.0,
+        "dividends_to_be_paid_date": "01/01/2025",
+        "dividends_to_be_paid": 0.0,
+        "dividends_paid_ytd": 0.0
+      },
+      "activity": [
+        {
+          "post_date": "10/01/2024",
+          "effective_date": null,
+          "description": "Beginning Balance",
+          "withdrawals": null,
+          "deposits": null,
+          "balance": 1.0
+        },
+        {
+          "post_date": "12/31/2024",
+          "effective_date": null,
+          "description": "Ending Balance",
+          "withdrawals": null,
+          "deposits": null,
+          "balance": 1.0
+        }
+      ],
+      "fees": {
+        "overdraft_fees_this_period": 0.0,
+        "overdraft_fees_ytd": 0.0,
+        "returned_item_fees_this_period": 0.0,
+        "returned_item_fees_ytd": 0.0
+      }
+    },
+    {
+      "account_type": "Used Auto",
+      "suffix": "01",
+      "summary": {
+        "beginning_balance_date": "10/01/2024",
+        "beginning_balance": 35008.83,
+        "annual_percentage_rate": 7.59,
+        "daily_periodic_rate": 0.020795,
+        "total_payments_credits": 1220.0,
+        "total_withdrawals_debits": 0.0,
+        "ending_balance_date": "12/31/2024",
+        "ending_balance": 34361.09
+      },
+      "activity": [
+        {
+          "post_date": "10/01/2024",
+          "description": "Beginning Balance",
+          "transaction_amount": null,
+          "finance_charge": null,
+          "principal": null,
+          "balance": 35008.83
+        },
+        {
+          "post_date": "10/30/2024",
+          "description": "Payment-ACH-1090525 BKOFAM CK WEBXFR (ETRANSFER)",
+          "transaction_amount": 610.0,
+          "finance_charge": 313.04,
+          "principal": 296.96,
+          "balance": 34711.87
+        },
+        {
+          "post_date": "11/22/2024",
+          "description": "Payment-ACH-1090525 BKOFAM CK WEBXFR (ETRANSFER)",
+          "transaction_amount": 400.0,
+          "finance_charge": 166.02,
+          "principal": 233.98,
+          "balance": 34477.89
+        },
+        {
+          "post_date": "12/05/2024",
+          "description": "Payment-ACH-1090525 BKOFAM CK WEBXFR (ETRANSFER)",
+          "transaction_amount": 210.0,
+          "finance_charge": 93.2,
+          "principal": 116.8,
+          "balance": 34361.09
+        },
+        {
+          "post_date": "12/31/2024",
+          "description": "Ending Balance",
+          "transaction_amount": null,
+          "finance_charge": null,
+          "principal": null,
+          "balance": 34361.09
+        },
+        {
+          "post_date": null,
+          "description": "FINANCE CHARGES PAID IN 2024 LOAN 01",
+          "transaction_amount": null,
+          "finance_charge": 572.26,
+          "principal": null,
+          "balance": null
+        }
+      ],
+      "ytd_tax_summary": {
+        "total_non_ira_dividends_earned": 0.0,
+        "total_finance_charges_paid_this_year": 572.26
+      }
+    }
+  ],
+  "error_resolution": {
+    "billing_error_rights": {
+      "applicable_accounts": "Golden Reserve, Golden Line, and Cash Reserve Lines of Credit only",
+      "contact_address": "Golden 1 Credit Union, P.O. Box 15966, Sacramento, CA 95852-0966",
+      "notification_deadline": "within 60 days after the error appeared on your statement",
+      "notification_method": "in writing (calling is allowed but not required for investigation)"
+    },
+    "eft_error_resolution": {
+      "contact_phone": "1-877-GOLDEN 1 (1-877-465-3361)",
+      "contact_address": "P.O. Box 15966 Sacramento, CA 95852-0966",
+      "notification_deadline": "no later than 60 days after the FIRST statement on which the error or problem appeared",
+      "investigation_timeline": "Investigate promptly; if more than 10 business days, temporary credit will be issued."
+    }
+  },
+  "newsletter_january_2025": {
+    "annual_meeting": {
+      "date": "March 20, 2025",
+      "time": "5:30 p.m.",
+      "location": "Golden 1 Credit Union Headquarters, 8945 Cal Center Drive, Sacramento, California"
+    },
+    "elections": {
+      "positions": 3,
+      "nominees": ["Keely Bosler", "Ting Lan Sun", "Keri Thomas"],
+      "status": "Declared elected effective March 20, 2025, as the number of nominees matched the number of positions."
+    },
+    "annual_report_2024": {
+      "availability": "Hard copy at Annual Meeting, downloadable from Golden 1 website.",
+      "request_address": "Golden 1 Credit Union, Attn: Senior Vice President, Community Impact and Public Relations Officer, P.O. Box 15966, Sacramento, CA 95852-0966"
+    },
+    "business_member_voting": {
+      "info_link": "golden1.com/businessauthorizedvoter"
+    },
+    "network": {
+      "atms": "More than 30,000 no-fee CO-OP ATMs",
+      "shared_branches": "5,000 CO-OP Shared Branches",
+      "locator_link": "Golden1.com/locator"
+    },
+    "member_recognition_and_accolades": {
+      "sources": ["American Banker", "Forbes", "Newsweek", "TIME Magazine", "MONEY"],
+      "recognitions": [
+        "Best Banks and Credit Unions in California - \"Best Overall\" (2 years in a row)",
+        "Best Banks and Credit Unions in the West - \"Best Credit Union\" (2 years in a row)",
+        "Best Banks in America – “Best for Seniors, Best Overall\" (3 years in a row)"
+      ]
+    },
+    "financial_tips_2025": [
+      "Open or add to an IRA for a more secure future.",
+      "Consolidate high-interest debt to improve cash flow.",
+      "Deposit your tax refund into one of Golden 1's high-yield savings accounts to make your money work harder.",
+      "Refinance your mortgage to take advantage of lower interest rates."
+    ],
+    "proxy_notice": {
+      "purpose": "Provided to members who have executed a Voting Proxy.",
+      "matters_covered": [
+        "Election of Directors",
+        "Amendments of the Bylaws of Golden 1 (except as prohibited by law)",
+        "Any other matters properly arising at Annual or special meetings"
+      ],
+      "consumer_proxy_info": "Golden1.com/proxy",
+      "business_proxy_info": "Golden1.com/businessproxy"
+    },
+    "scholarship_program": {
+      "award_amount": "Up to $20,000 for college",
+      "application_deadline": "January 31, 2025",
+      "school_year": "2025-2026",
+      "eligibility": "Students attending two-year and four-year nonprofit accredited colleges and universities in California (renewable annually up to four years).",
+      "membership_requirement": "Student or parent/guardian must be a Golden 1 member as of January 31, 2025.",
+      "info_link": "Golden1.com/scholarships"
+    },
+    "tax_discounts": {
+      "turbotax": "Up to 20% savings on federal products",
+      "hr_block": "Up to $25 savings on professional tax preparation",
+      "sweepstakes": "Love My Credit Union® Rewards Tax Time Sweepstakes ($10,000 prize)",
+      "info_link": "taxservices.lovemycreditunion.org"
+    },
+    "ira_withholding_notice": {
+      "message": "Federal and/or state tax withholding elections for IRA distributions can be changed at any time by notifying Golden 1 in writing. Previous selections remain if no changes are made.",
+      "advice": "Seek advice from tax professional and attorney.",
+      "info_link": "Golden1.com/accounts/IRA"
+    },
+    "holiday_hours_link": "Golden1.com/aboutus/holidays"
+  }
+}

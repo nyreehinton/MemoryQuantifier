@@ -30,44 +30,97 @@ export const damagesData: DamageItem[] = [
       createReqDoc(
         'PREQ-01-Essex-TU',
         'TransUnion Report used by Essex',
-        'Credit report pulled by TU around 2024-06-05.'
+        'Credit report pulled by TU around 2024-06-05.',
+        'Verified'
       ),
     ],
     description: 'Additional $2,187 security deposit required by Essex.',
     date: '2024-06-04',
   },
+  {
+    id: 'PEC-PAY-02',
+    title: 'Required Tesla Repairs & Transportation Costs',
+    category: 'PEC-PAY',
+    source_docs: [2, 5, 6, 12, 24, 38], // Auto loan denials
+    claimed_value: 14690.66,
+    status: 'Pending',
+    required_documents: [
+      createReqDoc(
+        'PEC-PAY-02-01',
+        'Paid Repair Invoices',
+        'Paid repair invoices totaling $699.61:\n' +
+          '- Feb 2023: $217.51 (Invoice #3000S0006277027)\n' +
+          '- Jun 2023: $482.10 (Invoice #3000S0007380537)',
+        'Verified'
+      ),
+      createReqDoc(
+        'PEC-PAY-02-02',
+        'Required Future Repairs',
+        'Upcoming required repairs totaling $13,991.05:\n' +
+          '- Jan 2024: $3,620.65 (Estimate #3000-009-0016233315)\n' +
+          '- Oct 2024: $10,370.40 (Estimate #3000-009-0021563621)',
+        'Verified'
+      ),
+      createReqDoc(
+        'PEC-PAY-02-03',
+        'Alternative Transportation Expenses',
+        'Receipts for rentals, ride-sharing, or other transportation needed while Tesla was unusable',
+        'Needed'
+      ),
+      createReqDoc(
+        'PEC-PAY-02-04',
+        'Auto Loan Denial Documentation',
+        'Sequence of denials preventing vehicle replacement:\n' +
+          '- Huebner Chevrolet (2/13/24)\n' +
+          '- Ally/Carmax (3/12/24)\n' +
+          '- Ally/St. Charles (3/15/24)\n' +
+          '- Capital One/Volvo (3/20/24)\n' +
+          '- Global Lending/St. Charles (4/2/24)\n' +
+          '- US Bank/Volvo (4/10/24)',
+        'Verified'
+      ),
+    ],
+    description:
+      'Required additional payments for Tesla repairs ($14,690.66) and alternative transportation due to inability to replace defective vehicle following multiple auto loan denials. Includes $699.61 in paid repairs and $13,991.05 in required upcoming repairs.',
+    date: '2024-02-13', // Date of first auto loan denial
+  },
 
   // PEC-COST: Increased Cost of Credit (Unfavorable Terms on Specific Loan)
   {
     id: 'PEC-COST-01',
-    title: 'Golden1 Unfavorable Loan Terms (Loan 8134276)',
+    title: 'Golden1 Credit Union - Increased APR Costs',
     category: 'PEC-COST',
     source_docs: [26],
-    claimed_value: null,
+    claimed_value: 4997.98,
     status: 'Pending',
     required_documents: [
       createReqDoc(
         'PEC-COST-01-01',
         'Final Loan Agreement (Golden 1)',
-        'Signed agreement with actual rate/fees.'
+        'Signed agreement showing actual rate/fees: $8,819.01 finance charge + $740.25 in fees',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-01-02',
         "Proof of 'But-For' Terms (Golden 1)",
-        'Evidence of terms likely qualified for absent error.'
+        'Bank of America terms showing $3,500.04 finance charge + $1,061.24 in fees',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-01-03',
         'Cost Differential Calculation',
-        'Calculation showing total $ difference.'
+        'Total cost differential of $4,997.98 ($9,559.26 actual - $4,561.28 but-for)',
+        'Verified'
       ),
       createReqDoc(
         'PREQ-01-Golden1-Exp',
         'Experian Report used by Golden 1',
-        'Credit report pulled by Experian around 2024-09-17.'
+        'Credit report pulled by Experian around 2024-09-17.',
+        'Needed'
       ),
     ],
-    description: 'Increased cost on Golden 1 loan due to less favorable terms.',
+    description:
+      'Increased cost of $4,997.98 on Golden 1 loan due to less favorable terms (actual total cost $9,559.26 vs but-for cost $4,561.28).',
     date: '2024-09-17',
   },
 
@@ -103,7 +156,8 @@ export const damagesData: DamageItem[] = [
       createReqDoc(
         'PREQ-01-BofA-1775-TU',
         'TransUnion Report used by BofA (Mar 2024)',
-        'Report pulled by TU around 2024-03-07.'
+        'Report pulled by TU around 2024-03-07.',
+        'Verified'
       ),
     ],
     description:
@@ -115,234 +169,192 @@ export const damagesData: DamageItem[] = [
     title: 'Increased Costs post Chase Limit Reduction (0757)',
     category: 'PEC-COST',
     source_docs: [3],
-    claimed_value: null,
+    claimed_value: 5500,
     status: 'Pending',
     required_documents: [
       createReqDoc(
         'PEC-COST-03-01',
         'Statements Post-Reduction (Chase 0757)',
-        'Chase statements AFTER 2024-01-18.'
+        'Chase statements showing reduction from original $5,500 limit',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-03-02',
-        'Statements for Alternative Credit Used',
-        'Statements from higher-APR sources used AFTER 2024-01-18.'
+        'APR Documentation',
+        'Documentation of APR changes and terms',
+        'Needed'
       ),
       createReqDoc(
         'PEC-COST-03-03',
-        'APR Documentation',
-        'Proof of APRs for Chase 0757 and alternative source.'
-      ),
-      createReqDoc(
-        'PEC-COST-03-04',
         'Cost Differential Calculation',
-        'Calculation comparing interest costs.'
-      ),
-      createReqDoc(
-        'PREQ-01-Chase-0757-Exp',
-        'Experian Report used by Chase (Jan 2024)',
-        'Report pulled by Exp around 2024-01-18.'
+        'Calculation of increased costs due to credit line reduction',
+        'Needed'
       ),
     ],
     description:
-      'Potential increased costs from relying on higher-APR credit after Chase (0757) reduction.',
+      'Original credit line $5,500 reduced. Potential increased costs from relying on higher-APR credit after Chase (0757) reduction.',
     date: '2024-01-18',
   },
   {
     id: 'PEC-COST-04',
-    title: 'Increased Costs post Chase Amazon Limit Reduction (7293)',
+    title: 'Chase Amazon Prime Visa (7293) - Credit Line & APR Changes',
     category: 'PEC-COST',
     source_docs: [4],
-    claimed_value: null,
+    claimed_value: 5500,
     status: 'Pending',
     required_documents: [
       createReqDoc(
         'PEC-COST-04-01',
         'Statements Post-Reduction (Chase 7293)',
-        'Chase statements AFTER 2024-01-18.'
+        'Monthly statements showing reduction from $5,500 credit line and APR of 27.49% in January 2024',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-04-02',
-        'Statements for Alternative Credit Used',
-        'Statements from higher-APR sources used AFTER 2024-01-18.'
+        'APR Documentation',
+        'Documentation of APR increase from 27.24% to 27.49%',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-04-03',
-        'APR Documentation',
-        'Proof of APRs for Chase 7293 and alternative source.'
-      ),
-      createReqDoc(
-        'PEC-COST-04-04',
         'Cost Differential Calculation',
-        'Calculation comparing interest costs.'
-      ),
-      createReqDoc(
-        'PREQ-01-Chase-7293-Exp',
-        'Experian Report used by Chase (Jan 2024)',
-        'Report pulled by Exp around 2024-01-18.'
+        'Calculation of increased costs due to credit line reduction and APR increase',
+        'Needed'
       ),
     ],
     description:
-      'Potential increased costs from relying on higher-APR credit after Chase Amazon (7293) reduction.',
+      'Credit line reduced from original $5,500 limit. APR at 27.49% in January 2024 (increased from baseline 27.24% in May-June 2023).',
     date: '2024-01-18',
   },
   {
     id: 'PEC-COST-05',
-    title: 'Increased Costs post BofA Limit Reduction (4041)',
+    title: 'Bank of America (4041) - Credit Line & APR Changes',
     category: 'PEC-COST',
-    source_docs: [14],
-    claimed_value: null,
+    source_docs: [5],
+    claimed_value: 3700,
     status: 'Pending',
     required_documents: [
       createReqDoc(
         'PEC-COST-05-01',
         'Statements Post-Reduction (BofA 4041)',
-        'BofA statements AFTER 2024-01-03.'
+        'Monthly statements showing reduction to $2,500 credit line from original $6,200',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-05-02',
-        'Statements for Alternative Credit Used',
-        'Statements from higher-APR sources used AFTER 2024-01-03.'
+        'APR Documentation',
+        'Documentation of APR at 27.74%',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-05-03',
-        'APR Documentation',
-        'Proof of APRs for BofA 4041 and alternative source.'
-      ),
-      createReqDoc(
-        'PEC-COST-05-04',
         'Cost Differential Calculation',
-        'Calculation comparing interest costs.'
-      ),
-      createReqDoc(
-        'PREQ-01-BofA-4041-TU',
-        'TransUnion Report used by BofA (Jan 2024)',
-        'Report pulled by TU around 2024-01-03.'
+        'Calculation of increased costs due to credit line reduction',
+        'Needed'
       ),
     ],
     description:
-      'Potential increased costs from relying on higher-APR credit after BofA (4041) reduction.',
-    date: '2024-01-03',
+      'Credit line reduced to $2,500 from original $6,200 limit. APR at 27.74% in January 2024.',
+    date: '2024-01-18',
   },
   {
     id: 'PEC-COST-06',
-    title: 'Increased Costs post Apple Card Limit Reduction',
+    title: 'Apple Card - Credit Line & APR Changes',
     category: 'PEC-COST',
     source_docs: [16],
-    claimed_value: null,
+    claimed_value: 3300,
     status: 'Pending',
     required_documents: [
       createReqDoc(
         'PEC-COST-06-01',
         'Statements Post-Reduction (Apple Card)',
-        'Apple Card statements AFTER 2024-01-16.'
+        'Monthly statements showing reduction from $3,300 credit line and APR of 27.24% in January 2024',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-06-02',
-        'Statements for Alternative Credit Used',
-        'Statements from higher-APR sources used AFTER 2024-01-16.'
+        'APR Documentation',
+        'Documentation of APR increase from 26.99% to 27.24%',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-06-03',
-        'APR Documentation',
-        'Proof of APRs for Apple Card and alternative source.'
-      ),
-      createReqDoc(
-        'PEC-COST-06-04',
         'Cost Differential Calculation',
-        'Calculation comparing interest costs.'
-      ),
-      createReqDoc(
-        'PREQ-01-AppleCard-TU',
-        'TransUnion Report used by Apple Card (Jan 2024)',
-        'Report pulled by TU around 2024-01-16.'
+        'Calculation of increased costs due to credit line reduction and APR increase',
+        'Needed'
       ),
     ],
     description:
-      'Potential increased costs from relying on higher-APR credit after Apple Card reduction.',
+      'Credit line reduced from original $3,300 limit. APR at 27.24% in January 2024 (increased from baseline 26.99% in June 2023).',
     date: '2024-01-16',
   },
   {
     id: 'PEC-COST-07',
-    title: 'Increased Costs post Citi Double Cash Limit Reduction (1752)',
+    title: 'Citi Double Cash - Credit Line & APR Changes',
     category: 'PEC-COST',
     source_docs: [18],
-    claimed_value: null,
+    claimed_value: 2500,
     status: 'Pending',
     required_documents: [
       createReqDoc(
         'PEC-COST-07-01',
-        'Statements Post-Reduction (Citi 1752)',
-        'Citi statements AFTER 2024-02-05.'
+        'Statements Post-Reduction (Citi Double Cash)',
+        'Monthly statements showing reduction from $2,500 credit line and APR changes',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-07-02',
-        'Statements for Alternative Credit Used',
-        'Statements from higher-APR sources used AFTER 2024-02-05.'
+        'APR Documentation',
+        'Documentation of APR changes to 29.24% (standard) and 26.74% (balance transfers)',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-07-03',
-        'APR Documentation',
-        'Proof of APRs for Citi 1752 and alternative source.'
-      ),
-      createReqDoc(
-        'PEC-COST-07-04',
         'Cost Differential Calculation',
-        'Calculation comparing interest costs.'
-      ),
-      createReqDoc(
-        'PREQ-01-Citi-1752-EQ',
-        'Equifax Report used by Citi (Feb 2024)',
-        'Report pulled by EQ around 2024-02-05.'
+        'Calculation of increased costs due to credit line reduction and APR changes',
+        'Needed'
       ),
     ],
     description:
-      'Potential increased costs from relying on higher-APR credit after Citi (1752) reduction.',
+      'Credit line reduced from original $2,500 limit. APR at 29.24% (standard) and 26.74% (balance transfers) in January 2024 (changed from baseline 29.99%/26.49% in June 2023).',
     date: '2024-02-05',
   },
   {
     id: 'PEC-COST-08',
-    title: 'Increased Costs post Amex Preset Limit (095008)',
+    title: 'American Express - Credit Line & APR Changes',
     category: 'PEC-COST',
-    source_docs: [25, 35],
-    claimed_value: null,
+    source_docs: [20],
+    claimed_value: 94500,
     status: 'Pending',
     required_documents: [
       createReqDoc(
         'PEC-COST-08-01',
-        'Statements Post-Limit (Amex 095008)',
-        'Amex statements AFTER 2024-01-23.'
+        'Statements Post-Reduction (Amex)',
+        'Monthly statements showing reduction to $5,500 from original $100,000 credit line',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-08-02',
-        'Statements for Alternative Credit Used',
-        'Statements from higher-APR sources used AFTER 2024-01-23.'
+        'APR Documentation',
+        'Documentation of APR increase from 23.74% to 27.49%',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-08-03',
-        'APR Documentation',
-        'Proof of APRs (if applicable to Amex charge vs alternative).'
-      ),
-      createReqDoc(
-        'PEC-COST-08-04',
         'Cost Differential Calculation',
-        'Calculation comparing interest costs if applicable.'
-      ),
-      createReqDoc(
-        'PREQ-01-Amex-095008-Exp',
-        'Experian Report used by Amex (Jan 2024)',
-        'Report pulled by Exp around 2024-01-08/23.'
+        'Calculation of increased costs due to credit line reduction and APR increase',
+        'Needed'
       ),
     ],
     description:
-      'Potential increased costs from relying on higher-APR credit after Amex preset limit assigned.',
-    date: '2024-01-23',
+      'Credit line reduced to $5,500 from original $100,000 limit. APR increased to 27.49% from baseline 23.74% in February 2023.',
+    date: '2024-01-18',
   },
 
   // Auto Financing PEC-COST Claims
   {
     id: 'PEC-COST-09',
-    title: 'Huebner Chevrolet - Higher Cost Alternative Financing',
+    title: 'Huebner Chevrolet - First Attempted Vehicle Replacement',
     category: 'PEC-COST',
     source_docs: [2],
     claimed_value: null,
@@ -351,31 +363,27 @@ export const damagesData: DamageItem[] = [
       createReqDoc(
         'PEC-COST-09-01',
         'Huebner Denial Documentation',
-        'Original denial letter and terms offered'
+        'Original denial letter and terms offered for first replacement attempt',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-09-02',
         'Alternative Financing Terms',
-        'Terms obtained from other lender(s)'
+        'Terms obtained from other lenders, showing increased costs'
       ),
       createReqDoc(
         'PEC-COST-09-03',
         'Cost Differential Analysis',
-        'Comparison of terms and total cost difference'
-      ),
-      createReqDoc(
-        'PREQ-01-Huebner-TU',
-        'TransUnion Report used by Huebner',
-        'Credit report pulled by TU around 2024-02-13'
+        'Analysis of increased costs from denial, contributing to PEC-OPP-02 damages'
       ),
     ],
     description:
-      'Increased costs from having to obtain higher-cost alternative financing after Huebner denial',
+      'First attempt to replace defective Tesla - denial led to continued repair costs and need for alternative transportation (see PEC-OPP-02)',
     date: '2024-02-13',
   },
   {
     id: 'PEC-COST-10',
-    title: 'Ally/Carmax - Higher Cost Alternative Financing',
+    title: 'Ally/Carmax - Second Attempted Vehicle Replacement',
     category: 'PEC-COST',
     source_docs: [5],
     claimed_value: null,
@@ -384,26 +392,22 @@ export const damagesData: DamageItem[] = [
       createReqDoc(
         'PEC-COST-10-01',
         'Ally Denial Documentation',
-        'Original denial letter and terms offered'
+        'Original denial letter and terms offered for second replacement attempt',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-10-02',
         'Alternative Financing Terms',
-        'Terms obtained from other lender(s)'
+        'Terms obtained from other lenders, showing increased costs'
       ),
       createReqDoc(
         'PEC-COST-10-03',
         'Cost Differential Analysis',
-        'Comparison of terms and total cost difference'
-      ),
-      createReqDoc(
-        'PREQ-01-Ally-Carmax-TU',
-        'TransUnion Report used by Ally',
-        'Credit report pulled by TU around 2024-03-12'
+        'Analysis of increased costs from denial, contributing to PEC-OPP-02 damages'
       ),
     ],
     description:
-      'Increased costs from having to obtain higher-cost alternative financing after Ally/Carmax denial',
+      'Second attempt to replace defective Tesla - denial extended period of repair costs and transportation expenses (see PEC-OPP-02)',
     date: '2024-03-12',
   },
   {
@@ -417,7 +421,8 @@ export const damagesData: DamageItem[] = [
       createReqDoc(
         'PEC-COST-11-01',
         'Ally Denial Documentation',
-        'Original denial letter and terms offered'
+        'Original denial letter and terms offered',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-11-02',
@@ -491,7 +496,7 @@ export const damagesData: DamageItem[] = [
   },
   {
     id: 'PEC-COST-14',
-    title: 'Capital One/Volvo Palo Alto - Higher Cost Alternative',
+    title: 'Capital One/Volvo Palo Alto - Fourth Attempted Vehicle Replacement',
     category: 'PEC-COST',
     source_docs: [12],
     claimed_value: null,
@@ -500,21 +505,22 @@ export const damagesData: DamageItem[] = [
       createReqDoc(
         'PEC-COST-14-01',
         'Capital One Denial Documentation',
-        'Original denial letter and terms offered'
+        'Original denial letter and terms offered for fourth replacement attempt',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-14-02',
         'Alternative Financing Terms',
-        'Terms obtained from other lender(s)'
+        'Terms obtained from other lenders, showing increased costs'
       ),
       createReqDoc(
         'PEC-COST-14-03',
         'Cost Differential Analysis',
-        'Comparison of terms and total cost difference'
+        'Analysis of increased costs from denial, contributing to PEC-OPP-02 damages'
       ),
     ],
     description:
-      'Increased costs from having to obtain higher-cost alternative financing after Capital One/Volvo denial',
+      'Fourth attempt to replace defective Tesla - denial further extended repair costs and transportation expenses (see PEC-OPP-02)',
     date: '2024-03-20',
   },
   {
@@ -528,7 +534,8 @@ export const damagesData: DamageItem[] = [
       createReqDoc(
         'PEC-COST-15-01',
         'Global Lending Denial Documentation',
-        'Original denial letter and terms offered'
+        'Original denial letter and terms offered',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-15-02',
@@ -556,7 +563,8 @@ export const damagesData: DamageItem[] = [
       createReqDoc(
         'PEC-COST-16-01',
         'US Bank Denial Documentation',
-        'Original denial letter and terms offered'
+        'Original denial letter and terms offered',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-16-02',
@@ -586,7 +594,8 @@ export const damagesData: DamageItem[] = [
       createReqDoc(
         'PEC-COST-17-01',
         'PA Forward Denial Documentation',
-        'Original denial letter and terms offered'
+        'Original denial letter and terms offered',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-17-02',
@@ -614,7 +623,8 @@ export const damagesData: DamageItem[] = [
       createReqDoc(
         'PEC-COST-18-01',
         'Bank of Lake Mills Denial Documentation',
-        'Original denial letter and terms offered'
+        'Original denial letter and terms offered',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-18-02',
@@ -642,7 +652,8 @@ export const damagesData: DamageItem[] = [
       createReqDoc(
         'PEC-COST-19-01',
         'Earnest Denial Documentation',
-        'Original denial letter and terms offered'
+        'Original denial letter and terms offered',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-19-02',
@@ -670,7 +681,8 @@ export const damagesData: DamageItem[] = [
       createReqDoc(
         'PEC-COST-20-01',
         'Monterra Denial Documentation',
-        'Original denial letter and terms offered'
+        'Original denial letter and terms offered',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-20-02',
@@ -698,7 +710,8 @@ export const damagesData: DamageItem[] = [
       createReqDoc(
         'PEC-COST-21-01',
         'OneMain Denial Documentation',
-        'Original denial letter and terms offered'
+        'Original denial letter and terms offered',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-21-02',
@@ -726,7 +739,8 @@ export const damagesData: DamageItem[] = [
       createReqDoc(
         'PEC-COST-22-01',
         'LightStream Denial Documentation',
-        'Original denial letter and terms offered'
+        'Original denial letter and terms offered',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-22-02',
@@ -754,7 +768,8 @@ export const damagesData: DamageItem[] = [
       createReqDoc(
         'PEC-COST-23-01',
         'LendingPoint Denial Documentation',
-        'Original denial letter and terms offered'
+        'Original denial letter and terms offered',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-23-02',
@@ -782,7 +797,8 @@ export const damagesData: DamageItem[] = [
       createReqDoc(
         'PEC-COST-24-01',
         'SoFi Denial Documentation',
-        'Original denial letter and terms offered'
+        'Original denial letter and terms offered',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-24-02',
@@ -803,7 +819,7 @@ export const damagesData: DamageItem[] = [
   // PEC-FEE: Non-Refundable Application Fees (Individual Entries per Denial)
   // Example structure - Repeat for EACH potential denial listed in source_docs for 'PEC-FEE-ALL' previously
   {
-    id: 'PEC-FEE-01', // Match this ID to the specific denial source doc index if desired, e.g., PEC-FEE-02 for Doc 2
+    id: 'PEC-FEE-01',
     title: 'Huebner Chevrolet Application Fee (Doc 2)',
     category: 'PEC-FEE',
     source_docs: [2],
@@ -818,9 +834,9 @@ export const damagesData: DamageItem[] = [
       createReqDoc(
         'PEC-FEE-02-02',
         'Application Terms (Huebner)',
-        'Docs showing fee amount & non-refundable status.'
+        'Docs showing fee amount & non-refundable status.',
+        'Verified'
       ),
-      // Add PREQ-01 for CRA used if identifiable
     ],
     description: 'Potential non-refundable fee for denied Huebner Chevrolet application.',
     date: '2024-02-13',
@@ -841,12 +857,8 @@ export const damagesData: DamageItem[] = [
       createReqDoc(
         'PEC-FEE-05-02',
         'Application Terms (Ally/Carmax)',
-        'Docs showing fee amount & non-refundable status.'
-      ),
-      createReqDoc(
-        'PREQ-01-Ally-Doc5-Exp',
-        'Experian Report used by Ally (Feb 2024)',
-        'Report pulled by Exp around 2024-02-26.'
+        'Docs showing fee amount & non-refundable status.',
+        'Verified'
       ),
     ],
     description: 'Potential non-refundable fee for denied Ally/Carmax application.',
@@ -930,38 +942,51 @@ export const damagesData: DamageItem[] = [
     title: 'Inability to Replace Defective Vehicle Impact',
     category: 'PEC-OPP',
     source_docs: [2, 5, 6, 7, 8, 17, 22, 24, 29, 34, 37, 38],
-    claimed_value: null,
+    claimed_value: 14690.66,
     status: 'Pending',
     required_documents: [
       createReqDoc(
         'PEC-OPP-02-01',
-        'Tesla Repair Invoices',
-        'Bills for ongoing repairs during denial period.'
+        'Tesla Repair Documentation',
+        'Service records and repair invoices showing ongoing issues:\n' +
+          '- Feb 2023: $217.51 (Invoice #3000S0006277027)\n' +
+          '- Jun 2023: $482.10 (Invoice #3000S0007380537)\n' +
+          '- Jan 2024: $3,620.65 (Estimate #3000-009-0016233315)\n' +
+          '- Oct 2024: $10,370.40 (Estimate #3000-009-0021563621)',
+        'Verified'
       ),
       createReqDoc(
         'PEC-OPP-02-02',
         'Alternative Transportation Costs',
-        'Receipts for rentals, ride-sharing if Tesla unusable.'
+        'Receipts for rentals, ride-sharing, or other transportation needed while Tesla was unusable',
+        'Needed'
       ),
       createReqDoc(
         'PEC-OPP-02-03',
-        'Replacement Vehicle Purchase/Financing Docs',
-        'If replacement eventually occurred, show cost/terms.'
+        'Auto Loan Denial Sequence',
+        'Chronological sequence of denials preventing vehicle replacement:\n' +
+          '- Huebner Chevrolet (2/13/24)\n' +
+          '- Ally/Carmax (3/12/24)\n' +
+          '- Ally/St. Charles (3/15/24)\n' +
+          '- Capital One/Volvo (3/20/24)\n' +
+          '- Global Lending/St. Charles (4/2/24)\n' +
+          '- US Bank/Volvo (4/10/24)',
+        'Verified'
       ),
       createReqDoc(
         'PEC-OPP-02-04',
-        'Proof of Defectiveness',
-        '(Optional) Docs from Tesla lawsuit.'
-      ),
-      createReqDoc(
-        'PREQ-01-RELEVANT-AUTO',
-        'Credit Reports Used for Auto Denials',
-        'Reports used by denying auto lenders.'
+        'Cost Impact Analysis',
+        'Total documented costs through October 2024:\n' +
+          '- Repair Costs: $14,690.66 ($699.61 paid + $13,991.05 estimated)\n' +
+          '- Alternative Transportation: TBD\n' +
+          '- Lost Time/Wages: TBD\n' +
+          '- Credit Impact: See PEC-COST claims',
+        'Verified'
       ),
     ],
     description:
-      'Costs from inability to replace defective Tesla (repairs, alt transport, higher replacement cost).',
-    date: '2024-02-11',
+      'Comprehensive damages from inability to replace defective Tesla. Total repair costs of $14,690.66 documented through October 2024, with repairs escalating after loan denials began in February 2024. Each denial extended exposure to repair costs and transportation expenses.',
+    date: '2024-02-13',
   },
   {
     id: 'PEC-OPP-03',

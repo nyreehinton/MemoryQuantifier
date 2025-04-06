@@ -1,0 +1,101 @@
+- Main page component
+- Contains the header with "Credit Reports Tracker" title
+- Includes filter and add report buttons
+- Renders the CreditReportsTable component
+
+2. **Table Component**
+   `typescript:client/src/components/dashboard/credit-reports-table.tsx`
+
+- Displays the credit reports data in a table format
+- Uses React Query to fetch data from the API
+- Shows ID, Agency, Date Range, Reason, Status, Linked Docs, and Notes
+- Uses various UI components from the components/ui directory
+
+3. **API Layer**
+   `typescript:server/api/creditReports.ts`
+
+- Contains the credit reports data
+- Exports `creditReportsData` array with all credit report needs
+- Data is organized by status (Satisfied, Partially Satisfied, Outstanding)
+- Includes detailed notes and document links
+
+4. **Types**
+   `typescript:shared/schema.ts` (or similar)
+
+- Contains shared type definitions like `CreditReport` interface
+- Used by both client and server code
+- Defines the structure of credit report data
+
+5. **UI Components**
+   `typescript:client/src/components/ui/`
+
+- `table.tsx` - Base table components
+- `status-badge.tsx` - Status indicator badges
+- `badge.tsx` - Used for document links
+- Other UI utilities
+
+6. **Data Sources**
+
+- `attached_assets/documents/credit-reports/` - Contains actual credit report files
+  - `experian/` - Contains Experian reports from various dates
+  - `cr-need-02.json` - Detailed credit report data
+  - `baseline-01` - Baseline credit report data
+
+7. **State Management**
+
+- Uses React Query for data fetching and caching
+- Query key: `['/api/credit-reports']`
+- Handles loading states
+
+8. **Styling**
+
+- Uses Tailwind CSS for styling (configured in `tailwind.config.ts`)
+- Custom UI components follow a consistent design system
+- Responsive design for different screen sizes
+
+9. **Project Configuration**
+
+- `vite.config.ts` - Build and development server configuration
+- `tsconfig.json` - TypeScript configuration
+- `package.json` - Dependencies and scripts
+
+10. **Data Flow**
+
+```
+[Credit Report Files]
+       ↓
+[Server API Layer]
+       ↓
+[React Query Cache]
+       ↓
+[CreditReportsTable]
+       ↓
+[UI Components]
+```
+
+11. **Key Features**
+
+- Real-time data fetching
+- Status tracking for each credit report need
+- Document linking and context tracking
+- Notes and date tracking
+- Filtering capability (UI ready)
+- Add report capability (UI ready)
+
+12. **Future Enhancement Points**
+
+- Filter functionality implementation
+- Add report form implementation
+- Status update functionality
+- Document upload integration
+- Real-time updates
+
+The system is built with a clear separation of concerns:
+
+- Data management in the API layer
+- UI components for presentation
+- Type safety throughout
+- Clear data flow from server to UI
+- Extensible architecture for future features
+
+Let me know if you'd like me to dive deeper into any of these aspects!

@@ -1,6 +1,6 @@
-import { Button } from "@/components/ui/button";
-import { Search, Filter, FilePlus } from "lucide-react";
-import CreditReportsTable from "@/components/dashboard/credit-reports-table";
+import CreditReportsTable from '@/components/dashboard/credit-reports-table';
+import { Button } from '@/components/ui/button';
+import { FilePlus, Filter } from 'lucide-react';
 
 export default function CreditReports() {
   return (
@@ -18,7 +18,7 @@ export default function CreditReports() {
           </Button>
         </div>
       </div>
-      
+
       <CreditReportsTable />
     </section>
   );

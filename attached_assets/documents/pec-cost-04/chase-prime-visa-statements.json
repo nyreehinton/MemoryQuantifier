@@ -1,0 +1,639 @@
+[
+  {
+    "statement_period": "February 2023",
+    "closing_date": "01/13/23",
+    "new_balance": 711.53,
+    "minimum_payment_due": 59.65,
+    "past_due_amount": null,
+    "total_interest_charged": 0.00,
+    "interest_rates_applied": {
+      "Purchases": {
+        "apr": "26.49% (v)",
+        "balance": 0.00
+      },
+      "Cash Advances": {
+        "apr": "29.24% (v)",
+        "balance": 0.00
+      },
+      "Balance Transfers": {
+        "apr": "26.49% (v)",
+        "balance": 0.00
+      },
+      "Equal Pay Promo": {
+        "apr": "0.00% (d)",
+        "balance": 0.00,
+        "note": "active promo balance exists but at 0%"
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_period": "March 2023",
+    "closing_date": "02/13/23",
+    "new_balance": 674.17,
+    "minimum_payment_due": 59.65,
+    "past_due_amount": null,
+    "total_interest_charged": 5.29,
+    "interest_rates_applied": {
+      "Purchases": {
+        "apr": "26.74% (v)",
+        "balance": 232.84
+      },
+      "Cash Advances": {
+        "apr": "29.49% (v)",
+        "balance": 0.00
+      },
+      "Balance Transfers": {
+        "apr": "26.74% (v)",
+        "balance": 0.00
+      },
+      "Equal Pay Promo": {
+        "apr": "0.00% (d)",
+        "balance": 418.94
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_period": "April 2023",
+    "closing_date": "03/13/23",
+    "new_balance": 1217.35,
+    "minimum_payment_due": 77.76,
+    "past_due_amount": null,
+    "total_interest_charged": 0.00,
+    "interest_rates_applied": {
+      "Purchases": {
+        "apr": "26.99% (v)",
+        "balance": 0.00
+      },
+      "Cash Advances": {
+        "apr": "29.74% (v)",
+        "balance": 0.00
+      },
+      "Balance Transfers": {
+        "apr": "26.99% (v)",
+        "balance": 0.00
+      },
+      "Equal Pay Promo": {
+        "apr": "0.00% (d)",
+        "balance": 256.53
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_period": "May 2023",
+    "closing_date": "04/13/23",
+    "new_balance": 1403.08,
+    "minimum_payment_due": 183.52,
+    "past_due_amount": 77.76,
+    "total_interest_charged": 23.70,
+    "interest_rates_applied": {
+      "Purchases": {
+        "apr": "27.24% (v)",
+        "balance": 1033.94
+      },
+      "Cash Advances": {
+        "apr": "29.99% (v)",
+        "balance": 0.00
+      },
+      "Balance Transfers": {
+        "apr": "27.24% (v)",
+        "balance": 0.00
+      },
+      "Equal Pay Promo": {
+        "apr": "0.00% (d)",
+        "balance": 256.53
+      }
+    },
+    "notes": "Minimum Payment Due Includes Past Due amount of $77.76"
+  },
+  {
+    "statement_period": "June 2023",
+    "closing_date": "05/13/23",
+    "new_balance": 1469.63,
+    "minimum_payment_due": 96.89,
+    "past_due_amount": null,
+    "total_interest_charged": 26.00,
+    "interest_rates_applied": {
+      "Purchases": {
+        "apr": "27.24% (v)",
+        "balance": 1161.17
+      },
+      "Cash Advances": {
+        "apr": "29.99% (v)",
+        "balance": 0.00
+      },
+      "Balance Transfers": {
+        "apr": "27.24% (v)",
+        "balance": 0.00
+      },
+      "Equal Pay Promo": {
+        "apr": "0.00% (d)",
+        "balance": "on balances of $177.90 & $88.41"
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_period": "July 2023",
+    "closing_date": "06/13/23",
+    "new_balance": 1539.30,
+    "minimum_payment_due": 100.89,
+    "past_due_amount": null,
+    "total_interest_charged": 28.50,
+    "interest_rates_applied": {
+      "Purchases": {
+        "apr": "27.24% (v)",
+        "balance": 1231.99
+      },
+      "Cash Advances": {
+        "apr": "29.99% (v)",
+        "balance": 0.00
+      },
+      "Balance Transfers": {
+        "apr": "27.24% (v)",
+        "balance": 0.00
+      },
+      "Equal Pay Promo": {
+        "apr": "0.00% (d)",
+        "balance": "on balances of $128.25, $68.52, $59.25"
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_period": "August 2023",
+    "closing_date": "07/13/23",
+    "new_balance": 1689.50,
+    "minimum_payment_due": 113.77,
+    "past_due_amount": null,
+    "total_interest_charged": 30.14,
+    "interest_rates_applied": {
+      "Purchases": {
+        "apr": "27.49% (v)",
+        "balance": 1346.03
+      },
+      "Cash Advances": {
+        "apr": "29.99% (v)",
+        "balance": 0.00
+      },
+      "Balance Transfers": {
+        "apr": "27.49% (v)",
+        "balance": 0.00
+      },
+      "Equal Pay Promo": {
+        "apr": "0.00% (d)",
+        "balance": "on balances of $128.25, $68.52, $59.25"
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_period": "September 2023",
+    "closing_date": "08/13/23",
+    "new_balance": 2240.84,
+    "minimum_payment_due": 105.13,
+    "past_due_amount": null,
+    "total_interest_charged": 37.90,
+    "interest_rates_applied": {
+      "Purchases": {
+        "apr": "27.49% (v)",
+        "balance": 1623.16
+      },
+      "Cash Advances": {
+        "apr": "29.99% (v)",
+        "balance": 0.00
+      },
+      "Balance Transfers": {
+        "apr": "27.49% (v)",
+        "balance": 0.00
+      },
+      "Equal Pay Promo": {
+        "apr": "0.00% (d)",
+        "balance": "on multiple balances listed totalling $698.94"
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_period": "October 2023",
+    "closing_date": "09/13/23",
+    "new_balance": 3456.18,
+    "minimum_payment_due": 143.93,
+    "past_due_amount": null,
+    "total_interest_charged": 24.57,
+    "interest_rates_applied": {
+      "Purchases": {
+        "apr": "27.49% (v)",
+        "balance": 2505.11
+      },
+      "Cash Advances": {
+        "apr": "29.99% (v)",
+        "balance": 0.00
+      },
+      "Balance Transfers": {
+        "apr": "27.49% (v)",
+        "balance": 0.00
+      },
+      "Equal Pay Promo": {
+        "apr": "0.00% (d)",
+        "balance": "on multiple balances listed"
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_period": "November 2023",
+    "closing_date": "10/13/23",
+    "new_balance": 3552.12,
+    "minimum_payment_due": 195.21,
+    "past_due_amount": null,
+    "total_interest_charged": 56.61,
+    "interest_rates_applied": {
+      "Purchases": {
+        "apr": "27.49% (v)",
+        "balance": 2834.80
+      },
+      "Cash Advances": {
+        "apr": "29.99% (v)",
+        "balance": 0.00
+      },
+      "Balance Transfers": {
+        "apr": "27.49% (v)",
+        "balance": 0.00
+      },
+      "Equal Pay Promo": {
+        "apr": "0.00% (d)",
+        "balance": "on multiple balances listed"
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_period": "December 2023",
+    "closing_date": "11/13/23",
+    "new_balance": 4375.22,
+    "minimum_payment_due": 246.33,
+    "past_due_amount": null,
+    "total_interest_charged": 66.19,
+    "interest_rates_applied": {
+      "Purchases": {
+        "apr": "27.49% (v)",
+        "balance": 3517.81
+      },
+      "Cash Advances": {
+        "apr": "29.99% (v)",
+        "balance": 0.00
+      },
+      "Balance Transfers": {
+        "apr": "27.49% (v)",
+        "balance": 0.00
+      },
+      "Equal Pay Promo": {
+        "apr": "0.00% (d)",
+        "balance": "on multiple balances listed"
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_period": "January 2024",
+    "closing_date": "12/13/23",
+    "new_balance": 4534.45,
+    "minimum_payment_due": 263.22,
+    "past_due_amount": null,
+    "total_interest_charged": 79.49,
+    "interest_rates_applied": {
+      "Purchases": {
+        "apr": "27.49% (v)",
+        "balance": 3611.48
+      },
+      "Cash Advances": {
+        "apr": "29.99% (v)",
+        "balance": 0.00
+      },
+      "Balance Transfers": {
+        "apr": "27.49% (v)",
+        "balance": 0.00
+      },
+      "Equal Pay Promo": {
+        "apr": "0.00% (d)",
+        "balance": "on multiple balances listed"
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_period": "February 2024",
+    "closing_date": "01/13/24",
+    "new_balance": 4524.50,
+    "minimum_payment_due": 231.47,
+    "past_due_amount": null,
+    "total_interest_charged": 84.33,
+    "interest_rates_applied": {
+      "Purchases": {
+        "apr": "27.49% (v)",
+        "balance": 3637.83
+      },
+      "Cash Advances": {
+        "apr": "29.99% (v)",
+        "balance": 0.00
+      },
+      "Balance Transfers": {
+        "apr": "27.49% (v)",
+        "balance": 0.00
+      },
+      "Equal Pay Promo": {
+        "apr": "0.00% (d)",
+        "balance": "on multiple balances listed"
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_period": "March 2024",
+    "closing_date": "02/13/24",
+    "new_balance": 4065.63,
+    "minimum_payment_due": 202.67,
+    "past_due_amount": null,
+    "total_interest_charged": 84.94,
+    "interest_rates_applied": {
+      "Purchases": {
+        "apr": "27.49% (v)",
+        "balance": 3637.83
+      },
+      "Cash Advances": {
+        "apr": "29.99% (v)",
+        "balance": 0.00
+      },
+      "Balance Transfers": {
+        "apr": "27.49% (v)",
+        "balance": 0.00
+      },
+      "Equal Pay Promo": {
+        "apr": "0.00% (d)",
+        "balance": "on multiple balances listed"
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_period": "April 2024",
+    "closing_date": "03/13/24",
+    "new_balance": 4547.48,
+    "minimum_payment_due": 211.62,
+    "past_due_amount": null,
+    "total_interest_charged": 87.88,
+    "interest_rates_applied": {
+      "Purchases": {
+        "apr": "27.49% (v)",
+        "balance": 3854.19
+      },
+      "Cash Advances": {
+        "apr": "29.99% (v)",
+        "balance": 0.00
+      },
+      "Balance Transfers": {
+        "apr": "27.49% (v)",
+        "balance": 0.00
+      },
+      "Equal Pay Promo": {
+        "apr": "0.00% (d)",
+        "balance": "on multiple balances listed"
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_period": "May 2024",
+    "closing_date": "04/13/24",
+    "new_balance": 4238.17,
+    "minimum_payment_due": 188.99,
+    "past_due_amount": null,
+    "total_interest_charged": 89.69,
+    "interest_rates_applied": {
+      "Purchases": {
+        "apr": "27.49% (v)",
+        "balance": 3969.40
+      },
+      "Cash Advances": {
+        "apr": "29.99% (v)",
+        "balance": 0.00
+      },
+      "Balance Transfers": {
+        "apr": "27.49% (v)",
+        "balance": 0.00
+      },
+      "Equal Pay Promo": {
+        "apr": "0.00% (d)",
+        "balance": "on multiple balances listed"
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_period": "June 2024",
+    "closing_date": "05/13/24",
+    "new_balance": 4117.63,
+    "minimum_payment_due": 184.16,
+    "past_due_amount": null,
+    "total_interest_charged": 89.69,
+    "interest_rates_applied": {
+      "Purchases": {
+        "apr": "27.49% (v)",
+        "balance": 4047.18
+      },
+      "Cash Advances": {
+        "apr": "29.99% (v)",
+        "balance": 0.00
+      },
+      "Balance Transfers": {
+        "apr": "27.49% (v)",
+        "balance": 0.00
+      },
+      "Equal Pay Promo": {
+        "apr": "0.00% (d)",
+        "balance": "on multiple balances listed"
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_period": "July 2024",
+    "closing_date": "06/13/24",
+    "new_balance": 4119.66,
+    "minimum_payment_due": 180.21,
+    "past_due_amount": null,
+    "total_interest_charged": 94.50,
+    "interest_rates_applied": {
+      "Purchases": {
+        "apr": "27.49% (v)",
+        "balance": 4047.18
+      },
+      "Cash Advances": {
+        "apr": "29.99% (v)",
+        "balance": 0.00
+      },
+      "Balance Transfers": {
+        "apr": "27.49% (v)",
+        "balance": 0.00
+      },
+      "Equal Pay Promo": {
+        "apr": "0.00% (d)",
+        "balance": "on multiple balances listed"
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_period": "August 2024",
+    "closing_date": "07/13/24",
+    "new_balance": 4330.56,
+    "minimum_payment_due": 180.66,
+    "past_due_amount": null,
+    "total_interest_charged": 96.23,
+    "interest_rates_applied": {
+      "Purchases": {
+        "apr": "27.49% (v)",
+        "balance": 4258.73
+      },
+      "Cash Advances": {
+        "apr": "29.99% (v)",
+        "balance": 0.00
+      },
+      "Balance Transfers": {
+        "apr": "27.49% (v)",
+        "balance": 0.00
+      },
+      "Equal Pay Promo": {
+        "apr": "0.00% (d)",
+        "balance": "on multiple balances listed"
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_period": "September 2024",
+    "closing_date": "08/13/24",
+    "new_balance": 3925.77,
+    "minimum_payment_due": 182.59,
+    "past_due_amount": null,
+    "total_interest_charged": 101.44,
+    "interest_rates_applied": {
+      "Purchases": {
+        "apr": "27.49% (v)",
+        "balance": 4344.36
+      },
+      "Cash Advances": {
+        "apr": "29.99% (v)",
+        "balance": 0.00
+      },
+      "Balance Transfers": {
+        "apr": "27.49% (v)",
+        "balance": 0.00
+      },
+      "Equal Pay Promo": {
+        "apr": "0.00% (d)",
+        "balance": "on multiple balances listed"
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_period": "October 2024",
+    "closing_date": "09/13/24",
+    "new_balance": 4211.46,
+    "minimum_payment_due": 140.00,
+    "past_due_amount": null,
+    "total_interest_charged": 96.70,
+    "interest_rates_applied": {
+      "Purchases": {
+        "apr": "26.99% (v)",
+        "balance": 4358.90
+      },
+      "Cash Advances": {
+        "apr": "29.74% (v)",
+        "balance": 0.00
+      },
+      "Balance Transfers": {
+        "apr": "26.99% (v)",
+        "balance": 0.00
+      },
+      "Equal Pay Promo": {
+        "apr": "0.00% (d)",
+        "balance": "on multiple balances listed"
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_period": "November 2024",
+    "closing_date": "10/13/24",
+    "new_balance": 4455.01,
+    "minimum_payment_due": 141.00,
+    "past_due_amount": null,
+    "total_interest_charged": 98.40,
+    "interest_rates_applied": {
+      "Purchases": {
+        "apr": "26.99% (v)",
+        "balance": 4487.69
+      },
+      "Cash Advances": {
+        "apr": "29.74% (v)",
+        "balance": 0.00
+      },
+      "Balance Transfers": {
+        "apr": "26.99% (v)",
+        "balance": 0.00
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_period": "December 2024",
+    "closing_date": "11/13/24",
+    "new_balance": 4594.60,
+    "minimum_payment_due": 148.00,
+    "past_due_amount": null,
+    "total_interest_charged": 102.88,
+    "interest_rates_applied": {
+      "Purchases": {
+        "apr": "26.99% (v)",
+        "balance": 4576.43
+      },
+      "Cash Advances": {
+        "apr": "29.74% (v)",
+        "balance": 0.00
+      },
+      "Balance Transfers": {
+        "apr": "26.99% (v)",
+        "balance": 0.00
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_period": "January 2025",
+    "closing_date": "12/13/24",
+    "new_balance": 4680.04,
+    "minimum_payment_due": 147.00,
+    "past_due_amount": null,
+    "total_interest_charged": 100.58,
+    "interest_rates_applied": {
+      "Purchases": {
+        "apr": "26.74% (v)",
+        "balance": 4576.43
+      },
+      "Cash Advances": {
+        "apr": "29.49% (v)",
+        "balance": 0.00
+      },
+      "Balance Transfers": {
+        "apr": "26.74% (v)",
+        "balance": 0.00
+      }
+    },
+    "notes": "Balance over Credit Access Line: $80.04"
+  }
+]

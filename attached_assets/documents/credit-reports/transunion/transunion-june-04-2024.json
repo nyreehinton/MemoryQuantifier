@@ -1,0 +1,1604 @@
+{
+  "reportHeader": {
+    "creditBureau": "TransUnion LLC",
+    "reportType": "Personal Credit Report",
+    "fileNumber": "388612685",
+    "dateIssued": "06/04/2024",
+    "recipient": {
+      "name": "NYREE DAQUAN HINTON",
+      "address": {
+        "street": "5901 CENTER DR APT 456",
+        "city": "LOS ANGELES",
+        "state": "CA",
+        "zip": "90045-8969"
+      }
+    },
+    "disputeLink": "http://transunion.com/disputeonline",
+    "faqLink": "http://transunion.com/consumerfaqs",
+    "contactInformation": {
+      "mail": "TransUnion Consumer Relations, P.O. Box 2000, Chester, PA 19016-2000",
+      "phone": "(800) 916-8800 (8:00 AM – 11:00 PM ET M-F, 8:00 AM - 5:00 PM ET Sat-Sun)",
+      "generalQuestionsWebsite": "www.transunion.com"
+    }
+  },
+  "creditScoreSummary": {
+    "scorePurchased": false,
+    "scoreValue": null,
+    "grade": null,
+    "createdDate": "06/04/2024",
+    "scoreRange": "300-850",
+    "gradeRange": "F-A",
+    "nationalPercentile": null,
+    "purchaseInfo": "Call 1-866-SCORE-TU or 1-866-726-7388 for $9.95"
+  },
+  "reportHighlights": [
+    "SSN Masked",
+    "Account Numbers Partially Masked",
+    "Contains Adverse Accounts",
+    "Contains Satisfactory Accounts",
+    "Contains Regular Inquiries",
+    "Contains Account Review Inquiries",
+    "Contains Promotional Opt-Out"
+  ],
+  "personalInformation": {
+    "ssn": "XXX-XX-6009",
+    "name": "NYREE DAQUAN HINTON",
+    "dateOfBirth": "03/05/1996",
+    "onFileSince": "03/27/2014",
+    "addressesReported": [
+      {
+        "address": "5901 CENTER DR APT 456, LOS ANGELES, CA 90045-8969",
+        "dateReported": "09/30/2023"
+      },
+      {
+        "address": "120 S ORLANDO AVE APT 208, LOS ANGELES, CA 90048-4197",
+        "dateReported": "05/22/2022"
+      },
+      {
+        "address": "461 1/2 N ORANGE GROVE AVE, LOS ANGELES, CA 90036-1757",
+        "dateReported": "02/05/2022"
+      },
+      {
+        "address": "4254 CHURCH RD, EASTON, PA 18045-2971",
+        "dateReported": "06/26/2015"
+      },
+      {
+        "address": "133 GLANCE, IRVINE, CA 92618-1426",
+        "dateReported": "05/31/2023"
+      },
+      {
+        "address": "120 S ORLANDO AVE, LOS ANGELES, CA 90048-4184",
+        "dateReported": "07/31/2022"
+      },
+      {
+        "address": "612 S FLOWER ST APT 505, LOS ANGELES, CA 90017-2808",
+        "dateReported": "02/03/2022"
+      }
+    ],
+    "telephoneNumbersReported": [
+      "(732) 979-6264",
+      "(732) 499-9395",
+      "(732) 979-4674",
+      "(732) 979-6269",
+      "(979) 626-6264"
+    ],
+    "employmentDataReported": [
+      {
+        "employerName": "CAPITAL GROUP",
+        "dateVerified": "02/18/2022"
+      },
+      {
+        "employerName": "THIRD BRIDGE LIMITED",
+        "dateVerified": "02/22/2021"
+      },
+      {
+        "employerName": "REORG RESEARCH",
+        "dateVerified": "04/20/2020"
+      }
+    ]
+  },
+  "accountInformation": {
+    "ratingKeyDefinition": "N/R=Not Reported, X=Unknown, OK=Current, 30=30 days late, 60=60 days late, 90=90 days late, 120=120+ days late, COL=Collection, VS=Voluntary Surrender, RPO=Repossession, C/O=Charge Off, FC=Foreclosure",
+    "remarkKeyDefinition": "AID=ACCT INFO DISPUTED BY CONSUMR, CAD=DISPUTE ACCT/CLSED BY CONSUMR, CBC=ACCOUNT CLOSED BY CONSUMER, CBD=DISP RSLV/CSMR DSG/CNSM CLS, CLS=CREDIT LINE SUSPENDED, DRC=DISP INVG COMP-CONSUM DISAGRS, DRG=DISP INVG COMP-RPT BY GRNTR, PDE=PAYMENT DEFERRED, PRL=UNPAID BALANCE CHARGED OFF",
+    "adverseAccounts": [
+      {
+        "creditorName": "CAPITAL ONE AUTO FINANCE",
+        "accountNumber": "6201024661803****",
+        "creditorAddress": "CB DISPUTES TEAM, PO BOX 259407, PLANO, TX 75025",
+        "creditorPhone": "(800) 946-0332",
+        "dateOpened": "12/09/2022",
+        "dateUpdated": "05/21/2024",
+        "dateClosed": "01/08/2024",
+        "lastPaymentMadeDate": "07/06/2023",
+        "paymentReceived": "$0",
+        "responsibility": "Individual Account",
+        "accountType": "Installment Account",
+        "loanType": "AUTOMOBILE",
+        "paymentStatus": ">Charged Off<",
+        "terms": "$0 per month, paid Monthly for 75 months",
+        "originalChargeOff": "$42,482",
+        "highBalanceHistory": [
+          {
+            "amount": "$45,553",
+            "fromDate": "02/2024",
+            "toDate": "03/2024"
+          },
+          {
+            "amount": "$45,553",
+            "fromDate": "05/2024",
+            "toDate": "05/2024"
+          }
+        ],
+        "maximumDelinquency": "90 days in 11/2023",
+        "estimatedRemovalDate": "08/2030",
+        "monthlyPaymentHistory": [
+          {
+            "monthYear": "05/2024",
+            "balance": "$47,369",
+            "scheduledPayment": "$0",
+            "amountPaid": "$0",
+            "pastDue": "$47,369",
+            "remarks": [
+              "DRG",
+              "PRL"
+            ],
+            "rating": "C/O"
+          },
+          {
+            "monthYear": "04/2024",
+            "rating": "X"
+          },
+          {
+            "monthYear": "03/2024",
+            "balance": "$46,638",
+            "scheduledPayment": "$0",
+            "amountPaid": "$0",
+            "pastDue": "$46,638",
+            "remarks": [
+              "AID",
+              "PRL"
+            ],
+            "rating": "C/O"
+          },
+          {
+            "monthYear": "02/2024",
+            "balance": "$46,185",
+            "scheduledPayment": "$0",
+            "amountPaid": "$0",
+            "pastDue": "$46,185",
+            "remarks": [
+              "AID",
+              "PRL"
+            ],
+            "rating": "C/O"
+          },
+          {
+            "monthYear": "01/2024",
+            "rating": "X"
+          },
+          {
+            "monthYear": "12/2023",
+            "rating": "X"
+          },
+          {
+            "monthYear": "11/2023",
+            "rating": "90"
+          },
+          {
+            "monthYear": "10/2023",
+            "rating": "60"
+          },
+          {
+            "monthYear": "09/2023",
+            "rating": "30"
+          },
+          {
+            "monthYear": "08/2023",
+            "rating": "OK"
+          },
+          {
+            "monthYear": "07/2023",
+            "rating": "OK"
+          },
+          {
+            "monthYear": "06/2023",
+            "rating": "OK"
+          },
+          {
+            "monthYear": "05/2023",
+            "rating": "OK"
+          },
+          {
+            "monthYear": "04/2023",
+            "rating": "OK"
+          },
+          {
+            "monthYear": "03/2023",
+            "rating": "OK"
+          },
+          {
+            "monthYear": "02/2023",
+            "rating": "OK"
+          },
+          {
+            "monthYear": "01/2023",
+            "rating": "OK"
+          }
+        ]
+      }
+    ],
+    "satisfactoryAccounts": [
+      {
+        "creditorName": "ALLY FINANCIAL",
+        "accountNumber": "22801532****",
+        "creditorAddress": "P.O. BOX 380901, BLOOMINGTON, MN 55438",
+        "creditorPhone": "(888) 925-2559",
+        "dateOpened": "03/05/2021",
+        "dateUpdated": "07/04/2021",
+        "dateClosed": "07/04/2021",
+        "lastPaymentMadeDate": "07/01/2021",
+        "paymentReceived": "$28,762",
+        "responsibility": "Individual Account",
+        "accountType": "Installment Account",
+        "loanType": "AUTOMOBILE",
+        "paymentStatus": "Paid, Closed; was Paid as agreed",
+        "terms": "$0 per month, paid Monthly for 75 months",
+        "highBalance": "$29,164",
+        "balance": "$0",
+        "remarks": [
+          "CLOSED"
+        ],
+        "monthlyPaymentHistory": [
+          {
+            "monthYear": "06/2021",
+            "rating": "OK"
+          },
+          {
+            "monthYear": "05/2021",
+            "rating": "OK"
+          },
+          {
+            "monthYear": "04/2021",
+            "rating": "OK"
+          }
+        ]
+      },
+      {
+        "creditorName": "AMERICAN EXPRESS",
+        "accountNumber": "349992972526****",
+        "creditorAddress": "PO BOX 981537, EL PASO, TX 79998",
+        "creditorPhone": "(800) 874-2717",
+        "dateOpened": "04/05/2022",
+        "dateUpdated": "05/22/2024",
+        "responsibility": "Individual Account",
+        "accountType": "Open Account",
+        "loanType": "CREDIT CARD",
+        "paymentStatus": "Current; Paid or Paying as Agreed",
+        "terms": "Paid Monthly",
+        "monthlyPaymentHistory": [
+          { "monthYear": "05/2024", "balance": "$3,882", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$7,479", "rating": "OK" },
+          { "monthYear": "04/2024", "balance": "$3,752", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$7,479", "rating": "OK" },
+          { "monthYear": "03/2024", "balance": "$4,331", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$7,479", "rating": "OK" },
+          { "monthYear": "02/2024", "balance": "$3,796", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$7,479", "rating": "OK" },
+          { "monthYear": "01/2024", "balance": "$7,479", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$7,479", "rating": "OK" },
+          { "monthYear": "12/2023", "balance": "$4,551", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$5,299", "rating": "OK" },
+          { "monthYear": "11/2023", "balance": "$4,690", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$5,299", "rating": "OK" },
+          { "monthYear": "10/2023", "balance": "$4,727", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$5,299", "rating": "OK" },
+          { "monthYear": "09/2023", "balance": "$4,705", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$5,299", "rating": "OK" },
+          { "monthYear": "08/2023", "balance": "$4,672", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$5,299", "rating": "OK" },
+          { "monthYear": "07/2023", "balance": "$4,779", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$5,299", "rating": "OK" },
+          { "monthYear": "06/2023", "balance": "$4,201", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$5,299", "rating": "OK" },
+          { "monthYear": "05/2023", "balance": "$3,630", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$5,299", "rating": "OK" },
+          { "monthYear": "04/2023", "balance": "$3,327", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$5,299", "rating": "OK" },
+          { "monthYear": "03/2023", "balance": "$2,799", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$5,299", "rating": "OK" },
+          { "monthYear": "02/2023", "balance": "$3,848", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$5,299", "rating": "OK" },
+          { "monthYear": "01/2023", "balance": "$3,433", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$5,299", "rating": "OK" },
+          { "monthYear": "12/2022", "balance": "$2,394", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$5,299", "rating": "OK" },
+          { "monthYear": "11/2022", "balance": "$3,714", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$5,299", "rating": "OK" },
+          { "monthYear": "10/2022", "balance": "$5,299", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$5,299", "rating": "OK" },
+          { "monthYear": "09/2022", "balance": "$3,677", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$3,677", "rating": "OK" },
+          { "monthYear": "08/2022", "balance": "$2,023", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$3,391", "rating": "OK" },
+          { "monthYear": "07/2022", "balance": "$3,391", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$3,391", "rating": "OK" },
+          { "monthYear": "06/2022", "balance": "$3,151", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$3,151", "rating": "OK" },
+          { "monthYear": "05/2022", "balance": "$3,142", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$3,142", "rating": "OK" }
+        ]
+      },
+      {
+        "creditorName": "APPLE CARD - GS BANK USA",
+        "accountNumber": "120001205740****",
+        "creditorAddress": "11850 S ELECTION RD, DRAPER, UT 84020",
+        "creditorPhone": "(877) 255-5923",
+        "dateOpened": "03/06/2022",
+        "dateUpdated": "04/30/2024",
+        "lastPaymentMadeDate": "04/26/2024",
+        "paymentReceived": "$200",
+        "responsibility": "Individual Account",
+        "accountType": "Revolving Account",
+        "loanType": "CREDIT CARD",
+        "paymentStatus": "Current; Paid or Paying as Agreed",
+        "terms": "$62 per month, paid Monthly",
+        "creditLimitHistory": [
+          {"limit": "$2,500", "fromDate": "03/2022", "toDate": "07/2022"},
+          {"limit": "$3,000", "fromDate": "08/2022", "toDate": "12/2023"},
+          {"limit": "$2,200", "fromDate": "01/2024", "toDate": "04/2024"}
+        ],
+        "monthlyPaymentHistory": [
+           { "monthYear": "04/2024", "balance": "$2,097", "scheduledPayment": "$62", "amountPaid": "$200", "pastDue": "$0", "highBalance": "$2,976", "rating": "OK" },
+           { "monthYear": "03/2024", "balance": "$1,850", "scheduledPayment": "$100", "amountPaid": "$100", "pastDue": "$0", "highBalance": "$2,976", "rating": "OK" },
+           { "monthYear": "02/2024", "balance": "$1,886", "scheduledPayment": "$105", "amountPaid": "$120", "pastDue": "$0", "highBalance": "$2,976", "rating": "OK" },
+           { "monthYear": "01/2024", "balance": "$1,936", "scheduledPayment": "$106", "amountPaid": "$160", "pastDue": "$0", "highBalance": "$2,976", "rating": "OK" },
+           { "monthYear": "12/2023", "balance": "$2,042", "scheduledPayment": "$104", "amountPaid": "$104", "pastDue": "$0", "highBalance": "$2,976", "rating": "OK" },
+           { "monthYear": "11/2023", "balance": "$2,094", "scheduledPayment": "$99", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$2,976", "rating": "OK" },
+           { "monthYear": "10/2023", "balance": "$2,108", "scheduledPayment": "$97", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$2,976", "rating": "OK" },
+           { "monthYear": "09/2023", "balance": "$2,068", "scheduledPayment": "$86", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$2,976", "rating": "OK" },
+           { "monthYear": "08/2023", "balance": "$1,644", "scheduledPayment": "$74", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$2,976", "remarks": ["CLS"], "rating": "OK" },
+           { "monthYear": "07/2023", "balance": "$1,493", "scheduledPayment": "$119", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$2,976", "rating": "OK" },
+           { "monthYear": "06/2023", "balance": "$2,800", "scheduledPayment": "$117", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$2,976", "rating": "OK" },
+           { "monthYear": "05/2023", "balance": "$2,620", "scheduledPayment": "$118", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$2,976", "rating": "OK" },
+           { "monthYear": "04/2023", "balance": "$2,699", "scheduledPayment": "$112", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$2,976", "rating": "OK" },
+           { "monthYear": "03/2023", "balance": "$2,582", "scheduledPayment": "$108", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$2,976", "rating": "OK" },
+           { "monthYear": "02/2023", "balance": "$2,404", "scheduledPayment": "$117", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$2,976", "rating": "OK" },
+           { "monthYear": "01/2023", "balance": "$2,835", "scheduledPayment": "$105", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$2,976", "rating": "OK" },
+           { "monthYear": "12/2022", "balance": "$2,442", "scheduledPayment": "$90", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$2,959", "rating": "OK" },
+           { "monthYear": "11/2022", "balance": "$2,454", "scheduledPayment": "$74", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$2,933", "rating": "OK" },
+           { "monthYear": "10/2022", "balance": "$2,757", "scheduledPayment": "$74", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$2,757", "rating": "OK" },
+           { "monthYear": "09/2022", "balance": "$1,334", "scheduledPayment": "$74", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$2,469", "rating": "OK" },
+           { "monthYear": "08/2022", "balance": "$1,551", "scheduledPayment": "$74", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$2,469", "rating": "OK" },
+           { "monthYear": "07/2022", "balance": "$1,882", "scheduledPayment": "$74", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$1,882", "rating": "OK" },
+           { "monthYear": "06/2022", "balance": "$1,479", "scheduledPayment": "$74", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$1,561", "rating": "OK" },
+           { "monthYear": "05/2022", "balance": "$1,446", "scheduledPayment": "$74", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$1,459", "rating": "OK" },
+           { "monthYear": "04/2022", "balance": "$1,367", "scheduledPayment": "$74", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$1,459", "rating": "OK" },
+           { "monthYear": "03/2022", "balance": "$1,362", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$1,362", "rating": "OK" }
+        ]
+      },
+      {
+        "creditorName": "BANK OF AMERICA",
+        "accountNumber": "440066119729****",
+        "creditorAddress": "201 N TRYON STREET, NC1-022-08-15, CHARLOTTE, NC 28255",
+        "creditorPhone": "(800) 421-2110",
+        "dateOpened": "03/26/2014",
+        "dateUpdated": "05/07/2024",
+        "dateClosed": "01/22/2024",
+        "lastPaymentMadeDate": "04/19/2024",
+        "responsibility": "Individual Account",
+        "accountType": "Revolving Account",
+        "loanType": "CREDIT CARD",
+        "paymentStatus": "Current; Paid or Paying as Agreed",
+        "terms": "$58 per month, paid Monthly",
+        "highBalance": "$6,164",
+        "creditLimitHistory": [
+          {"limit": "$6,200", "fromDate": "12/2021", "toDate": "12/2023"},
+          {"limit": "$1,900", "fromDate": "01/2024", "toDate": "05/2024"}
+        ],
+        "monthlyPaymentHistory": [
+            // History spans multiple pages, combine significant entries
+            {"monthYear": "05/2024", "balance": "$1,779", "scheduledPayment": "$58", "amountPaid": "$0", "pastDue": "$0", "remarks": ["CBC"], "rating": "OK"},
+            {"monthYear": "04/2024", "balance": "$1,808", "scheduledPayment": "$61", "amountPaid": "$0", "pastDue": "$0", "remarks": ["CBC"], "rating": "OK"},
+            // ... other recent months ...
+            {"monthYear": "05/2022", "balance": "$5,569", "scheduledPayment": "$83", "amountPaid": "$0", "pastDue": "$0", "rating": "OK"},
+            // ... extensive OK history omitted for brevity ...
+            {"monthYear": "07/2017", "rating": "OK"}
+        ]
+      },
+      {
+        "creditorName": "BANK OF AMERICA",
+        "accountNumber": "552433736981****",
+        "creditorAddress": "201 N TRYON STREET, NC1-022-08-15, CHARLOTTE, NC 28255",
+        "creditorPhone": "(800) 421-2110",
+        "dateOpened": "01/07/2020",
+        "dateUpdated": "05/07/2024",
+        "lastPaymentMadeDate": "04/19/2024",
+        "responsibility": "Individual Account",
+        "accountType": "Revolving Account",
+        "loanType": "CREDIT CARD",
+        "paymentStatus": "Current; Paid or Paying as Agreed",
+        "terms": "$62 per month, paid Monthly",
+        "highBalance": "$2,960",
+         "creditLimitHistory": [
+          {"limit": "$2,500", "fromDate": "12/2021", "toDate": "03/2024"},
+          {"limit": "$2,000", "fromDate": "04/2024", "toDate": "05/2024"}
+        ],
+        "monthlyPaymentHistory": [
+            {"monthYear": "05/2024", "balance": "$1,894", "scheduledPayment": "$62", "amountPaid": "$0", "pastDue": "$0", "rating": "OK"},
+            {"monthYear": "04/2024", "balance": "$1,925", "scheduledPayment": "$64", "amountPaid": "$0", "pastDue": "$0", "rating": "OK"},
+            // ... other recent months ...
+            {"monthYear": "05/2022", "balance": "$1,415", "scheduledPayment": "$39", "amountPaid": "$0", "pastDue": "$0", "rating": "OK"},
+             // ... extensive OK history omitted for brevity ...
+            {"monthYear": "01/2020", "rating": "OK"}
+        ]
+      },
+       {
+        "creditorName": "BANK OF AMERICA NA",
+        "accountNumber": "6501005938****",
+        "creditorAddress": "201 N TRYON STREET, NC1-022-08-15, CHARLOTTE, FL 28255",
+        "creditorPhone": "(800) 215-6195",
+        "dateOpened": "02/22/2022",
+        "dateUpdated": "12/22/2022",
+        "dateClosed": "12/22/2022",
+        "lastPaymentMadeDate": "12/22/2022",
+        "paymentReceived": "$24,781",
+        "responsibility": "Individual Account",
+        "accountType": "Installment Account",
+        "loanType": "AUTOMOBILE",
+        "paymentStatus": "Paid, Closed; was Paid as agreed",
+        "terms": "$0 per month, paid Monthly for 72 months",
+        "highBalance": "$27,351",
+        "balance": "$0",
+        "remarks": [
+          "CLOSED"
+        ],
+        "monthlyPaymentHistory": [
+          {"monthYear": "12/2022", "balance": "$0", "scheduledPayment": "$0", "amountPaid": "$24,781", "pastDue": "$0", "rating": "OK"},
+          {"monthYear": "11/2022", "balance": "$24,726", "scheduledPayment": "$428", "amountPaid": "$429", "pastDue": "$0", "rating": "OK"},
+          // ... other months ...
+          {"monthYear": "03/2022", "balance": "$27,036", "scheduledPayment": "$428", "amountPaid": "$428", "pastDue": "$0", "rating": "OK"}
+        ]
+      },
+      {
+        "creditorName": "CAPITAL ONE",
+        "accountNumber": "517805791273****",
+        "creditorAddress": "PO Box 31293, Salt Lake City, UT 84131",
+        "creditorPhone": "(800) 955-7070",
+        "dateOpened": "06/07/2017",
+        "dateUpdated": "05/08/2024",
+        "dateClosed": "01/11/2024",
+        "lastPaymentMadeDate": "05/06/2024",
+        "responsibility": "Individual Account",
+        "accountType": "Revolving Account",
+        "loanType": "CREDIT CARD",
+        "paymentStatus": "Current; Paid or Paying as Agreed",
+        "terms": "$114 per month, paid Monthly",
+        "highBalance": "$5,506",
+        "creditLimit": "$5,500",
+        "monthlyPaymentHistory": [
+            {"monthYear": "05/2024", "balance": "$3,341", "scheduledPayment": "$114", "amountPaid": "$0", "pastDue": "$0", "remarks": ["CAD"], "rating": "OK"},
+            {"monthYear": "04/2024", "balance": "$3,351", "scheduledPayment": "$112", "amountPaid": "$0", "pastDue": "$0", "remarks": ["CAD"], "rating": "OK"},
+            // ... other recent months ...
+            {"monthYear": "05/2022", "balance": "$1,306", "scheduledPayment": "$40", "amountPaid": "$0", "pastDue": "$0", "remarks": ["DRG"], "rating": "OK"},
+            // ... extensive OK history omitted for brevity ...
+            {"monthYear": "07/2017", "rating": "OK"}
+        ]
+      },
+       {
+        "creditorName": "CITICARDS CBNA",
+        "accountNumber": "542418141312****",
+        "creditorAddress": "5800 SOUTH CORPORATE PLACE, SIOUX FALLS, SD 57108",
+        "creditorPhone": "(888) 248-4728",
+        "dateOpened": "11/28/2017",
+        "dateUpdated": "05/03/2024",
+        "dateClosed": "02/08/2024",
+        "lastPaymentMadeDate": "04/28/2024",
+        "responsibility": "Individual Account",
+        "accountType": "Revolving Account",
+        "loanType": "CREDIT CARD",
+        "paymentStatus": "Current; Paid or Paying as Agreed",
+        "terms": "$46 per month, paid Monthly",
+        "highBalance": "$2,279",
+        "creditLimitHistory": [
+          {"limit": "$2,250", "fromDate": "12/2021", "toDate": "01/2024"},
+          {"limit": "$1,510", "fromDate": "02/2024", "toDate": "05/2024"}
+        ],
+        "monthlyPaymentHistory": [
+            {"monthYear": "05/2024", "balance": "$1,433", "scheduledPayment": "$46", "amountPaid": "$0", "pastDue": "$0", "remarks": ["CBD"], "rating": "OK"},
+            {"monthYear": "04/2024", "balance": "$1,451", "scheduledPayment": "$45", "amountPaid": "$0", "pastDue": "$0", "remarks": ["CBD"], "rating": "OK"},
+            // ... other recent months ...
+            {"monthYear": "05/2022", "balance": "$1,707", "scheduledPayment": "$43", "amountPaid": "$0", "pastDue": "$0", "remarks": ["DRC"], "rating": "OK"},
+            // ... extensive OK history omitted for brevity ...
+            {"monthYear": "12/2017", "rating": "OK"}
+        ]
+      },
+      {
+        "creditorName": "DEPT OF ED / NELNET",
+        "accountNumber": "90000045537****", // Multiple accounts with same root number
+        "creditorAddress": "PO BOX 82561, LINCOLN, NE 68501",
+        "creditorPhone": "(888) 486-4722",
+        "dateOpened": "08/27/2014",
+        "dateUpdated": "04/30/2024",
+        "lastPaymentMadeDate": "08/09/2023",
+        "paymentReceived": "$0",
+        "responsibility": "Individual Account",
+        "accountType": "Installment Account",
+        "loanType": "STUDENT LOAN",
+        "paymentStatus": "Current; Paid or Paying as Agreed",
+        "terms": "$0 per month for 120 months, Deferred",
+        "highBalance": "$3,500", // First instance
+        "specialPayment": "Payment deferred until 05/28/2024",
+         "monthlyPaymentHistory": [ // Combined history for first instance
+            {"monthYear": "04/2024", "balance": "$3,510", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "remarks": ["PDE"], "rating": "OK"},
+            {"monthYear": "03/2024", "balance": "$3,510", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "remarks": ["PDE"], "rating": "X"},
+            // ... other recent months, many with 'X' or 'OK' and 'PDE' ...
+            {"monthYear": "05/2022", "balance": "$3,509", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "rating": "OK"},
+            // ... extensive history omitted for brevity ...
+            {"monthYear": "06/2017", "rating": "X"}
+        ]
+      },
+       {
+        "creditorName": "DEPT OF ED / NELNET",
+        "accountNumber": "90000045537****", // Second instance
+        "creditorAddress": "PO BOX 82561, LINCOLN, NE 68501",
+        "creditorPhone": "(888) 486-4722",
+        "dateOpened": "08/27/2014",
+        "dateUpdated": "04/30/2024",
+        "lastPaymentMadeDate": "08/09/2023",
+        "paymentReceived": "$0",
+        "responsibility": "Individual Account",
+        "accountType": "Installment Account",
+        "loanType": "STUDENT LOAN",
+        "paymentStatus": "Current; Paid or Paying as Agreed",
+        "terms": "$0 per month for 120 months, Deferred",
+        "highBalance": "$2,000", // Second instance
+        "specialPayment": "Payment deferred until 05/28/2024",
+         "monthlyPaymentHistory": [ // History for second instance
+            {"monthYear": "04/2024", "balance": "$2,560", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "remarks": ["PDE"], "rating": "OK"},
+            {"monthYear": "03/2024", "balance": "$2,551", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "remarks": ["PDE"], "rating": "X"},
+             // ... other recent months, many with 'X' or 'OK' and 'PDE' ...
+            {"monthYear": "05/2022", "balance": "$2,485", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "rating": "OK"},
+            // ... extensive history omitted for brevity ...
+            {"monthYear": "06/2017", "rating": "X"}
+        ]
+      },
+      {
+        "creditorName": "DEPT OF ED / NELNET",
+        "accountNumber": "90000051066****",
+        "creditorAddress": "PO BOX 82561, LINCOLN, NE 68501",
+        "creditorPhone": "(888) 486-4722",
+        "dateOpened": "09/03/2015",
+        "dateUpdated": "04/30/2024",
+        "lastPaymentMadeDate": "08/09/2023",
+        "paymentReceived": "$0",
+        "responsibility": "Individual Account",
+        "accountType": "Installment Account",
+        "loanType": "STUDENT LOAN",
+        "paymentStatus": "Current; Paid or Paying as Agreed",
+        "terms": "$0 per month for 120 months, Deferred",
+        "highBalance": "$5,500",
+        "specialPayment": "Payment deferred until 05/28/2024",
+        "monthlyPaymentHistory": [
+             {"monthYear": "04/2024", "balance": "$6,659", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "remarks": ["PDE"], "rating": "OK"},
+             {"monthYear": "03/2024", "balance": "$6,637", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "remarks": ["PDE"], "rating": "X"},
+             // ... other recent months, many with 'X' or 'OK' and 'PDE' ...
+            {"monthYear": "05/2022", "balance": "$6,478", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "rating": "OK"},
+            // ... extensive history omitted for brevity ...
+            {"monthYear": "06/2017", "rating": "X"}
+        ]
+      },
+       {
+        "creditorName": "DEPT OF ED / NELNET",
+        "accountNumber": "90000052469****", // First instance
+        "creditorAddress": "PO BOX 82561, LINCOLN, NE 68501",
+        "creditorPhone": "(888) 486-4722",
+        "dateOpened": "08/18/2016",
+        "dateUpdated": "04/30/2024",
+        "lastPaymentMadeDate": "08/09/2023",
+        "paymentReceived": "$0",
+        "responsibility": "Individual Account",
+        "accountType": "Installment Account",
+        "loanType": "STUDENT LOAN",
+        "paymentStatus": "Current; Paid or Paying as Agreed",
+        "terms": "$0 per month for 120 months, Deferred",
+        "highBalance": "$4,500",
+        "specialPayment": "Payment deferred until 05/28/2024",
+        "monthlyPaymentHistory": [
+             {"monthYear": "04/2024", "balance": "$4,502", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "remarks": ["PDE"], "rating": "OK"},
+             {"monthYear": "03/2024", "balance": "$4,502", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "remarks": ["PDE"], "rating": "X"},
+             // ... other recent months, many with 'X' or 'OK' and 'PDE' ...
+            {"monthYear": "05/2022", "balance": "$4,501", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "rating": "OK"},
+            // ... extensive history omitted for brevity ...
+            {"monthYear": "06/2017", "rating": "X"}
+        ]
+      },
+       {
+        "creditorName": "DEPT OF ED / NELNET",
+        "accountNumber": "90000052469****", // Second instance
+        "creditorAddress": "PO BOX 82561, LINCOLN, NE 68501",
+        "creditorPhone": "(888) 486-4722",
+        "dateOpened": "08/18/2016",
+        "dateUpdated": "04/30/2024",
+        "lastPaymentMadeDate": "08/09/2023",
+        "paymentReceived": "$0",
+        "responsibility": "Individual Account",
+        "accountType": "Installment Account",
+        "loanType": "STUDENT LOAN",
+        "paymentStatus": "Current; Paid or Paying as Agreed",
+        "terms": "$0 per month for 120 months, Deferred",
+        "highBalance": "$2,000",
+        "specialPayment": "Payment deferred until 05/28/2024",
+         "monthlyPaymentHistory": [
+             {"monthYear": "04/2024", "balance": "$2,288", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "remarks": ["PDE"], "rating": "OK"},
+             {"monthYear": "03/2024", "balance": "$2,282", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "remarks": ["PDE"], "rating": "X"},
+             // ... other recent months, many with 'X' or 'OK' and 'PDE' ...
+            {"monthYear": "05/2022", "balance": "$2,234", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "rating": "OK"},
+             // ... extensive history omitted for brevity ...
+            {"monthYear": "06/2017", "rating": "X"}
+        ]
+      },
+      {
+        "creditorName": "DEPT OF ED / NELNET",
+        "accountNumber": "90000054596****", // First instance
+        "creditorAddress": "PO BOX 82561, LINCOLN, NE 68501",
+        "creditorPhone": "(888) 486-4722",
+        "dateOpened": "08/11/2017",
+        "dateUpdated": "04/30/2024",
+        "lastPaymentMadeDate": "08/09/2023",
+        "paymentReceived": "$0",
+        "responsibility": "Individual Account",
+        "accountType": "Installment Account",
+        "loanType": "STUDENT LOAN",
+        "paymentStatus": "Current; Paid or Paying as Agreed",
+        "terms": "$0 per month for 120 months, Deferred",
+        "highBalance": "$5,500",
+        "specialPayment": "Payment deferred until 05/28/2024",
+         "monthlyPaymentHistory": [
+             {"monthYear": "04/2024", "balance": "$5,512", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "remarks": ["PDE"], "rating": "OK"},
+             {"monthYear": "03/2024", "balance": "$5,512", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "remarks": ["PDE"], "rating": "X"},
+            // ... other recent months, many with 'X' or 'OK' and 'PDE' ...
+            {"monthYear": "05/2022", "balance": "$5,511", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "rating": "OK"},
+             // ... extensive history omitted for brevity ...
+            {"monthYear": "08/2017", "rating": "OK"}
+        ]
+      },
+       {
+        "creditorName": "DEPT OF ED / NELNET",
+        "accountNumber": "90000054596****", // Second instance
+        "creditorAddress": "PO BOX 82561, LINCOLN, NE 68501",
+        "creditorPhone": "(888) 486-4722",
+        "dateOpened": "08/11/2017",
+        "dateUpdated": "04/30/2024",
+        "lastPaymentMadeDate": "08/09/2023",
+        "paymentReceived": "$0",
+        "responsibility": "Individual Account",
+        "accountType": "Installment Account",
+        "loanType": "STUDENT LOAN",
+        "paymentStatus": "Current; Paid or Paying as Agreed",
+        "terms": "$0 per month for 120 months, Deferred",
+        "highBalance": "$2,000",
+        "specialPayment": "Payment deferred until 05/28/2024",
+        "monthlyPaymentHistory": [
+             {"monthYear": "04/2024", "balance": "$2,255", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "remarks": ["PDE"], "rating": "OK"},
+             {"monthYear": "03/2024", "balance": "$2,247", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "remarks": ["PDE"], "rating": "X"},
+             // ... other recent months, many with 'X' or 'OK' and 'PDE' ...
+            {"monthYear": "05/2022", "balance": "$2,191", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "rating": "OK"},
+            // ... extensive history omitted for brevity ...
+            {"monthYear": "08/2017", "rating": "OK"}
+        ]
+      },
+      {
+        "creditorName": "DEPT OF ED / NELNET",
+        "accountNumber": "90000056277****", // First instance
+        "creditorAddress": "PO BOX 82561, LINCOLN, NE 68501",
+        "creditorPhone": "(888) 486-4722",
+        "dateOpened": "08/10/2018",
+        "dateUpdated": "04/30/2024",
+        "lastPaymentMadeDate": "08/09/2023",
+        "paymentReceived": "$0",
+        "responsibility": "Individual Account",
+        "accountType": "Installment Account",
+        "loanType": "STUDENT LOAN",
+        "paymentStatus": "Current; Paid or Paying as Agreed",
+        "terms": "$0 per month for 120 months, Deferred",
+        "highBalance": "$2,750",
+        "specialPayment": "Payment deferred until 05/28/2024",
+        "monthlyPaymentHistory": [
+             {"monthYear": "04/2024", "balance": "$2,760", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "remarks": ["PDE"], "rating": "OK"},
+             {"monthYear": "03/2024", "balance": "$2,760", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "remarks": ["PDE"], "rating": "X"},
+             // ... other recent months, many with 'X' or 'OK' and 'PDE' ...
+            {"monthYear": "05/2022", "balance": "$2,759", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "rating": "OK"},
+            // ... extensive history omitted for brevity ...
+            {"monthYear": "08/2018", "rating": "OK"}
+        ]
+      },
+       {
+        "creditorName": "DEPT OF ED / NELNET",
+        "accountNumber": "90000056277****", // Second instance
+        "creditorAddress": "PO BOX 82561, LINCOLN, NE 68501",
+        "creditorPhone": "(888) 486-4722",
+        "dateOpened": "08/10/2018",
+        "dateUpdated": "04/30/2024",
+        "lastPaymentMadeDate": "08/09/2023",
+        "paymentReceived": "$0",
+        "responsibility": "Individual Account",
+        "accountType": "Installment Account",
+        "loanType": "STUDENT LOAN",
+        "paymentStatus": "Current; Paid or Paying as Agreed",
+        "terms": "$0 per month for 120 months, Deferred",
+        "highBalance": "$3,500",
+        "specialPayment": "Payment deferred until 05/28/2024",
+         "monthlyPaymentHistory": [
+             {"monthYear": "04/2024", "balance": "$3,863", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "remarks": ["PDE"], "rating": "OK"},
+             {"monthYear": "03/2024", "balance": "$3,848", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "remarks": ["PDE"], "rating": "X"},
+            // ... other recent months, many with 'X' or 'OK' and 'PDE' ...
+            {"monthYear": "05/2022", "balance": "$3,741", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "rating": "OK"},
+            // ... extensive history omitted for brevity ...
+            {"monthYear": "08/2018", "rating": "OK"}
+        ]
+      },
+      {
+        "creditorName": "DISCOVER BANK",
+        "accountNumber": "601100461142****",
+        "creditorAddress": "PO BOX 30939, SALT LAKE CITY, UT 84130",
+        "creditorPhone": "(800) 347-2683",
+        "dateOpened": "05/14/2017",
+        "dateUpdated": "05/26/2024",
+        "datePaid": "02/06/2023",
+        "lastPaymentMadeDate": "02/06/2023",
+        "responsibility": "Authorized Account",
+        "accountType": "Revolving Account",
+        "loanType": "CREDIT CARD",
+        "paymentStatus": "Current; Paid or Paying as Agreed",
+        "terms": "Paid Monthly",
+        "highBalanceHistory": [
+          {"amount": "$988", "fromDate": "12/2021", "toDate": "10/2023"},
+          {"amount": "$48", "fromDate": "11/2023", "toDate": "05/2024"}
+        ],
+        "creditLimit": "$5,500",
+        "balance": "$0",
+        "monthlyPaymentHistory": [
+            {"monthYear": "05/2024", "balance": "$0", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "rating": "OK"},
+            // ... other recent months with $0 balance ...
+            {"monthYear": "10/2022", "balance": "$0", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "rating": "OK"},
+            {"monthYear": "09/2022", "balance": "$48", "scheduledPayment": "$35", "amountPaid": "$0", "pastDue": "$0", "rating": "OK"},
+             // ... extensive $0 balance history omitted for brevity ...
+            {"monthYear": "02/2020", "rating": "OK"}
+        ]
+      },
+      {
+        "creditorName": "DISCOVER STUDENT LOANS",
+        "accountNumber": "11002771267****",
+        "creditorAddress": "POB 30948, SALT LAKE CITY, UT 84130",
+        "creditorPhone": "(800) 973-4064",
+        "dateOpened": "08/17/2018",
+        "dateUpdated": "06/07/2019",
+        "dateClosed": "06/07/2019",
+        "lastPaymentMadeDate": "06/07/2019",
+        "paymentReceived": "$9,705",
+        "responsibility": "Joint Account",
+        "accountType": "Installment Account",
+        "loanType": "STUDENT LOAN",
+        "paymentStatus": "Paid, Closed; was Paid as agreed",
+        "terms": "$0 per month, paid Monthly for 180 months",
+        "highBalance": "$8,500",
+        "balance": "$0",
+        "remarks": [
+          "CLOSED"
+        ],
+        "monthlyPaymentHistory": [
+          {"monthYear": "05/2019", "rating": "OK"},
+          {"monthYear": "04/2019", "rating": "OK"},
+          {"monthYear": "03/2019", "rating": "OK"},
+          {"monthYear": "02/2019", "rating": "OK"},
+          {"monthYear": "01/2019", "rating": "OK"},
+          {"monthYear": "12/2018", "rating": "OK"},
+          {"monthYear": "11/2018", "rating": "OK"},
+          {"monthYear": "10/2018", "rating": "OK"},
+          {"monthYear": "09/2018", "rating": "OK"}
+        ]
+      },
+      {
+        "creditorName": "EQUITY/PEGASUS",
+        "accountNumber": "292801****",
+        "creditorAddress": "2 NORTH RIVERSIDE, SUITE 400, CHICAGO, IL 60606",
+        "creditorPhone": "Phone number not available",
+        "dateOpened": "02/02/2022",
+        "dateUpdated": "07/21/2022",
+        "dateClosed": "03/31/2022",
+        "responsibility": "Joint Account",
+        "accountType": "Open Account",
+        "loanType": "RENTAL AGREEMENT",
+        "paymentStatus": "Paid, Closed; was Paid as agreed",
+        "terms": "Paid Monthly",
+        "highBalanceHistory": [
+          {"amount": "$2,978", "fromDate": "02/2022", "toDate": "02/2022"},
+          {"amount": "$0", "fromDate": "03/2022", "toDate": "04/2022"},
+          {"amount": "$0", "fromDate": "07/2022", "toDate": "07/2022"}
+        ],
+        "balance": "$0",
+         "remarks": [
+          "CLOSED"
+        ],
+        "monthlyPaymentHistory": [
+          {"monthYear": "07/2022", "balance": "$0", "amountPaid": "$0", "pastDue": "$0", "rating": "OK"},
+          {"monthYear": "06/2022", "rating": "OK"},
+          {"monthYear": "05/2022", "balance": "$0", "amountPaid": "$0", "pastDue": "$0", "rating": "OK"},
+          {"monthYear": "04/2022", "balance": "$0", "amountPaid": "$0", "pastDue": "$0", "rating": "OK"},
+          {"monthYear": "03/2022", "balance": "$0", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "rating": "OK"},
+          {"monthYear": "02/2022", "balance": "$2,978", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "rating": "OK"}
+        ]
+      },
+      {
+        "creditorName": "FAMILY SUPPORT SVCS DEPT",
+        "accountNumber": "20000000255****",
+        "creditorAddress": "5770 S EASTERN AVE, LOS ANGELES, CA 90040-2947",
+        "creditorPhone": "(866) 901-3212",
+        "dateOpened": "03/01/2023",
+        "dateUpdated": "04/30/2024",
+        "lastPaymentMadeDate": "02/13/2024",
+        "paymentReceived": "$0",
+        "responsibility": "Individual Account",
+        "accountType": "Open Account",
+        "loanType": "CHILD SUPPORT",
+        "paymentStatus": "Current; Paid or Paying as Agreed",
+        "terms": "Paid Monthly",
+         "highBalanceHistory": [
+          {"amount": "$0", "fromDate": "12/2023", "toDate": "12/2023"},
+          {"amount": "$0", "fromDate": "02/2024", "toDate": "04/2024"}
+        ],
+        "monthlyPaymentHistory": [
+          {"monthYear": "04/2024", "balance": "$812", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "rating": "OK"},
+          {"monthYear": "03/2024", "balance": "$812", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "rating": "OK"},
+          {"monthYear": "02/2024", "balance": "$812", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "rating": "OK"},
+          {"monthYear": "01/2024", "rating": "N/R"},
+          {"monthYear": "12/2023", "balance": "$812", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "rating": "OK"},
+          // ... OK history assumed for prior months up to 05/2023 ...
+          {"monthYear": "05/2023", "rating": "OK"},
+          {"monthYear": "04/2023", "rating": "OK"}
+        ]
+      },
+      {
+        "creditorName": "JPMCB CARD SERVICES",
+        "accountNumber": "414740040245****",
+        "creditorAddress": "PO BOX 15369, WILMINGTON, DE 19850",
+        "creditorPhone": "(800) 945-2000",
+        "dateOpened": "12/14/2022",
+        "dateUpdated": "05/13/2024",
+        "lastPaymentMadeDate": "05/04/2024",
+        "responsibility": "Individual Account",
+        "accountType": "Revolving Account",
+        "loanType": "FLEXIBLE SPENDING CREDIT CARD",
+        "paymentStatus": "Current; Paid or Paying as Agreed",
+        "terms": "$184 per month, paid Monthly",
+        "creditLimitHistory": [
+           {"limit": "$5,700", "fromDate": "01/2023", "toDate": "01/2024"},
+           {"limit": "$4,600", "fromDate": "02/2024", "toDate": "05/2024"}
+        ],
+        "monthlyPaymentHistory": [
+             {"monthYear": "05/2024", "balance": "$4,117", "scheduledPayment": "$184", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$4,547", "rating": "OK"},
+             {"monthYear": "04/2024", "balance": "$4,238", "scheduledPayment": "$188", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$4,547", "rating": "OK"},
+             // ... other recent months ...
+            {"monthYear": "01/2023", "balance": "$711", "scheduledPayment": "$59", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$711", "rating": "OK"}
+        ]
+      },
+      {
+        "creditorName": "JPMCB CARD SERVICES",
+        "accountNumber": "426684180039****",
+        "creditorAddress": "PO BOX 15369, WILMINGTON, DE 19850",
+        "creditorPhone": "(800) 945-2000",
+        "dateOpened": "01/10/2019",
+        "dateUpdated": "05/03/2024",
+        "lastPaymentMadeDate": "04/05/2024",
+        "responsibility": "Individual Account",
+        "accountType": "Revolving Account",
+        "loanType": "CREDIT CARD",
+        "paymentStatus": "Current; Paid or Paying as Agreed",
+        "terms": "$145 per month, paid Monthly",
+        "highBalanceHistory": [
+           {"amount": "$5,305", "fromDate": "12/2021", "toDate": "12/2021"},
+           {"amount": "$5,331", "fromDate": "01/2022", "toDate": "05/2024"}
+        ],
+        "creditLimitHistory": [
+           {"limit": "$5,800", "fromDate": "12/2021", "toDate": "01/2024"},
+           {"limit": "$4,600", "fromDate": "02/2024", "toDate": "05/2024"}
+        ],
+        "monthlyPaymentHistory": [
+             {"monthYear": "05/2024", "balance": "$4,346", "scheduledPayment": "$145", "amountPaid": "$0", "pastDue": "$0", "rating": "OK"},
+             {"monthYear": "04/2024", "balance": "$4,339", "scheduledPayment": "$149", "amountPaid": "$0", "pastDue": "$0", "rating": "OK"},
+            // ... other recent months ...
+            {"monthYear": "06/2021", "rating": "OK"},
+            // ... extensive OK history omitted for brevity ...
+            {"monthYear": "01/2019", "rating": "OK"} // Assumed from presence on page 14
+        ]
+      },
+       {
+        "creditorName": "JPMCB CARD SERVICES",
+        "accountNumber": "426684166701****",
+        "creditorAddress": "PO BOX 15369, WILMINGTON, DE 19850",
+        "creditorPhone": "(800) 945-2000",
+        "dateOpened": "12/25/2020",
+        "dateUpdated": "01/24/2021",
+        "dateClosed": "12/26/2020",
+        "responsibility": "Individual Account",
+        "accountType": "Revolving Account",
+        "loanType": "CREDIT CARD",
+        "paymentStatus": "Paid, Closed; was Paid as agreed",
+        "terms": "Paid Monthly",
+        "highBalance": "$0",
+        "balance": "$0",
+        "creditLimit": "$500",
+        "remarks": [
+          "ACCOUNT CLOSED BY CONSUMER",
+          "CLOSED"
+        ]
+      },
+      {
+        "creditorName": "LENDINGCLUB BANK",
+        "accountNumber": "16189****",
+        "creditorAddress": "595 MARKET ST, SUITE 200, SAN FRANCISCO, CA 94105",
+        "creditorPhone": "(888) 596-3157",
+        "dateOpened": "11/14/2019",
+        "dateUpdated": "05/31/2023",
+        "dateClosed": "05/31/2023",
+        "lastPaymentMadeDate": "05/31/2023",
+        "paymentReceived": "$0",
+        "responsibility": "Individual Account",
+        "accountType": "Installment Account",
+        "loanType": "UNSECURED",
+        "paymentStatus": "Paid, Closed; was Paid as agreed",
+        "terms": "$0 per month, paid Monthly for 60 months",
+        "highBalance": "$8,800",
+        "balance": "$0",
+         "remarks": [
+          "CLOSED"
+        ],
+        "monthlyPaymentHistory": [
+          {"monthYear": "05/2023", "balance": "$0", "scheduledPayment": "$0", "amountPaid": "$0", "pastDue": "$0", "rating": "OK"},
+          {"monthYear": "04/2023", "balance": "$2,647", "scheduledPayment": "$181", "amountPaid": "$181", "pastDue": "$0", "rating": "OK"},
+           // ... other months ...
+          {"monthYear": "11/2019", "rating": "OK"}
+        ]
+      },
+       {
+        "creditorName": "LIGHTSTREAM",
+        "accountNumber": "LS7315****",
+        "creditorAddress": "PO BOX 849, WILSON, NC 27894",
+        "creditorPhone": "(866) 635-1330",
+        "dateOpened": "01/04/2019",
+        "dateUpdated": "12/02/2019",
+        "dateClosed": "12/02/2019",
+        "lastPaymentMadeDate": "12/02/2019",
+        "paymentReceived": "$307",
+        "responsibility": "Individual Account",
+        "accountType": "Installment Account",
+        "loanType": "UNSECURED",
+        "paymentStatus": "Paid, Closed; was Paid as agreed",
+        "terms": "$0 per month, paid Monthly for 36 months",
+        "highBalance": "$10,000",
+        "balance": "$0",
+        "remarks": [
+          "CLOSED"
+        ],
+        "monthlyPaymentHistory": [
+          {"monthYear": "11/2019", "rating": "OK"},
+          {"monthYear": "10/2019", "rating": "OK"},
+          {"monthYear": "09/2019", "rating": "OK"},
+          {"monthYear": "08/2019", "rating": "OK"},
+          {"monthYear": "07/2019", "rating": "OK"},
+          {"monthYear": "06/2019", "rating": "OK"},
+          {"monthYear": "05/2019", "rating": "OK"},
+          {"monthYear": "04/2019", "rating": "OK"},
+          {"monthYear": "03/2019", "rating": "OK"},
+          {"monthYear": "02/2019", "rating": "OK"},
+          {"monthYear": "01/2019", "rating": "OK"}
+        ]
+      },
+      {
+        "creditorName": "MACYS/CITIBANK, N.A.",
+        "accountNumber": "603534011503****",
+        "creditorAddress": "PO BOX 8218, MASON, OH 45050",
+        "creditorPhone": "(800) 289-6229",
+        "dateOpened": "03/11/2017",
+        "dateUpdated": "05/21/2024",
+        "lastPaymentMadeDate": "05/17/2024",
+        "responsibility": "Individual Account",
+        "accountType": "Revolving Account",
+        "loanType": "CHARGE ACCOUNT",
+        "paymentStatus": "Current; Paid or Paying as Agreed",
+        "terms": "$61 per month, paid Monthly",
+         "creditLimitHistory": [
+           {"limit": "$1,700", "fromDate": "12/2021", "toDate": "04/2022"},
+           {"limit": "$2,600", "fromDate": "05/2022", "toDate": "06/2022"},
+           {"limit": "$5,100", "fromDate": "07/2022", "toDate": "02/2023"},
+           {"limit": "$6,700", "fromDate": "03/2023", "toDate": "05/2024"}
+        ],
+        "highBalance": "$1,937", // Max high balance shown
+        "monthlyPaymentHistory": [
+             {"monthYear": "05/2024", "balance": "$1,629", "scheduledPayment": "$61", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$1,937", "rating": "OK"},
+             {"monthYear": "04/2024", "balance": "$1,598", "scheduledPayment": "$55", "amountPaid": "$0", "pastDue": "$0", "highBalance": "$1,937", "rating": "OK"},
+            // ... other recent months ...
+            {"monthYear": "06/2021", "rating": "OK"}, // Assumed from page 15 OK history
+             // ... extensive OK history omitted for brevity ...
+            {"monthYear": "07/2017", "rating": "OK"}
+        ]
+      },
+      {
+        "creditorName": "MOHELA/ACS",
+        "accountNumber": "789067516MO0****",
+        "creditorAddress": "633 SPIRIT DRIVE, CHESTERFIELD, MO 63005",
+        "creditorPhone": "(800) 666-4352",
+        "dateOpened": "06/03/2019",
+        "dateUpdated": "06/23/2021",
+        "dateClosed": "06/23/2021",
+        "lastPaymentMadeDate": "06/23/2021",
+        "paymentReceived": "$50,435",
+        "responsibility": "Individual Account",
+        "accountType": "Installment Account",
+        "loanType": "STUDENT LOAN",
+        "paymentStatus": "Paid, Closed; was Paid as agreed",
+        "terms": "$0 per month, paid Monthly for 241 months",
+        "highBalance": "$47,941",
+        "balance": "$0",
+         "remarks": [
+          "CLOSED"
+        ],
+        "monthlyPaymentHistory": [
+          {"monthYear": "05/2021", "rating": "OK"},
+          {"monthYear": "04/2021", "rating": "OK"},
+          // ... other months ...
+          {"monthYear": "06/2019", "rating": "OK"}
+        ]
+      },
+      {
+        "creditorName": "PENNSYLVANIA ST EMP C U",
+        "accountNumber": "8009181515L****",
+        "creditorAddress": "PO BOX 67013, HARRISBURG, PA 17106-7013",
+        "creditorPhone": "(800) 237-7328",
+        "dateOpened": "06/16/2021",
+        "dateUpdated": "01/12/2022",
+        "dateClosed": "01/12/2022",
+        "lastPaymentMadeDate": "01/12/2022",
+        "paymentReceived": "$26,528",
+        "responsibility": "Individual Account",
+        "accountType": "Installment Account",
+        "loanType": "AUTOMOBILE",
+        "paymentStatus": "Paid, Closed; was Paid as agreed",
+        "terms": "$0 per month, paid Monthly for 84 months",
+        "highBalance": "$28,278",
+        "balance": "$0",
+        "remarks": [
+          "CLOSED"
+        ],
+        "monthlyPaymentHistory": [
+            {"monthYear": "01/2022", "balance": "$0", "scheduledPayment": "$0", "amountPaid": "$26,528", "pastDue": "$0", "rating": "OK"},
+            {"monthYear": "12/2021", "balance": "$26,465", "scheduledPayment": "$376", "amountPaid": "$376", "pastDue": "$0", "rating": "OK"},
+            // ... OK history back to 06/2021
+            {"monthYear": "06/2021", "rating": "OK"}
+        ]
+      },
+      {
+        "creditorName": "PENTAGON FEDERAL CREDIT",
+        "accountNumber": "3326903****",
+        "creditorAddress": "PO BOX 247009, OMAHA, NE 68124-7009",
+        "creditorPhone": "(800) 247-5626",
+        "dateOpened": "06/18/2021",
+        "dateUpdated": "05/31/2024",
+        "lastPaymentMadeDate": "05/13/2024",
+        "paymentReceived": "$378",
+        "responsibility": "Joint Account",
+        "accountType": "Installment Account",
+        "loanType": "STUDENT LOAN",
+        "paymentStatus": "Current; Paid or Paying as Agreed",
+        "terms": "$367 per month, paid Monthly for 180 months",
+        "highBalance": "$50,018",
+        "monthlyPaymentHistory": [
+             {"monthYear": "05/2024", "balance": "$42,559", "scheduledPayment": "$367", "amountPaid": "$378", "pastDue": "$0", "rating": "OK"},
+             {"monthYear": "04/2024", "balance": "$42,846", "scheduledPayment": "$367", "amountPaid": "$370", "pastDue": "$0", "rating": "OK"},
+             // ... other recent months ...
+             {"monthYear": "06/2021", "rating": "OK"}
+        ]
+      },
+      {
+        "creditorName": "SALLIE MAE",
+        "accountNumber": "585250001330****",
+        "creditorAddress": "PO BOX 3229, WILMINGTON, DE 19804",
+        "creditorPhone": "(800) 472-5543",
+        "dateOpened": "08/08/2014",
+        "dateUpdated": "06/06/2019",
+        "dateClosed": "06/06/2019",
+        "lastPaymentMadeDate": "06/03/2019",
+        "paymentReceived": "$0",
+        "responsibility": "Joint Account",
+        "accountType": "Installment Account",
+        "loanType": "STUDENT LOAN",
+        "paymentStatus": "Paid, Closed; was Paid as agreed",
+        "terms": "$0 per month, paid Monthly for 84 months",
+        "highBalance": "$14,000",
+        "balance": "$0",
+        "remarks": [
+          "CLOSED"
+        ],
+         "monthlyPaymentHistory": [
+          {"monthYear": "05/2019", "rating": "OK"},
+          // ... OK history back to 02/2015 ...
+          {"monthYear": "02/2015", "rating": "OK"}
+        ]
+      },
+      {
+        "creditorName": "SALLIE MAE",
+        "accountNumber": "585250002316****",
+        "creditorAddress": "PO BOX 3229, WILMINGTON, DE 19804",
+        "creditorPhone": "(800) 472-5543",
+        "dateOpened": "05/13/2016",
+        "dateUpdated": "06/06/2019",
+        "dateClosed": "06/06/2019",
+        "lastPaymentMadeDate": "06/03/2019",
+        "paymentReceived": "$0",
+        "responsibility": "Joint Account",
+        "accountType": "Installment Account",
+        "loanType": "STUDENT LOAN",
+        "paymentStatus": "Paid, Closed; was Paid as agreed",
+        "terms": "$0 per month, paid Monthly for 96 months",
+        "highBalance": "$1,752",
+        "balance": "$0",
+        "remarks": [
+          "CLOSED"
+        ],
+        "monthlyPaymentHistory": [
+          {"monthYear": "05/2019", "rating": "OK"},
+          // ... OK history back to 09/2014 ... (ends with X for 06/2016)
+          {"monthYear": "06/2016", "rating": "X"}
+        ]
+      },
+      {
+        "creditorName": "SALLIE MAE",
+        "accountNumber": "585250002539****",
+        "creditorAddress": "PO BOX 3229, WILMINGTON, DE 19804",
+        "creditorPhone": "(800) 472-5543",
+        "dateOpened": "08/25/2016",
+        "dateUpdated": "06/06/2019",
+        "dateClosed": "06/06/2019",
+        "lastPaymentMadeDate": "06/03/2019",
+        "paymentReceived": "$0",
+        "responsibility": "Joint Account",
+        "accountType": "Installment Account",
+        "loanType": "STUDENT LOAN",
+        "paymentStatus": "Paid, Closed; was Paid as agreed",
+        "terms": "$0 per month, paid Monthly for 96 months",
+        "highBalance": "$22,500",
+        "balance": "$0",
+         "remarks": [
+          "CLOSED"
+        ],
+         "monthlyPaymentHistory": [
+          {"monthYear": "05/2019", "rating": "OK"},
+          // ... OK history back to 06/2017 ...
+          {"monthYear": "06/2017", "rating": "OK"}
+        ]
+      },
+      {
+        "creditorName": "TEACHERS FED CREDIT UN",
+        "accountNumber": "600722****",
+        "creditorAddress": "102 MOTOR PKWY, HAUPPAUGE, NY 11788",
+        "creditorPhone": "(631) 698-7000",
+        "dateOpened": "04/21/2020",
+        "dateUpdated": "07/20/2021",
+        "dateClosed": "07/20/2021",
+        "lastPaymentMadeDate": "07/20/2021",
+        "paymentReceived": "$0",
+        "responsibility": "Individual Account",
+        "accountType": "Installment Account",
+        "loanType": "AUTOMOBILE",
+        "paymentStatus": "Paid, Closed; was Paid as agreed",
+        "terms": "$0 per month, paid Monthly for 72 months",
+        "highBalance": "$20,120",
+        "balance": "$0",
+         "remarks": [
+          "CLOSED"
+        ],
+         "monthlyPaymentHistory": [
+          {"monthYear": "06/2021", "rating": "OK"},
+          {"monthYear": "05/2021", "rating": "OK"},
+          // ... OK history back to 04/2020 ...
+          {"monthYear": "04/2020", "rating": "OK"}
+        ]
+      },
+      {
+        "creditorName": "TEACHERS FEDERAL CU",
+        "accountNumber": "403090300013****",
+        "creditorAddress": "102 MOTOR PKWY, HAUPPAUGE, NY 11788",
+        "creditorPhone": "(631) 698-7000",
+        "dateOpened": "08/12/2020",
+        "dateUpdated": "05/24/2024",
+        "lastPaymentMadeDate": "05/21/2024",
+        "paymentReceived": "$50",
+        "responsibility": "Individual Account",
+        "accountType": "Revolving Account",
+        "loanType": "CREDIT CARD",
+        "paymentStatus": "Current; Paid or Paying as Agreed",
+        "terms": "$45 per month, paid Monthly",
+        "highBalanceHistory": [
+           {"amount": "$2,503", "fromDate": "12/2021", "toDate": "03/2023"},
+           {"amount": "$2,503", "fromDate": "05/2023", "toDate": "03/2024"},
+           {"amount": "$2,744", "fromDate": "04/2024", "toDate": "05/2024"}
+        ],
+         "creditLimitHistory": [
+           {"limit": "$2,500", "fromDate": "12/2021", "toDate": "03/2023"},
+           {"limit": "$2,500", "fromDate": "05/2023", "toDate": "05/2024"}
+        ],
+        "monthlyPaymentHistory": [
+             {"monthYear": "05/2024", "balance": "$2,244", "scheduledPayment": "$45", "amountPaid": "$50", "pastDue": "$0", "remarks": ["DRG"], "rating": "OK"},
+             {"monthYear": "04/2024", "balance": "$569", "scheduledPayment": "$51", "amountPaid": "$163", "pastDue": "$0", "remarks": ["DRG"], "rating": "OK"},
+             // ... other recent months ...
+             {"monthYear": "06/2021", "rating": "OK"},
+             // ... OK history back to 09/2020
+             {"monthYear": "09/2020", "rating": "OK"}
+        ]
+      },
+      {
+        "creditorName": "UPGRADE INC",
+        "accountNumber": "14100****",
+        "creditorAddress": "2 NORTH CENTRAL AVE, 10TH FLR 10TH FLOOR, PHOENIX, AZ 85004",
+        "creditorPhone": "(833) 211-5227",
+        "dateOpened": "12/31/2021",
+        "dateUpdated": "03/31/2024",
+        "lastPaymentMadeDate": "03/31/2024",
+        "paymentReceived": "$313",
+        "responsibility": "Individual Account",
+        "accountType": "Installment Account",
+        "loanType": "UNSECURED",
+        "paymentStatus": "Current; Paid or Paying as Agreed",
+        "terms": "$313 per month, paid Monthly for 36 months",
+        "highBalance": "$10,000",
+        "monthlyPaymentHistory": [
+             {"monthYear": "03/2024", "balance": "$2,726", "scheduledPayment": "$313", "amountPaid": "$313", "pastDue": "$0", "rating": "OK"},
+             {"monthYear": "02/2024", "balance": "$3,019", "scheduledPayment": "$313", "amountPaid": "$313", "pastDue": "$0", "rating": "OK"},
+             // ... other recent months ...
+             {"monthYear": "12/2021", "balance": "$10,002", "scheduledPayment": "$313", "amountPaid": "$0", "pastDue": "$0", "rating": "OK"}
+        ]
+      }
+    ]
+  },
+  "inquiries": {
+    "regularInquiries": [
+      {
+        "creditorName": "ALLY FINANCIAL",
+        "address": "PO BOX 380901, BLOOMINGTON, MN 55438",
+        "phone": "(888) 925-2559",
+        "requestedDate": [
+          "03/26/2024",
+          "12/08/2022"
+        ],
+        "type": "Individual"
+      },
+      {
+        "creditorName": "ST CHARLES MOTORCARS via ST. CHARLES MOTOR CARS",
+        "address": "4220 EAST MAIN ST, ST CHARLES, IL 60174",
+        "phone": "(630) 377-9900",
+        "purpose": "CREDIT TRANSACTION",
+        "requestedDate": [
+          "03/26/2024"
+        ],
+        "type": "Individual"
+      },
+      {
+        "creditorName": "JPMCB AUTO FINANCE",
+        "address": "PO BOX 901076, FORT WORTH, TX 76101",
+        "phone": "(800) 336-6675",
+        "requestedDate": [
+          "03/06/2024",
+          "01/31/2024",
+          "12/07/2022"
+        ],
+        "type": "Individual"
+      },
+      {
+        "creditorName": "PATRICK JAGUAR LLC via 700CRPATRICK JAGUAR LLC",
+        "address": "1559 W OGDEN AVE, NAPERVILLE, IL 60540",
+        "phone": "(630) 300-5000",
+        "purpose": "CREDIT TRANSACTION",
+        "requestedDate": [
+          "03/06/2024"
+        ],
+        "type": "Individual"
+      },
+      {
+        "creditorName": "NOWCOMAFFINITY AUTO SALE",
+        "address": "24W483 LAKE ST, ROSELLE, IL 60172",
+        "phone": "(630) 912-4500",
+        "purpose": "TO ACQUIRE/SERVICE/INSURE ACCOUNT",
+        "requestedDate": [
+          "02/27/2024"
+        ],
+        "type": "Individual"
+      },
+      {
+        "creditorName": "LIGHTSTREAM",
+        "address": "600 W BROADWAY SUITE, 2000, SAN DIEGO, CA 92101",
+        "phone": "(800) 786-8787",
+        "requestedDate": [
+          "02/26/2024"
+        ],
+        "type": "Individual"
+      },
+      {
+        "creditorName": "ONEMAIN FINANCIAL",
+        "address": "P.O. BOX 3327, EVANSVILLE, IN 47706",
+        "phone": "(844) 298-9773",
+        "requestedDate": [
+          "01/26/2024"
+        ],
+        "type": "Individual"
+      },
+      {
+        "creditorName": "PHEAA",
+        "address": "1200 N 7TH ST, HARRISBURG, PA 17105",
+        "phone": "(800) 692-7392",
+        "requestedDate": [
+          "01/19/2024"
+        ],
+        "type": "Individual"
+      },
+      {
+        "creditorName": "JPMCB CARD SERVICES",
+        "address": "PO BOX 15077, WILMINGTON, DE 19850",
+        "phone": "(800) 453-9719",
+        "requestedDate": [
+          "12/14/2022"
+        ],
+        "type": "Individual"
+      },
+      {
+        "creditorName": "CAPITAL ONE VIA DEALER",
+        "address": "3905 N DALLAS PARKWAY, PLANO, TX 75093",
+        "phone": "(800) 946-0332",
+        "requestedDate": [
+          "12/08/2022"
+        ],
+        "type": "Individual"
+      }
+    ],
+    "accountReviewInquiries": [
+      {
+        "creditorName": "NYREE HINTON via TRANSUNION INTERACTIVE IN",
+        "address": "100 CROSS ST, STE 202, SAN LUIS OBISPO, CA 93401",
+        "phone": "(855) 681-3196",
+        "purpose": "CONSUMER REQUEST",
+        "requestedDate": [
+          "06/04/2024",
+          "06/04/2024",
+          "05/15/2024"
+        ]
+      },
+      {
+        "creditorName": "CONSUMERINFO.COM",
+        "address": "475 ANTON BLVD, COSTA MESA, CA 92626",
+        "phone": "(888) 397-3742",
+        "requestedDate": [ // Dates span 06/09/2023 to 06/04/2024 - list abbreviated
+            "06/04/2024", "06/03/2024", "05/30/2024", "...", "06/14/2023", "06/09/2023",
+            "06/07/2023", "06/03/2023", "...", "10/20/2022" // Also includes older dates from page 20
+        ]
+      },
+       {
+        "creditorName": "NYREE HINTON via KARMATRANSUNION INTERACT",
+        "address": "100 CROSS STREET, SAN LUIS OBISPO, CA 93401",
+        "phone": "(844) 580-6816",
+        "purpose": "CONSUMER REQUEST",
+        "requestedDate": [ "06/03/2024", "05/22/2024" ]
+      },
+      {
+        "creditorName": "TRANSUNION CONSUMER INTE",
+        "address": "760 MARKET STREET 10TH FLOOR, SAN FRANCISCO, CA 94102",
+        "phone": "(844) 580-6816",
+        "purpose": "CREDIT MONITORING",
+        "requestedDate": [ "05/29/2024" ]
+      },
+      {
+        "creditorName": "CAPITAL ONE",
+        "address": "PO Box 31293, Salt Lake City, UT 84131",
+        "phone": "(800) 955-7070",
+        "requestedDate": [ "05/28/2024" ]
+      },
+      {
+        "creditorName": "850804742 via TRANSUNION INTERACTIVE",
+        "address": "100 CROSS STREET 202, SAN LUIS OBISPO, CA 93401",
+        "phone": "(844) 580-6816",
+        "purpose": "CREDIT MONITORING",
+        "requestedDate": [ "05/23/2024" ]
+      },
+      {
+        "creditorName": "BANK OF AMERICA",
+        "address": "PO BOX 982238, EL PASO, TX 79998",
+        "phone": "(800) 421-2110",
+        "requestedDate": [ "05/16/2024" ]
+      },
+       {
+        "creditorName": "TUCI - DC TARGETED",
+        "address": "100 CROSS STREET, SUITE 101, SAN LUIS OBISPO, CA 93401",
+        "phone": "(844) 580-6816",
+        "requestedDate": [ "05/15/2024", "05/07/2024", "04/09/2024", "03/09/2024", "03/05/2024", "02/21/2024", "02/20/2024", "02/14/2024", "02/10/2024", "02/09/2024" ]
+      },
+      {
+        "creditorName": "GOLDMAN SACHS BANK USA",
+        "address": "PO BOX 45400, SALT LAKE CITY, UT 84145",
+        "phone": "(844) 627-2871",
+        "requestedDate": [ "05/13/2024" ]
+      },
+       {
+        "creditorName": "TRANSUNION CONSUMER INTE",
+        "address": "100 CROSS STREET, SAN LUIS OBISP, CA 93401",
+        "phone": "(805) 782-8282",
+        "requestedDate": [ "05/08/2024" ]
+      },
+      {
+        "creditorName": "610998557 via TRANSUNION INTERACTIVE IN",
+        "address": "100 CROSS ST, STE 202, SAN LUIS OBISPO, CA 93401",
+        "phone": "(855) 681-3196",
+        "purpose": "CREDIT MONITORING",
+        "requestedDate": [ "04/19/2024" ]
+      },
+      {
+        "creditorName": "AMERICAN EXPRESS",
+        "address": "PO BOX 981537, EL PASO, TX 79998",
+        "phone": "(800) 874-2717",
+        "requestedDate": [ "03/27/2024" ]
+      },
+      {
+        "creditorName": "ALLY FINANCIAL",
+        "address": "200 RENAISSANCE CTR, DETROIT, MI 48265",
+        "phone": "(866) 710-4623",
+        "requestedDate": [ "03/26/2024", "12/08/2022" ]
+      },
+      {
+        "creditorName": "TEACHERSFEDERAL CU",
+        "address": "102 MOTOR PARKWAY, HAUPPAUGE, NY 11788",
+        "phone": "(800) 341-4333",
+        "requestedDate": [ "03/15/2024" ]
+      },
+      {
+        "creditorName": "UPGRADE INC",
+        "address": "369 PINE STREET, SUITE 208, SAN FRANCISCO, CA 94104",
+        "phone": "(415) 909-0241",
+        "requestedDate": [ "03/05/2024" ]
+      },
+      {
+        "creditorName": "AMERICAN CREDICARMAX",
+        "address": "961 EAST MAIN STREET, SPARTANBURG, SC 29302",
+        "phone": "(866) 544-3430",
+        "requestedDate": [ "02/26/2024" ]
+      },
+      {
+        "creditorName": "CARMAX BUSINESS SERVICES",
+        "address": "CAF CREDIT MAINTENANCE, P.O. BOX 440609, KENNESAW, GA 30160",
+        "phone": "(770) 423-4376",
+        "requestedDate": [ "02/26/2024" ]
+      },
+      {
+        "creditorName": "ALLSTATE",
+        "address": "1819 ELECTRIC RD, ROANOKE, VA 24018",
+        "phone": "(800) 255-7828",
+        "purpose": "INSURANCE UNDERWRITING",
+        "requestedDate": [ "02/07/2024", "11/08/2022" ]
+      },
+      {
+        "creditorName": "UPSTART NETWORK INC",
+        "address": "2 CIRCLE STAR WAY, 2ND FLOOR, SAN CARLOS, CA 94070",
+        "phone": "(650) 204-1000",
+        "requestedDate": [ "02/01/2024" ]
+      },
+      {
+        "creditorName": "MPOWER FINANCING",
+        "address": "1101 CONNECTICUT AVE NW, SUITE 900, WASHINGTON, DC 20009",
+        "phone": "(202) 417-3800",
+        "requestedDate": [ "01/24/2024" ]
+      },
+      {
+        "creditorName": "NYREE HINTON via CREDITWISE CAPITAL1 TU-A",
+        "address": "CAPITAL ONE N.A., PO BOX 85870, RICHMOND, VA 23285",
+        "phone": "(877) 383-4802",
+        "purpose": "CONSUMER REQUEST",
+        "requestedDate": [ "01/20/2024", "01/17/2024", "...", "06/10/2022" ] // Abbreviated list
+      },
+      {
+        "creditorName": "CREDITWISE CAPITAL1 TU-B",
+        "address": "CAPITAL ONE N.A., PO BOX 85870, RICHMOND, VA 23285",
+        "phone": "(877) 383-4802",
+        "requestedDate": [ "01/19/2024" ]
+      },
+      {
+        "creditorName": "TEACHERS FED CREDIT UNIO",
+        "address": "102 MOTOR PKWY, HAUPPAUGE, NY 11788",
+        "phone": "(800) 341-4333",
+        "requestedDate": [ "01/01/2024", "09/30/2023", "08/30/2023" ]
+      },
+      {
+        "creditorName": "ATT SERVICES INC",
+        "address": "208 S AKARD ST, DALLAS, TX 75202",
+        "phone": "(800) 331-0500",
+        "requestedDate": [ "07/03/2023" ]
+      },
+      {
+        "creditorName": "LENDING CLUB BANK",
+        "address": "595 MARKET ST, SUITE 200, SAN FRANCISCO, CA 94105",
+        "phone": "(800) 341-5607",
+        "requestedDate": [ "06/10/2023", "05/09/2023", "...", "06/09/2022" ] // Abbreviated list
+      },
+      {
+        "creditorName": "SINGH TEJI VIA SMAR via TRANSUNION SCREENING SOLU",
+        "address": "6430 S FIDDLERS GREEN CIR, SUITE 500, GREENWOOD VILLAGE, CO 80111",
+        "phone": "(866) 775-0961",
+        "purpose": "TENANT SCREENING",
+        "requestedDate": [ "01/06/2023" ]
+      },
+      {
+        "creditorName": "SMARTMOVE",
+        "address": "6430 S FIDDLERS GREEN CIR, SUITE 500, GREENWOOD VILLAGE, CO 80129",
+        "phone": "(866) 775-0961",
+        "requestedDate": [ "01/06/2023" ]
+      },
+      {
+        "creditorName": "SAFECO INS AUTO",
+        "address": "SAFECO PLAZA, 1001 FOURTH AVENUE, SEATTLE, WA 98154",
+        "phone": "(888) 398-8924",
+        "purpose": "INSURANCE UNDERWRITING",
+        "requestedDate": [ "12/13/2022" ]
+      },
+      {
+        "creditorName": "GEICO INS",
+        "address": "ONE GEICO PLAZA, WASHINGTON, DC 20079",
+        "phone": "(301) 986-3175",
+        "purpose": "INSURANCE UNDERWRITING",
+        "requestedDate": [ "11/02/2022" ]
+      },
+      {
+        "creditorName": "LENDING CLUB BANK",
+        "address": "595 MARKET ST, SUITE 200, SAN FRANCISCO, CA 94105",
+        "phone": "Phone number not available",
+        "requestedDate": [ "10/18/2022" ]
+      }
+    ]
+  },
+  "creditReportMessages": [
+    {
+      "type": "PROMOTIONAL OPT-OUT",
+      "details": "This file has been opted out of promotional lists supplied by TransUnion.",
+      "expiration": "07/2026",
+      "action": "To permanently opt out...send us a signed 'Notice of Election' form..."
+    }
+  ],
+  "additionalInformation": {
+    "thirdPartySupplemental": [
+      {
+        "type": "CHECKING ACCOUNT AND DEMAND DEPOSIT ACCOUNT (DDA) ACTIVITY",
+        "dataSource": "Chex Systems Inc.",
+        "dataSourceAddress": "7805 Hudson Road, Suite 100, Woodbury, MN 55125",
+        "dataSourcePhone": "(800) 513-7125",
+        "requestedBy": "TRANSUNION CONSUMER INTE",
+        "requestedDate": "4/05/2024",
+        "numberOfAccountsIdentified": 0,
+        "fraudulentClosures": 0,
+        "paidChecksLast3Years": 0,
+        "openUnpaidChecksLast3Years": 0,
+        "checksOrderedLastMonth": 0,
+        "checksOrderedLast3Months": 0,
+        "checksOrderedLastYear": 0,
+        "checksOrderedLast3Years": 0,
+        "quantityChecksOrderedLast3Years": 0,
+        "averageChecksOrderedLast3Years": ".00000",
+        "checkingAccountClosuresLastMonth": 0,
+        "checkingAccountClosuresLastYear": 0,
+        "ddaClosuresLast180Days": 0,
+        "ddaClosureLast5Years": 0,
+        "paidDdaClosuresLast5Years": 0,
+        "unpaidDdaClosuresLast2Years": 0,
+        "unpaidDdaClosuresLast5Years": 0,
+        "unpaidDdaClosuresLast4YearsAmount": "$000000000.00",
+        "checkingAccountInquiriesLastMonth": 0,
+        "checkingAccountInquiriesLastYear": 0,
+        "ddaInquiriesLast3Years": 2,
+        "totalDaysSinceFirstCheckingAccountInquiry": 1028,
+        "daysSinceMostRecentDdaInquiry": 1027,
+        "creditInquiriesLastYear": 1,
+        "creditInquiriesLast3Years": 3,
+        "autoInquiriesLast3Years": 2,
+        "creditIssuanceInquiriesLastYear": 0,
+        "creditIssuanceInquiriesLast3Years": 1,
+        "daysSinceFirstCreditIssuanceInquiry": 759,
+        "ddaCreditNonDdaInquiriesLast3Years": 5,
+        "openUnpaidNsfsLastMonth": 0,
+        "openUnpaidNsfsLastYear": 0,
+        "openUnpaidNsfsLastMonthAmount": "$000000000.00",
+        "openUnpaidNsfsLastYearAmount": "$000000000.00",
+        "paidNsfsLastMonth": 0,
+        "paidNsfsLastYear": 0,
+        "paidNsfsLastMonthAmount": "$000000000.00",
+        "totalPaidNsfsLast3MonthsAmount": "$000000000.00",
+        "totalPaidNsfsLastYearAmount": "$000000000.00",
+        "totalPaidNsfsLast3YearsAmount": "$000000000.00",
+        "largestOpenedUnpaidNsfCheckAmount": "$000000000.00",
+        "largestPaidNsfCheckAmount": "$000000000.00"
+      }
+    ]
+  },
+  "summaryOfRightsAttached": [
+    "GENERAL SUMMARY OF RIGHTS UNDER THE FCRA",
+    "CALIFORNIA BILL OF RIGHTS",
+    "FCRA Enforcement Contact List"
+  ]
+}

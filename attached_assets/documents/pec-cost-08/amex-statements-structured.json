@@ -1,0 +1,545 @@
+[
+  {
+    "statement_number": 1,
+    "account_ending": "0-91007",
+    "closing_date": "05/22/2022",
+    "new_balance": 3142.00,
+    "minimum_payment_due": 62.84,
+    "total_interest_charged": 0.00,
+    "interest_rates": {
+      "pay_over_time": [
+        {
+          "apr": 23.74,
+          "variable": true,
+          "balance": 0.00
+        }
+      ],
+      "cash_advances": {
+        "apr": 25.99,
+        "variable": true,
+        "balance": 0.00
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_number": 2,
+    "account_ending": "0-91007",
+    "closing_date": "06/21/2022",
+    "new_balance": 3151.85,
+    "minimum_payment_due": 80.93,
+    "total_interest_charged": 49.92,
+    "interest_rates": {
+      "pay_over_time": [
+        {
+          "apr": 24.49,
+          "variable": true,
+          "balance": 2480.04
+        }
+      ],
+      "cash_advances": {
+        "apr": 26.74,
+        "variable": true,
+        "balance": 0.00
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_number": 3,
+    "account_ending": "0-91007",
+    "closing_date": "07/22/2022",
+    "new_balance": 3391.66,
+    "minimum_payment_due": 102.38,
+    "total_interest_charged": 69.16,
+    "interest_rates": {
+      "pay_over_time": [
+        {
+          "apr": 24.49,
+          "variable": true,
+          "balance": 3324.89
+        }
+      ],
+      "cash_advances": {
+        "apr": 26.74,
+        "variable": true,
+        "balance": 0.00
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_number": 4,
+    "account_ending": "0-91007",
+    "closing_date": "08/22/2022",
+    "new_balance": 2023.39,
+    "minimum_payment_due": 63.92,
+    "total_interest_charged": 44.13,
+    "interest_rates": {
+      "pay_over_time": [
+        {
+          "apr": 25.24,
+          "variable": true,
+          "balance": 2057.37
+        }
+      ],
+      "cash_advances": {
+        "apr": 27.49,
+        "variable": true,
+        "balance": 0.00
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_number": 5,
+    "account_ending": "0-91007",
+    "closing_date": "09/21/2022",
+    "new_balance": 3677.31,
+    "minimum_payment_due": 73.54,
+    "total_interest_charged": 27.64,
+    "interest_rates": {
+      "pay_over_time": [
+        {
+          "apr": 25.24,
+          "variable": true,
+          "balance": 1331.35
+        }
+      ],
+      "cash_advances": {
+        "apr": 27.49,
+        "variable": true,
+        "balance": 0.00
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_number": 6,
+    "account_ending": "0-91007",
+    "closing_date": "10/21/2022",
+    "new_balance": 5299.93,
+    "minimum_payment_due": 1311.13,
+    "total_interest_charged": 84.49,
+    "interest_rates": {
+      "pay_over_time": [
+        {
+          "apr": 25.99,
+          "variable": true,
+          "balance": 3955.34
+        }
+      ],
+      "cash_advances": {
+        "apr": 28.24,
+        "variable": true,
+        "balance": 0.00
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_number": 7,
+    "account_ending": "0-91007",
+    "closing_date": "11/21/2022",
+    "new_balance": 3714.83,
+    "minimum_payment_due": 127.86,
+    "total_interest_charged": 91.63,
+    "interest_rates": {
+      "pay_over_time": [
+        {
+          "apr": 26.74,
+          "variable": true,
+          "balance": 4032.32
+        }
+      ],
+      "cash_advances": {
+        "apr": 28.99,
+        "variable": true,
+        "balance": 0.00
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_number": 8,
+    "account_ending": "0-91007",
+    "closing_date": "01/22/2023",
+    "new_balance": 3433.41,
+    "minimum_payment_due": 101.85,
+    "total_interest_charged": 68.20,
+    "interest_rates": {
+      "pay_over_time": [
+        {
+          "apr": 27.24,
+          "variable": true,
+          "balance": 2949.18
+        }
+      ],
+      "cash_advances": {
+        "apr": 29.49,
+        "variable": true,
+        "balance": 0.00
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_number": 9,
+    "account_ending": "0-91007",
+    "closing_date": "02/19/2023",
+    "new_balance": 3848.02,
+    "minimum_payment_due": 118.34,
+    "total_interest_charged": 80.67,
+    "interest_rates": {
+      "pay_over_time": [
+        {
+          "apr": 27.49,
+          "variable": true,
+          "balance": 3826.05
+        }
+      ],
+      "cash_advances": {
+        "apr": 29.74,
+        "variable": true,
+        "balance": 0.00
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_number": 10,
+    "account_ending": "0-91007",
+    "closing_date": "03/22/2023",
+    "new_balance": 2799.84,
+    "minimum_payment_due": 104.31,
+    "total_interest_charged": 77.09,
+    "interest_rates": {
+      "pay_over_time": [
+        {
+          "apr": 27.49,
+          "variable": true,
+          "balance": 3302.28
+        }
+      ],
+      "cash_advances": {
+        "apr": 29.74,
+        "variable": true,
+        "balance": 0.00
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_number": 11,
+    "account_ending": "0-92005",
+    "closing_date": "04/21/2023",
+    "new_balance": 3327.44,
+    "minimum_payment_due": 95.46,
+    "total_interest_charged": 62.82,
+    "interest_rates": {
+      "pay_over_time": [
+        {
+          "apr": 27.74,
+          "variable": true,
+          "balance": 2755.19
+        }
+      ],
+      "cash_advances": {
+        "apr": 29.99,
+        "variable": true,
+        "balance": 0.00
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_number": 12,
+    "account_ending": "0-94001",
+    "closing_date": "05/22/2023",
+    "new_balance": 3630.16,
+    "minimum_payment_due": 116.19,
+    "total_interest_charged": 80.70,
+    "interest_rates": {
+      "pay_over_time": [
+        {
+          "apr": 27.99,
+          "variable": true,
+          "balance": 3393.88
+        }
+      ],
+      "cash_advances": {
+        "apr": 29.99,
+        "variable": true,
+        "balance": 0.00
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_number": 13,
+    "account_ending": "0-95008",
+    "closing_date": "06/21/2024",
+    "new_balance": 5204.59,
+    "minimum_payment_due": 270.49,
+    "total_interest_charged": 105.03,
+    "interest_rates": {
+      "pay_over_time": [
+        {
+          "description": "since 10/11/23",
+          "apr": 29.24,
+          "variable": true,
+          "balance": 3519.66
+        },
+        {
+          "description": "before 10/10/23",
+          "apr": 28.24,
+          "variable": true,
+          "balance": 880.60
+        }
+      ],
+      "cash_advances": {
+        "apr": 29.99,
+        "variable": true,
+        "balance": 0.00
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_number": 14,
+    "account_ending": "0-95008",
+    "closing_date": "07/22/2024",
+    "new_balance": 5115.73,
+    "minimum_payment_due": 284.80,
+    "total_interest_charged": 120.28,
+    "interest_rates": {
+      "pay_over_time": [
+        {
+          "description": "since 10/11/23",
+          "apr": 29.24,
+          "variable": true,
+          "balance": 4111.26
+        },
+        {
+          "description": "before 10/10/23",
+          "apr": 28.24,
+          "variable": true,
+          "balance": 757.99
+        }
+      ],
+      "cash_advances": {
+        "apr": 29.99,
+        "variable": true,
+        "balance": 0.00
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_number": 15,
+    "account_ending": "0-95008",
+    "closing_date": "08/22/2024",
+    "new_balance": 5294.92,
+    "minimum_payment_due": 466.89,
+    "total_interest_charged": 123.21,
+    "interest_rates": {
+      "pay_over_time": [
+        {
+          "description": "since 10/11/23",
+          "apr": 29.24,
+          "variable": true,
+          "balance": 4326.79
+        },
+        {
+          "description": "before 10/10/23",
+          "apr": 28.24,
+          "variable": true,
+          "balance": 657.15
+        }
+      ],
+      "cash_advances": {
+        "apr": 29.99,
+        "variable": true,
+        "balance": 0.00
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_number": 16,
+    "account_ending": "0-95008",
+    "closing_date": "09/20/2024",
+    "new_balance": 5312.55,
+    "minimum_payment_due": 431.34,
+    "total_interest_charged": 113.59,
+    "interest_rates": {
+      "pay_over_time": [
+        {
+          "description": "since 10/11/23",
+          "apr": 28.74,
+          "variable": true,
+          "balance": 4477.89
+        },
+        {
+          "description": "before 10/10/23",
+          "apr": 27.74,
+          "variable": true,
+          "balance": 516.86
+        }
+      ],
+      "cash_advances": {
+        "apr": 29.99,
+        "variable": true,
+        "balance": 0.00
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_number": 17,
+    "account_ending": "0-95008",
+    "closing_date": "10/22/2024",
+    "new_balance": 5293.60,
+    "minimum_payment_due": 375.14,
+    "total_interest_charged": 122.16,
+    "interest_rates": {
+      "pay_over_time": [
+        {
+          "description": "since 10/11/23",
+          "apr": 28.74,
+          "variable": true,
+          "balance": 4562.05
+        },
+        {
+          "description": "before 10/10/23",
+          "apr": 27.74,
+          "variable": true,
+          "balance": 299.05
+        }
+      ],
+      "cash_advances": {
+        "apr": 29.99,
+        "variable": true,
+        "balance": 0.00
+      }
+    },
+    "notes": "Billing inquiry under investigation ($50.18)."
+  },
+  {
+    "statement_number": 18,
+    "account_ending": "0-95008",
+    "closing_date": "11/21/2024",
+    "new_balance": 5290.17,
+    "minimum_payment_due": 449.45,
+    "total_interest_charged": 110.39,
+    "interest_rates": {
+      "pay_over_time": [
+        {
+          "description": "since 10/11/23",
+          "apr": 28.49,
+          "variable": true,
+          "balance": 4585.86
+        },
+        {
+          "description": "before 10/10/23",
+          "apr": 27.49,
+          "variable": true,
+          "balance": 129.97
+        }
+      ],
+      "cash_advances": {
+        "apr": 29.74,
+        "variable": true,
+        "balance": 0.00
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_number": 19,
+    "account_ending": "0-95008",
+    "closing_date": "12/22/2024",
+    "new_balance": 5700.87,
+    "minimum_payment_due": 758.63,
+    "total_interest_charged": 121.16,
+    "interest_rates": {
+      "pay_over_time": [
+        {
+          "description": "since 10/11/23",
+          "apr": 28.24,
+          "variable": true,
+          "balance": 4981.45
+        },
+        {
+          "description": "before 10/10/23",
+          "apr": 27.24,
+          "variable": true,
+          "balance": 71.09
+        }
+      ],
+      "cash_advances": {
+        "apr": 29.49,
+        "variable": true,
+        "balance": 0.00
+      }
+    },
+    "notes": null
+  },
+  {
+    "statement_number": 20,
+    "account_ending": "0-95008",
+    "closing_date": "01/22/2025",
+    "new_balance": 5989.24,
+    "minimum_payment_due": 1098.13,
+    "minimum_payment_details": "Includes $651.42 past due",
+    "total_interest_charged": 124.08,
+    "interest_rates": {
+      "pay_over_time": [
+        {
+          "description": "since 10/11/23",
+          "apr": 28.24,
+          "variable": true,
+          "balance": 5171.47
+        }
+      ],
+      "cash_advances": {
+        "apr": 29.49,
+        "variable": true,
+        "balance": 0.00
+      },
+      "penalty_apr": {
+         "apr": 29.99,
+         "status": "triggered"
+      }
+    },
+    "notes": "Account is past due. Penalty APR (29.99%) has been triggered due to late payment(s)."
+  },
+  {
+    "statement_number": 21,
+    "account_ending": "0-95008",
+    "closing_date": "02/19/2025",
+    "new_balance": 5857.36,
+    "minimum_payment_due": 846.30,
+    "minimum_payment_details": "Includes $446.71 past due",
+    "total_interest_charged": 0.00,
+    "interest_rates": {
+      "pay_over_time": [
+        {
+          "apr": 0.00,
+          "variable": true,
+          "balance": 5133.83
+        }
+      ],
+      "cash_advances": {
+        "apr": 0.00,
+        "variable": true,
+        "balance": 0.00
+      },
+       "penalty_apr": {
+         "apr": 29.99,
+         "status": "mentioned"
+      }
+    },
+    "notes": "Account is past due. The 0.00% APR and $0 interest charge might be due to prior payments/credits or specific handling of accounts under Penalty APR review, despite a balance being subject to interest. The statement references credits reversing a late fee and finance charge adjustment. The Penalty APR (29.99%) is mentioned in the late payment warning."
+  }
+]

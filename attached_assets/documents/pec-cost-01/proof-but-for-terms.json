@@ -1,0 +1,778 @@
+[
+  {
+    "document_group": "CARFAX Report and Disclosure",
+    "documents": [
+      {
+        "document_type": "CAR FAX DISCLOSURE",
+        "form_number": "128635",
+        "acknowledgement_text": "The undersigned Buyer(s) acknowledges(s) that Exchange has obtained a Car Fax Report on the Vehicle listed below that I am purchasing, that I (we) have reviewed the Car Fax Report, that I (we) understand the Car Fax Report and that I have been given a copy of the Car Fax Report.",
+        "vehicle_details": {
+          "make": "CHEVROLET",
+          "year": 2020,
+          "model": "CAMARO",
+          "vin": "1G1FB1RS5L0112546",
+          "stock_number": "A211555B"
+        },
+        "buyer": {
+          "name": "NYREE HINTON"
+        },
+        "date": "2022-02-18",
+        "signature": null
+      },
+      {
+        "document_type": "CARFAX Vehicle History Report",
+        "report_provider": {
+          "name": "Audi Exchange",
+          "address": "2490 Skokie Valley Rd, Highland Park, IL 60035",
+          "phone": "833-515-9248",
+          "rating": "4.8 out of 5.0",
+          "reviews_count": 162,
+          "customer_favorites": 2183
+        },
+        "report_generation_info": {
+          "date_time": "2021-11-19T13:59:25CST",
+          "cost": "US $39.99 (Provided free by dealer)"
+        },
+        "vehicle_identification": {
+          "year": 2020,
+          "make": "CHEVROLET",
+          "model": "CAMARO LS/LT",
+          "vin": "1G1FB1RS5L0112546",
+          "body_style": "COUPE",
+          "engine": "3.6L V6 F DOHC 24V",
+          "fuel_type": "GASOLINE",
+          "drive_type": "REAR WHEEL DRIVE"
+        },
+        "report_summary": {
+          "accidents_damage": "No accidents or damage reported to CARFAX",
+          "ownership": "CARFAX 1-Owner vehicle",
+          "service_history_records": 6,
+          "usage_type": "Personal vehicle",
+          "last_owner_location": "Illinois",
+          "last_reported_odometer": 8789
+        },
+        "ownership_history": [
+          {
+            "owner_number": 1,
+            "year_purchased": 2020,
+            "type_of_owner": "Personal",
+            "estimated_length_of_ownership": "1 yr. 8 mo.",
+            "owned_in_states_provinces": ["Illinois"],
+            "estimated_miles_driven_per_year": 5174,
+            "last_reported_odometer_reading": 8789
+          }
+        ],
+        "title_history": [
+          {
+            "owner_number": 1,
+            "salvage_junk_rebuilt_fire_flood_hail_lemon": "Guaranteed No Problem",
+            "not_actual_mileage_exceeds_mechanical_limits": "Guaranteed No Problem"
+          }
+        ],
+        "additional_history": [
+          {
+            "owner_number": 1,
+            "total_loss": "No Issues Reported",
+            "structural_damage": "No Issues Reported",
+            "airbag_deployment": "No Issues Reported",
+            "odometer_check": "No Issues Indicated",
+            "accident_damage": "No Issues Reported",
+            "manufacturer_recall": "No Recalls Reported",
+            "basic_warranty": "Warranty Active (estimated 16 months or 27,211 miles remaining)"
+          }
+        ],
+        "detailed_history": [
+          {
+            "date": "Original Equipment",
+            "mileage": null,
+            "source": "OnStar",
+            "comments": "Vehicle equipped with OnStar. Get 3 free months of premium OnStar..."
+          },
+          {
+            "date": "2019-11-02",
+            "mileage": 5,
+            "source": "Castle Chevrolet of Villa Park, Villa Park, IL",
+            "comments": "Vehicle offered for sale"
+          },
+          {
+            "date": "2019-11-05",
+            "mileage": null,
+            "source": "Castle Chevrolet of Villa Park, Villa Park, IL",
+            "comments": "Vehicle serviced - Pre-delivery inspection completed - Nitrogen fill tires"
+          },
+          {
+            "date": "2019-11-06",
+            "mileage": null,
+            "source": "Castle Buick GMC, Riverside, IL",
+            "comments": "Vehicle serviced - Pre-delivery inspection completed - Nitrogen fill tires"
+          },
+          {
+            "date": "2019-12-03",
+            "mileage": 11,
+            "source": "Castle Chevrolet of Villa Park, Villa Park, IL",
+            "comments": "Vehicle serviced"
+          },
+          {
+            "date": "2020-02-21",
+            "mileage": 18,
+            "source": "Castle Chevrolet of Villa Park, Villa Park, IL",
+            "comments": "Vehicle sold"
+          },
+          {
+            "date": "2020-02-21",
+            "mileage": null,
+            "source": "Illinois Motor Vehicle Dept.",
+            "comments": "Vehicle purchase reported - Titled or registered as personal vehicle"
+          },
+          {
+            "date": "2020-03-13",
+            "mileage": null,
+            "source": "Illinois Motor Vehicle Dept., Gurnee, IL",
+            "comments": "Title issued or updated - Registration issued or renewed - First owner reported - Loan or lien reported - Vehicle color noted as Gray",
+            "title_number": "200736922450"
+          },
+          {
+            "date": "2021-02-21",
+            "mileage": null,
+            "source": "Illinois Motor Vehicle Dept., Gurnee, IL",
+            "comments": "Registration issued or renewed"
+          },
+          {
+            "date": "2021-02-22",
+            "mileage": 2018,
+            "source": "Flag Chevrolet, Grayslake, IL",
+            "comments": "Vehicle serviced - Oil and filter changed - Tires rotated"
+          },
+          {
+            "date": "2021-10-13",
+            "mileage": 7832,
+            "source": "Midas, Gurnee, IL",
+            "comments": "Vehicle serviced - Oil and filter changed - Cooling system checked - Tire condition and pressure checked - Brakes checked"
+          },
+          {
+            "date": "2021-11-02",
+            "mileage": 8789,
+            "source": "Volunteer Chevrolet, Sevierville, TN",
+            "comments": "Vehicle serviced - Recommended maintenance performed"
+          }
+        ],
+        "carfax_guarantee": "None of these major title problems were reported by a state Department of Motor Vehicles (DMV)... CARFAX will buy this vehicle back.",
+        "report_review_acknowledgement": {
+          "text": "I have reviewed and received a copy of the CARFAX Vehicle History Report for this 2020 CHEVROLET CAMARO vehicle (VIN: 1G1FB1RS5L0112546), which is based on information supplied to CARFAX and available as of 11/19/21 at 2:59 PM (EST).",
+          "customer_signature": null,
+          "customer_signature_date": null,
+          "dealer_signature": null,
+          "dealer_signature_date": null
+        }
+      }
+    ]
+  },
+  {
+    "document_type": "ODOMETER DISCLOSURE STATEMENT",
+    "form_number": "128635",
+    "transferor": {
+      "name": "AUDI EXCHANGE",
+      "signature": "Signed",
+      "address": "2490 SKOKIE VALLEY RD",
+      "city": "HIGHLAND PARK",
+      "state": "IL",
+      "zip_code": "60035"
+    },
+    "transferee": {
+      "name": "NYREE HINTON",
+      "signature": "Signed",
+      "address": "461 1/2 N ORANGE GROVE AVE",
+      "city": "LOS ANGELES",
+      "state": "CA",
+      "zip_code": "90036"
+    },
+    "co_buyer_signature": "Signed",
+    "vehicle_details": {
+      "make": "CHEVROLET",
+      "model": "CAMARO",
+      "year": 2020,
+      "vin": "1G1FB1RS5L0112546",
+      "body_type": "2DR",
+      "dealer_stock_number": "A211555B"
+    },
+    "odometer_reading": {
+      "value": 9838,
+      "units": "MILES",
+      "certification": "Actual Mileage"
+    },
+    "date_of_statement": "2022-02-18"
+  },
+  {
+    "document_group": "Power of Attorney Forms",
+    "documents": [
+      {
+        "document_type": "ILLINOIS SECURE POWER OF ATTORNEY",
+        "ust_number": "136858",
+        "deal_number": "128635",
+        "form_control_number": "79116789",
+        "warning": "May Be Used Only When Title Is Physically Held By Lienholder Or When Title Has Been Lost.",
+        "vehicle_description": {
+          "year": 2020,
+          "make": "CHEVROLET",
+          "model": "CAMARO",
+          "body_type": "2DR",
+          "vin": "1G1FB1RS5L0112546"
+        },
+        "part_a_poa_mileage": {
+          "transferor": {
+            "name": "NYREE HINTON",
+            "signature": "Signed",
+            "address": "461 1/2 N ORANGE GROVE AVE, LOS ANGELES CA 90036",
+            "date_of_statement": "2022-02-18"
+          },
+          "attorney_in_fact_transferee": {
+            "name": "AUDI EXCHANGE",
+            "signature": "Signed",
+            "address": "2490 SKOKIE VALLEY RD, HIGHLAND PARK IL 60035"
+          },
+          "odometer_reading": {
+            "value": 9838,
+            "units": "miles",
+            "certification": "Actual Mileage"
+          }
+        },
+        "part_b_poa_review_title": {
+          "status": "INVALID (VOID)",
+          "transferee_appoints": null,
+          "transferor_as_attorney": null
+        },
+        "part_c_certification": {
+          "status": "Not Completed"
+        }
+      },
+      {
+        "document_type": "LIMITED POWER OF ATTORNEY",
+        "form_revision": "Rev. 1/2021",
+        "date": "2022-02-22",
+        "grantor_purchaser": {
+          "name": null
+        },
+        "attorney_in_fact_agent": {
+          "name": null,
+          "business_name": null,
+          "address": null
+        },
+        "purpose": "Act for grantor in applying for original or duplicate certificate of title, to register, transfer title, or record a lien; print grantor's name and sign agent's name; file for and collect fee/tax overpayments; bind grantor as if personally present.",
+        "vehicle": {
+          "year": 2020,
+          "make": "CHEVROLET",
+          "vin": "1G1FB1RS5L0112546"
+        },
+        "grantor_signature": null,
+        "notarization": {
+          "sworn_subscribed_date": null,
+          "notary_signature": null,
+          "seal": null,
+          "status": "INVALID WITHOUT NOTARIZATION"
+        }
+      }
+    ]
+  },
+  {
+    "document_type": "Arbitration Agreement",
+    "dealer": {
+      "name": "THE EXCHANGE (Audi)",
+      "signature_provided": false
+    },
+    "customer": {
+      "name": "NYREE HINTON",
+      "signature_provided": false
+    },
+    "deal_number": "128635",
+    "date": "2022-02-18",
+    "vin": "1G1FB1RS5L0112546",
+    "agreement_summary": "Agreement for binding arbitration for disputes arising from credit application, purchase, vehicle condition, or financing. Waives jury trial and class action rights (court and arbitration). Limits discovery and appeal rights. Allows choice of NAF, AAA, or other approved organization. Governed by FAA. Retains self-help and small claims rights. Severability clause included.",
+    "cost_allocation": "Dealer advances up to $1500 for filing/admin/arbitrator fees, potentially reimbursable by arbitrator. Parties pay own attorney/expert fees unless awarded. Appealing party pays new arbitration costs subject to final apportionment.",
+    "three_arbitrator_panel_appeal_condition": "Award is $0 or exceeds $100,000 against a party, or includes injunctive relief."
+  },
+  {
+    "document_type": "WE OWE / YOU OWE Form",
+    "dealer": {
+      "name": "AUDI EXCHANGE",
+      "address": "2490 SKOKIE VALLEY RD, HIGHLAND PARK IL 60035",
+      "phone": "847-432-5020"
+    },
+    "deal_number": "128635",
+    "customer_number": "136858",
+    "customer": {
+      "name": "NYREE HINTON",
+      "address": "461 1/2 N ORANGE GROVE AVE, LOS ANGELES, CA 90036",
+      "phone": "732-979-6264",
+      "signature": null
+    },
+    "vehicle": {
+      "usage": "USED",
+      "year": 2020,
+      "make": "CHEVROLET",
+      "model": "CAMARO",
+      "stock_number": "A211555B",
+      "vin": "1G1FB1RS5L0112546"
+    },
+    "salesperson": "JOHN G HINOJOSA",
+    "delivery_date": "2022-02-18",
+    "we_owe_section": {
+      "items": [],
+      "parts_total": "N/A",
+      "labor_total": "N/A",
+      "conditions": "Valid for 30 days from issuance. Advance appointment with Service Dept required.",
+      "acceptance_date": "2022-02-18",
+      "manager_approval": null
+    },
+    "you_owe_section": {
+      "items": [
+        {
+          "item_number": 1,
+          "description": "Title to Trade in Vehicle",
+          "due_date": null
+        },
+        {
+          "item_number": 2,
+          "description": "All Monies",
+          "due_date": null
+        },
+        {
+          "item_number": 3,
+          "description": "Valid Insurance Card",
+          "due_date": null
+        },
+        {
+          "item_number": 4,
+          "description": "Other",
+          "due_date": null
+        },
+        {
+          "item_number": 5,
+          "description": "Other",
+          "due_date": null
+        },
+        {
+          "item_number": 6,
+          "description": "Other",
+          "due_date": null
+        },
+        {
+          "item_number": 7,
+          "description": "Other",
+          "due_date": null
+        },
+        {
+          "item_number": 8,
+          "description": "Other",
+          "due_date": null
+        }
+      ],
+      "acknowledgement": "Sales transaction is not completed until I provide such items.",
+      "agreement_date": "2022-02-18",
+      "manager_approval": null
+    }
+  },
+  {
+    "document_type": "FACTS Privacy Notice",
+    "company_providing_notice": "AUDI EXCHANGE",
+    "document_reference_number": "128635",
+    "information_collected": [
+      "Social Security number and income",
+      "Account balances and payment history",
+      "Credit history and credit scores"
+    ],
+    "sharing_practices": [
+      {
+        "reason": "For our everyday business purposes",
+        "does_share": true,
+        "can_limit": false
+      },
+      {
+        "reason": "For our marketing purposes",
+        "does_share": true,
+        "can_limit": false
+      },
+      {
+        "reason": "For joint marketing with other financial companies",
+        "does_share": true,
+        "can_limit": false
+      },
+      {
+        "reason": "For our affiliates' everyday business purposes - information about your transactions and experiences",
+        "does_share": true,
+        "can_limit": false
+      },
+      {
+        "reason": "For our affiliates' everyday business purposes - information about your creditworthiness",
+        "does_share": true,
+        "can_limit": false
+      },
+      {
+        "reason": "For our affiliates to market to you",
+        "does_share": true,
+        "can_limit": false
+      },
+      {
+        "reason": "For nonaffiliates to market to you",
+        "does_share": true,
+        "can_limit": false
+      }
+    ],
+    "how_to_limit_sharing": {
+      "methods": ["Call 847.432.5020", "Visit us online at www.audiexchange.com"],
+      "timing": "Can begin sharing one day from date notice sent for new customers. Can limit sharing anytime."
+    },
+    "protection_methods": "Use security measures that comply with federal law, including computer safeguards and secured files and buildings.",
+    "collection_sources": [
+      "Test drive a vehicle",
+      "Purchase a vehicle or apply for credit",
+      "Use your credit or debit card",
+      "Credit bureaus, affiliates or other companies"
+    ],
+    "sharing_limitations": "Federal law limits sharing for affiliates' creditworthiness, affiliates marketing, nonaffiliates marketing. State laws may provide additional rights.",
+    "joint_account_policy": "Choices apply to everyone on the account.",
+    "definitions": {
+      "affiliates": "Companies related by common ownership or control (financial and nonfinancial). Example: The Exchange Dealerships.",
+      "nonaffiliates": "Companies not related by common ownership or control (financial and nonfinancial). Examples: Marketing Companies, Financial Institutions, Auto Manufacturers.",
+      "joint_marketing": "Formal agreement between nonaffiliated financial companies to market products/services. Examples: Marketing Companies and Auto Manufacturers."
+    },
+    "other_information": "Limited personal information is shared with Auto Manufacturers.",
+    "contact_information": "Call 847.432.5020 or go to www.audiexchange.com",
+    "signature": null,
+    "date": "2022-02-18"
+  },
+  {
+    "document_type": "AGREEMENT TO PROVIDE INSURANCE",
+    "form_number": "128635",
+    "purpose": "Acknowledge contract requirement for continuous insurance coverage (fire, theft, vandalism) and confirm arrangement for required insurance with lender as loss payee.",
+    "lender": {
+      "name": "BANK OF AMERICA N.A.",
+      "address": "PO BOX 2759, JACKSONVILLE FL 32203-2759"
+    },
+    "purchaser": {
+      "name": "NYREE HINTON",
+      "address": "461 1/2 N ORANGE GROVE AVE, LOS ANGELES, CA 90036",
+      "phone": "732/979-6264",
+      "signature": null
+    },
+    "insurance_information": {
+      "company_name": null,
+      "agent_name": null,
+      "address": null,
+      "phone": null,
+      "policy_number": null
+    },
+    "vehicle_information": {
+      "type": "Automobile Loan",
+      "year": 2020,
+      "make": "CHEVROLET",
+      "model": "CAMARO",
+      "vin": "1G1FB1RS5L0112546"
+    }
+  },
+  {
+    "document_type": "PENDING - APPROVAL DELIVERY REPORT",
+    "form_number": "128635",
+    "dealer": {
+      "name": "THE EXCHANGE (Semersky Enterprises Inc.)",
+      "brand": "Audi",
+      "address": "2490 Skokie Valley Rd. Highland Park, IL 60035",
+      "phone": "847.432.5020",
+      "fax": "847.926.9105",
+      "signature": null
+    },
+    "attachment_reference": "Motor vehicle retail sales installment contract",
+    "buyer": {
+      "name": "NYREE HINTON",
+      "signature": null
+    },
+    "co_buyer": {
+      "signature": null
+    },
+    "date": "2022-02-18",
+    "finance_rider": {
+      "assignment_intent": "Seller intends to assign contract to a sales finance agency.",
+      "seller_inability_to_assign": "If Seller cannot assign within 3 days and notifies Buyer:",
+      "buyer_action": "Buyer returns vehicle within 2 days of notice.",
+      "seller_action": "Seller returns Buyer's deposits less cost of repair for damage during Buyer's possession.",
+      "contract_status": "Contract becomes null and void."
+    },
+    "lease_rider": {
+      "assignment_intent": "Seller intends to assign contract to a sales finance agency.",
+      "seller_inability_to_assign": "If Seller cannot assign within 3 days and notifies Buyer:",
+      "buyer_action": "Buyer returns vehicle within 2 days of notice.",
+      "seller_action": "Seller returns Buyer's deposits less cost of repair for damage during Buyer's possession.",
+      "contract_status": "Contract becomes null and void."
+    }
+  },
+  {
+    "document_type": "OUT OF STATE SALE - ADDITIONAL REQUIREMENTS",
+    "registration_state": "CA",
+    "required_documents": [
+      {
+        "item": "VIN VERIFICATION/INSPECTION",
+        "required": true,
+        "notes": "MUST BE ORIGINAL"
+      },
+      {
+        "item": "SMOG TEST",
+        "required": true,
+        "notes": null
+      },
+      {
+        "item": "EMISSIONS TEST",
+        "required": false,
+        "notes": null
+      },
+      {
+        "item": "2 PROOFS OF IDENTITY",
+        "required": true,
+        "notes": "EITHER A PASSPORT OR BIRTH CERTIFICATE AND SOCIAL SECURITY CARD"
+      },
+      {
+        "item": "2 PROOFS OF RESIDENCY",
+        "required": true,
+        "notes": "RECENT UTILITY BILL, BANK STATEMENT, PAY STUB"
+      },
+      {
+        "item": "PAID PROPERTY TAX RECEIPT (NEW VEHICLE)",
+        "required": false,
+        "notes": "MUST BE COPY OF ACTUAL RECEIPT"
+      },
+      {
+        "item": "COPY OF PAID PROPERTY TAX RECEIPT (PREVIOUS YEAR)",
+        "required": false,
+        "notes": "MUST BE ACTUAL RECEIPT, NOT AN ONLINE PRINTOUT."
+      },
+      {
+        "item": "TRUST DOCUMENTS",
+        "required": false,
+        "notes": "FOR TRUST WHEN REGISTERING IN A TRUST NAME"
+      },
+      {
+        "item": "CORPORATE DOCUMENTS",
+        "required": false,
+        "notes": "WHEN REGISTERING IN A BUSINESS OR CORPORATE NAME (Provide Business Tax ID#)"
+      },
+      {
+        "item": "PROOF OF INSURANCE REFLECTING NEW VEHICLE",
+        "required": true,
+        "notes": "(INSURANCE CARD/INSURANCE BINDER) MUST BE INSURANCE FOR THE STATE VEHICLE IS BEING REGISTERED IN."
+      }
+    ],
+    "fee_notice": "FEES ARE ESTIMATES ONLY, ADDITIONAL FEES MAY BE REQUIRED BY YOUR STATE. ANY EXCESS FEES COLLECTED WILL BE REFUNDED ONCE TITLE AND REGISTRATION IS COMPLETE.",
+    "processing_time_notice": "Approx. 3-5 WEEKS processing time from date state receives paperwork. Timely document submission helps.",
+    "temporary_permit_notice": "By ILLINOIS LAW, THE EXCHANGE IS ONLY ABLE TO ISSUE ONE TEMPORARY DRIVE AWAY PERMIT, effective for 30 DAYS FROM DATE OF ISSUE.",
+    "customer_signature": null,
+    "customer_signature_date": null,
+    "dealer_signature": "Signed",
+    "dealer_signature_date": null
+  },
+  {
+    "document_type": "Authorization to Post Fees",
+    "context": "California registration for previously titled vehicles < 7500 miles.",
+    "requirement_note": "CA DMV requires smog or original VIN inspection for posting fees.",
+    "late_filing_penalty_info": "Penalties for filing > 20 days after vehicle enters CA. ATC can post estimated fees to stop penalty accrual. Cannot post if penalties already accrued.",
+    "refund_policy": "Posted fees cannot be refunded by ATC if registration process is cancelled; dealer responsible for obtaining refund from CA DMV.",
+    "authorization": {
+      "post_fees_requested": true,
+      "do_not_post_fees_requested": false
+    },
+    "required_information": {
+      "date_vehicle_entered_ca": null
+    },
+    "signature": null,
+    "printed_name": null,
+    "date": null,
+    "last_6_vin": null
+  },
+  {
+    "document_type": "Purchase Order Agreement",
+    "deal_number": "128635",
+    "control_number": "136858",
+    "date": "2022-02-18",
+    "dealer": {
+      "name": "THE EXCHANGE",
+      "brands": ["Audi", "Porsche", "Chevrolet"],
+      "audi_address": "2490 Skokie Valley, Rd., Highland Park, IL 60035",
+      "porsche_address": "2300 Skokie Valley, Rd., Highland Park, IL 60035",
+      "chevrolet_address": "One Sherwood Terrace, Lake Bluff, IL 60044"
+    },
+    "buyer": {
+      "name": "NYREE HINTON",
+      "address": "461 1/2 N ORANGE GROVE AVE, LOS ANGELES, LOS ANGELES, CA 90036",
+      "email": "NYREEHINTON@GMAIL.COM",
+      "res_phone": "732/979-6264",
+      "bus_phone": "949/975-3614",
+      "signature_1": null,
+      "signature_1_date": "2022-02-18",
+      "signature_2": null,
+      "signature_2_date": "2022-02-18"
+    },
+    "salesperson": "JOHN G HINOJOSA",
+    "vehicle_ordered": {
+      "status": "USED",
+      "year": 2020,
+      "make": "CHEVROLET",
+      "model": "CAMARO",
+      "body_type": "2DR",
+      "color": "STEEL GRAY",
+      "cylinders": null,
+      "interior_color": null,
+      "stock_number": "A211555B",
+      "mileage": 9838,
+      "vin": "1G1FB1RS5L0112546"
+    },
+    "dealer_installed_options": [
+      { "description": null, "price": "N/A" },
+      { "description": null, "price": "N/A" },
+      { "description": null, "price": "N/A" },
+      { "description": null, "price": "N/A" },
+      { "description": null, "price": "N/A" },
+      { "description": null, "price": "N/A" },
+      { "description": null, "price": "N/A" },
+      { "description": null, "price": "N/A" }
+    ],
+    "pricing": {
+      "cash_price_of_vehicle": 31287.0,
+      "dealer_installed_option_total": "N/A",
+      "used_car_allowance": "N/A",
+      "documentary_service_fee": 324.24,
+      "ert_fee": "N/A",
+      "total_taxable_difference_amount": 31611.24,
+      "license_title_fee": 737.0,
+      "state_sales_tax_rate": 9.5,
+      "state_sales_tax_amount": 3003.0,
+      "chicago_residents_use_tax": "N/A",
+      "county_tax": "N/A",
+      "total_taxes_and_fees": 3740.0,
+      "estimated_balance_owed_trade_1": "N/A",
+      "estimated_balance_owed_trade_2": "N/A",
+      "extended_service_contract": "N/A",
+      "sub_total_dio": "N/A",
+      "total_purchase_price": 35351.24,
+      "partial_payment": 8000.0,
+      "balance_due_from_lending_institution": 27351.24,
+      "balance_due_on_delivery": "N/A"
+    },
+    "trade_ins": [],
+    "terms_and_conditions_summary": "Includes Dispute Resolution (Arbitration), Dealer Arranged Financing contingencies, No Oral Representations clause, Warranty Disclaimers (New/Used/As-Is), Third Party Warranty info, Limitation on Implied Warranty Duration, FTC Window Sticker reference, No Incidental/Consequential Damages clause.",
+    "documentary_fee_notice": "A Documentary Fee is not an official fee... not required by Law... Base Fee $150 adj annually... $161.39 for 2012...",
+    "additional_terms_summary": "Includes Definitions, Price Changes, Design Changes, Delivery Delays, Taxes, Right to Inspect/Final Acceptance, Other Documents requirement, Damages for Breach by Customer (Liquidated Damages), Repossession rights, Security Interest grant, Attorney's Fees clause.",
+    "addendum_reference": "Addendum A attached",
+    "approver_signature": null
+  },
+  {
+    "document_type": "Retail Installment Contract",
+    "contract_type_detail": "Simple Finance Charge",
+    "jurisdiction": "Illinois",
+    "form_id": "LAW 553-IL-eps-14 1/20 v1",
+    "deal_number": "128635",
+    "customer_number": "136858",
+    "contract_number": "0045374",
+    "contract_date": "2022-02-18",
+    "buyer": {
+      "name": "NYREE HINTON",
+      "address": "461 1/2 N ORANGE GROVE AVE, LOS ANGELES, CA 90036",
+      "county": "LOS ANGELES",
+      "initials": "Signed",
+      "signature": "Signed"
+    },
+    "co_buyer": {
+      "name": "N/A",
+      "address": "N/A",
+      "initials": "N/A",
+      "signature": "N/A"
+    },
+    "seller_creditor": {
+      "name": "AUDI EXCHANGE",
+      "address": "2490 SKOKIE VALLEY RD, HIGHLAND PARK, IL 60035",
+      "phone": "847-432-5020"
+    },
+    "vehicle": {
+      "status": "USED",
+      "year": 2020,
+      "make": "CHEVROLET",
+      "model": "CAMARO",
+      "vin": "1G1FB1RS5L0112546",
+      "odometer": 9838,
+      "primary_use": "Personal, family, or household"
+    },
+    "financial_details": {
+      "annual_percentage_rate": 3.99,
+      "finance_charge": 3500.04,
+      "amount_financed": 27351.24,
+      "total_of_payments": 30851.28,
+      "down_payment": 8000.0,
+      "total_sale_price": 38851.28
+    },
+    "payment_schedule": {
+      "number_of_payments": 72,
+      "payment_amount": 428.49,
+      "payment_frequency": "MONTHLY",
+      "first_payment_due_date": "2022-04-04"
+    },
+    "late_charge": "If payment is not received in full within 10 days after it is due, $10.00 or 5% of the part of the payment that is late, whichever is greater.",
+    "prepayment": "No penalty.",
+    "security_interest": "Vehicle being purchased.",
+    "itemization_of_amount_financed": {
+      "cash_price": 34290.0,
+      "sales_tax_included": 3003.0,
+      "total_downpayment": 8000.0,
+      "downpayment_breakdown": {
+        "trade_in_allowance": "N/A",
+        "less_payoff": "N/A",
+        "net_trade_in": "N/A",
+        "cash": 8000.0
+      },
+      "unpaid_balance_of_cash_price": 26290.0,
+      "other_charges": {
+        "optional_credit_insurance": "N/A",
+        "vsi_insurance": "N/A",
+        "other_optional_insurance": "N/A",
+        "optional_gap_contract": "N/A",
+        "official_fees": "N/A",
+        "government_taxes_not_in_price": "N/A",
+        "license_registration_fees": 710.0,
+        "optional_ert_fee": 27.0,
+        "certificate_of_title_fees": "N/A",
+        "documentary_fee": 324.24,
+        "prior_credit_lease_balance": "N/A",
+        "misc_charges": [],
+        "total_other_charges": 1061.24
+      },
+      "amount_financed": 27351.24
+    },
+    "insurance": {
+      "physical_damage_required": true,
+      "optional_credit_life_purchased": false,
+      "optional_credit_disability_purchased": false,
+      "other_optional_insurance_purchased": false,
+      "vsi_purchased": false,
+      "gap_contract_purchased": false,
+      "liability_insurance_provided": false
+    },
+    "warranties_and_disclaimers": {
+      "illinois_used_vehicle_warranty": "Free of defect in power train component for 15 days or 500 miles after delivery, whichever is earlier (exclusions apply). Consumer pays up to $100 for first 2 repairs if warranty violated.",
+      "seller_disclaimers": "Seller makes no express warranties on used vehicles (unless written). No implied fitness warranty. Limited implied merchantability per IL law.",
+      "used_car_buyers_guide": "Information on window form is part of contract."
+    },
+    "notices": {
+      "ftc_holder_rule": true,
+      "possible_refund_credit_insurance": true,
+      "no_cooling_off_period": true,
+      "returned_check_charge": "$25 or actual costs if > $25 with demand.",
+      "apr_negotiable": true,
+      "no_public_liability_insurance": true
+    },
+    "assignment": {
+      "assignee_name": "BANK OF AMERICA N.A.",
+      "recourse_status": "Assigned without recourse",
+      "seller_signature": "AUDI EXCHANGE",
+      "seller_representative_signature": "Signed",
+      "seller_representative_title": null
+    },
+    "contract_execution_details": {
+      "generation_date_time": "2022-02-22 02:17 PM"
+    }
+  }
+]

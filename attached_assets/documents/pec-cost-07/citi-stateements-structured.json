@@ -1,0 +1,268 @@
+[
+  {
+    "Statement": "Statement 1: May 2023 (Citi Double Cash)",
+    "Closing Date": "05/03/23",
+    "New Balance": "$1,807.93",
+    "Minimum Payment Due": "$41.00",
+    "Total Interest Charged": "$8.20",
+    "Interest Rates Applied": "BalTrnOffer 5: 26.24% (V) on $407.58 balance",
+    "Notes": "Standard Purchase APR is 29.99% (V), BalTrnOffer 6 is 0.00% until 06/01/23 but had $0 interest charged"
+  },
+  {
+    "Statement": "Statement 2: June 2023 (Citi Double Cash)",
+    "Closing Date": "06/05/23",
+    "New Balance": "$1,771.45",
+    "Minimum Payment Due": "$41.00",
+    "Total Interest Charged": "$13.52 ($9.56 + $3.96)",
+    "Interest Rates Applied": "BalTrnOffer 5: 26.49% (V) on $399.08 balance\nBalTrnOffer 6 (Expired 06/01/23, Rate After): 26.49% (V) on $1,365.48 balance",
+    "Notes": "Standard Purchase APR is 29.99% (V) but had $0 interest charged"
+  },
+  {
+    "Statement": "Statement 3: July 2023 (Citi Double Cash)",
+    "Closing Date": "07/05/23",
+    "New Balance": "$1,769.19",
+    "Minimum Payment Due": "$56.74",
+    "Total Interest Charged": "$38.74 ($8.66 + $30.08)",
+    "Interest Rates Applied": "BalTrnOffer 5: 26.49% (V) on $397.87 balance\nBalTrnOffer 6: 26.49% (V) on $1,381.39 balance",
+    "Notes": "Standard Purchase APR is 29.99% (V) but had $0 interest charged"
+  },
+  {
+    "Statement": "Statement 4: August 2023 (Citi Double Cash)",
+    "Closing Date": "08/03/23",
+    "New Balance": "$1,749.89",
+    "Minimum Payment Due": "$54.44",
+    "Total Interest Charged": "$37.44 ($7.80 + $29.64)",
+    "Interest Rates Applied": "BalTrnOffer 5: 26.74% (V) on $366.99 balance\nBalTrnOffer 6: 26.74% (V) on $1,394.92 balance",
+    "Notes": "Standard Purchase APR is 29.99% (V) but had $0 interest charged"
+  },
+  {
+    "Statement": "Statement 5: September 2023 (Citi Double Cash)",
+    "Closing Date": "09/05/23",
+    "New Balance": "$1,736.97",
+    "Minimum Payment Due": "$58.52",
+    "Total Interest Charged": "$41.52 ($8.13 + $33.39)",
+    "Interest Rates Applied": "BalTrnOffer 5: 26.74% (V) on $336.14 balance\nBalTrnOffer 6: 26.74% (V) on $1,381.02 balance",
+    "Notes": "Standard Purchase APR is 29.99% (V) but had $0 interest charged"
+  },
+  {
+    "Statement": "Statement 6: October 2023 (Citi Double Cash)",
+    "Closing Date": "10/04/23",
+    "New Balance": "$1,714.57",
+    "Minimum Payment Due": "$53.12",
+    "Total Interest Charged": "$36.12 ($6.79 + $29.33)",
+    "Interest Rates Applied": "Purchases: 29.24% (V) \nBalTrnOffer 5: 26.74% (V) on $319.47 balance\nBalTrnOffer 6: 26.74% (V) on $1,380.42 balance",
+    "Notes": "New lower APR effective 09/06/23, but $0 interest charged on Purchases"
+  },
+  {
+    "Statement": "Statement 7: November 2023 (Citi Double Cash)",
+    "Closing Date": "11/03/23",
+    "New Balance": "$1,676.05",
+    "Minimum Payment Due": "$53.48",
+    "Total Interest Charged": "$36.48 ($6.16 + $30.32)",
+    "Interest Rates Applied": "Purchases: 29.24% (V) \nBalTrnOffer 5: 26.74% (V) on $280.08 balance\nBalTrnOffer 6: 26.74% (V) on $1,379.58 balance",
+    "Notes": "Purchases had $0 interest charged"
+  },
+  {
+    "Statement": "Statement 8: December 2023 (Citi Double Cash)",
+    "Closing Date": "12/05/23",
+    "New Balance": "$1,489.91",
+    "Minimum Payment Due": "$49.86",
+    "Total Interest Charged": "$34.86 ($0.11 + $1.69 + $33.06)",
+    "Interest Rates Applied": "Purchases: 29.24% (V) on $4.10 balance\nBalTrnOffer 5: 26.74% (V) on $72.29 balance\nBalTrnOffer 6: 26.74% (V) on $1,410.26 balance"
+  },
+  {
+    "Statement": "Statement 9: April 2024 (Citi Double Cash)",
+    "Closing Date": "04/03/24",
+    "New Balance": "$1,451.77",
+    "Minimum Payment Due": "$45.76",
+    "Total Interest Charged": "$30.76 ($0.85 + $29.91)",
+    "Interest Rates Applied": "Standard Purch: 29.24% (V) on $36.51 balance\nBalTrnOffer 6: 26.74% (V) on $1,407.65 balance"
+  },
+  {
+    "Statement": "Statement 10: May 2024 (Citi Double Cash)",
+    "Closing Date": "05/03/24",
+    "New Balance": "$1,433.87",
+    "Minimum Payment Due": "$46.10",
+    "Total Interest Charged": "$32.10 ($0.83 + $31.27)",
+    "Interest Rates Applied": "Standard Purch: 29.24% (V) on $34.72 balance\nBalTrnOffer 6: 26.74% (V) on $1,422.59 balance"
+  },
+  {
+    "Statement": "Statement 11: June 2024 (Citi Double Cash)",
+    "Closing Date": "06/05/24",
+    "New Balance": "$1,452.82",
+    "Minimum Payment Due": "$80.05",
+    "Total Interest Charged": "$35.05 ($0.85 + $34.20)",
+    "Interest Rates Applied": "Standard Purch: 29.24% (V) on $32.16 balance\nBalTrnOffer 6: 26.74% (V) on $1,414.49 balance",
+    "Notes": "A $30.00 Late Fee was also charged this period"
+  },
+  {
+    "Statement": "Statement 12: July 2024 (Citi Double Cash)",
+    "Closing Date": "07/03/24",
+    "New Balance": "$1,350.30",
+    "Minimum Payment Due": "$41.48",
+    "Total Interest Charged": "$27.48 ($0.04 + $27.44)",
+    "Interest Rates Applied": "Standard Purch: 29.24% (V) on $1.86 balance\nBalTrnOffer 6: 26.74% (V) on $1,337.77 balance"
+  },
+  {
+    "Statement": "Statement 13: August 2024 (Citi Double Cash)",
+    "Closing Date": "08/05/24",
+    "New Balance": "$1,322.93",
+    "Minimum Payment Due": "$45.63",
+    "Total Interest Charged": "$32.63",
+    "Interest Rates Applied": "Standard Purch: 29.24% (V) on $0.03 balance\nBalTrnOffer 6: 26.74% (V) on $1,349.81 balance"
+  },
+  {
+    "Statement": "Statement 14: September 2024 (Citi Double Cash)",
+    "Closing Date": "09/04/24",
+    "New Balance": "$1,306.45",
+    "Minimum Payment Due": "$42.15",
+    "Total Interest Charged": "$29.15",
+    "Interest Rates Applied": "Standard Purch: 29.24% (V) on $0.00 balance\nBalTrnOffer 6: 26.74% (V) on $1,326.41 balance"
+  },
+  {
+    "Statement": "Statement 15: October 2024 (Citi Double Cash)",
+    "Closing Date": "10/03/24",
+    "New Balance": "$1,273.09",
+    "Minimum Payment Due": "$41.00",
+    "Total Interest Charged": "$26.64",
+    "Interest Rates Applied": "Standard Purch: 28.74% (V) on $0.00 balance\nBalTrnOffer 6: 26.24% (V) on $1,278.02 balance"
+  },
+  {
+    "Statement": "Statement 16: November 2024 (Citi Double Cash)",
+    "Closing Date": "11/05/24",
+    "New Balance": "$1,253.10",
+    "Minimum Payment Due": "$43.01",
+    "Total Interest Charged": "$30.01",
+    "Interest Rates Applied": "Standard Purch: 28.74% (V) on $0.00 balance\nBalTrnOffer 6: 26.24% (V) on $1,265.00 balance"
+  },
+  {
+    "Statement": "Statement 17: December 2024 (Citi Double Cash)",
+    "Closing Date": "12/04/24",
+    "New Balance": "$1,309.24",
+    "Minimum Payment Due": "$112.15",
+    "Total Interest Charged": "$26.14",
+    "Interest Rates Applied": "Standard Purch: 28.49% (V) on $0.00 balance\nBalTrnOffer 6: 25.99% (V) on $1,265.67 balance",
+    "Notes": "A $30.00 Late Fee was also charged this period. Account was past due"
+  },
+  {
+    "Statement": "Statement 18: January 2025 (Citi Double Cash)",
+    "Closing Date": "01/03/25",
+    "New Balance": "$1,518.40",
+    "Minimum Payment Due": "$46.49",
+    "Total Interest Charged": "$31.49 ($0.61 + $0.24 + $30.64)",
+    "Interest Rates Applied": "Standard Purch: 29.24% (V) on $26.21 balance\nBalTrnOffer 5: 26.74% (V) on $11.16 balance\nBalTrnOffer 6: 26.74% (V) on $1,442.11 balance"
+  },
+  {
+    "Statement": "Statement 19: February 2025 (Citi Double Cash)",
+    "Closing Date": "02/05/25",
+    "New Balance": "$1,508.87",
+    "Minimum Payment Due": "$51.96",
+    "Total Interest Charged": "$36.96 ($1.41 + $0.14 + $35.41)",
+    "Interest Rates Applied": "Standard Purch: 29.24% (V) on $53.26 balance\nBalTrnOffer 5: 26.74% (V) on $5.77 balance\nBalTrnOffer 6: 26.74% (V) on $1,464.65 balance"
+  },
+  {
+    "Statement": "Statement 20: March 2025 (Citi Double Cash)",
+    "Closing Date": "03/05/25",
+    "New Balance": "$1,481.01",
+    "Minimum Payment Due": "$47.14",
+    "Total Interest Charged": "$32.14 ($1.22 + $0.00 + $30.92)",
+    "Interest Rates Applied": "Standard Purch: 29.24% (V) on $52.38 balance\nBalTrnOffer 5: 26.74% (V) on $0.10 balance\nBalTrnOffer 6: 26.74% (V) on $1,455.43 balance"
+  }
+
+  {
+    "Statement 1": "January 2024 (Citi Double Cash)",
+    "Closing Date": "01/03/24",
+    "New Balance": "$1,518.40",
+    "Minimum Payment Due": "$46.49",
+    "Total Interest Charged": "$31.49",
+    "Interest Rates Applied": "Purchases: 29.24% (V) on $26.21 balance\nBalTrnOffer 5: 26.74% (V) on $11.16 balance\nBalTrnOffer 6: 26.74% (V) on $1,442.11 balance"
+  },
+  {
+    "Statement 2": "February 2024 (Citi Double Cash)",
+    "Closing Date": "02/05/24",
+    "New Balance": "$1,508.87",
+    "Minimum Payment Due": "$51.96",
+    "Total Interest Charged": "$36.96",
+    "Interest Rates Applied": "Purchases: 29.24% (V) on $53.26 balance\nBalTrnOffer 5: 26.74% (V) on $5.77 balance\nBalTrnOffer 6: 26.74% (V) on $1,464.65 balance"
+  },
+  {
+    "Statement 3": "March 2024 (Citi Double Cash)",
+    "Closing Date": "03/05/24",
+    "New Balance": "$1,481.01",
+    "Minimum Payment Due": "$47.14",
+    "Total Interest Charged": "$32.14",
+    "Interest Rates Applied": "Purchases: 29.24% (V) on $52.38 balance\nBalTrnOffer 5: 26.74% (V) on $0.10 balance\nBalTrnOffer 6: 26.74% (V) on $1,455.43 balance"
+  },
+  {
+    "Statement 4": "April 2024 (Citi Double Cash)",
+    "Closing Date": "04/03/24",
+    "New Balance": "$1,451.77",
+    "Minimum Payment Due": "$45.76",
+    "Total Interest Charged": "$30.76",
+    "Interest Rates Applied": "Purchases: 29.24% (V) on $36.51 balance\nBalTrnOffer 6: 26.74% (V) on $1,407.65 balance"
+  },
+  {
+    "Statement 5": "May 2024 (Citi Double Cash)",
+    "Closing Date": "05/03/24",
+    "New Balance": "$1,433.87",
+    "Minimum Payment Due": "$46.10",
+    "Total Interest Charged": "$32.10",
+    "Interest Rates Applied": "Purchases: 29.24% (V) on $34.72 balance\nBalTrnOffer 6: 26.74% (V) on $1,422.59 balance"
+  },
+  {
+    "Statement 6": "June 2024 (Citi Double Cash)",
+    "Closing Date": "06/05/24",
+    "New Balance": "$1,452.82",
+    "Minimum Payment Due": "$80.05",
+    "Total Interest Charged": "$35.05",
+    "Interest Rates Applied": "Purchases: 29.24% (V) on $32.16 balance\nBalTrnOffer 6: 26.74% (V) on $1,414.49 balance"
+  },
+  {
+    "Statement 7": "July 2024 (Citi Double Cash)",
+    "Closing Date": "07/03/24",
+    "New Balance": "$1,350.30",
+    "Minimum Payment Due": "$41.48",
+    "Total Interest Charged": "$27.48",
+    "Interest Rates Applied": "Purchases: 29.24% (V) on $1.86 balance\nBalTrnOffer 6: 26.74% (V) on $1,337.77 balance"
+  },
+  {
+    "Statement 8": "August 2024 (Citi Double Cash)",
+    "Closing Date": "08/05/24",
+    "New Balance": "$1,322.93",
+    "Minimum Payment Due": "$45.63",
+    "Total Interest Charged": "$32.63",
+    "Interest Rates Applied": "Purchases: 29.24% (V) on $0.03 balance\nBalTrnOffer 6: 26.74% (V) on $1,349.81 balance"
+  },
+  {
+    "Statement 9": "September 2024 (Citi Double Cash)",
+    "Closing Date": "09/04/24",
+    "New Balance": "$1,306.45",
+    "Minimum Payment Due": "$42.15",
+    "Total Interest Charged": "$29.15",
+    "Interest Rates Applied": "Purchases: 29.24% (V) on $0.00 balance\nBalTrnOffer 6: 26.74% (V) on $1,326.41 balance"
+  },
+  {
+    "Statement 10": "October 2024 (Citi Double Cash)",
+    "Closing Date": "10/03/24",
+    "New Balance": "$1,273.09",
+    "Minimum Payment Due": "$41.00",
+    "Total Interest Charged": "$26.64",
+    "Interest Rates Applied": "Purchases: 28.74% (V) on $0.00 balance\nBalTrnOffer 6: 26.24% (V) on $1,278.02 balance"
+  },
+  {
+    "Statement 11": "November 2024 (Citi Double Cash)",
+    "Closing Date": "11/05/24",
+    "New Balance": "$1,253.10",
+    "Minimum Payment Due": "$43.01",
+    "Total Interest Charged": "$30.01",
+    "Interest Rates Applied": "Purchases: 28.74% (V) on $0.00 balance\nBalTrnOffer 6: 26.24% (V) on $1,265.00 balance"
+  },
+  {
+    "Statement 12": "December 2024 (Citi Double Cash)",
+    "Closing Date": "12/04/24",
+    "New Balance": "$1,309.24",
+    "Minimum Payment Due": "$112.15",
+    "Total Interest Charged": "$26.14",
+    "Interest Rates Applied": "Purchases: 28.49% (V) on $0.00 balance\nBalTrnOffer 6: 25.99% (V) on $1,265.67 balance"
+  }
+]

@@ -1,12 +1,12 @@
-import { pgTable, text, serial, integer, boolean, timestamp, json, array } from "drizzle-orm/pg-core";
-import { createInsertSchema } from "drizzle-zod";
-import { z } from "zod";
+import { pgTable, serial, text } from 'drizzle-orm/pg-core';
+import { createInsertSchema } from 'drizzle-zod';
+import { z } from 'zod';
 
 // Original users table
-export const users = pgTable("users", {
-  id: serial("id").primaryKey(),
-  username: text("username").notNull().unique(),
-  password: text("password").notNull(),
+export const users = pgTable('users', {
+  id: serial('id').primaryKey(),
+  username: text('username').notNull().unique(),
+  password: text('password').notNull(),
 });
 
 export const insertUserSchema = createInsertSchema(users).pick({
@@ -18,17 +18,24 @@ export type InsertUser = z.infer<typeof insertUserSchema>;
 export type User = typeof users.$inferSelect;
 
 // Adverse Action Types
-export type CreditReportAgency = "Experian" | "TransUnion" | "Equifax" | "SageStream" | "LexisNexis" | "Multiple" | string;
+export type CreditReportAgency =
+  | 'Experian'
+  | 'TransUnion'
+  | 'Equifax'
+  | 'SageStream'
+  | 'LexisNexis'
+  | 'Multiple'
+  | string;
 
-export type ActionType = 
-  | "Credit Limit Reduction" 
-  | "Vehicle Financing Application Denial" 
-  | "Auto Financing Application Denial" 
-  | "Auto Loan Denial" 
-  | "Rental Application Conditional Approval" 
-  | "Credit Score Change Alert" 
-  | "Loan Denial"
-  | "Risk-Based Pricing - Unfavorable Terms"
+export type ActionType =
+  | 'Credit Limit Reduction'
+  | 'Vehicle Financing Application Denial'
+  | 'Auto Financing Application Denial'
+  | 'Auto Loan Denial'
+  | 'Rental Application Conditional Approval'
+  | 'Credit Score Change Alert'
+  | 'Loan Denial'
+  | 'Risk-Based Pricing - Unfavorable Terms'
   | string;
 
 export interface AdverseAction {
@@ -53,7 +60,12 @@ export interface AdverseAction {
 }
 
 // Credit Reports Types
-export type ReportStatus = "Outstanding" | "Requested" | "Partially Satisfied" | "Satisfied" | "N/A";
+export type ReportStatus =
+  | 'Outstanding'
+  | 'Requested'
+  | 'Partially Satisfied'
+  | 'Satisfied'
+  | 'N/A';
 
 export interface CreditReport {
   report_need_id: string;
@@ -68,17 +80,17 @@ export interface CreditReport {
 }
 
 // Damages Types
-export type DamageCategory = 
-  | "PEC-PAY"   // Required Payments
-  | "PEC-COST"  // Increased Credit Costs
-  | "PEC-FEE"   // Application Fees
-  | "PEC-DEP"   // Lost Deposits
-  | "PEC-OOP"   // Out-of-Pocket Expenses
-  | "PEC-OPP"   // Lost Opportunities
-  | "NONPEC-ED" // Emotional Distress
-  | "NONPEC-REP"; // Reputational Harm
+export type DamageCategory =
+  | 'PEC-PAY' // Required Payments
+  | 'PEC-COST' // Increased Credit Costs
+  | 'PEC-FEE' // Application Fees
+  | 'PEC-DEP' // Lost Deposits
+  | 'PEC-OOP' // Out-of-Pocket Expenses
+  | 'PEC-OPP' // Lost Opportunities
+  | 'NONPEC-ED' // Emotional Distress
+  | 'NONPEC-REP'; // Reputational Harm
 
-export type DocumentStatus = "Needed" | "Requested" | "Received" | "Verified" | "N/A";
+export type DocumentStatus = 'Needed' | 'Requested' | 'Received' | 'Verified' | 'N/A';
 
 export interface RequiredDocument {
   doc_id: string;
@@ -94,15 +106,15 @@ export interface DamageItem {
   category: DamageCategory;
   source_docs: number[];
   claimed_value: number | null;
-  status: "Verified" | "Pending" | "Potential";
+  status: 'Verified' | 'Pending' | 'Potential';
   required_documents: RequiredDocument[];
   description: string;
   date?: string | null;
 }
 
 // Task Types
-export type TaskPriority = "High" | "Medium" | "Low";
-export type TaskStatus = "To Do" | "In Progress" | "Complete";
+export type TaskPriority = 'High' | 'Medium' | 'Low';
+export type TaskStatus = 'To Do' | 'In Progress' | 'Complete';
 
 export interface Task {
   id: string;
@@ -117,7 +129,7 @@ export interface Task {
 }
 
 // Activity Types
-export type ActivityType = "Added" | "Updated" | "Created" | "Completed" | "Requested";
+export type ActivityType = 'Added' | 'Updated' | 'Created' | 'Completed' | 'Requested';
 
 export interface Activity {
   id: string;
