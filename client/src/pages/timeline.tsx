@@ -335,6 +335,14 @@ const Timeline = () => {
     },
   ];
 
+  // Sort timeline events by date in chronological order
+  const sortedTimelineEvents = [...timelineEvents].sort((a, b) => {
+    // Convert date strings to Date objects for proper comparison
+    const dateA = new Date(a.date.includes('-') ? a.date : `${a.date.split(' ')[0]} 1, ${a.date.split(' ')[1]}`);
+    const dateB = new Date(b.date.includes('-') ? b.date : `${b.date.split(' ')[0]} 1, ${b.date.split(' ')[1]}`);
+    return dateA.getTime() - dateB.getTime();
+  });
+
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
@@ -374,7 +382,7 @@ const Timeline = () => {
         <div className="max-w-4xl mx-auto">
           {/* Timeline */}
           <div className="relative">
-            {timelineEvents.map((event, index) => (
+            {sortedTimelineEvents.map((event, index) => (
               <div key={index} className="mb-8 flex gap-8">
                 {/* Date Column */}
                 <div className="w-32 text-sm text-muted-foreground pt-2">
