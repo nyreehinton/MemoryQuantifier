@@ -206,15 +206,23 @@ export default function CaseSummary() {
                   <ul className="text-sm space-y-1 text-muted-foreground">
                     <li className="flex items-center space-x-2">
                       <div className="h-1.5 w-1.5 rounded-full bg-blue-600"></div>
-                      <span>Financial analyst with 6+ years of experience</span>
+                      <span>Capital Group: Data Product Manager, Enterprise Data Office</span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                      <div className="h-1.5 w-1.5 rounded-full bg-blue-600"></div>
+                      <span>Third Bridge Group: Sector Analyst, Consumer Staples</span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                      <div className="h-1.5 w-1.5 rounded-full bg-blue-600"></div>
+                      <span>Reorg Research: Data Analyst, M&A and Shareholder Activism</span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                      <div className="h-1.5 w-1.5 rounded-full bg-blue-600"></div>
+                      <span>Bloomberg L.P.: Equity Research Data Analyst, TMT</span>
                     </li>
                     <li className="flex items-center space-x-2">
                       <div className="h-1.5 w-1.5 rounded-full bg-blue-600"></div>
                       <span>FINRA Series 7 and 63 certifications</span>
-                    </li>
-                    <li className="flex items-center space-x-2">
-                      <div className="h-1.5 w-1.5 rounded-full bg-blue-600"></div>
-                      <span>Specialized in investment portfolio management</span>
                     </li>
                   </ul>
                 </div>
@@ -239,19 +247,23 @@ export default function CaseSummary() {
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
                 <div className="bg-slate-50 dark:bg-slate-900 p-4 rounded-md">
-                  <h4 className="text-sm font-medium text-slate-900 dark:text-slate-100 mb-2">Former Employers</h4>
+                  <h4 className="text-sm font-medium text-slate-900 dark:text-slate-100 mb-2">Professional Accomplishments</h4>
                   <ul className="text-sm space-y-1 text-muted-foreground">
-                    <li className="flex items-center space-x-2">
-                      <div className="h-1.5 w-1.5 rounded-full bg-blue-600"></div>
-                      <span>Capital Group (Senior Financial Analyst, 2020-2023)</span>
+                    <li className="flex items-start space-x-2">
+                      <div className="h-1.5 w-1.5 rounded-full bg-blue-600 mt-1.5"></div>
+                      <span>Enhanced visibility and analytics for $8 billion ETF product suite at Capital Group</span>
                     </li>
-                    <li className="flex items-center space-x-2">
-                      <div className="h-1.5 w-1.5 rounded-full bg-blue-600"></div>
-                      <span>Morgan Stanley (Analyst, 2018-2020)</span>
+                    <li className="flex items-start space-x-2">
+                      <div className="h-1.5 w-1.5 rounded-full bg-blue-600 mt-1.5"></div>
+                      <span>Led 125+ C-suite discussions at Third Bridge, expanding content coverage by 142 equity names</span>
                     </li>
-                    <li className="flex items-center space-x-2">
-                      <div className="h-1.5 w-1.5 rounded-full bg-blue-600"></div>
-                      <span>Bank of America (Associate, 2017-2018)</span>
+                    <li className="flex items-start space-x-2">
+                      <div className="h-1.5 w-1.5 rounded-full bg-blue-600 mt-1.5"></div>
+                      <span>Developed ML model for SEC filings analysis at Reorg Research, tracking 160+ targeted companies</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <div className="h-1.5 w-1.5 rounded-full bg-blue-600 mt-1.5"></div>
+                      <span>Managed portfolio of 70 Media and Communications companies at Bloomberg</span>
                     </li>
                   </ul>
                 </div>
