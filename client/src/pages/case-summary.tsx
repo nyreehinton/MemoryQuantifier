@@ -206,7 +206,7 @@ export default function CaseSummary() {
                   <ul className="text-sm space-y-1 text-muted-foreground">
                     <li className="flex items-center space-x-2">
                       <div className="h-1.5 w-1.5 rounded-full bg-blue-600"></div>
-                      <span>Harvard University (withdrew due to funding denial)</span>
+                      <span>Harvard University Extension School (withdrew due to funding denial)</span>
                     </li>
                     <li className="flex items-center space-x-2">
                       <div className="h-1.5 w-1.5 rounded-full bg-blue-600"></div>
@@ -214,7 +214,11 @@ export default function CaseSummary() {
                     </li>
                     <li className="flex items-center space-x-2">
                       <div className="h-1.5 w-1.5 rounded-full bg-blue-600"></div>
-                      <span>Previously maintained unblemished credit history</span>
+                      <span>Former financial analyst at Capital Group</span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                      <div className="h-1.5 w-1.5 rounded-full bg-blue-600"></div>
+                      <span>10+ years of unblemished credit history</span>
                     </li>
                   </ul>
                 </div>
@@ -227,13 +231,47 @@ export default function CaseSummary() {
                     </li>
                     <li className="flex items-center space-x-2">
                       <div className="h-1.5 w-1.5 rounded-full bg-green-600"></div>
-                      <span>38 adverse action notices collected and organized</span>
+                      <span>43 adverse action notices collected and organized</span>
                     </li>
                     <li className="flex items-center space-x-2">
                       <div className="h-1.5 w-1.5 rounded-full bg-green-600"></div>
                       <span>Quantified financial damages with thorough methodology</span>
                     </li>
+                    <li className="flex items-center space-x-2">
+                      <div className="h-1.5 w-1.5 rounded-full bg-green-600"></div>
+                      <span>Expert witness testimony supporting damages claims</span>
+                    </li>
                   </ul>
+                </div>
+              </div>
+              
+              <div className="mt-4 bg-blue-50 dark:bg-blue-950 p-4 rounded-md">
+                <h4 className="text-sm font-medium text-blue-900 dark:text-blue-100 mb-2">Personal Circumstances</h4>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-muted-foreground">
+                  <div>
+                    <ul className="space-y-1">
+                      <li className="flex items-start space-x-2">
+                        <div className="h-1.5 w-1.5 rounded-full bg-blue-600 mt-1.5"></div>
+                        <span>Father to newborn child (born September 2023)</span>
+                      </li>
+                      <li className="flex items-start space-x-2">
+                        <div className="h-1.5 w-1.5 rounded-full bg-blue-600 mt-1.5"></div>
+                        <span>Establishing new home for growing family</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <ul className="space-y-1">
+                      <li className="flex items-start space-x-2">
+                        <div className="h-1.5 w-1.5 rounded-full bg-blue-600 mt-1.5"></div>
+                        <span>Relocated to Los Angeles area in 2023</span>
+                      </li>
+                      <li className="flex items-start space-x-2">
+                        <div className="h-1.5 w-1.5 rounded-full bg-blue-600 mt-1.5"></div>
+                        <span>Educational goals disrupted by denied financing</span>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </CardContent>
