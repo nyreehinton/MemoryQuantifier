@@ -231,42 +231,13 @@ export default function CaseSummary() {
                   <ul className="text-sm space-y-1 text-muted-foreground">
                     <li className="flex items-center space-x-2">
                       <div className="h-1.5 w-1.5 rounded-full bg-purple-600"></div>
-                      <span>Harvard University Extension School</span>
-                    </li>
-                    <li className="flex items-center space-x-2">
-                      <div className="h-1.5 w-1.5 rounded-full bg-purple-600"></div>
-                      <span>UCLA Financial Analytics Program</span>
-                    </li>
-                    <li className="flex items-center space-x-2">
-                      <div className="h-1.5 w-1.5 rounded-full bg-purple-600"></div>
                       <span>Bachelor's in Business Administration, Penn State</span>
                     </li>
                   </ul>
                 </div>
               </div>
               
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
-                <div className="bg-slate-50 dark:bg-slate-900 p-4 rounded-md">
-                  <h4 className="text-sm font-medium text-slate-900 dark:text-slate-100 mb-2">Professional Accomplishments</h4>
-                  <ul className="text-sm space-y-1 text-muted-foreground">
-                    <li className="flex items-start space-x-2">
-                      <div className="h-1.5 w-1.5 rounded-full bg-blue-600 mt-1.5"></div>
-                      <span>Enhanced visibility and analytics for $8 billion ETF product suite at Capital Group</span>
-                    </li>
-                    <li className="flex items-start space-x-2">
-                      <div className="h-1.5 w-1.5 rounded-full bg-blue-600 mt-1.5"></div>
-                      <span>Led 125+ C-suite discussions at Third Bridge, expanding content coverage by 142 equity names</span>
-                    </li>
-                    <li className="flex items-start space-x-2">
-                      <div className="h-1.5 w-1.5 rounded-full bg-blue-600 mt-1.5"></div>
-                      <span>Developed ML model for SEC filings analysis at Reorg Research, tracking 160+ targeted companies</span>
-                    </li>
-                    <li className="flex items-start space-x-2">
-                      <div className="h-1.5 w-1.5 rounded-full bg-blue-600 mt-1.5"></div>
-                      <span>Managed portfolio of 70 Media and Communications companies at Bloomberg</span>
-                    </li>
-                  </ul>
-                </div>
+              <div className="grid grid-cols-1 gap-4 mt-4">
                 <div className="bg-slate-50 dark:bg-slate-900 p-4 rounded-md">
                   <h4 className="text-sm font-medium text-slate-900 dark:text-slate-100 mb-2">Case Preparation</h4>
                   <ul className="text-sm space-y-1 text-muted-foreground">
