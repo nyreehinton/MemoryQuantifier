@@ -18,8 +18,10 @@ import {
   Info,
   CheckCircle2,
   School,
-  BriefcaseBusiness
+  BriefcaseBusiness,
+  User
 } from 'lucide-react';
+import DocumentViewer from '@/components/dashboard/document-viewer';
 import { 
   Card, 
   CardContent, 
@@ -277,8 +279,19 @@ export default function CaseSummary() {
                   </ul>
                 </div>
               </div>
+              
+              <div className="flex justify-end mt-4">
+                <Button variant="outline" size="sm" onClick={() => document.getElementById('resume-section')?.scrollIntoView({ behavior: 'smooth' })}>
+                  <User className="h-4 w-4 mr-2" />
+                  View Complete Resume
+                </Button>
+              </div>
             </CardContent>
           </Card>
+          
+          <div id="resume-section" className="mt-6">
+            <DocumentViewer documentId="resume-nyree-hinton" title="Extended Resume - Nyree Hinton" />
+          </div>
           
           <Card>
             <CardHeader>

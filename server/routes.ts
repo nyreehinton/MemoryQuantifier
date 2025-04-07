@@ -4,6 +4,8 @@ import { adverseActionsData } from './api/adverseActions';
 import { creditReportsData } from './api/creditReports';
 import { damagesData } from './api/damages';
 import { activitiesData, tasksData } from './api/tasks';
+import { documents, extractDocxContent, checkFileExists } from './api/documents'; // Added import for document handling
+
 
 export async function registerRoutes(app: Express): Promise<Server> {
   // API routes for adverse actions
@@ -85,6 +87,35 @@ export async function registerRoutes(app: Express): Promise<Server> {
     // In a real app, this would generate a report based on the request
     res.json({ message: 'Report generated', reportUrl: '/reports/sample-report.pdf' });
   });
+
+  // Added document routes
+  app.get('/api/documents', (req, res) => {
+    res.json(documents);
+  });
+
+  app.get('/api/documents/:id/content', async (req, res) => {
+    const document = documents.find(d => d.id === req.params.id);
+
+    if (!document) {
+      return res.status(404).json({ error: 'Document not found' });
+    }
+
+    if (!checkFileExists(document.path)) {
+      return res.status(404).json({ error: 'Document file not found' });
+    }
+
+    if (document.type === 'docx') {
+      try {
+        const content = await extractDocxContent(document.path);
+        return res.json({ content });
+      } catch (error) {
+        return res.status(500).json({ error: 'Failed to extract document content' });
+      }
+    } else {
+      return res.status(400).json({ error: 'Unsupported document type for content extraction' });
+    }
+  });
+
 
   const httpServer = createServer(app);
 
