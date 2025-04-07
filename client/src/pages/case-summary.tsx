@@ -396,6 +396,46 @@ export default function CaseSummary() {
         
         {/* Right Sidebar */}
         <div className="space-y-6">
+          <Card className="mb-6 border-2 border-blue-500">
+            <CardHeader className="pb-3">
+              <CardTitle className="text-xl font-semibold flex items-center">
+                <BarChart2 className="h-5 w-5 mr-2 text-amber-500" />
+                Case Goals
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="pt-0">
+              <div className="space-y-3">
+                <div className="flex items-start gap-2">
+                  <div className="h-6 w-6 rounded-full bg-amber-100 flex items-center justify-center flex-shrink-0">
+                    <CheckCircle2 className="h-4 w-4 text-amber-600" />
+                  </div>
+                  <div>
+                    <h3 className="font-medium text-sm">Fair Compensation</h3>
+                    <p className="text-xs text-muted-foreground">Secure damages reflecting full impact of documented adverse actions</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-2">
+                  <div className="h-6 w-6 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
+                    <CheckCircle2 className="h-4 w-4 text-blue-600" />
+                  </div>
+                  <div>
+                    <h3 className="font-medium text-sm">Credit Restoration</h3>
+                    <p className="text-xs text-muted-foreground">Complete removal of inaccurate reporting across all credit bureaus</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-2">
+                  <div className="h-6 w-6 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0">
+                    <CheckCircle2 className="h-4 w-4 text-green-600" />
+                  </div>
+                  <div>
+                    <h3 className="font-medium text-sm">Accountability</h3>
+                    <p className="text-xs text-muted-foreground">Hold Capital One accountable for retaliatory actions and FCRA violations</p>
+                  </div>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+          
           <Card>
             <CardHeader>
               <CardTitle className="text-xl font-semibold flex items-center">
