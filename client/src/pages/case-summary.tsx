@@ -48,15 +48,11 @@ export default function CaseSummary() {
     <div className="pb-8">
       {/* Urgent Banner */}
       <div className="bg-red-600 text-white px-4 py-3 mb-6 rounded-md animate-pulse">
-        <div className="max-w-7xl mx-auto flex items-center justify-between">
+        <div className="max-w-7xl mx-auto flex items-center">
           <div className="flex items-center space-x-2">
             <AlertCircle className="h-5 w-5" />
             <p className="font-medium">URGENT: Successor Counsel Needed</p>
           </div>
-          <Button size="sm" variant="outline" className="bg-transparent text-white border-white hover:bg-white hover:text-red-600">
-            <Phone className="h-4 w-4 mr-2" />
-            Contact to Represent
-          </Button>
         </div>
       </div>
 
