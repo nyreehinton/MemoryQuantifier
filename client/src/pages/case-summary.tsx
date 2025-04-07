@@ -438,7 +438,7 @@ export default function CaseSummary() {
                 <div className="relative">
                   <div className="absolute -left-9 mt-1.5 h-4 w-4 rounded-full border border-white bg-blue-600"></div>
                   <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">March 11, 2024</time>
-                  <h3 className="text-base font-semibold text-gray-900 dark:text-white">Initial Lawsuit Filed</h3>
+                  <h3 className="text-base font-semibold text-gray-900 dark:text-white">California Lawsuit Filed</h3>
                   <p className="text-sm text-gray-500 dark:text-gray-400">Filed in California Superior Court, Los Angeles County</p>
                 </div>
                 <div className="relative">
@@ -446,6 +446,12 @@ export default function CaseSummary() {
                   <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">March 1, 2024</time>
                   <h3 className="text-base font-semibold text-gray-900 dark:text-white">CLRA Notice Letter</h3>
                   <p className="text-sm text-gray-500 dark:text-gray-400">Sent to Capital One</p>
+                </div>
+                <div className="relative">
+                  <div className="absolute -left-9 mt-1.5 h-4 w-4 rounded-full border border-white bg-blue-600"></div>
+                  <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">July 2023</time>
+                  <h3 className="text-base font-semibold text-gray-900 dark:text-white">Initial Georgia Lawsuit Filed</h3>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">Initial lawsuit filed against car dealership & Capital One in Georgia</p>
                 </div>
                 <div className="relative">
                   <div className="absolute -left-9 mt-1.5 h-4 w-4 rounded-full border border-white bg-gray-400"></div>
