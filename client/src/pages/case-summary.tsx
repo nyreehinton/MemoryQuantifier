@@ -247,23 +247,27 @@ export default function CaseSummary() {
               
               <div className="grid grid-cols-1 gap-4 mt-4">
                 <div className="bg-slate-50 dark:bg-slate-900 p-4 rounded-md border-2 border-blue-500">
-                  <h4 className="text-sm font-medium text-slate-900 dark:text-slate-100 mb-2">Case Preparation</h4>
+                  <h4 className="text-sm font-medium text-slate-900 dark:text-slate-100 mb-2">Baseline Credit Profile (June 11, 2023)</h4>
                   <ul className="text-sm space-y-1 text-muted-foreground">
                     <li className="flex items-center space-x-2">
                       <div className="h-1.5 w-1.5 rounded-full bg-green-600"></div>
-                      <span>Comprehensive timeline and documentation</span>
+                      <span>FICO Score: 673 (Good rating)</span>
                     </li>
                     <li className="flex items-center space-x-2">
                       <div className="h-1.5 w-1.5 rounded-full bg-green-600"></div>
-                      <span>43 adverse action notices collected and organized</span>
+                      <span>Credit Utilization: 48% ($24,278 used of $43,150 limit)</span>
                     </li>
                     <li className="flex items-center space-x-2">
                       <div className="h-1.5 w-1.5 rounded-full bg-green-600"></div>
-                      <span>Quantified financial damages with thorough methodology</span>
+                      <span>Perfect Payment History: No missed payments</span>
                     </li>
                     <li className="flex items-center space-x-2">
                       <div className="h-1.5 w-1.5 rounded-full bg-green-600"></div>
-                      <span>Audio recording of Capital One rep confirming account restriction and advising it won't be removed</span>
+                      <span>23 Open Accounts with average age of 4 years 8 months</span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                      <div className="h-1.5 w-1.5 rounded-full bg-green-600"></div>
+                      <span>No Collections or Derogatory Items</span>
                     </li>
                   </ul>
                 </div>
