@@ -15,7 +15,10 @@ import {
   Download,
   Phone,
   ExternalLink,
-  Info
+  Info,
+  CheckCircle2,
+  School,
+  BriefcaseBusiness
 } from 'lucide-react';
 import { 
   Card, 
@@ -99,7 +102,7 @@ export default function CaseSummary() {
       <Tabs defaultValue="overview" className="mb-8">
         <TabsList className="mb-6">
           <TabsTrigger value="overview">Case Overview</TabsTrigger>
-          <TabsTrigger value="damages">Damages & Case Strength</TabsTrigger>
+          <TabsTrigger id="damages-tab" value="damages">Damages & Case Strength</TabsTrigger>
         </TabsList>
         
         <TabsContent value="overview">
@@ -223,40 +226,101 @@ export default function CaseSummary() {
             <CardHeader>
               <CardTitle className="text-xl font-semibold flex items-center">
                 <DollarSign className="h-5 w-5 mr-2 text-blue-600" />
-                Damages Summary
+                Damages & Case Strength
               </CardTitle>
             </CardHeader>
             <CardContent>
               <div className="space-y-4">
+                {/* Infographic-style Summary */}
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                  <div className="bg-blue-50 dark:bg-blue-950 border-blue-200 dark:border-blue-800 rounded-md p-4">
+                    <div className="flex items-center gap-3">
+                      <div className="p-2 bg-blue-600/10 rounded-full">
+                        <DollarSign className="h-5 w-5 text-blue-600" />
+                      </div>
+                      <div>
+                        <h3 className="text-lg font-bold text-blue-700 dark:text-blue-300">$2.57M</h3>
+                        <p className="text-xs text-blue-600 dark:text-blue-400">Total Claimed Damages</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="bg-purple-50 dark:bg-purple-950 border-purple-200 dark:border-purple-800 rounded-md p-4">
+                    <div className="flex items-center gap-3">
+                      <div className="p-2 bg-purple-600/10 rounded-full">
+                        <School className="h-5 w-5 text-purple-600" />
+                      </div>
+                      <div>
+                        <h3 className="text-lg font-bold text-purple-700 dark:text-purple-300">$1.14M</h3>
+                        <p className="text-xs text-purple-600 dark:text-purple-400">Harvard Withdrawal Impact</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="bg-red-50 dark:bg-red-950 border-red-200 dark:border-red-800 rounded-md p-4">
+                    <div className="flex items-center gap-3">
+                      <div className="p-2 bg-red-600/10 rounded-full">
+                        <AlertCircle className="h-5 w-5 text-red-600" />
+                      </div>
+                      <div>
+                        <h3 className="text-lg font-bold text-red-700 dark:text-red-300">43</h3>
+                        <p className="text-xs text-red-600 dark:text-red-400">Adverse Credit Actions</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <Separator />
+                
+                {/* Settlement Offer */}
+                <div className="border-2 border-amber-400 bg-amber-50 dark:bg-amber-950 rounded-md p-4">
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <h3 className="text-sm font-medium text-amber-800 dark:text-amber-300 flex items-center">
+                        <BriefcaseBusiness className="h-4 w-4 mr-2 text-amber-600" />
+                        Settlement Offer (February 2025)
+                      </h3>
+                      <h4 className="text-lg font-bold text-amber-800 dark:text-amber-300 mt-1">$785,000</h4>
+                      <p className="text-xs text-amber-700 dark:text-amber-400 mt-0.5">
+                        Based on documented pecuniary damages; excludes non-economic damages
+                      </p>
+                    </div>
+                    <Badge className="bg-amber-600 text-white">Rejected</Badge>
+                  </div>
+                </div>
+                
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="bg-amber-50 dark:bg-amber-950 rounded-md p-4">
-                    <h4 className="text-sm font-medium text-amber-900 dark:text-amber-300 mb-2">Pecuniary Damages</h4>
+                    <h4 className="text-sm font-medium text-amber-900 dark:text-amber-300 mb-2">Key Pecuniary Damages</h4>
                     <ul className="text-sm space-y-1">
                       <li className="flex justify-between">
-                        <span>Increased costs (interest, fees)</span>
-                        <span className="font-medium">PEC-COST</span>
+                        <span>Harvard Withdrawal</span>
+                        <span className="font-medium">$1,142,000</span>
                       </li>
                       <li className="flex justify-between">
-                        <span>Denied opportunities</span>
-                        <span className="font-medium">PEC-OPP</span>
+                        <span>Increased costs (interest, fees)</span>
+                        <span className="font-medium">$210,425</span>
                       </li>
                       <li className="flex justify-between">
                         <span>Out-of-pocket expenses</span>
-                        <span className="font-medium">PEC-OOP</span>
+                        <span className="font-medium">$23,650</span>
                       </li>
                     </ul>
                   </div>
                   <div className="bg-purple-50 dark:bg-purple-950 rounded-md p-4">
-                    <h4 className="text-sm font-medium text-purple-900 dark:text-purple-300 mb-2">Non-Pecuniary Damages</h4>
+                    <h4 className="text-sm font-medium text-purple-900 dark:text-purple-300 mb-2">Case Strength Indicators</h4>
                     <ul className="text-sm space-y-1">
-                      <li className="flex justify-between">
-                        <span>Emotional distress</span>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle2 className="h-4 w-4 mt-0.5 text-green-600 flex-shrink-0" />
+                        <span>3 of 4 defendants settled (all CRAs)</span>
                       </li>
-                      <li className="flex justify-between">
-                        <span>Reputational harm</span>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle2 className="h-4 w-4 mt-0.5 text-green-600 flex-shrink-0" />
+                        <span>43 adverse action notices documented</span>
                       </li>
-                      <li className="flex justify-between">
-                        <span>Lost time/productivity</span>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle2 className="h-4 w-4 mt-0.5 text-green-600 flex-shrink-0" />
+                        <span>Economic expert report available</span>
                       </li>
                     </ul>
                   </div>
@@ -266,15 +330,20 @@ export default function CaseSummary() {
                   <Info className="h-4 w-4 text-blue-600" />
                   <AlertTitle className="text-blue-800 dark:text-blue-300">Potential Recovery</AlertTitle>
                   <AlertDescription className="text-blue-700 dark:text-blue-400">
-                    FCRA permits actual damages + punitive damages for willful violations, along with attorney fees and costs. Statutory damages under CCRAA and RFDCPA may also apply.
+                    FCRA permits actual damages + punitive damages for willful violations, along with attorney fees and costs. Statutory and punitive damages estimated at $1.08M.
                   </AlertDescription>
                 </Alert>
               </div>
             </CardContent>
             <CardFooter>
-              <Button variant="outline" className="w-full" size="sm">
+              <Button 
+                variant="outline" 
+                className="w-full" 
+                size="sm"
+                onClick={() => document.getElementById('damages-tab')?.click()}
+              >
                 <BarChart2 className="h-4 w-4 mr-2" />
-                View Detailed Damages Analysis
+                View Full Damages & Case Strength Analysis
               </Button>
             </CardFooter>
           </Card>
