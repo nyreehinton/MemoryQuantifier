@@ -123,11 +123,11 @@ export default function CaseSummary() {
               <div>
                 <h3 className="text-md font-medium mb-2">Key Issues</h3>
                 <ul className="list-disc pl-5 space-y-1 text-sm text-muted-foreground">
-                  <li>Failure to correct inaccurate information after disputes (FCRA violations)</li>
-                  <li>Continued reporting of inaccurate accounts despite consumer disputes</li>
-                  <li>Improper investigation procedures by credit reporting agencies</li>
-                  <li>Negligent and willful noncompliance with federal and state laws</li>
-                  <li>Substantial damages from lost credit opportunities and increased costs</li>
+                  <li>Capital One's alleged retaliatory conduct following initial July 2023 lawsuit</li>
+                  <li>Restricted plaintiff's online account access and falsely reported auto loan as delinquent</li>
+                  <li>43 separate adverse credit actions across 24+ financial institutions</li>
+                  <li>Harvard Extension School withdrawal due to loss of educational financing</li>
+                  <li>Documented economic loss exceeding $2.57 million with detailed quantification</li>
                 </ul>
               </div>
               
@@ -138,11 +138,11 @@ export default function CaseSummary() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="bg-blue-50 dark:bg-blue-950 rounded-md p-3">
                     <p className="text-sm font-medium text-blue-700 dark:text-blue-300">Current Stage</p>
-                    <p className="text-sm">Active litigation against Capital One; seeking successor counsel following mediation failure</p>
+                    <p className="text-sm">Active litigation against Capital One as sole remaining defendant; urgently seeking successor counsel</p>
                   </div>
                   <div className="bg-green-50 dark:bg-green-950 rounded-md p-3">
                     <p className="text-sm font-medium text-green-700 dark:text-green-300">Settlements</p>
-                    <p className="text-sm">Successfully settled with all three major credit reporting agencies (Experian, TransUnion, Equifax)</p>
+                    <p className="text-sm">Successfully settled with all three major credit reporting agencies; Capital One remains unresolved</p>
                   </div>
                 </div>
               </div>
@@ -156,19 +156,19 @@ export default function CaseSummary() {
                     <div className="h-5 w-5 text-red-500 mt-0.5 flex-shrink-0">
                       <AlertCircle className="h-5 w-5" />
                     </div>
-                    <p className="text-sm">Capital One allegedly reported account as "charged-off" on Dec 10, 2023 despite ongoing disputes</p>
+                    <p className="text-sm">Capital One falsely reported Tesla auto loan as delinquent and charged-off despite ongoing disputes</p>
                   </div>
                   <div className="flex items-start space-x-2">
                     <div className="h-5 w-5 text-red-500 mt-0.5 flex-shrink-0">
                       <AlertCircle className="h-5 w-5" />
                     </div>
-                    <p className="text-sm">Multiple documented adverse actions affecting credit lines, loan applications from Jan-Apr 2024</p>
+                    <p className="text-sm">Events coincided with birth of plaintiff's child in September 2023, magnifying stress and instability</p>
                   </div>
                   <div className="flex items-start space-x-2">
                     <div className="h-5 w-5 text-red-500 mt-0.5 flex-shrink-0">
                       <AlertCircle className="h-5 w-5" />
                     </div>
-                    <p className="text-sm">Mediation with Capital One failed on April 3, 2025; current counsel withdrawing</p>
+                    <p className="text-sm">Current counsel withdrew immediately after failed mediation on April 3, 2025</p>
                   </div>
                 </div>
               </div>
