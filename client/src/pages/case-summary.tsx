@@ -264,34 +264,6 @@ export default function CaseSummary() {
             </CardHeader>
             <CardContent>
               <div className="space-y-4">
-                {/* Cash Settlement Box */}
-                <div className="bg-green-50 dark:bg-green-950 border-2 border-green-500 rounded-md p-4 mb-4">
-                  <h3 className="text-md font-medium text-green-800 dark:text-green-300 flex items-center mb-2">
-                    <DollarSign className="h-5 w-5 mr-2 text-green-600" />
-                    Cash Settlement & Release of Claims
-                  </h3>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div>
-                      <h4 className="text-sm font-medium text-green-700 dark:text-green-400 mb-1">Settlement Components</h4>
-                      <ul className="text-sm space-y-1 pl-5 list-disc text-green-700 dark:text-green-400">
-                        <li>Cash payment to plaintiff</li>
-                        <li>Removal of derogatory trade line</li>
-                        <li>Agreement to cease further collection attempts</li>
-                        <li>Credit reporting correction letters to CRAs</li>
-                      </ul>
-                    </div>
-                    <div>
-                      <h4 className="text-sm font-medium text-green-700 dark:text-green-400 mb-1">Release Structure</h4>
-                      <ul className="text-sm space-y-1 pl-5 list-disc text-green-700 dark:text-green-400">
-                        <li>Limited release of specific claims</li>
-                        <li>No confidentiality provisions</li>
-                        <li>No admission of liability by defendant</li>
-                        <li>Mutual non-disparagement clause</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                
                 {/* Infographic-style Summary */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                   <div className="bg-blue-50 dark:bg-blue-950 border-blue-200 dark:border-blue-800 rounded-md p-4">
