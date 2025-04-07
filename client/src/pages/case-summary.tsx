@@ -206,19 +206,19 @@ export default function CaseSummary() {
                   <ul className="text-sm space-y-1 text-muted-foreground">
                     <li className="flex items-center space-x-2">
                       <div className="h-1.5 w-1.5 rounded-full bg-blue-600"></div>
-                      <span>Harvard University Extension School (withdrew due to funding denial)</span>
+                      <span>Financial analyst with 6+ years of experience</span>
                     </li>
                     <li className="flex items-center space-x-2">
                       <div className="h-1.5 w-1.5 rounded-full bg-blue-600"></div>
-                      <span>Business owner (The AI Remedy)</span>
+                      <span>Former senior analyst at Capital Group</span>
                     </li>
                     <li className="flex items-center space-x-2">
                       <div className="h-1.5 w-1.5 rounded-full bg-blue-600"></div>
-                      <span>Former financial analyst at Capital Group</span>
+                      <span>Specialized in investment portfolio management</span>
                     </li>
                     <li className="flex items-center space-x-2">
                       <div className="h-1.5 w-1.5 rounded-full bg-blue-600"></div>
-                      <span>10+ years of unblemished credit history</span>
+                      <span>FINRA Series 7 and 63 certifications</span>
                     </li>
                   </ul>
                 </div>
