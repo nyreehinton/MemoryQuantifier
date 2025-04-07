@@ -190,14 +190,14 @@ export default function CaseSummary() {
           
           <Card>
             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-              <CardTitle className="text-xl font-semibold flex items-center">
+              <CardTitle className="text-xl font-semibold flex items-center border-b-2 border-blue-500 pb-1">
                 <UserCheck className="h-5 w-5 mr-2 text-blue-600" />
                 Client Profile
               </CardTitle>
             </CardHeader>
             <CardContent className="pt-4">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div className="bg-slate-50 dark:bg-slate-900 p-4 rounded-md">
+                <div className="bg-slate-50 dark:bg-slate-900 p-4 rounded-md border-2 border-blue-500">
                   <h4 className="text-sm font-medium text-slate-900 dark:text-slate-100 mb-2">Professional Background</h4>
                   <ul className="text-sm space-y-1 text-muted-foreground">
                     <li className="flex items-center space-x-2">
@@ -218,7 +218,7 @@ export default function CaseSummary() {
                     </li>
                   </ul>
                 </div>
-                <div className="bg-slate-50 dark:bg-slate-900 p-4 rounded-md">
+                <div className="bg-slate-50 dark:bg-slate-900 p-4 rounded-md border-2 border-blue-500">
                   <h4 className="text-sm font-medium text-slate-900 dark:text-slate-100 mb-2">Education</h4>
                   <ul className="text-sm space-y-1 text-muted-foreground">
                     <li className="flex items-center space-x-2">
