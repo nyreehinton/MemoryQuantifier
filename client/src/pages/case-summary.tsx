@@ -98,7 +98,6 @@ export default function CaseSummary() {
       <Tabs defaultValue="overview" className="mb-8">
         <TabsList className="mb-6">
           <TabsTrigger value="overview">Case Overview</TabsTrigger>
-          <TabsTrigger id="damages-tab" value="damages">Damages & Case Strength</TabsTrigger>
         </TabsList>
         
         <TabsContent value="overview">
@@ -395,10 +394,6 @@ export default function CaseSummary() {
           
         </div>
       </div>
-        </TabsContent>
-        
-        <TabsContent value="damages">
-          <DamagesStrengthSection />
         </TabsContent>
       </Tabs>
     </div>
