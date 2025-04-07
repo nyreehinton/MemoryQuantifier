@@ -1,15 +1,6 @@
-import { useState } from 'react';
 import { Button } from '@/components/ui/button';
-import {
-  FileText,
-  Filter,
-  FolderOpen,
-  Grid,
-  List,
-  Plus,
-  Search,
-  Upload,
-} from 'lucide-react';
+import { FileText, Filter, FolderOpen, Grid, List, Plus, Search, Upload } from 'lucide-react';
+import { useState } from 'react';
 
 const Documents = () => {
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
@@ -131,12 +122,12 @@ const Documents = () => {
       {/* Main Content */}
       <main className="container mx-auto px-4 py-8">
         {viewMode === 'grid' ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {documents.map((doc) => (
-              <div key={doc.id} className="bg-card rounded-lg border p-4">
-                <div className="flex items-center space-x-4">
-                  <div className="bg-muted rounded-lg p-3">
-                    <FileText className="h-6 w-6" />
+              <div key={doc.id} className="bg-card rounded-lg border p-3 sm:p-4">
+                <div className="flex items-center space-x-3 sm:space-x-4">
+                  <div className="bg-muted rounded-lg p-2 sm:p-3">
+                    <FileText className="h-5 w-5 sm:h-6 sm:w-6" />
                   </div>
                   <div className="flex-1 min-w-0">
                     <h3 className="text-sm font-medium truncate">{doc.name}</h3>
@@ -145,9 +136,9 @@ const Documents = () => {
                     </p>
                   </div>
                 </div>
-                <div className="mt-4 flex items-center justify-between">
+                <div className="mt-3 sm:mt-4 flex items-center justify-between">
                   <span className="text-xs text-muted-foreground">{doc.size}</span>
-                  <Button variant="outline" size="sm">
+                  <Button variant="outline" size="sm" className="text-xs sm:text-sm">
                     View
                   </Button>
                 </div>

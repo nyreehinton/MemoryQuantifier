@@ -1,0 +1,249 @@
+{
+  "uberRides": [
+    {
+      "destination": "5901 Center Dr",
+      "date": "2024-09-08",
+      "time": "16:05",
+      "price": 7.93,
+      "status": "Completed"
+    },
+    {
+      "destination": "6201 W 87th St",
+      "date": "2024-09-08",
+      "time": "15:15",
+      "price": 6.98,
+      "status": "Completed"
+    },
+    {
+      "destination": "Epinard St & Vista del Mar",
+      "date": "2024-07-08",
+      "time": "19:09",
+      "price": 0.00,
+      "status": "Canceled"
+    },
+    {
+      "destination": "7225 Hollywood Blvd",
+      "date": "2024-05-06",
+      "time": "23:42",
+      "price": 40.24,
+      "status": "Completed"
+    },
+    {
+      "destination": "15520 Rockfield Blvd",
+      "date": "2024-04-18",
+      "time": "08:11",
+      "price": 0.00,
+      "status": "Canceled"
+    },
+    {
+      "destination": "42 Ada",
+      "date": "2024-04-18",
+      "time": "08:09",
+      "price": 0.00,
+      "status": "Canceled"
+    },
+    {
+      "destination": "82 Irvine Blvd",
+      "date": "2024-04-18",
+      "time": "08:06",
+      "price": 0.00,
+      "status": "Canceled"
+    },
+    {
+      "destination": "22765 Aspan St",
+      "date": "2024-04-14",
+      "time": "15:15",
+      "price": 9.43,
+      "status": "Completed"
+    },
+    {
+      "destination": "LA Fitness",
+      "date": "2024-04-14",
+      "time": "13:58",
+      "price": 10.20,
+      "status": "Completed"
+    },
+    {
+      "destination": "133 Glance",
+      "date": "2024-04-11",
+      "time": "13:32",
+      "price": 14.74,
+      "status": "Completed"
+    },
+    {
+      "destination": "Tesla",
+      "date": "2024-01-24",
+      "time": "14:51",
+      "price": 7.99,
+      "status": "Completed"
+    },
+    {
+      "destination": "5901 Center Dr",
+      "date": "2024-01-24",
+      "time": "08:56",
+      "price": 8.96,
+      "status": "Completed"
+    },
+    {
+      "destination": "Moxy NYC East Village",
+      "date": "2023-12-30",
+      "time": "03:23",
+      "price": 34.92,
+      "status": "Completed"
+    },
+    {
+      "destination": "5901 Center Dr",
+      "date": "2023-12-01",
+      "time": "13:48",
+      "price": 27.92,
+      "status": "Completed"
+    },
+    {
+      "destination": "1112 30th Dr",
+      "date": "2023-11-26",
+      "time": "04:23",
+      "price": 42.09,
+      "status": "Completed"
+    },
+    {
+      "destination": "Schimankski",
+      "date": "2023-11-26",
+      "time": "00:24",
+      "price": 25.19,
+      "status": "Completed"
+    },
+    {
+      "destination": "Los Angeles International Airport (LAX)",
+      "date": "2023-11-22",
+      "time": "18:20",
+      "price": 22.28,
+      "status": "Completed"
+    },
+    {
+      "destination": "401 S Burnside Ave",
+      "date": "2023-11-05",
+      "time": "08:40",
+      "price": 0.00,
+      "status": "Canceled"
+    },
+    {
+      "destination": "947 S Bedford St",
+      "date": "2023-10-29",
+      "time": "02:36",
+      "price": 43.96,
+      "status": "Completed"
+    },
+    {
+      "destination": "Second Home",
+      "date": "2023-10-01",
+      "time": "23:35",
+      "price": 10.69,
+      "status": "Completed"
+    },
+    {
+      "destination": "616 Masselin Ave",
+      "date": "2023-11-18",
+      "time": "15:57",
+      "price": 0.00,
+      "status": "Completed"
+    },
+    {
+      "destination": "4192 El Camino Real",
+      "date": "2023-09-20",
+      "time": "15:30",
+      "price": 39.93,
+      "status": "Completed"
+    },
+    {
+      "destination": "Met Her At A Bar",
+      "date": "2023-09-14",
+      "time": "19:16",
+      "price": 15.92,
+      "status": "Completed"
+    },
+    {
+      "destination": "947 S Bedford St",
+      "date": "2023-07-27",
+      "time": "12:06",
+      "price": 10.96,
+      "status": "Completed"
+    },
+    {
+      "destination": "5569 Sepulveda Blvd",
+      "date": "2023-05-07",
+      "time": "16:19",
+      "price": 8.92,
+      "status": "Completed"
+    },
+    {
+      "destination": "5901 Center Dr",
+      "date": "2024-05-07",
+      "time": "13:59",
+      "price": 8.62,
+      "status": "Completed"
+    },
+    {
+      "destination": "401 S Burnside Ave",
+      "date": "2024-03-31",
+      "time": "00:35",
+      "price": 22.78,
+      "status": "Completed"
+    },
+    {
+      "destination": "Los Globos",
+      "date": "2024-03-30",
+      "time": "23:04",
+      "price": 29.70,
+      "status": "Completed"
+    },
+    {
+      "destination": "All City Tow Service",
+      "date": "2024-03-18",
+      "time": "07:52",
+      "price": 20.81,
+      "status": "Completed"
+    },
+    {
+      "destination": "5901 Center Dr",
+      "date": "2024-03-18",
+      "time": "05:56",
+      "price": 28.90,
+      "status": "Completed"
+    },
+    {
+      "destination": "401 S Burnside Ave",
+      "date": "2024-03-17",
+      "time": "13:01",
+      "price": 0.00,
+      "status": "Canceled"
+    },
+    {
+      "destination": "720 W 138th St",
+      "date": "2024-03-06",
+      "time": "04:43",
+      "price": 25.46,
+      "status": "Completed"
+    },
+    {
+      "destination": "5901 Center Dr",
+      "date": "2024-03-05",
+      "time": "19:48",
+      "price": 30.12,
+      "status": "Completed"
+    },
+    {
+      "destination": "5901 Center Dr",
+      "date": "2024-02-29",
+      "time": "02:11",
+      "price": 28.90,
+      "status": "Completed"
+    },
+    {
+      "destination": "1 World Way",
+      "date": "2024-02-27",
+      "time": "08:49",
+      "price": 20.88,
+      "status": "Completed"
+    }
+  ]
+}

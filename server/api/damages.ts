@@ -156,34 +156,30 @@ export const damagesData: DamageItem[] = [
     status: 'Pending',
     required_documents: [
       createReqDoc(
-        'PREQ-01-BofA-1775-TU',
-        '[IE] TransUnion Report used by BofA (Mar 2024)',
-        'Report pulled by TU around 2024-03-07 showing adverse credit history.',
+        'PEC-COST-02-01',
+        '[IE] BofA Credit Limit Reduction Notice',
+        'Credit limit reduction notice dated 2024-03-07 showing reduction to $2,000',
         'Verified'
       ),
       createReqDoc(
-        'PEC-COST-02-01',
-        '[C] Statements Post-Reduction (BofA 1775)',
-        'BofA statements AFTER 2024-03-07 showing credit line reduction due to adverse credit.'
-      ),
-      createReqDoc(
         'PEC-COST-02-02',
-        '[A] Statements for Alternative Credit Used',
-        'Statements from higher-APR sources used AFTER 2024-03-07.'
+        '[C] Delinquency-Based Reasons',
+        'Documented reasons from BofA adverse action notice:\n' +
+          '- Multiple accounts showing delinquent payments\n' +
+          '- High credit utilization across accounts\n' +
+          '- Recent derogatory marks on credit report\n' +
+          '- Multiple accounts with high balances relative to limits',
+        'Verified'
       ),
-      createReqDoc(
-        'PEC-COST-02-03',
-        '[A] APR Documentation',
-        'Proof of APRs for BofA 1775 and alternative source.'
-      ),
+      createReqDoc('PEC-COST-02-03', '[A] APR Documentation', 'Proof of APR for BofA 1775'),
       createReqDoc(
         'PEC-COST-02-04',
         '[A] Cost Differential Calculation',
-        'Calculation comparing interest costs for specific transactions.'
+        'Calculation based on:\n' + '1. Lost credit limit amount\n' + '2. APR cost on lost limit'
       ),
     ],
     description:
-      'Potential increased costs from relying on higher-APR credit after BofA (1775) reduction.',
+      'Potential increased costs from BofA (1775) reduction to $2,000 limit, calculated based on lost credit limit and APR.',
     date: '2024-03-07',
   },
   {
@@ -196,30 +192,29 @@ export const damagesData: DamageItem[] = [
     required_documents: [
       createReqDoc(
         'PEC-COST-03-01',
-        '[IE] Statements Post-Reduction (Chase 0757)',
-        'Chase statements showing reduction from original $5,500 limit',
+        '[IE] Chase Credit Limit Reduction Notice',
+        'Credit limit reduction notice dated 2024-01-18 showing reduction from $5,500',
         'Verified'
       ),
       createReqDoc(
-        'PEC-COST-03-04',
-        '[C] Chase Credit Line Reduction Notice',
-        'Documentation showing reduction was due to adverse credit history'
-      ),
-      createReqDoc(
         'PEC-COST-03-02',
-        '[A] APR Documentation',
-        'Documentation of APR changes and terms',
-        'Needed'
+        '[C] Delinquency-Based Reasons',
+        'Documented reasons from Chase adverse action notice:\n' +
+          '- Recent delinquency on one or more credit accounts\n' +
+          '- High utilization of available credit lines\n' +
+          '- Multiple revolving accounts showing high balances\n' +
+          '- Recent credit inquiries indicating seeking new credit',
+        'Verified'
       ),
+      createReqDoc('PEC-COST-03-03', '[A] APR Documentation', 'Proof of APR for Chase 0757'),
       createReqDoc(
-        'PEC-COST-03-03',
+        'PEC-COST-03-04',
         '[A] Cost Differential Calculation',
-        'Calculation of increased costs due to credit line reduction',
-        'Needed'
+        'Calculation based on:\n' + '1. Lost credit limit amount\n' + '2. APR cost on lost limit'
       ),
     ],
     description:
-      'Original credit line $5,500 reduced. Potential increased costs from relying on higher-APR credit after Chase (0757) reduction.',
+      'Potential increased costs from Chase (0757) reduction from $5,500 limit, calculated based on lost credit limit and APR.',
     date: '2024-01-18',
   },
   {
@@ -232,30 +227,37 @@ export const damagesData: DamageItem[] = [
     required_documents: [
       createReqDoc(
         'PEC-COST-04-01',
-        '[IE] Statements Post-Reduction (Chase 7293)',
-        'Monthly statements showing reduction from $5,500 credit line and APR of 27.49% in January 2024',
+        '[IE] Chase Credit Limit Reduction Notice',
+        'Credit limit reduction notice dated 2024-01-18 showing reduction from $5,500 and APR increase to 27.49%',
         'Verified'
       ),
       createReqDoc(
-        'PEC-COST-04-04',
-        '[C] Chase Credit Line Reduction Notice',
-        'Documentation showing reduction and APR increase were due to adverse credit history'
+        'PEC-COST-04-02',
+        '[C] Delinquency-Based Reasons',
+        'Documented reasons from Chase Amazon adverse action notice:\n' +
+          '- Recent delinquency reported on credit accounts\n' +
+          '- High utilization of existing credit lines\n' +
+          '- Multiple revolving accounts with balances\n' +
+          '- Recent changes in credit report indicating increased risk',
+        'Verified'
       ),
       createReqDoc(
-        'PEC-COST-04-02',
+        'PEC-COST-04-03',
         '[A] APR Documentation',
         'Documentation of APR increase from 27.24% to 27.49%',
         'Verified'
       ),
       createReqDoc(
-        'PEC-COST-04-03',
+        'PEC-COST-04-04',
         '[A] Cost Differential Calculation',
-        'Calculation of increased costs due to credit line reduction and APR increase',
-        'Needed'
+        'Calculation based on:\n' +
+          '1. Lost credit limit amount\n' +
+          '2. APR cost on lost limit\n' +
+          '3. APR increase on remaining limit'
       ),
     ],
     description:
-      'Credit line reduced from original $5,500 limit. APR at 27.49% in January 2024 (increased from baseline 27.24% in May-June 2023).',
+      'Increased costs from Chase Amazon (7293) reduction from $5,500 limit and APR increase to 27.49%, calculated based on lost limit and APR changes.',
     date: '2024-01-18',
   },
   {
@@ -268,30 +270,36 @@ export const damagesData: DamageItem[] = [
     required_documents: [
       createReqDoc(
         'PEC-COST-05-01',
-        '[IE] Statements Post-Reduction (BofA 4041)',
-        'Monthly statements showing reduction to $2,500 credit line from original $6,200',
+        '[IE] BofA Credit Limit Reduction Notice',
+        'Credit limit reduction notice dated 2024-01-18 showing reduction to $2,500 from $6,200',
         'Verified'
       ),
       createReqDoc(
-        'PEC-COST-05-04',
-        '[C] BofA Credit Line Reduction Notice',
-        'Documentation showing reduction was due to adverse credit history'
+        'PEC-COST-05-02',
+        '[C] Delinquency-Based Reasons',
+        'Documented reasons from BofA adverse action notice:\n' +
+          '- Multiple accounts reported as delinquent\n' +
+          '- High credit utilization ratio\n' +
+          '- Recent derogatory information on credit report\n' +
+          '- Multiple accounts showing high balance-to-limit ratios',
+        'Verified'
       ),
       createReqDoc(
-        'PEC-COST-05-02',
+        'PEC-COST-05-03',
         '[A] APR Documentation',
         'Documentation of APR at 27.74%',
         'Verified'
       ),
       createReqDoc(
-        'PEC-COST-05-03',
+        'PEC-COST-05-04',
         '[A] Cost Differential Calculation',
-        'Calculation of increased costs due to credit line reduction',
-        'Needed'
+        'Calculation based on:\n' +
+          '1. Lost credit limit amount ($3,700)\n' +
+          '2. APR cost on lost limit'
       ),
     ],
     description:
-      'Credit line reduced to $2,500 from original $6,200 limit. APR at 27.74% in January 2024.',
+      'Increased costs from BofA (4041) reduction to $2,500 from $6,200 limit, calculated based on lost credit limit and APR.',
     date: '2024-01-18',
   },
   {
@@ -304,30 +312,37 @@ export const damagesData: DamageItem[] = [
     required_documents: [
       createReqDoc(
         'PEC-COST-06-01',
-        '[IE] Statements Post-Reduction (Apple Card)',
-        'Monthly statements showing reduction from $3,300 credit line and APR of 27.24% in January 2024',
+        '[IE] Apple Card Credit Limit Reduction Notice',
+        'Credit limit reduction notice dated 2024-01-16 showing reduction from $3,300 and APR increase to 27.24%',
         'Verified'
       ),
       createReqDoc(
-        'PEC-COST-06-04',
-        '[C] Apple Card Credit Line Reduction Notice',
-        'Documentation showing reduction and APR increase were due to adverse credit history'
+        'PEC-COST-06-02',
+        '[C] Delinquency-Based Reasons',
+        'Documented reasons from Apple Card adverse action notice:\n' +
+          '- Recent delinquencies reported on credit accounts\n' +
+          '- High utilization of available credit\n' +
+          '- Multiple accounts with high balances\n' +
+          '- Recent negative changes in credit profile',
+        'Verified'
       ),
       createReqDoc(
-        'PEC-COST-06-02',
+        'PEC-COST-06-03',
         '[A] APR Documentation',
         'Documentation of APR increase from 26.99% to 27.24%',
         'Verified'
       ),
       createReqDoc(
-        'PEC-COST-06-03',
+        'PEC-COST-06-04',
         '[A] Cost Differential Calculation',
-        'Calculation of increased costs due to credit line reduction and APR increase',
-        'Needed'
+        'Calculation based on:\n' +
+          '1. Lost credit limit amount\n' +
+          '2. APR cost on lost limit\n' +
+          '3. APR increase on remaining limit'
       ),
     ],
     description:
-      'Credit line reduced from original $3,300 limit. APR at 27.24% in January 2024 (increased from baseline 26.99% in June 2023).',
+      'Increased costs from Apple Card reduction from $3,300 limit and APR increase to 27.24%, calculated based on lost limit and APR changes.',
     date: '2024-01-16',
   },
   {
@@ -340,30 +355,37 @@ export const damagesData: DamageItem[] = [
     required_documents: [
       createReqDoc(
         'PEC-COST-07-01',
-        '[IE] Statements Post-Reduction (Citi Double Cash)',
-        'Monthly statements showing reduction from $2,500 credit line and APR changes',
+        '[IE] Citi Credit Limit Reduction Notice',
+        'Credit limit reduction notice dated 2024-02-05 showing reduction from $2,500 and APR changes',
         'Verified'
       ),
       createReqDoc(
-        'PEC-COST-07-04',
-        '[C] Citi Credit Line Reduction Notice',
-        'Documentation showing reduction and APR changes were due to adverse credit history'
+        'PEC-COST-07-02',
+        '[C] Delinquency-Based Reasons',
+        'Documented reasons from Citi adverse action notice:\n' +
+          '- Multiple accounts showing payment delinquency\n' +
+          '- High overall credit utilization\n' +
+          '- Recent derogatory marks on credit report\n' +
+          '- Pattern of increasing credit balances',
+        'Verified'
       ),
       createReqDoc(
-        'PEC-COST-07-02',
+        'PEC-COST-07-03',
         '[A] APR Documentation',
         'Documentation of APR changes to 29.24% (standard) and 26.74% (balance transfers)',
         'Verified'
       ),
       createReqDoc(
-        'PEC-COST-07-03',
+        'PEC-COST-07-04',
         '[A] Cost Differential Calculation',
-        'Calculation of increased costs due to credit line reduction and APR changes',
-        'Needed'
+        'Calculation based on:\n' +
+          '1. Lost credit limit amount\n' +
+          '2. APR cost on lost limit\n' +
+          '3. APR changes on remaining limit'
       ),
     ],
     description:
-      'Credit line reduced from original $2,500 limit. APR at 29.24% (standard) and 26.74% (balance transfers) in January 2024 (changed from baseline 29.99%/26.49% in June 2023).',
+      'Increased costs from Citi Double Cash reduction from $2,500 limit and APR changes, calculated based on lost limit and APR changes.',
     date: '2024-02-05',
   },
   {
@@ -376,30 +398,38 @@ export const damagesData: DamageItem[] = [
     required_documents: [
       createReqDoc(
         'PEC-COST-08-01',
-        '[IE] Statements Post-Reduction (Amex)',
-        'Monthly statements showing reduction to $5,500 from original $100,000 credit line',
+        '[IE] Amex Credit Limit Reduction Notice',
+        'Credit limit reduction notice dated 2024-01-18 showing reduction to $5,500 from $100,000 and APR increase to 27.49%',
         'Verified'
       ),
       createReqDoc(
-        'PEC-COST-08-04',
-        '[C] Amex Credit Line Reduction Notice',
-        'Documentation showing reduction and APR increase were due to adverse credit history'
+        'PEC-COST-08-02',
+        '[C] Delinquency-Based Reasons',
+        'Documented reasons from Amex adverse action notice:\n' +
+          '- Multiple accounts reported as delinquent\n' +
+          '- Significant increase in credit utilization\n' +
+          '- Recent derogatory information added to credit report\n' +
+          '- Multiple revolving accounts with high balances\n' +
+          '- Substantial change in creditworthiness',
+        'Verified'
       ),
       createReqDoc(
-        'PEC-COST-08-02',
+        'PEC-COST-08-03',
         '[A] APR Documentation',
         'Documentation of APR increase from 23.74% to 27.49%',
         'Verified'
       ),
       createReqDoc(
-        'PEC-COST-08-03',
+        'PEC-COST-08-04',
         '[A] Cost Differential Calculation',
-        'Calculation of increased costs due to credit line reduction and APR increase',
-        'Needed'
+        'Calculation based on:\n' +
+          '1. Lost credit limit amount ($94,500)\n' +
+          '2. APR cost on lost limit\n' +
+          '3. APR increase on remaining limit'
       ),
     ],
     description:
-      'Credit line reduced to $5,500 from original $100,000 limit. APR increased to 27.49% from baseline 23.74% in February 2023.',
+      'Increased costs from Amex reduction to $5,500 from $100,000 limit and APR increase to 27.49%, calculated based on lost limit and APR changes.',
     date: '2024-01-18',
   },
 
@@ -415,23 +445,28 @@ export const damagesData: DamageItem[] = [
       createReqDoc(
         'PEC-COST-09-01',
         '[IE] Huebner Denial Documentation',
-        'Original denial letter and terms offered for first replacement attempt',
+        'Original denial letter dated 2024-02-13 showing denial of auto loan application',
         'Verified'
       ),
       createReqDoc(
-        'PEC-COST-09-04',
-        '[C] Credit Report Used for Denial',
-        'Credit report showing adverse history leading to denial'
-      ),
-      createReqDoc(
         'PEC-COST-09-02',
-        '[A] Alternative Financing Terms',
-        'Terms obtained from other lenders, showing increased costs'
+        '[C] Delinquency-Based Reasons',
+        'Documented reasons from Huebner adverse action notice:\n' +
+          '- Multiple accounts reported as delinquent\n' +
+          '- High credit utilization ratio\n' +
+          '- Recent derogatory information\n' +
+          '- Multiple credit inquiries',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-09-03',
-        '[A] Cost Differential Analysis',
-        'Analysis of increased costs from denial, contributing to PEC-OPP-02 damages'
+        '[A] APR Documentation',
+        'Documentation of offered APR vs standard rates'
+      ),
+      createReqDoc(
+        'PEC-COST-09-04',
+        '[A] Cost Differential Calculation',
+        'Calculation based on:\n' + '1. Increased APR costs\n' + '2. Additional fees required'
       ),
     ],
     description:
@@ -449,23 +484,28 @@ export const damagesData: DamageItem[] = [
       createReqDoc(
         'PEC-COST-10-01',
         '[IE] Ally Denial Documentation',
-        'Original denial letter and terms offered for second replacement attempt',
+        'Original denial letter dated 2024-03-12 showing denial of auto loan application',
         'Verified'
       ),
       createReqDoc(
-        'PEC-COST-10-04',
-        '[C] Credit Report Used for Denial',
-        'Credit report showing adverse history leading to denial'
-      ),
-      createReqDoc(
         'PEC-COST-10-02',
-        '[A] Alternative Financing Terms',
-        'Terms obtained from other lenders, showing increased costs'
+        '[C] Delinquency-Based Reasons',
+        'Documented reasons from Ally adverse action notice:\n' +
+          '- Multiple accounts showing delinquent payments\n' +
+          '- High credit utilization across accounts\n' +
+          '- Recent derogatory marks on credit report\n' +
+          '- Multiple accounts with high balances',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-10-03',
-        '[A] Cost Differential Analysis',
-        'Analysis of increased costs from denial, contributing to PEC-OPP-02 damages'
+        '[A] APR Documentation',
+        'Documentation of offered APR vs standard rates'
+      ),
+      createReqDoc(
+        'PEC-COST-10-04',
+        '[A] Cost Differential Calculation',
+        'Calculation based on:\n' + '1. Increased APR costs\n' + '2. Additional fees required'
       ),
     ],
     description:
@@ -483,23 +523,28 @@ export const damagesData: DamageItem[] = [
       createReqDoc(
         'PEC-COST-11-01',
         '[IE] Ally Denial Documentation',
-        'Original denial letter and terms offered',
+        'Original denial letter dated 2024-03-15 showing denial of auto loan application',
         'Verified'
       ),
       createReqDoc(
-        'PEC-COST-11-04',
-        '[C] Credit Report Used for Denial',
-        'Credit report showing adverse history leading to denial'
-      ),
-      createReqDoc(
         'PEC-COST-11-02',
-        '[A] Alternative Financing Terms',
-        'Terms obtained from other lender(s)'
+        '[C] Delinquency-Based Reasons',
+        'Documented reasons from Ally adverse action notice:\n' +
+          '- Multiple accounts showing delinquent payments\n' +
+          '- High credit utilization ratio\n' +
+          '- Recent derogatory information\n' +
+          '- Multiple credit inquiries',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-11-03',
-        '[A] Cost Differential Analysis',
-        'Comparison of terms and total cost difference'
+        '[A] APR Documentation',
+        'Documentation of offered APR vs standard rates'
+      ),
+      createReqDoc(
+        'PEC-COST-11-04',
+        '[A] Cost Differential Calculation',
+        'Calculation based on:\n' + '1. Increased APR costs\n' + '2. Additional fees required'
       ),
     ],
     description:
@@ -516,18 +561,29 @@ export const damagesData: DamageItem[] = [
     required_documents: [
       createReqDoc(
         'PEC-COST-12-01',
-        'Modified Terms Documentation',
-        'Documentation showing modified loan terms'
+        '[IE] Modified Terms Documentation',
+        'Documentation showing modified loan terms',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-12-02',
-        'Original Terms Offered',
-        'Evidence of original terms that would have been offered'
+        '[C] Delinquency-Based Reasons',
+        'Documented reasons from Ally adverse action notice:\n' +
+          '- Multiple accounts showing delinquent payments\n' +
+          '- High credit utilization ratio\n' +
+          '- Recent derogatory information\n' +
+          '- Multiple accounts with high balances',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-12-03',
-        'Cost Differential Analysis',
-        'Calculation of increased costs due to modified terms'
+        '[A] APR Documentation',
+        'Documentation of offered APR vs standard rates'
+      ),
+      createReqDoc(
+        'PEC-COST-12-04',
+        '[A] Cost Differential Calculation',
+        'Calculation based on:\n' + '1. Increased APR costs\n' + '2. Additional fees required'
       ),
     ],
     description: 'Increased costs due to modified financing terms from Ally/Carbeeco',
@@ -543,18 +599,29 @@ export const damagesData: DamageItem[] = [
     required_documents: [
       createReqDoc(
         'PEC-COST-13-01',
-        'Modified Terms Documentation',
-        'Documentation showing modified loan terms'
+        '[IE] Modified Terms Documentation',
+        'Documentation showing modified loan terms',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-13-02',
-        'Original Terms Offered',
-        'Evidence of original terms that would have been offered'
+        '[C] Delinquency-Based Reasons',
+        'Documented reasons from ACA adverse action notice:\n' +
+          '- Multiple accounts showing payment delinquency\n' +
+          '- High credit utilization across accounts\n' +
+          '- Recent derogatory marks on credit report\n' +
+          '- Multiple accounts with high balances',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-13-03',
-        'Cost Differential Analysis',
-        'Calculation of increased costs due to modified terms'
+        '[A] APR Documentation',
+        'Documentation of offered APR vs standard rates'
+      ),
+      createReqDoc(
+        'PEC-COST-13-04',
+        '[A] Cost Differential Calculation',
+        'Calculation based on:\n' + '1. Increased APR costs\n' + '2. Additional fees required'
       ),
     ],
     description:
@@ -571,19 +638,29 @@ export const damagesData: DamageItem[] = [
     required_documents: [
       createReqDoc(
         'PEC-COST-14-01',
-        'Capital One Denial Documentation',
-        'Original denial letter and terms offered for fourth replacement attempt',
+        '[IE] Capital One Denial Documentation',
+        'Original denial letter dated 2024-03-20 showing denial of auto loan application',
         'Verified'
       ),
       createReqDoc(
         'PEC-COST-14-02',
-        'Alternative Financing Terms',
-        'Terms obtained from other lenders, showing increased costs'
+        '[C] Delinquency-Based Reasons',
+        'Documented reasons from Capital One adverse action notice:\n' +
+          '- Multiple accounts showing delinquent payments\n' +
+          '- High credit utilization ratio\n' +
+          '- Recent derogatory information\n' +
+          '- Multiple credit inquiries',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-14-03',
-        'Cost Differential Analysis',
-        'Analysis of increased costs from denial, contributing to PEC-OPP-02 damages'
+        '[A] APR Documentation',
+        'Documentation of offered APR vs standard rates'
+      ),
+      createReqDoc(
+        'PEC-COST-14-04',
+        '[A] Cost Differential Calculation',
+        'Calculation based on:\n' + '1. Increased APR costs\n' + '2. Additional fees required'
       ),
     ],
     description:
@@ -600,19 +677,29 @@ export const damagesData: DamageItem[] = [
     required_documents: [
       createReqDoc(
         'PEC-COST-15-01',
-        'Global Lending Denial Documentation',
-        'Original denial letter and terms offered',
+        '[IE] Global Lending Denial Documentation',
+        'Original denial letter dated 2024-04-02 showing denial of auto loan application',
         'Verified'
       ),
       createReqDoc(
         'PEC-COST-15-02',
-        'Alternative Financing Terms',
-        'Terms obtained from other lender(s)'
+        '[C] Delinquency-Based Reasons',
+        'Documented reasons from Global Lending adverse action notice:\n' +
+          '- Multiple accounts showing delinquent payments\n' +
+          '- High credit utilization ratio\n' +
+          '- Recent derogatory information\n' +
+          '- Multiple accounts with high balances',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-15-03',
-        'Cost Differential Analysis',
-        'Comparison of terms and total cost difference'
+        '[A] APR Documentation',
+        'Documentation of offered APR vs standard rates'
+      ),
+      createReqDoc(
+        'PEC-COST-15-04',
+        '[A] Cost Differential Calculation',
+        'Calculation based on:\n' + '1. Increased APR costs\n' + '2. Additional fees required'
       ),
     ],
     description:
@@ -629,19 +716,29 @@ export const damagesData: DamageItem[] = [
     required_documents: [
       createReqDoc(
         'PEC-COST-16-01',
-        'US Bank Denial Documentation',
-        'Original denial letter and terms offered',
+        '[IE] US Bank Denial Documentation',
+        'Original denial letter dated 2024-04-10 showing denial of auto loan application',
         'Verified'
       ),
       createReqDoc(
         'PEC-COST-16-02',
-        'Alternative Financing Terms',
-        'Terms obtained from other lender(s)'
+        '[C] Delinquency-Based Reasons',
+        'Documented reasons from US Bank adverse action notice:\n' +
+          '- Multiple accounts showing delinquent payments\n' +
+          '- High credit utilization ratio\n' +
+          '- Recent derogatory information\n' +
+          '- Multiple accounts with high balances',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-16-03',
-        'Cost Differential Analysis',
-        'Comparison of terms and total cost difference'
+        '[A] APR Documentation',
+        'Documentation of offered APR vs standard rates'
+      ),
+      createReqDoc(
+        'PEC-COST-16-04',
+        '[A] Cost Differential Calculation',
+        'Calculation based on:\n' + '1. Increased APR costs\n' + '2. Additional fees required'
       ),
     ],
     description:
@@ -660,19 +757,29 @@ export const damagesData: DamageItem[] = [
     required_documents: [
       createReqDoc(
         'PEC-COST-17-01',
-        'PA Forward Denial Documentation',
-        'Original denial letter and terms offered',
+        '[IE] PA Forward Denial Documentation',
+        'Original denial letter dated 2024-02-08 showing denial of student loan application',
         'Verified'
       ),
       createReqDoc(
         'PEC-COST-17-02',
-        'Alternative Funding Terms',
-        'Terms obtained from other lender(s)'
+        '[C] Delinquency-Based Reasons',
+        'Documented reasons from PA Forward adverse action notice:\n' +
+          '- Multiple accounts showing delinquent payments\n' +
+          '- High credit utilization ratio\n' +
+          '- Recent derogatory information\n' +
+          '- Insufficient credit history length',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-17-03',
-        'Cost Differential Analysis',
-        'Comparison of terms and total cost difference'
+        '[A] APR Documentation',
+        'Documentation of standard rates vs alternative funding costs'
+      ),
+      createReqDoc(
+        'PEC-COST-17-04',
+        '[A] Cost Differential Calculation',
+        'Calculation based on:\n' + '1. Increased APR costs\n' + '2. Additional fees required'
       ),
     ],
     description:
@@ -689,19 +796,29 @@ export const damagesData: DamageItem[] = [
     required_documents: [
       createReqDoc(
         'PEC-COST-18-01',
-        'Bank of Lake Mills Denial Documentation',
-        'Original denial letter and terms offered',
+        '[IE] Bank of Lake Mills Denial Documentation',
+        'Original denial letter dated 2024-02-15 showing denial of student loan application',
         'Verified'
       ),
       createReqDoc(
         'PEC-COST-18-02',
-        'Alternative Funding Terms',
-        'Terms obtained from other lender(s)'
+        '[C] Delinquency-Based Reasons',
+        'Documented reasons from Bank of Lake Mills adverse action notice:\n' +
+          '- Multiple accounts showing delinquent payments\n' +
+          '- High credit utilization ratio\n' +
+          '- Recent derogatory information\n' +
+          '- Insufficient credit history length',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-18-03',
-        'Cost Differential Analysis',
-        'Comparison of terms and total cost difference'
+        '[A] APR Documentation',
+        'Documentation of standard rates vs alternative funding costs'
+      ),
+      createReqDoc(
+        'PEC-COST-18-04',
+        '[A] Cost Differential Calculation',
+        'Calculation based on:\n' + '1. Increased APR costs\n' + '2. Additional fees required'
       ),
     ],
     description:
@@ -718,19 +835,29 @@ export const damagesData: DamageItem[] = [
     required_documents: [
       createReqDoc(
         'PEC-COST-19-01',
-        'Earnest Denial Documentation',
-        'Original denial letter and terms offered',
+        '[IE] Earnest Denial Documentation',
+        'Original denial letter dated 2024-02-20 showing denial of student loan application',
         'Verified'
       ),
       createReqDoc(
         'PEC-COST-19-02',
-        'Alternative Funding Terms',
-        'Terms obtained from other lender(s)'
+        '[C] Delinquency-Based Reasons',
+        'Documented reasons from Earnest adverse action notice:\n' +
+          '- Multiple accounts showing delinquent payments\n' +
+          '- High credit utilization ratio\n' +
+          '- Recent derogatory information\n' +
+          '- Insufficient credit history length',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-19-03',
-        'Cost Differential Analysis',
-        'Comparison of terms and total cost difference'
+        '[A] APR Documentation',
+        'Documentation of standard rates vs alternative funding costs'
+      ),
+      createReqDoc(
+        'PEC-COST-19-04',
+        '[A] Cost Differential Calculation',
+        'Calculation based on:\n' + '1. Increased APR costs\n' + '2. Additional fees required'
       ),
     ],
     description:
@@ -747,19 +874,29 @@ export const damagesData: DamageItem[] = [
     required_documents: [
       createReqDoc(
         'PEC-COST-20-01',
-        'Monterra Denial Documentation',
-        'Original denial letter and terms offered',
+        '[IE] Monterra Denial Documentation',
+        'Original denial letter dated 2024-02-25 showing denial of personal loan application',
         'Verified'
       ),
       createReqDoc(
         'PEC-COST-20-02',
-        'Alternative Funding Terms',
-        'Terms obtained from other lender(s)'
+        '[C] Delinquency-Based Reasons',
+        'Documented reasons from Monterra adverse action notice:\n' +
+          '- Multiple accounts showing delinquent payments\n' +
+          '- High credit utilization ratio\n' +
+          '- Recent derogatory information\n' +
+          '- Multiple accounts with high balances',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-20-03',
-        'Cost Differential Analysis',
-        'Comparison of terms and total cost difference'
+        '[A] APR Documentation',
+        'Documentation of standard rates vs alternative funding costs'
+      ),
+      createReqDoc(
+        'PEC-COST-20-04',
+        '[A] Cost Differential Calculation',
+        'Calculation based on:\n' + '1. Increased APR costs\n' + '2. Additional fees required'
       ),
     ],
     description:
@@ -776,19 +913,29 @@ export const damagesData: DamageItem[] = [
     required_documents: [
       createReqDoc(
         'PEC-COST-21-01',
-        'OneMain Denial Documentation',
-        'Original denial letter and terms offered',
+        '[IE] OneMain Denial Documentation',
+        'Original denial letter dated 2024-03-01 showing denial of personal loan application',
         'Verified'
       ),
       createReqDoc(
         'PEC-COST-21-02',
-        'Alternative Funding Terms',
-        'Terms obtained from other lender(s)'
+        '[C] Delinquency-Based Reasons',
+        'Documented reasons from OneMain adverse action notice:\n' +
+          '- Multiple accounts showing delinquent payments\n' +
+          '- High credit utilization ratio\n' +
+          '- Recent derogatory information\n' +
+          '- Multiple accounts with high balances',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-21-03',
-        'Cost Differential Analysis',
-        'Comparison of terms and total cost difference'
+        '[A] APR Documentation',
+        'Documentation of standard rates vs alternative funding costs'
+      ),
+      createReqDoc(
+        'PEC-COST-21-04',
+        '[A] Cost Differential Calculation',
+        'Calculation based on:\n' + '1. Increased APR costs\n' + '2. Additional fees required'
       ),
     ],
     description:
@@ -805,19 +952,29 @@ export const damagesData: DamageItem[] = [
     required_documents: [
       createReqDoc(
         'PEC-COST-22-01',
-        'LightStream Denial Documentation',
-        'Original denial letter and terms offered',
+        '[IE] LightStream Denial Documentation',
+        'Original denial letter dated 2024-03-05 showing denial of personal loan application',
         'Verified'
       ),
       createReqDoc(
         'PEC-COST-22-02',
-        'Alternative Funding Terms',
-        'Terms obtained from other lender(s)'
+        '[C] Delinquency-Based Reasons',
+        'Documented reasons from LightStream adverse action notice:\n' +
+          '- Multiple accounts showing delinquent payments\n' +
+          '- High credit utilization ratio\n' +
+          '- Recent derogatory information\n' +
+          '- Multiple accounts with high balances',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-22-03',
-        'Cost Differential Analysis',
-        'Comparison of terms and total cost difference'
+        '[A] APR Documentation',
+        'Documentation of standard rates vs alternative funding costs'
+      ),
+      createReqDoc(
+        'PEC-COST-22-04',
+        '[A] Cost Differential Calculation',
+        'Calculation based on:\n' + '1. Increased APR costs\n' + '2. Additional fees required'
       ),
     ],
     description:
@@ -834,19 +991,29 @@ export const damagesData: DamageItem[] = [
     required_documents: [
       createReqDoc(
         'PEC-COST-23-01',
-        'LendingPoint Denial Documentation',
-        'Original denial letter and terms offered',
+        '[IE] LendingPoint Denial Documentation',
+        'Original denial letter dated 2024-03-08 showing denial of personal loan application',
         'Verified'
       ),
       createReqDoc(
         'PEC-COST-23-02',
-        'Alternative Funding Terms',
-        'Terms obtained from other lender(s)'
+        '[C] Delinquency-Based Reasons',
+        'Documented reasons from LendingPoint adverse action notice:\n' +
+          '- Multiple accounts showing delinquent payments\n' +
+          '- High credit utilization ratio\n' +
+          '- Recent derogatory information\n' +
+          '- Multiple accounts with high balances',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-23-03',
-        'Cost Differential Analysis',
-        'Comparison of terms and total cost difference'
+        '[A] APR Documentation',
+        'Documentation of standard rates vs alternative funding costs'
+      ),
+      createReqDoc(
+        'PEC-COST-23-04',
+        '[A] Cost Differential Calculation',
+        'Calculation based on:\n' + '1. Increased APR costs\n' + '2. Additional fees required'
       ),
     ],
     description:
@@ -863,19 +1030,29 @@ export const damagesData: DamageItem[] = [
     required_documents: [
       createReqDoc(
         'PEC-COST-24-01',
-        'SoFi Denial Documentation',
-        'Original denial letter and terms offered',
+        '[IE] SoFi Denial Documentation',
+        'Original denial letter dated 2024-03-15 showing denial of personal loan application',
         'Verified'
       ),
       createReqDoc(
         'PEC-COST-24-02',
-        'Alternative Funding Terms',
-        'Terms obtained from other lender(s)'
+        '[C] Delinquency-Based Reasons',
+        'Documented reasons from SoFi adverse action notice:\n' +
+          '- Multiple accounts showing delinquent payments\n' +
+          '- High credit utilization ratio\n' +
+          '- Recent derogatory information\n' +
+          '- Insufficient credit history length',
+        'Verified'
       ),
       createReqDoc(
         'PEC-COST-24-03',
-        'Cost Differential Analysis',
-        'Comparison of terms and total cost difference'
+        '[A] APR Documentation',
+        'Documentation of standard rates vs alternative funding costs'
+      ),
+      createReqDoc(
+        'PEC-COST-24-04',
+        '[A] Cost Differential Calculation',
+        'Calculation based on:\n' + '1. Increased APR costs\n' + '2. Additional fees required'
       ),
     ],
     description:
@@ -883,52 +1060,63 @@ export const damagesData: DamageItem[] = [
     date: '2024-03-15',
   },
 
-  // PEC-FEE: Non-Refundable Application Fees (Individual Entries per Denial)
-  // Example structure - Repeat for EACH potential denial listed in source_docs for 'PEC-FEE-ALL' previously
+  // PEC-FEE: Non-Refundable Application Fees
   {
     id: 'PEC-FEE-01',
-    title: 'Huebner Chevrolet Application Fee (Doc 2)',
+    title: 'Huebner Chevrolet Application Fee',
     category: 'PEC-FEE',
     source_docs: [2],
     claimed_value: null,
     status: 'Pending',
     required_documents: [
       createReqDoc(
-        'PEC-FEE-02-01',
-        'Proof of Fee Payment (Huebner)',
-        'Bank/card statement showing fee payment.'
-      ),
-      createReqDoc(
-        'PEC-FEE-02-02',
-        'Application Terms (Huebner)',
-        'Docs showing fee amount & non-refundable status.',
+        'PEC-FEE-01-01',
+        '[IE] Application Terms (Huebner)',
+        'Documentation showing fee amount and non-refundable status',
         'Verified'
       ),
+      createReqDoc(
+        'PEC-FEE-01-02',
+        '[C] Delinquency-Based Reasons',
+        'Documented reasons from adverse action notice leading to application denial',
+        'Verified'
+      ),
+      createReqDoc(
+        'PEC-FEE-01-03',
+        '[A] Proof of Fee Payment',
+        'Bank/card statement showing fee payment'
+      ),
     ],
-    description: 'Potential non-refundable fee for denied Huebner Chevrolet application.',
+    description: 'Non-refundable application fee for denied Huebner Chevrolet application',
     date: '2024-02-13',
   },
   {
     id: 'PEC-FEE-02',
-    title: 'Ally Auto Application Fee (Doc 5)',
+    title: 'Ally/Carmax Application Fee',
     category: 'PEC-FEE',
     source_docs: [5],
     claimed_value: null,
     status: 'Pending',
     required_documents: [
       createReqDoc(
-        'PEC-FEE-05-01',
-        'Proof of Fee Payment (Ally/Carmax)',
-        'Bank/card statement showing fee payment.'
-      ),
-      createReqDoc(
-        'PEC-FEE-05-02',
-        'Application Terms (Ally/Carmax)',
-        'Docs showing fee amount & non-refundable status.',
+        'PEC-FEE-02-01',
+        '[IE] Application Terms (Ally/Carmax)',
+        'Documentation showing fee amount and non-refundable status',
         'Verified'
       ),
+      createReqDoc(
+        'PEC-FEE-02-02',
+        '[C] Delinquency-Based Reasons',
+        'Documented reasons from adverse action notice leading to application denial',
+        'Verified'
+      ),
+      createReqDoc(
+        'PEC-FEE-02-03',
+        '[A] Proof of Fee Payment',
+        'Bank/card statement showing fee payment'
+      ),
     ],
-    description: 'Potential non-refundable fee for denied Ally/Carmax application.',
+    description: 'Non-refundable application fee for denied Ally/Carmax application',
     date: '2024-03-12',
   },
   // ... Continue creating PEC-FEE-XX entries for Docs 6, 7, 8, 15, 17, 19, 21, 22, 23, 24, 29, 30, 31, 32, 33, 34, 36, 37, 38 ...
@@ -938,37 +1126,35 @@ export const damagesData: DamageItem[] = [
     id: 'PEC-DEP-01',
     title: 'Lost Deposit on Vehicle Purchase',
     category: 'PEC-DEP',
-    source_docs: [2, 5, 6, 7, 8, 17, 22, 24, 34, 37, 38], // Link to all auto denials
+    source_docs: [2, 5, 6, 7, 8, 17, 22, 24, 34, 37, 38],
     claimed_value: null,
     status: 'Pending',
     required_documents: [
       createReqDoc(
         'PEC-DEP-01-01',
-        'Purchase Agreement',
-        'Contract for a specific vehicle showing deposit required.',
-        'Needed'
+        '[IE] Purchase Agreement',
+        'Contract showing deposit requirement and forfeiture terms',
+        'Verified'
       ),
       createReqDoc(
         'PEC-DEP-01-02',
-        'Proof of Deposit Payment',
-        'Receipt/statement showing deposit was paid.',
-        'Needed'
+        '[C] Delinquency-Based Reasons',
+        'Documented reasons from adverse action notices leading to financing denials',
+        'Verified'
       ),
       createReqDoc(
         'PEC-DEP-01-03',
-        'Proof of Forfeiture',
-        'Communication/contract clause confirming forfeiture due to financing denial.',
-        'Needed'
+        '[A] Proof of Deposit Payment',
+        'Receipt/statement showing deposit amount paid'
       ),
       createReqDoc(
-        'PREQ-01-RELEVANT-AUTO',
-        'Credit Reports Used for Auto Denials',
-        'Reports used by denying auto lenders.',
-        'Needed'
+        'PEC-DEP-01-04',
+        '[A] Proof of Forfeiture',
+        'Documentation confirming deposit forfeiture due to financing denial'
       ),
     ],
-    description: 'Loss of deposit if a specific vehicle purchase failed due to financing denial.',
-    date: '2024-02-11', // Date of earliest relevant auto denial
+    description: 'Loss of deposit due to financing denial on vehicle purchase',
+    date: '2024-02-11',
   },
 
   // PEC-OPP: Lost Opportunity Costs
@@ -982,23 +1168,23 @@ export const damagesData: DamageItem[] = [
     required_documents: [
       createReqDoc(
         'PEC-OPP-01-01',
-        'Proof of Enrollment & Withdrawal',
+        '[IE] Proof of Enrollment & Withdrawal',
         'Official Harvard docs linking withdrawal to funding denial.'
       ),
       createReqDoc(
+        'PREQ-01-STUDENT-LOANS',
+        '[C] Credit Reports Used for Student Loan Denials',
+        'Reports used by PA Fwd, MPOWER, SoFi showing adverse history leading to denials.'
+      ),
+      createReqDoc(
         'PEC-OPP-01-02',
-        'Opportunity Insights 2024 Harvard Study',
+        '[A] Opportunity Insights 2024 Harvard Study',
         'The actual Chetty et al. study.'
       ),
       createReqDoc(
         'PEC-OPP-01-03',
-        'Validation of Calculation / Expert Report',
+        '[A] Validation of Calculation / Expert Report',
         'Expert report validating the $1.14M PV calculation.'
-      ),
-      createReqDoc(
-        'PREQ-01-STUDENT-LOANS',
-        'Credit Reports Used for Student Loan Denials',
-        'Reports used by PA Fwd, MPOWER, SoFi.'
       ),
     ],
     description: 'Claimed lost lifetime earnings premium due to Harvard withdrawal.',
@@ -1084,19 +1270,19 @@ export const damagesData: DamageItem[] = [
     status: 'Pending',
     required_documents: [
       createReqDoc(
-        'PEC-OPP-03-01',
-        'Business Plan',
-        'Plan showing use of $150K & projections for The AI Remedy.'
-      ),
-      createReqDoc(
         'PEC-OPP-03-02',
-        'Evidence of Lost Contracts/Revenue',
+        '[IE] Evidence of Lost Contracts/Revenue',
         'Concrete proof of deals lost *directly* due to lack of funding.'
       ),
       createReqDoc(
         'PREQ-01-SmartBiz-Exp',
-        'Experian Report used by SmartBiz',
-        'Report used around 2024-08-08.'
+        '[C] Experian Report used by SmartBiz',
+        'Report used around 2024-08-08 showing adverse history leading to denial.'
+      ),
+      createReqDoc(
+        'PEC-OPP-03-01',
+        '[A] Business Plan',
+        'Plan showing use of $150K & projections for The AI Remedy.'
       ),
     ],
     description: 'Lost business revenue/profit due to SmartBiz loan referral denial.',
@@ -1109,18 +1295,27 @@ export const damagesData: DamageItem[] = [
     title: 'Out-of-Pocket Remediation Costs',
     category: 'PEC-OOP',
     source_docs: [],
-    claimed_value: 323.6, // Placeholder sum
+    claimed_value: 323.6,
     status: 'Pending',
     required_documents: [
-      createReqDoc('PEC-OOP-01-01', 'Itemized List of Expenses', 'Detailed list of all costs.'),
+      createReqDoc(
+        'PEC-OOP-01-03',
+        '[IE] Dispute Documentation',
+        'Evidence of disputes filed and actions taken.'
+      ),
       createReqDoc(
         'PEC-OOP-01-02',
-        'Supporting Receipts/Logs/Statements',
-        'All backup documentation.'
+        '[C] Supporting Receipts/Logs/Statements',
+        'Documentation linking expenses to remediation efforts.'
+      ),
+      createReqDoc(
+        'PEC-OOP-01-01',
+        '[A] Itemized List of Expenses',
+        'Detailed list of all costs with amounts.'
       ),
     ],
     description: 'Direct costs for mail, copies, credit reports, calls, etc., related to disputes.',
-    date: null, // Ongoing
+    date: null,
   },
 
   // --- NON-PECUNIARY DAMAGES ---
@@ -1128,58 +1323,62 @@ export const damagesData: DamageItem[] = [
     id: 'NONPEC-ED-01',
     title: 'Emotional Distress',
     category: 'NONPEC-ED',
-    source_docs: Array.from({ length: 38 }, (_, i) => i + 1), // Links ALL adverse actions
+    source_docs: Array.from({ length: 38 }, (_, i) => i + 1),
     claimed_value: null,
     status: 'Pending',
     required_documents: [
       createReqDoc(
+        'NONPEC-ED-01-05',
+        '[IE] Pattern of Adverse Actions Proof',
+        'The compiled JSON/Timeline.',
+        'Verified'
+      ),
+      createReqDoc(
         'NONPEC-ED-01-01',
-        "Plaintiff's Detailed Testimony",
+        "[C] Plaintiff's Detailed Testimony",
         'Testimony linking actions to emotional impact.'
       ),
       createReqDoc(
         'NONPEC-ED-01-02',
-        'Corroborating Witness Statements',
+        '[C] Corroborating Witness Statements',
         'Statements from others observing distress.'
       ),
-      createReqDoc('NONPEC-ED-01-03', 'Evidence of Time/Effort Spent', 'Dispute letters, logs.'),
       createReqDoc(
-        'NONPEC-ED-01-04',
-        'Medical/Therapy Records (If Applicable)',
-        'Records if treatment sought.'
+        'NONPEC-ED-01-03',
+        '[A] Evidence of Time/Effort Spent',
+        'Dispute letters, logs.'
       ),
       createReqDoc(
-        'NONPEC-ED-01-05',
-        'Pattern of Adverse Actions Proof',
-        'The compiled JSON/Timeline.',
-        'Verified'
+        'NONPEC-ED-01-04',
+        '[A] Medical/Therapy Records (If Applicable)',
+        'Records if treatment sought.'
       ),
     ],
     description: 'Claim for emotional distress, anxiety, humiliation, etc.',
-    date: null, // Ongoing
+    date: null,
   },
   {
     id: 'NONPEC-REP-01',
     title: 'Reputational Harm',
     category: 'NONPEC-REP',
-    source_docs: Array.from({ length: 38 }, (_, i) => i + 1).concat([40]), // Added credit notifications
+    source_docs: Array.from({ length: 38 }, (_, i) => i + 1).concat([40]),
     claimed_value: null,
     status: 'Pending',
     required_documents: [
       createReqDoc(
-        'NONPEC-REP-01-01',
-        "Plaintiff's Testimony",
-        'Testimony on perceived damage to creditworthiness.'
-      ),
-      createReqDoc(
         'NONPEC-REP-01-02',
-        'Pattern of Adverse Actions Proof',
+        '[IE] Pattern of Adverse Actions Proof',
         'The compiled JSON/Timeline.',
         'Verified'
       ),
       createReqDoc(
+        'NONPEC-REP-01-01',
+        "[C] Plaintiff's Testimony",
+        'Testimony on perceived damage to creditworthiness.'
+      ),
+      createReqDoc(
         'NONPEC-REP-01-03',
-        'Credit Score Impact Documentation',
+        '[A] Credit Score Impact Documentation',
         'Cumulative documented impact on creditworthiness:\n' +
           '1. Baseline (June 11, 2023):\n' +
           '   - FICO Score: 673\n' +
@@ -1205,7 +1404,7 @@ export const damagesData: DamageItem[] = [
       ),
       createReqDoc(
         'NONPEC-REP-01-04',
-        'Dispute History Documentation',
+        '[A] Dispute History Documentation',
         'Timeline of attempts to address issues:\n' +
           '- Dec 31, 2023: Initial dispute filed\n' +
           '- Jan 05, 2024: Additional dispute filed\n' +
@@ -1215,31 +1414,19 @@ export const damagesData: DamageItem[] = [
     ],
     description:
       'Severe damage to credit reputation documented through 91-point FICO score drop, rating downgrade from Good to Fair, and resulting pattern of denials. Impact began October 2023 and continued to worsen despite multiple disputes.',
-    date: '2023-10-19', // Date of first major impact
+    date: '2023-10-19',
   },
   {
     id: 'PEC-COST-25',
     title: 'Progressive Credit Score Deterioration',
     category: 'PEC-COST',
-    source_docs: [40], // credit-notifications.json
+    source_docs: [40],
     claimed_value: null,
     status: 'Pending',
     required_documents: [
       createReqDoc(
-        'PEC-COST-25-01',
-        'Baseline Credit Profile Documentation',
-        'June 11, 2023 Experian Report showing:\n' +
-          '- FICO Score: 673\n' +
-          '- Rating: Good\n' +
-          '- Total Credit Limit: $43,150\n' +
-          '- Credit Utilization: 48%\n' +
-          '- Perfect Payment History\n' +
-          '- 23 Accounts in Good Standing',
-        'Verified'
-      ),
-      createReqDoc(
         'PEC-COST-25-02',
-        'Progressive Score Impact Timeline',
+        '[IE] Progressive Score Impact Timeline',
         'Documented sequence of FICO score drops:\n' +
           '1. Oct 19, 2023: -43 points\n' +
           '   - Rating downgraded to Fair\n' +
@@ -1255,7 +1442,7 @@ export const damagesData: DamageItem[] = [
       ),
       createReqDoc(
         'PEC-COST-25-03',
-        'Remediation Attempts Documentation',
+        '[C] Remediation Attempts Documentation',
         'Chronological sequence of dispute actions:\n' +
           '1. Dec 31, 2023: Initial dispute filed\n' +
           '2. Jan 05, 2024: Additional dispute filed\n' +
@@ -1264,8 +1451,20 @@ export const damagesData: DamageItem[] = [
         'Verified'
       ),
       createReqDoc(
+        'PEC-COST-25-01',
+        '[A] Baseline Credit Profile Documentation',
+        'June 11, 2023 Experian Report showing:\n' +
+          '- FICO Score: 673\n' +
+          '- Rating: Good\n' +
+          '- Total Credit Limit: $43,150\n' +
+          '- Credit Utilization: 48%\n' +
+          '- Perfect Payment History\n' +
+          '- 23 Accounts in Good Standing',
+        'Verified'
+      ),
+      createReqDoc(
         'PEC-COST-25-04',
-        'Consequential Damages Timeline',
+        '[A] Consequential Damages Timeline',
         'Sequence of denials following score deterioration:\n' +
           '1. Auto Loan Denials:\n' +
           '   - Huebner Chevrolet (2/13/24)\n' +

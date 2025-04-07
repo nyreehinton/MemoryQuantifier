@@ -33,7 +33,40 @@
   body {
     @apply bg-background text-foreground;
     font-feature-settings: 'rlig' 1, 'calt' 1;
+    -webkit-tap-highlight-color: transparent;
   }
+  /* Improve touch targets on mobile */
+  @media (max-width: 640px) {
+    button,
+    [role='button'],
+    a {
+      @apply min-h-[44px] min-w-[44px];
+    }
+    input,
+    select,
+    textarea {
+      @apply text-base;
+      /* Prevent zoom on iOS */
+    }
+  }
+}
+
+/* Prevent pull-to-refresh on mobile */
+
+html,
+body {
+  overscroll-behavior-y: none;
+}
+
+/* Improve scrolling on mobile */
+
+.scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
 }
 
 /* Custom Shadow Effects */

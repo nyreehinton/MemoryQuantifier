@@ -41,8 +41,10 @@ const LEGAL_SCOPES = {
 // Component to render a credit report document
 function CreditReportDoc({
   doc,
+  tagType,
 }: {
   doc: { doc_id: string; name: string; details: string; status: string };
+  tagType: 'IE' | 'C' | 'A';
 }) {
   const { creditReports, updateCreditReport } = useCreditReports();
   const report = creditReports[doc.doc_id];
@@ -60,7 +62,18 @@ function CreditReportDoc({
               : 'bg-red-700'
           }`}
         ></span>
-        {doc.name}
+        <span
+          className={`text-xs px-1.5 py-0.5 rounded mr-2 ${
+            tagType === 'IE'
+              ? 'bg-blue-100 text-blue-800'
+              : tagType === 'C'
+              ? 'bg-purple-100 text-purple-800'
+              : 'bg-green-100 text-green-800'
+          }`}
+        >
+          [{tagType}]
+        </span>
+        {doc.name.replace(/^\[(IE|C|A)\]\s*/, '')}
       </li>
     );
   }
@@ -104,6 +117,13 @@ function CreditReportDoc({
 
 // Component to render an individual damage claim card
 function DamageCard({ damage, legalScopes }: { damage: DamageItem; legalScopes: string[] }) {
+  // Group documents by tag type
+  const groupedDocs = {
+    ie: damage.required_documents.filter((doc) => doc.name.startsWith('[IE]')),
+    c: damage.required_documents.filter((doc) => doc.name.startsWith('[C]')),
+    a: damage.required_documents.filter((doc) => doc.name.startsWith('[A]')),
+  };
+
   return (
     <Card className="overflow-hidden h-full card-concrete">
       <div className="bg-card px-4 py-3 border-b border-border">
@@ -125,11 +145,39 @@ function DamageCard({ damage, legalScopes }: { damage: DamageItem; legalScopes: 
       <CardContent className="p-4">
         <div className="mb-4">
           <h5 className="text-sm font-medium mb-2">Required Documentation</h5>
-          <ul className="text-xs text-muted-foreground space-y-2">
-            {damage.required_documents.map((doc) => (
-              <CreditReportDoc key={doc.doc_id} doc={doc} />
-            ))}
-          </ul>
+          <div className="space-y-4">
+            {/* Identifiable Event Documents */}
+            <div>
+              <h6 className="text-xs font-medium text-blue-800 mb-1">
+                Identifiable Event/Occurrence
+              </h6>
+              <ul className="text-xs text-muted-foreground space-y-2">
+                {groupedDocs.ie.map((doc) => (
+                  <CreditReportDoc key={doc.doc_id} doc={doc} tagType="IE" />
+                ))}
+              </ul>
+            </div>
+
+            {/* Causation Documents */}
+            <div>
+              <h6 className="text-xs font-medium text-purple-800 mb-1">Causation</h6>
+              <ul className="text-xs text-muted-foreground space-y-2">
+                {groupedDocs.c.map((doc) => (
+                  <CreditReportDoc key={doc.doc_id} doc={doc} tagType="C" />
+                ))}
+              </ul>
+            </div>
+
+            {/* Amount Documents */}
+            <div>
+              <h6 className="text-xs font-medium text-green-800 mb-1">Amount</h6>
+              <ul className="text-xs text-muted-foreground space-y-2">
+                {groupedDocs.a.map((doc) => (
+                  <CreditReportDoc key={doc.doc_id} doc={doc} tagType="A" />
+                ))}
+              </ul>
+            </div>
+          </div>
         </div>
         <div className="text-xs text-muted-foreground">
           <p>
