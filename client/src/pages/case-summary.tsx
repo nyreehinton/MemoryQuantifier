@@ -244,6 +244,10 @@ export default function CaseSummary() {
                       <div className="h-1.5 w-1.5 rounded-full bg-green-600"></div>
                       <span>Quantified financial damages with thorough methodology</span>
                     </li>
+                    <li className="flex items-center space-x-2">
+                      <div className="h-1.5 w-1.5 rounded-full bg-green-600"></div>
+                      <span>Audio recording of Capital One rep confirming account restriction and advising it won't be removed</span>
+                    </li>
                   </ul>
                 </div>
               </div>
