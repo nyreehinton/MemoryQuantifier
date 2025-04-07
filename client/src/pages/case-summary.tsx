@@ -285,7 +285,7 @@ export default function CaseSummary() {
                       </div>
                       <div>
                         <h3 className="text-lg font-bold text-purple-700 dark:text-purple-300">$1.14M</h3>
-                        <p className="text-xs text-purple-600 dark:text-purple-400">Harvard Withdrawal Impact</p>
+                        <p className="text-xs text-purple-600 dark:text-purple-400">Lost Opportunity (PEC-OPP-01)</p>
                       </div>
                     </div>
                   </div>
@@ -324,36 +324,48 @@ export default function CaseSummary() {
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="bg-amber-50 dark:bg-amber-950 rounded-md p-4">
-                    <h4 className="text-sm font-medium text-amber-900 dark:text-amber-300 mb-2">Key Pecuniary Damages</h4>
+                    <h4 className="text-sm font-medium text-amber-900 dark:text-amber-300 mb-2">Quantified Damages By Category</h4>
                     <ul className="text-sm space-y-1">
                       <li className="flex justify-between">
-                        <span>Harvard Withdrawal</span>
-                        <span className="font-medium">$1,142,000</span>
+                        <span>PEC-OPP: Lost Opportunity Costs</span>
+                        <span className="font-medium">$1,243,250</span>
                       </li>
                       <li className="flex justify-between">
-                        <span>Increased costs (interest, fees)</span>
+                        <span>PEC-COST: Increased Credit Costs</span>
                         <span className="font-medium">$210,425</span>
                       </li>
                       <li className="flex justify-between">
-                        <span>Out-of-pocket expenses</span>
+                        <span>PEC-OOP: Out-of-pocket Expenses</span>
                         <span className="font-medium">$23,650</span>
+                      </li>
+                      <li className="flex justify-between">
+                        <span>PEC-PAY: Required Additional Payments</span>
+                        <span className="font-medium">$2,187</span>
+                      </li>
+                      <li className="flex justify-between">
+                        <span>PEC-FEE: Non-refundable Application Fees</span>
+                        <span className="font-medium">$485</span>
                       </li>
                     </ul>
                   </div>
                   <div className="bg-purple-50 dark:bg-purple-950 rounded-md p-4">
-                    <h4 className="text-sm font-medium text-purple-900 dark:text-purple-300 mb-2">Case Strength Indicators</h4>
+                    <h4 className="text-sm font-medium text-purple-900 dark:text-purple-300 mb-2">Legal Framework Status</h4>
                     <ul className="text-sm space-y-1">
                       <li className="flex items-start gap-2">
                         <CheckCircle2 className="h-4 w-4 mt-0.5 text-green-600 flex-shrink-0" />
-                        <span>3 of 4 defendants settled (all CRAs)</span>
+                        <span>FCRA (§1681): Willful violations established</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle2 className="h-4 w-4 mt-0.5 text-green-600 flex-shrink-0" />
-                        <span>43 adverse action notices documented</span>
+                        <span>CCRAA (§1785): 3 CRA settlements, 1 pending</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle2 className="h-4 w-4 mt-0.5 text-green-600 flex-shrink-0" />
-                        <span>Economic expert report available</span>
+                        <span>UCL (§17200): Predicate violations proven</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle2 className="h-4 w-4 mt-0.5 text-green-600 flex-shrink-0" />
+                        <span>RFDCPA (§1788): Required documentation verified</span>
                       </li>
                     </ul>
                   </div>
