@@ -111,7 +111,7 @@ export default function CaseSummary() {
                 Case Overview
               </CardTitle>
               <CardDescription>
-                Credit reporting violations involving multiple CRAs and furnishers
+                
               </CardDescription>
             </CardHeader>
             <div className="px-6 pb-2">
