@@ -229,7 +229,7 @@ export default function CaseSummary() {
               </div>
               
               <div className="grid grid-cols-1 gap-4 mt-4">
-                <div className="bg-slate-50 dark:bg-slate-900 p-4 rounded-md">
+                <div className="bg-slate-50 dark:bg-slate-900 p-4 rounded-md border-2 border-blue-500">
                   <h4 className="text-sm font-medium text-slate-900 dark:text-slate-100 mb-2">Case Preparation</h4>
                   <ul className="text-sm space-y-1 text-muted-foreground">
                     <li className="flex items-center space-x-2">
@@ -243,10 +243,6 @@ export default function CaseSummary() {
                     <li className="flex items-center space-x-2">
                       <div className="h-1.5 w-1.5 rounded-full bg-green-600"></div>
                       <span>Quantified financial damages with thorough methodology</span>
-                    </li>
-                    <li className="flex items-center space-x-2">
-                      <div className="h-1.5 w-1.5 rounded-full bg-green-600"></div>
-                      <span>Expert witness testimony supporting damages claims</span>
                     </li>
                   </ul>
                 </div>
@@ -355,41 +351,7 @@ export default function CaseSummary() {
             </CardFooter>
           </Card>
           
-          <Card>
-            <CardHeader>
-              <CardTitle className="text-xl font-semibold flex items-center">
-                <Briefcase className="h-5 w-5 mr-2 text-blue-600" />
-                Case Strength Indicators
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-4">
-              <div className="bg-green-50 dark:bg-green-950 p-3 rounded-md">
-                <h4 className="text-sm font-medium text-green-700 dark:text-green-300 mb-1">Strong Settlement Record</h4>
-                <p className="text-xs text-green-600 dark:text-green-400">Successfully settled with all three major CRAs (Experian, TransUnion, Equifax)</p>
-              </div>
-              
-              <div className="bg-green-50 dark:bg-green-950 p-3 rounded-md">
-                <h4 className="text-sm font-medium text-green-700 dark:text-green-300 mb-1">Documented Adverse Actions</h4>
-                <p className="text-xs text-green-600 dark:text-green-400">38 adverse action notices showing direct impact of inaccurate reporting</p>
-              </div>
-              
-              <div className="bg-green-50 dark:bg-green-950 p-3 rounded-md">
-                <h4 className="text-sm font-medium text-green-700 dark:text-green-300 mb-1">Detailed Damages Analysis</h4>
-                <p className="text-xs text-green-600 dark:text-green-400">Comprehensive framework for assessing both pecuniary and non-pecuniary damages</p>
-              </div>
-              
-              <div className="bg-green-50 dark:bg-green-950 p-3 rounded-md">
-                <h4 className="text-sm font-medium text-green-700 dark:text-green-300 mb-1">Client Preparation</h4>
-                <p className="text-xs text-green-600 dark:text-green-400">Well-documented case with organized evidence and timeline ready for successor counsel</p>
-              </div>
-            </CardContent>
-            <CardFooter>
-              <Button size="sm" className="w-full bg-blue-600 hover:bg-blue-700">
-                <ExternalLink className="h-4 w-4 mr-2" />
-                Review Full Case Assessment
-              </Button>
-            </CardFooter>
-          </Card>
+          
           
           
         </div>
