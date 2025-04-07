@@ -231,7 +231,7 @@ export default function CaseSummary() {
                   <ul className="text-sm space-y-1 text-muted-foreground">
                     <li className="flex items-center space-x-2">
                       <div className="h-1.5 w-1.5 rounded-full bg-purple-600"></div>
-                      <span>Bachelor's in Business Administration, Penn State</span>
+                      <span>Bachelor's from Pennsylvania State University</span>
                     </li>
                   </ul>
                 </div>
