@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { FileText } from 'lucide-react';
 import { useState } from 'react';
 
 const CaseSummary = () => {
@@ -309,6 +310,64 @@ const CaseSummary = () => {
             <span className="font-semibold">URGENT:</span> Successor counsel needed. Previous
             counsel blindsided plaintiff with withdrawal notice on April 3, 2025.
           </div>
+        </div>
+
+        {/* Document Repository Section */}
+        <div className="mt-8">
+          <Card className="card-concrete">
+            <CardHeader className="pb-2">
+              <CardTitle className="text-base flex items-center">
+                <FileText className="h-5 w-5 mr-2" />
+                Case Documents
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {[
+                  {
+                    name: 'Complaint.pdf',
+                    size: '3.6MB',
+                    date: 'Apr 07, 2024',
+                    description: 'Original complaint filing',
+                    path: '/documents/doc-repo/Complaint.pdf',
+                  },
+                  {
+                    name: 'Amended Complaint.pdf',
+                    size: '604KB',
+                    date: 'Apr 07, 2024',
+                    description: 'Amended complaint with updated claims',
+                    path: '/documents/doc-repo/Amended%20Complaint.pdf',
+                  },
+                ].map((doc) => (
+                  <div key={doc.name} className="flex items-start p-3 rounded-lg border bg-card/50">
+                    <div className="bg-muted p-2 rounded-md mr-3">
+                      <FileText className="h-5 w-5" />
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="font-medium text-sm">{doc.name}</h3>
+                      <p className="text-xs text-muted-foreground mt-1">{doc.description}</p>
+                      <div className="flex items-center text-xs text-muted-foreground mt-2">
+                        <span className="mr-3">{doc.size}</span>
+                        <span>{doc.date}</span>
+                      </div>
+                    </div>
+                    <div className="flex flex-col gap-2">
+                      <Button variant="outline" size="sm" className="shrink-0 h-8" asChild>
+                        <a href={doc.path} target="_blank" rel="noopener noreferrer">
+                          View
+                        </a>
+                      </Button>
+                      <Button variant="ghost" size="sm" className="shrink-0 h-8" asChild>
+                        <a href={doc.path} download={doc.name}>
+                          Download
+                        </a>
+                      </Button>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </CardContent>
+          </Card>
         </div>
 
         {/* Status Footer */}

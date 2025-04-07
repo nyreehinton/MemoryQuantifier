@@ -193,10 +193,10 @@
             "120+": 0
           },
           "monthlyStatus": {
-            "2024": ["OK","OK","OK","OK"],
-            "2023": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2021": ["OK","OK","OK","OK","OK","OK","OK"]
+            "2024": ["OK", "OK", "OK", "OK"],
+            "2023": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2022": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2021": ["OK", "OK", "OK", "OK", "OK", "OK", "OK"]
           }
         }
       },
@@ -224,12 +224,12 @@
             "90": 0,
             "120+": 0
           },
-           "monthlyStatus": {
-            "2024": ["OK","OK","OK","OK"],
-            "2023": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2021": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2020": ["OK","OK","OK","OK","OK","OK","OK","OK"]
+          "monthlyStatus": {
+            "2024": ["OK", "OK", "OK", "OK"],
+            "2023": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2022": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2021": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2020": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"]
           }
         }
       },
@@ -259,11 +259,11 @@
             "120+": 0
           },
           "monthlyStatus": {
-            "2024": ["OK","OK","OK","OK"],
-            "2023": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2021": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2020": ["OK","OK","OK","OK"]
+            "2024": ["OK", "OK", "OK", "OK"],
+            "2023": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2022": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2021": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2020": ["OK", "OK", "OK", "OK"]
           }
         }
       },
@@ -291,10 +291,10 @@
             "90": 0,
             "120+": 0
           },
-           "monthlyStatus": {
-            "2024": ["OK","OK","OK","OK"],
-            "2023": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK"]
+          "monthlyStatus": {
+            "2024": ["OK", "OK", "OK", "OK"],
+            "2023": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2022": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"]
           }
         }
       },
@@ -323,11 +323,11 @@
             "120+": 0
           },
           "monthlyStatus": {
-            "2024": ["OK","OK","OK","OK"],
-            "2023": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2021": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2020": ["OK","OK","OK","OK"]
+            "2024": ["OK", "OK", "OK", "OK"],
+            "2023": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2022": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2021": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2020": ["OK", "OK", "OK", "OK"]
           }
         }
       },
@@ -347,7 +347,7 @@
         "paymentAmount": "$184",
         "status": "01: Paid or paying as agreed",
         "notes": "Automated account",
-         "paymentHistory": {
+        "paymentHistory": {
           "summaryMonths": 16,
           "latePayments": {
             "30": 0,
@@ -356,8 +356,8 @@
             "120+": 0
           },
           "monthlyStatus": {
-            "2024": ["OK","OK","OK","OK"],
-            "2023": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"]
+            "2024": ["OK", "OK", "OK", "OK"],
+            "2023": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"]
           }
         }
       },
@@ -387,11 +387,11 @@
             "120+": 0
           },
           "monthlyStatus": {
-            "2024": ["OK","OK","OK","OK"],
-            "2023": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2021": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2020": ["OK","OK","OK","OK"]
+            "2024": ["OK", "OK", "OK", "OK"],
+            "2023": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2022": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2021": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2020": ["OK", "OK", "OK", "OK"]
           }
         }
       },
@@ -420,12 +420,12 @@
             "90": 0,
             "120+": 0
           },
-           "monthlyStatus": {
-            "2024": ["OK","OK","OK","OK"],
-            "2023": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2021": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2020": ["OK","OK","OK","OK"]
+          "monthlyStatus": {
+            "2024": ["OK", "OK", "OK", "OK"],
+            "2023": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2022": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2021": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2020": ["OK", "OK", "OK", "OK"]
           }
         }
       },
@@ -454,11 +454,11 @@
             "120+": 0
           },
           "monthlyStatus": {
-            "2024": ["OK","OK","OK","OK"],
-            "2023": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2021": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2020": ["OK","OK","OK","OK"]
+            "2024": ["OK", "OK", "OK", "OK"],
+            "2023": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2022": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2021": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2020": ["OK", "OK", "OK", "OK"]
           }
         }
       },
@@ -488,11 +488,11 @@
             "120+": 0
           },
           "monthlyStatus": {
-            "2024": ["OK","OK","OK","OK"],
-            "2023": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2021": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2020": ["OK","OK","OK","OK"]
+            "2024": ["OK", "OK", "OK", "OK"],
+            "2023": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2022": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2021": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2020": ["OK", "OK", "OK", "OK"]
           }
         }
       },
@@ -514,23 +514,23 @@
         "notes": "Automated account",
         "paymentHistory": {
           "summaryMonths": 48,
-           "latePayments": {
+          "latePayments": {
             "30": 0,
             "60": 0,
             "90": 0,
             "120+": 0
           },
           "monthlyStatus": {
-            "2024": ["OK","OK","OK","OK"],
-            "2023": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2021": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2020": ["OK","OK","OK","OK"]
+            "2024": ["OK", "OK", "OK", "OK"],
+            "2023": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2022": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2021": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2020": ["OK", "OK", "OK", "OK"]
           }
         }
       },
       {
-        "creditorName": "DEPTEDNELNET", // Student Loan 1
+        "creditorName": "DEPTEDNELNET",
         "industry": "Employment or Education",
         "loanType": "Student Loan",
         "loanTerms": "Installment 120 Monthly",
@@ -555,16 +555,16 @@
             "120+": 0
           },
           "monthlyStatus": {
-            "2024": ["N/A","N/A","N/A"],
-            "2023": ["N/A","N/A","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2021": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2020": ["OK","OK","OK","OK","OK","OK","OK","OK"]
+            "2024": ["N/A", "N/A", "N/A"],
+            "2023": ["N/A", "N/A", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2022": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2021": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2020": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"]
           }
         }
       },
-       {
-        "creditorName": "DEPTEDNELNET", // Student Loan 2
+      {
+        "creditorName": "DEPTEDNELNET",
         "industry": "Employment or Education",
         "loanType": "Student Loan",
         "loanTerms": "Installment 120 Monthly",
@@ -582,23 +582,23 @@
         "notes": "Automated account",
         "paymentHistory": {
           "summaryMonths": 48,
-           "latePayments": {
+          "latePayments": {
             "30": 0,
             "60": 0,
             "90": 0,
             "120+": 0
           },
           "monthlyStatus": {
-            "2024": ["N/A","N/A","N/A"],
-            "2023": ["N/A","N/A","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2021": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2020": ["OK","OK","OK","OK","OK","OK","OK","OK"]
+            "2024": ["N/A", "N/A", "N/A"],
+            "2023": ["N/A", "N/A", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2022": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2021": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2020": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"]
           }
         }
       },
-       {
-        "creditorName": "DEPTEDNELNET", // Student Loan 3
+      {
+        "creditorName": "DEPTEDNELNET",
         "industry": "Employment or Education",
         "loanType": "Student Loan",
         "loanTerms": "Installment 120 Monthly",
@@ -616,18 +616,18 @@
         "notes": "Automated account",
         "paymentHistory": {
           "summaryMonths": 48,
-           "latePayments": {
+          "latePayments": {
             "30": 0,
             "60": 0,
             "90": 0,
             "120+": 0
           },
           "monthlyStatus": {
-            "2024": ["N/A","N/A","N/A"],
-            "2023": ["N/A","N/A","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2021": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2020": ["OK","OK","OK","OK","OK","OK","OK","OK"]
+            "2024": ["N/A", "N/A", "N/A"],
+            "2023": ["N/A", "N/A", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2022": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2021": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2020": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"]
           }
         }
       },
@@ -655,14 +655,14 @@
             "90": 0,
             "120+": 0
           },
-           "monthlyStatus": {
-            "2024": ["OK","OK","OK","N/A"],
-            "2023": ["OK","OK","OK","OK","OK","OK","OK","OK"]
+          "monthlyStatus": {
+            "2024": ["OK", "OK", "OK", "N/A"],
+            "2023": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"]
           }
         }
       },
       {
-        "creditorName": "DEPTEDNELNET", // Student Loan 4
+        "creditorName": "DEPTEDNELNET",
         "industry": "Employment or Education",
         "loanType": "Student Loan",
         "loanTerms": "Installment 120 Monthly",
@@ -687,11 +687,11 @@
             "120+": 0
           },
           "monthlyStatus": {
-            "2024": ["N/A","N/A","N/A"],
-            "2023": ["N/A","N/A","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2021": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2020": ["OK","OK","OK","OK","OK","OK","OK","OK"]
+            "2024": ["N/A", "N/A", "N/A"],
+            "2023": ["N/A", "N/A", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2022": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2021": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2020": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"]
           }
         }
       },
@@ -711,23 +711,23 @@
         "paymentAmount": "$62",
         "status": "01: Paid or paying as agreed",
         "notes": "Automated account",
-         "paymentHistory": {
-          "summaryMonths": 25, // Based on grid end
-           "latePayments": {
+        "paymentHistory": {
+          "summaryMonths": 25,
+          "latePayments": {
             "30": 0,
             "60": 0,
             "90": 0,
             "120+": 0
           },
           "monthlyStatus": {
-            "2024": ["OK","OK","OK"],
-            "2023": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"]
+            "2024": ["OK", "OK", "OK"],
+            "2023": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2022": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"]
           }
         }
       },
       {
-        "creditorName": "DEPTEDNELNET", // Student Loan 5
+        "creditorName": "DEPTEDNELNET",
         "industry": "Employment or Education",
         "loanType": "Student Loan",
         "loanTerms": "Installment 120 Monthly",
@@ -752,16 +752,16 @@
             "120+": 0
           },
           "monthlyStatus": {
-            "2024": ["N/A","N/A","N/A"],
-            "2023": ["N/A","N/A","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2021": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2020": ["OK","OK","OK","OK","OK","OK","OK","OK"]
+            "2024": ["N/A", "N/A", "N/A"],
+            "2023": ["N/A", "N/A", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2022": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2021": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2020": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"]
           }
         }
       },
-       {
-        "creditorName": "DEPTEDNELNET", // Student Loan 6
+      {
+        "creditorName": "DEPTEDNELNET",
         "industry": "Employment or Education",
         "loanType": "Student Loan",
         "loanTerms": "Installment 120 Monthly",
@@ -779,23 +779,23 @@
         "notes": "Automated account",
         "paymentHistory": {
           "summaryMonths": 48,
-           "latePayments": {
+          "latePayments": {
             "30": 0,
             "60": 0,
             "90": 0,
             "120+": 0
           },
-           "monthlyStatus": {
-            "2024": ["N/A","N/A","N/A"],
-            "2023": ["N/A","N/A","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2021": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2020": ["OK","OK","OK","OK","OK","OK","OK","OK"]
+          "monthlyStatus": {
+            "2024": ["N/A", "N/A", "N/A"],
+            "2023": ["N/A", "N/A", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2022": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2021": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2020": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"]
           }
         }
       },
-       {
-        "creditorName": "DEPTEDNELNET", // Student Loan 7
+      {
+        "creditorName": "DEPTEDNELNET",
         "industry": "Employment or Education",
         "loanType": "Student Loan",
         "loanTerms": "Installment 120 Monthly",
@@ -820,16 +820,16 @@
             "120+": 0
           },
           "monthlyStatus": {
-            "2024": ["N/A","N/A","N/A"],
-            "2023": ["N/A","N/A","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2021": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2020": ["OK","OK","OK","OK","OK","OK","OK","OK"]
+            "2024": ["N/A", "N/A", "N/A"],
+            "2023": ["N/A", "N/A", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2022": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2021": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2020": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"]
           }
         }
       },
       {
-        "creditorName": "DEPTEDNELNET", // Student Loan 8
+        "creditorName": "DEPTEDNELNET",
         "industry": "Employment or Education",
         "loanType": "Student Loan",
         "loanTerms": "Installment 120 Monthly",
@@ -853,17 +853,17 @@
             "90": 0,
             "120+": 0
           },
-           "monthlyStatus": {
-            "2024": ["N/A","N/A","N/A"],
-            "2023": ["N/A","N/A","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2021": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2020": ["OK","OK","OK","OK","OK","OK","OK","OK"]
+          "monthlyStatus": {
+            "2024": ["N/A", "N/A", "N/A"],
+            "2023": ["N/A", "N/A", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2022": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2021": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2020": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"]
           }
         }
       },
-       {
-        "creditorName": "DEPTEDNELNET", // Student Loan 9
+      {
+        "creditorName": "DEPTEDNELNET",
         "industry": "Employment or Education",
         "loanType": "Student Loan",
         "loanTerms": "Installment 120 Monthly",
@@ -888,10 +888,10 @@
             "120+": 0
           },
           "monthlyStatus": {
-            "2024": ["N/A","N/A","N/A"],
-            "2023": ["N/A","N/A","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2021": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"]
+            "2024": ["N/A", "N/A", "N/A"],
+            "2023": ["N/A", "N/A", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2022": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2021": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"]
           }
         }
       },
@@ -919,10 +919,10 @@
             "90": 0,
             "120+": 0
           },
-           "monthlyStatus": {
-            "2024": ["OK","OK"],
-            "2023": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+          "monthlyStatus": {
+            "2024": ["OK", "OK"],
+            "2023": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2022": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
             "2021": ["OK"]
           }
         }
@@ -953,15 +953,15 @@
             "120+": 0
           },
           "monthlyStatus": {
-            "2023": ["OK","OK","OK","OK"],
-            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2021": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2020": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2019": ["OK","OK"]
+            "2023": ["OK", "OK", "OK", "OK"],
+            "2022": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2021": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2020": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2019": ["OK", "OK"]
           }
         }
       },
-       {
+      {
         "creditorName": "BK OF AMER",
         "industry": "Banks",
         "loanType": "Automobile",
@@ -980,18 +980,18 @@
         "notes": "Automated account",
         "paymentHistory": {
           "summaryMonths": 9,
-           "latePayments": {
+          "latePayments": {
             "30": 0,
             "60": 0,
             "90": 0,
             "120+": 0
           },
           "monthlyStatus": {
-            "2022": ["OK","OK","OK","OK","OK","OK","OK","OK","OK"]
+            "2022": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"]
           }
         }
       },
-       {
+      {
         "creditorName": "EQR/PEGASUS",
         "industry": "Real estate and Public Accommodations",
         "loanType": "Rental Agreement",
@@ -1017,7 +1017,7 @@
             "120+": 0
           },
           "monthlyStatus": {
-            "2022": ["OK","OK","OK","OK","OK"]
+            "2022": ["OK", "OK", "OK", "OK", "OK"]
           }
         }
       },
@@ -1047,7 +1047,7 @@
             "120+": 0
           },
           "monthlyStatus": {
-            "2021": ["OK","OK","OK","OK","OK","OK","OK"]
+            "2021": ["OK", "OK", "OK", "OK", "OK", "OK", "OK"]
           }
         }
       },
@@ -1077,8 +1077,8 @@
             "120+": 0
           },
           "monthlyStatus": {
-            "2021": ["OK","OK","OK","OK","OK","OK"],
-            "2020": ["OK","OK","OK","OK","OK","OK","OK","OK","OK"]
+            "2021": ["OK", "OK", "OK", "OK", "OK", "OK"],
+            "2020": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"]
           }
         }
       },
@@ -1108,7 +1108,7 @@
             "120+": 0
           },
           "monthlyStatus": {
-            "2021": ["OK","OK","OK"]
+            "2021": ["OK", "OK", "OK"]
           }
         }
       },
@@ -1137,10 +1137,10 @@
             "90": 0,
             "120+": 0
           },
-           "monthlyStatus": {
-            "2021": ["OK","OK","OK","OK","OK"],
-            "2020": ["OK","OK","OK","OK","N/A","N/A","N/A","OK","OK","OK","OK","OK"],
-            "2019": ["N/A","N/A","N/A","N/A","N/A","N/A","OK"]
+          "monthlyStatus": {
+            "2021": ["OK", "OK", "OK", "OK", "OK"],
+            "2020": ["OK", "OK", "OK", "OK", "N/A", "N/A", "N/A", "OK", "OK", "OK", "OK", "OK"],
+            "2019": ["N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "OK"]
           }
         }
       },
@@ -1189,7 +1189,7 @@
             "120+": 0
           },
           "monthlyStatus": {
-            "2019": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"]
+            "2019": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"]
           }
         }
       },
@@ -1219,13 +1219,13 @@
             "120+": 0
           },
           "monthlyStatus": {
-            "2019": ["OK","OK","OK","OK","OK"],
-            "2018": ["OK","OK","OK","OK"]
+            "2019": ["OK", "OK", "OK", "OK", "OK"],
+            "2018": ["OK", "OK", "OK", "OK"]
           }
         }
       },
       {
-        "creditorName": "SALLIE MAE", // Student Loan 10
+        "creditorName": "SALLIE MAE",
         "industry": "Banks",
         "loanType": "Student Loan",
         "loanTerms": "Installment 096 Monthly",
@@ -1250,15 +1250,15 @@
             "120+": 0
           },
           "monthlyStatus": {
-            "2019": ["OK","OK","OK","OK","OK"],
-            "2018": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2017": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2016": ["OK","OK","OK","OK","OK","OK"]
+            "2019": ["OK", "OK", "OK", "OK", "OK"],
+            "2018": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2017": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2016": ["OK", "OK", "OK", "OK", "OK", "OK"]
           }
         }
       },
       {
-        "creditorName": "SALLIE MAE", // Student Loan 11
+        "creditorName": "SALLIE MAE",
         "industry": "Banks",
         "loanType": "Student Loan",
         "loanTerms": "Installment 096 Monthly",
@@ -1276,22 +1276,22 @@
         "notes": "Automated account",
         "paymentHistory": {
           "summaryMonths": 33,
-           "latePayments": {
+          "latePayments": {
             "30": 0,
             "60": 0,
             "90": 0,
             "120+": 0
           },
           "monthlyStatus": {
-            "2019": ["OK","OK","OK","OK","OK"],
-            "2018": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2017": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2016": ["OK","OK","OK","OK"]
+            "2019": ["OK", "OK", "OK", "OK", "OK"],
+            "2018": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2017": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2016": ["OK", "OK", "OK", "OK"]
           }
         }
       },
       {
-        "creditorName": "SALLIE MAE", // Student Loan 12
+        "creditorName": "SALLIE MAE",
         "industry": "Banks",
         "loanType": "Student Loan",
         "loanTerms": "Installment 084 Monthly",
@@ -1308,37 +1308,89 @@
         "remarks": "Closed",
         "notes": "Automated account",
         "paymentHistory": {
-          "summaryMonths": 48, // Assuming based on grid start/end
+          "summaryMonths": 48,
           "latePayments": {
             "30": 0,
             "60": 0,
             "90": 0,
             "120+": 0
           },
-           "monthlyStatus": {
-            "2019": ["OK","OK","OK","OK","OK"],
-            "2018": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2017": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2016": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
-            "2015": ["OK","OK","OK","OK","OK","OK","OK"]
+          "monthlyStatus": {
+            "2019": ["OK", "OK", "OK", "OK", "OK"],
+            "2018": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2017": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2016": ["OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK", "OK"],
+            "2015": ["OK", "OK", "OK", "OK", "OK", "OK", "OK"]
           }
         }
       }
     ]
   },
   "inquiries": [
-    { "date": "03/26/2024", "name": "ALLY FINANCI", "kindOfBusiness": "Finance or Personal" },
-    { "date": "03/26/2024", "name": "ST CHARLES M", "kindOfBusiness": "Automotive" },
-    { "date": "03/06/2024", "name": "PATRICK JAGU", "kindOfBusiness": "Automotive" },
-    { "date": "03/06/2024", "name": "JPMCB AUTO", "kindOfBusiness": "Banks" },
-    { "date": "02/27/2024", "name": "AFFINITY AUT", "kindOfBusiness": "Automotive" },
-    { "date": "02/26/2024", "name": "LIGHTSTREAM", "kindOfBusiness": "Banks" },
-    { "date": "01/31/2024", "name": "JPMCB AUTO", "kindOfBusiness": "Banks" },
-    { "date": "01/26/2024", "name": "ONEMAIN", "kindOfBusiness": "Finance or Personal" },
-    { "date": "01/19/2024", "name": "PHEAA", "kindOfBusiness": "Finance or Personal" },
-    { "date": "12/14/2022", "name": "JPMCB CARD", "kindOfBusiness": "Banks" },
-    { "date": "12/08/2022", "name": "ALLY FINANCI", "kindOfBusiness": "Finance or Personal" },
-    { "date": "12/08/2022", "name": "COAF", "kindOfBusiness": "Finance or Personal" },
-    { "date": "12/07/2022", "name": "JPMCB AUTO", "kindOfBusiness": "Banks" }
+    {
+      "date": "03/26/2024",
+      "name": "ALLY FINANCI",
+      "kindOfBusiness": "Finance or Personal"
+    },
+    {
+      "date": "03/26/2024",
+      "name": "ST CHARLES M",
+      "kindOfBusiness": "Automotive"
+    },
+    {
+      "date": "03/06/2024",
+      "name": "PATRICK JAGU",
+      "kindOfBusiness": "Automotive"
+    },
+    {
+      "date": "03/06/2024",
+      "name": "JPMCB AUTO",
+      "kindOfBusiness": "Banks"
+    },
+    {
+      "date": "02/27/2024",
+      "name": "AFFINITY AUT",
+      "kindOfBusiness": "Automotive"
+    },
+    {
+      "date": "02/26/2024",
+      "name": "LIGHTSTREAM",
+      "kindOfBusiness": "Banks"
+    },
+    {
+      "date": "01/31/2024",
+      "name": "JPMCB AUTO",
+      "kindOfBusiness": "Banks"
+    },
+    {
+      "date": "01/26/2024",
+      "name": "ONEMAIN",
+      "kindOfBusiness": "Finance or Personal"
+    },
+    {
+      "date": "01/19/2024",
+      "name": "PHEAA",
+      "kindOfBusiness": "Finance or Personal"
+    },
+    {
+      "date": "12/14/2022",
+      "name": "JPMCB CARD",
+      "kindOfBusiness": "Banks"
+    },
+    {
+      "date": "12/08/2022",
+      "name": "ALLY FINANCI",
+      "kindOfBusiness": "Finance or Personal"
+    },
+    {
+      "date": "12/08/2022",
+      "name": "COAF",
+      "kindOfBusiness": "Finance or Personal"
+    },
+    {
+      "date": "12/07/2022",
+      "name": "JPMCB AUTO",
+      "kindOfBusiness": "Banks"
+    }
   ]
 }

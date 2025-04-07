@@ -312,7 +312,12 @@ export default function AdverseActions() {
                 </div>
                 <div className="flex items-center">
                   <XCircle className="h-4 w-4 text-destructive mr-2" />
-                  <span className="text-sm">Multiple Student/Personal Loan Denials</span>
+                  <span className="text-sm">
+                    {adverseActions?.filter(
+                      (a) => a.action_type.includes('Student') || a.action_type.includes('Personal')
+                    )?.length || 0}{' '}
+                    Student/Personal Loan Denials
+                  </span>
                 </div>
               </div>
             </div>

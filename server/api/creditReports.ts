@@ -110,8 +110,8 @@ export const creditReportsData: CreditReport[] = [
     linked_docs: [10],
     status: 'Satisfied',
     date_requested: '2024-06-04',
-    date_received: '2024-06-04',
-    notes: 'Have June 4 report, exactly matching adverse action date',
+    date_received: '2024-06-05',
+    notes: 'Have June 5 report, exactly matching adverse action date',
   },
 
   // Outstanding Immediate Requirements
@@ -218,8 +218,8 @@ export const creditReportsData: CreditReport[] = [
     linked_docs: [10],
     status: 'Satisfied',
     date_requested: '2024-06-04',
-    date_received: '2024-06-04',
-    notes: 'June 4, 2024 report matches adverse action date',
+    date_received: '2024-06-05',
+    notes: 'June 5, 2024 report matches adverse action date',
   },
 
   // Outstanding Reports (keeping track of what we still need)
