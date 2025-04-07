@@ -36,6 +36,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import DamagesStrengthSection from '@/components/dashboard/damages-strength-section';
 
 export default function CaseSummary() {
   const [activeSection, setActiveSection] = React.useState("overview");
@@ -95,9 +96,16 @@ export default function CaseSummary() {
       </header>
 
       {/* Main Content */}
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
-        {/* Left Column - Case Overview */}
-        <div className="lg:col-span-2 space-y-6">
+      <Tabs defaultValue="overview" className="mb-8">
+        <TabsList className="mb-6">
+          <TabsTrigger value="overview">Case Overview</TabsTrigger>
+          <TabsTrigger value="damages">Damages & Case Strength</TabsTrigger>
+        </TabsList>
+        
+        <TabsContent value="overview">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            {/* Left Column - Case Overview */}
+            <div className="lg:col-span-2 space-y-6">
           <Card>
             <CardHeader>
               <CardTitle className="text-xl font-semibold flex items-center">
@@ -410,6 +418,12 @@ export default function CaseSummary() {
           </Card>
         </div>
       </div>
+        </TabsContent>
+        
+        <TabsContent value="damages">
+          <DamagesStrengthSection />
+        </TabsContent>
+      </Tabs>
     </div>
   );
 }
