@@ -216,10 +216,6 @@ export default function CaseSummary() {
                       <div className="h-1.5 w-1.5 rounded-full bg-blue-600"></div>
                       <span>Bloomberg L.P.: Equity Research Data Analyst, TMT</span>
                     </li>
-                    <li className="flex items-center space-x-2">
-                      <div className="h-1.5 w-1.5 rounded-full bg-blue-600"></div>
-                      <span>FINRA Series 7 and 63 certifications</span>
-                    </li>
                   </ul>
                 </div>
                 <div className="bg-slate-50 dark:bg-slate-900 p-4 rounded-md">
