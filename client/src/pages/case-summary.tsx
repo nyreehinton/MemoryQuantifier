@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React from 'react';
 import { 
   AlertCircle, 
   FileText, 
@@ -11,7 +11,11 @@ import {
   Clock,
   UserCheck,
   Scale,
-  BarChart2
+  BarChart2,
+  Download,
+  Phone,
+  ExternalLink,
+  Info
 } from 'lucide-react';
 import { 
   Card, 
@@ -34,22 +38,21 @@ import {
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 
 export default function CaseSummary() {
-  const [activeSection, setActiveSection] = useState("overview");
+  const [activeSection, setActiveSection] = React.useState("overview");
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="pb-8">
       {/* Urgent Banner */}
-      <div className="bg-red-50 border-l-4 border-red-500 p-4 mb-6">
-        <div className="flex items-start">
-          <div className="flex-shrink-0">
-            <AlertCircle className="h-5 w-5 text-red-500" />
+      <div className="bg-red-600 text-white px-4 py-3 mb-6 rounded-md animate-pulse">
+        <div className="max-w-7xl mx-auto flex items-center justify-between">
+          <div className="flex items-center space-x-2">
+            <AlertCircle className="h-5 w-5" />
+            <p className="font-medium">URGENT: Successor Counsel Needed</p>
           </div>
-          <div className="ml-3">
-            <h3 className="text-sm font-medium text-red-800">Urgent: Settlement Response Deadline</h3>
-            <div className="mt-1 text-sm text-red-700">
-              Response to Capital One settlement offer due <strong>October 15, 2024</strong> (18 days remaining)
-            </div>
-          </div>
+          <Button size="sm" variant="outline" className="bg-transparent text-white border-white hover:bg-white hover:text-red-600">
+            <Phone className="h-4 w-4 mr-2" />
+            Contact to Represent
+          </Button>
         </div>
       </div>
 
@@ -76,35 +79,20 @@ export default function CaseSummary() {
                   </Badge>
                 </div>
               </div>
-              <div className="flex space-x-3">
+              <div className="flex flex-wrap gap-2">
                 <Button variant="outline" size="sm">
                   <FileText className="h-4 w-4 mr-2" />
                   View Complaint
                 </Button>
-                <Button size="sm" className="bg-blue-600 hover:bg-blue-700">
-                  <Briefcase className="h-4 w-4 mr-2" />
-                  Contact Client
+                <Button variant="default" size="sm" className="bg-blue-600 hover:bg-blue-700">
+                  <Download className="h-4 w-4 mr-2" />
+                  Download Case Brief
                 </Button>
               </div>
             </div>
           </div>
         </div>
       </header>
-
-      {/* Client Credibility Banner */}
-      <div className="bg-blue-50 dark:bg-blue-900/20 rounded-lg border border-blue-100 dark:border-blue-800 p-4 mb-8">
-        <div className="flex">
-          <div className="flex-shrink-0">
-            <UserCheck className="h-5 w-5 text-blue-600 dark:text-blue-400" />
-          </div>
-          <div className="ml-3">
-            <h3 className="text-sm font-medium text-blue-800 dark:text-blue-300">Client Case Support</h3>
-            <p className="mt-1 text-sm text-blue-700 dark:text-blue-400">
-              All case documents have been organized, indexed, and digitized. Comprehensive damages calculations and credit report analyses are ready for review. Two CRAs have already settled.
-            </p>
-          </div>
-        </div>
-      </div>
 
       {/* Main Content */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
@@ -136,28 +124,156 @@ export default function CaseSummary() {
               
               <div>
                 <h3 className="text-md font-medium mb-2">Case Status</h3>
-                <div className="grid grid-cols-2 gap-4">
-                  <div>
-                    <p className="text-sm font-medium text-muted-foreground">Filed</p>
-                    <p className="text-sm">April 27, 2024</p>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div className="bg-blue-50 dark:bg-blue-950 rounded-md p-3">
+                    <p className="text-sm font-medium text-blue-700 dark:text-blue-300">Current Stage</p>
+                    <p className="text-sm">Active litigation against Capital One; seeking successor counsel following mediation failure</p>
                   </div>
-                  <div>
-                    <p className="text-sm font-medium text-muted-foreground">Current Phase</p>
-                    <p className="text-sm">Pre-trial/Settlement</p>
+                  <div className="bg-green-50 dark:bg-green-950 rounded-md p-3">
+                    <p className="text-sm font-medium text-green-700 dark:text-green-300">Settlements</p>
+                    <p className="text-sm">Successfully settled with all three major credit reporting agencies (Experian, TransUnion, Equifax)</p>
                   </div>
-                  <div>
-                    <p className="text-sm font-medium text-muted-foreground">Settlement Progress</p>
-                    <p className="text-sm">2 of 3 CRAs settled</p>
+                </div>
+              </div>
+              
+              <Separator />
+              
+              <div>
+                <h3 className="text-md font-medium mb-2">Critical Facts</h3>
+                <div className="space-y-2">
+                  <div className="flex items-start space-x-2">
+                    <div className="h-5 w-5 text-red-500 mt-0.5 flex-shrink-0">
+                      <AlertCircle className="h-5 w-5" />
+                    </div>
+                    <p className="text-sm">Capital One allegedly reported account as "charged-off" on Dec 10, 2023 despite ongoing disputes</p>
                   </div>
-                  <div>
-                    <p className="text-sm font-medium text-muted-foreground">Next Deadline</p>
-                    <p className="text-sm font-semibold text-red-600">October 15, 2024</p>
+                  <div className="flex items-start space-x-2">
+                    <div className="h-5 w-5 text-red-500 mt-0.5 flex-shrink-0">
+                      <AlertCircle className="h-5 w-5" />
+                    </div>
+                    <p className="text-sm">Multiple documented adverse actions affecting credit lines, loan applications from Jan-Apr 2024</p>
+                  </div>
+                  <div className="flex items-start space-x-2">
+                    <div className="h-5 w-5 text-red-500 mt-0.5 flex-shrink-0">
+                      <AlertCircle className="h-5 w-5" />
+                    </div>
+                    <p className="text-sm">Mediation with Capital One failed on April 3, 2025; current counsel withdrawing</p>
                   </div>
                 </div>
               </div>
             </CardContent>
           </Card>
-
+          
+          <Card>
+            <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+              <CardTitle className="text-xl font-semibold flex items-center">
+                <UserCheck className="h-5 w-5 mr-2 text-blue-600" />
+                Client Profile
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="pt-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="bg-slate-50 dark:bg-slate-900 p-4 rounded-md">
+                  <h4 className="text-sm font-medium text-slate-900 dark:text-slate-100 mb-2">Professional Background</h4>
+                  <ul className="text-sm space-y-1 text-muted-foreground">
+                    <li className="flex items-center space-x-2">
+                      <div className="h-1.5 w-1.5 rounded-full bg-blue-600"></div>
+                      <span>Harvard University (withdrew due to funding denial)</span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                      <div className="h-1.5 w-1.5 rounded-full bg-blue-600"></div>
+                      <span>Business owner (The AI Remedy)</span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                      <div className="h-1.5 w-1.5 rounded-full bg-blue-600"></div>
+                      <span>Previously maintained unblemished credit history</span>
+                    </li>
+                  </ul>
+                </div>
+                <div className="bg-slate-50 dark:bg-slate-900 p-4 rounded-md">
+                  <h4 className="text-sm font-medium text-slate-900 dark:text-slate-100 mb-2">Case Preparation</h4>
+                  <ul className="text-sm space-y-1 text-muted-foreground">
+                    <li className="flex items-center space-x-2">
+                      <div className="h-1.5 w-1.5 rounded-full bg-green-600"></div>
+                      <span>Comprehensive timeline and documentation</span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                      <div className="h-1.5 w-1.5 rounded-full bg-green-600"></div>
+                      <span>38 adverse action notices collected and organized</span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                      <div className="h-1.5 w-1.5 rounded-full bg-green-600"></div>
+                      <span>Quantified financial damages with thorough methodology</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+          
+          <Card>
+            <CardHeader>
+              <CardTitle className="text-xl font-semibold flex items-center">
+                <DollarSign className="h-5 w-5 mr-2 text-blue-600" />
+                Damages Summary
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="space-y-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div className="bg-amber-50 dark:bg-amber-950 rounded-md p-4">
+                    <h4 className="text-sm font-medium text-amber-900 dark:text-amber-300 mb-2">Pecuniary Damages</h4>
+                    <ul className="text-sm space-y-1">
+                      <li className="flex justify-between">
+                        <span>Increased costs (interest, fees)</span>
+                        <span className="font-medium">PEC-COST</span>
+                      </li>
+                      <li className="flex justify-between">
+                        <span>Denied opportunities</span>
+                        <span className="font-medium">PEC-OPP</span>
+                      </li>
+                      <li className="flex justify-between">
+                        <span>Out-of-pocket expenses</span>
+                        <span className="font-medium">PEC-OOP</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="bg-purple-50 dark:bg-purple-950 rounded-md p-4">
+                    <h4 className="text-sm font-medium text-purple-900 dark:text-purple-300 mb-2">Non-Pecuniary Damages</h4>
+                    <ul className="text-sm space-y-1">
+                      <li className="flex justify-between">
+                        <span>Emotional distress</span>
+                      </li>
+                      <li className="flex justify-between">
+                        <span>Reputational harm</span>
+                      </li>
+                      <li className="flex justify-between">
+                        <span>Lost time/productivity</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                
+                <Alert className="bg-blue-50 border-blue-200 dark:bg-blue-950 dark:border-blue-800">
+                  <Info className="h-4 w-4 text-blue-600" />
+                  <AlertTitle className="text-blue-800 dark:text-blue-300">Potential Recovery</AlertTitle>
+                  <AlertDescription className="text-blue-700 dark:text-blue-400">
+                    FCRA permits actual damages + punitive damages for willful violations, along with attorney fees and costs. Statutory damages under CCRAA and RFDCPA may also apply.
+                  </AlertDescription>
+                </Alert>
+              </div>
+            </CardContent>
+            <CardFooter>
+              <Button variant="outline" className="w-full" size="sm">
+                <BarChart2 className="h-4 w-4 mr-2" />
+                View Detailed Damages Analysis
+              </Button>
+            </CardFooter>
+          </Card>
+        </div>
+        
+        {/* Right Sidebar */}
+        <div className="space-y-6">
           <Card>
             <CardHeader>
               <CardTitle className="text-xl font-semibold flex items-center">
@@ -168,40 +284,58 @@ export default function CaseSummary() {
             <CardContent>
               <div className="relative border-l border-gray-200 dark:border-gray-700 pl-6 ml-3 space-y-6">
                 <div className="relative">
-                  <div className="absolute -left-9 mt-1.5 h-4 w-4 rounded-full border border-white bg-blue-600"></div>
+                  <div className="absolute -left-9 mt-1.5 h-4 w-4 rounded-full border border-white bg-red-600"></div>
+                  <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">April 3, 2025</time>
+                  <h3 className="text-base font-semibold text-gray-900 dark:text-white">Mediation Failed & Counsel Withdrawing</h3>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">Current counsel notified of intent to withdraw after failed mediation</p>
+                </div>
+                <div className="relative">
+                  <div className="absolute -left-9 mt-1.5 h-4 w-4 rounded-full border border-white bg-green-600"></div>
+                  <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Late 2024</time>
+                  <h3 className="text-base font-semibold text-gray-900 dark:text-white">Equifax Settlement</h3>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">Reached settlement agreement with Equifax</p>
+                </div>
+                <div className="relative">
+                  <div className="absolute -left-9 mt-1.5 h-4 w-4 rounded-full border border-white bg-green-600"></div>
                   <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">September 24, 2024</time>
-                  <h3 className="text-base font-semibold text-gray-900 dark:text-white">Settlement with TransUnion</h3>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">Signed settlement agreement including financial compensation and corrections</p>
+                  <h3 className="text-base font-semibold text-gray-900 dark:text-white">TransUnion Settlement</h3>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">Signed settlement agreement with TransUnion</p>
+                </div>
+                <div className="relative">
+                  <div className="absolute -left-9 mt-1.5 h-4 w-4 rounded-full border border-white bg-green-600"></div>
+                  <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">September 10, 2024</time>
+                  <h3 className="text-base font-semibold text-gray-900 dark:text-white">Experian Settlement</h3>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">Signed settlement agreement with Experian</p>
                 </div>
                 <div className="relative">
                   <div className="absolute -left-9 mt-1.5 h-4 w-4 rounded-full border border-white bg-blue-600"></div>
-                  <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">September 10, 2024</time>
-                  <h3 className="text-base font-semibold text-gray-900 dark:text-white">Settlement with Experian</h3>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">Reached settlement terms resolving all claims against Experian</p>
-                </div>
-                <div className="relative">
-                  <div className="absolute -left-9 mt-1.5 h-4 w-4 rounded-full border border-white bg-yellow-500"></div>
                   <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">June 4, 2024</time>
-                  <h3 className="text-base font-semibold text-gray-900 dark:text-white">Amended Complaint Filed</h3>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">Added additional claims based on continued reporting of inaccurate information</p>
+                  <h3 className="text-base font-semibold text-gray-900 dark:text-white">First Amended Complaint Filed</h3>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">Filed in U.S. District Court (C.D. Cal.) after removal/refiling</p>
+                </div>
+                <div className="relative">
+                  <div className="absolute -left-9 mt-1.5 h-4 w-4 rounded-full border border-white bg-blue-600"></div>
+                  <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">March 11, 2024</time>
+                  <h3 className="text-base font-semibold text-gray-900 dark:text-white">Initial Lawsuit Filed</h3>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">Filed in California Superior Court, Los Angeles County</p>
+                </div>
+                <div className="relative">
+                  <div className="absolute -left-9 mt-1.5 h-4 w-4 rounded-full border border-white bg-amber-500"></div>
+                  <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">March 1, 2024</time>
+                  <h3 className="text-base font-semibold text-gray-900 dark:text-white">CLRA Notice Letter</h3>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">Sent to Capital One</p>
                 </div>
                 <div className="relative">
                   <div className="absolute -left-9 mt-1.5 h-4 w-4 rounded-full border border-white bg-gray-400"></div>
-                  <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">April 27, 2024</time>
-                  <h3 className="text-base font-semibold text-gray-900 dark:text-white">Initial Complaint Filed</h3>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">Filed in U.S. District Court for Central District of California</p>
+                  <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Dec 2023 - Mar 2024</time>
+                  <h3 className="text-base font-semibold text-gray-900 dark:text-white">Multiple Disputes</h3>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">Sent to CRAs and Capital One</p>
                 </div>
                 <div className="relative">
-                  <div className="absolute -left-9 mt-1.5 h-4 w-4 rounded-full border border-white bg-gray-400"></div>
-                  <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">February 2024</time>
-                  <h3 className="text-base font-semibold text-gray-900 dark:text-white">Second Round of Disputes</h3>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">Additional disputes filed with all three major CRAs</p>
-                </div>
-                <div className="relative">
-                  <div className="absolute -left-9 mt-1.5 h-4 w-4 rounded-full border border-white bg-gray-400"></div>
-                  <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">December 2023</time>
-                  <h3 className="text-base font-semibold text-gray-900 dark:text-white">Initial Disputes Filed</h3>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">Formal disputes filed with Experian, TransUnion, and Equifax</p>
+                  <div className="absolute -left-9 mt-1.5 h-4 w-4 rounded-full border border-white bg-red-600"></div>
+                  <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">December 10, 2023</time>
+                  <h3 className="text-base font-semibold text-gray-900 dark:text-white">Account Charged-Off</h3>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">Capital One reported account as "Charged-Off"</p>
                 </div>
               </div>
             </CardContent>
@@ -212,202 +346,68 @@ export default function CaseSummary() {
               </Button>
             </CardFooter>
           </Card>
-        </div>
-
-        {/* Right Column - Damages & Documents */}
-        <div className="space-y-6">
+          
           <Card>
             <CardHeader>
               <CardTitle className="text-xl font-semibold flex items-center">
-                <DollarSign className="h-5 w-5 mr-2 text-blue-600" />
-                Damages Assessment
+                <Briefcase className="h-5 w-5 mr-2 text-blue-600" />
+                Case Strength Indicators
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
-              <Alert className="bg-green-50 dark:bg-green-900/20 border-green-200 dark:border-green-800">
-                <BarChart2 className="h-4 w-4 text-green-600 dark:text-green-400" />
-                <AlertTitle className="text-green-800 dark:text-green-400">Comprehensive Damages Analysis</AlertTitle>
-                <AlertDescription className="text-green-700 dark:text-green-500 text-sm">
-                  Detailed calculations and documentation provided for all damages categories.
-                </AlertDescription>
-              </Alert>
+              <div className="bg-green-50 dark:bg-green-950 p-3 rounded-md">
+                <h4 className="text-sm font-medium text-green-700 dark:text-green-300 mb-1">Strong Settlement Record</h4>
+                <p className="text-xs text-green-600 dark:text-green-400">Successfully settled with all three major CRAs (Experian, TransUnion, Equifax)</p>
+              </div>
               
-              <Accordion type="single" collapsible className="w-full">
-                <AccordionItem value="item-1">
-                  <AccordionTrigger className="text-sm font-medium">
-                    Economic Damages
-                  </AccordionTrigger>
-                  <AccordionContent className="text-sm">
-                    <ul className="space-y-2">
-                      <li className="flex justify-between">
-                        <span>Increased APR Costs:</span>
-                        <span className="font-medium">$12,450</span>
-                      </li>
-                      <li className="flex justify-between">
-                        <span>Denied Credit Opportunities:</span>
-                        <span className="font-medium">$8,200</span>
-                      </li>
-                      <li className="flex justify-between">
-                        <span>Additional Fees & Charges:</span>
-                        <span className="font-medium">$3,780</span>
-                      </li>
-                      <li className="flex justify-between">
-                        <span className="font-medium">Total Economic:</span>
-                        <span className="font-bold">$24,430</span>
-                      </li>
-                    </ul>
-                  </AccordionContent>
-                </AccordionItem>
-                <AccordionItem value="item-2">
-                  <AccordionTrigger className="text-sm font-medium">
-                    Statutory Damages
-                  </AccordionTrigger>
-                  <AccordionContent className="text-sm">
-                    <ul className="space-y-2">
-                      <li className="flex justify-between">
-                        <span>FCRA ($100-$1,000 per violation):</span>
-                        <span className="font-medium">$9,000</span>
-                      </li>
-                      <li className="flex justify-between">
-                        <span>CCRAA (up to $5,000 per violation):</span>
-                        <span className="font-medium">$15,000</span>
-                      </li>
-                      <li className="flex justify-between">
-                        <span className="font-medium">Total Statutory:</span>
-                        <span className="font-bold">$24,000</span>
-                      </li>
-                    </ul>
-                  </AccordionContent>
-                </AccordionItem>
-                <AccordionItem value="item-3">
-                  <AccordionTrigger className="text-sm font-medium">
-                    Non-Economic Damages
-                  </AccordionTrigger>
-                  <AccordionContent className="text-sm">
-                    <ul className="space-y-2">
-                      <li className="flex justify-between">
-                        <span>Emotional Distress:</span>
-                        <span className="font-medium">$10,000</span>
-                      </li>
-                      <li className="flex justify-between">
-                        <span>Loss of Opportunity:</span>
-                        <span className="font-medium">$5,000</span>
-                      </li>
-                      <li className="flex justify-between">
-                        <span className="font-medium">Total Non-Economic:</span>
-                        <span className="font-bold">$15,000</span>
-                      </li>
-                    </ul>
-                  </AccordionContent>
-                </AccordionItem>
-              </Accordion>
+              <div className="bg-green-50 dark:bg-green-950 p-3 rounded-md">
+                <h4 className="text-sm font-medium text-green-700 dark:text-green-300 mb-1">Documented Adverse Actions</h4>
+                <p className="text-xs text-green-600 dark:text-green-400">38 adverse action notices showing direct impact of inaccurate reporting</p>
+              </div>
               
-              <div className="pt-2 border-t">
-                <div className="flex justify-between font-semibold">
-                  <span>Total Potential Damages:</span>
-                  <span className="text-blue-600">$63,430</span>
-                </div>
-                <p className="text-xs text-muted-foreground mt-1">Plus attorney's fees and costs under fee-shifting provisions</p>
+              <div className="bg-green-50 dark:bg-green-950 p-3 rounded-md">
+                <h4 className="text-sm font-medium text-green-700 dark:text-green-300 mb-1">Detailed Damages Analysis</h4>
+                <p className="text-xs text-green-600 dark:text-green-400">Comprehensive framework for assessing both pecuniary and non-pecuniary damages</p>
+              </div>
+              
+              <div className="bg-green-50 dark:bg-green-950 p-3 rounded-md">
+                <h4 className="text-sm font-medium text-green-700 dark:text-green-300 mb-1">Client Preparation</h4>
+                <p className="text-xs text-green-600 dark:text-green-400">Well-documented case with organized evidence and timeline ready for successor counsel</p>
               </div>
             </CardContent>
             <CardFooter>
-              <Button variant="outline" size="sm" className="w-full">
-                <FileText className="h-4 w-4 mr-2" />
-                View Detailed Damages Report
+              <Button size="sm" className="w-full bg-blue-600 hover:bg-blue-700">
+                <ExternalLink className="h-4 w-4 mr-2" />
+                Review Full Case Assessment
               </Button>
             </CardFooter>
           </Card>
-
-          <Card>
+          
+          <Card className="bg-slate-900 text-white shadow-lg border-none">
             <CardHeader>
-              <CardTitle className="text-xl font-semibold flex items-center">
-                <FileText className="h-5 w-5 mr-2 text-blue-600" />
-                Key Documents
-              </CardTitle>
+              <CardTitle className="text-xl font-semibold text-white">Take Action Now</CardTitle>
             </CardHeader>
-            <CardContent>
-              <ul className="space-y-3">
-                <li>
-                  <a href="#" className="flex items-center p-2 hover:bg-accent rounded-md transition-colors">
-                    <div className="mr-3 bg-blue-100 dark:bg-blue-900/30 p-2 rounded">
-                      <FileText className="h-4 w-4 text-blue-600 dark:text-blue-400" />
-                    </div>
-                    <div>
-                      <p className="text-sm font-medium">Amended Complaint</p>
-                      <p className="text-xs text-muted-foreground">Filed June 4, 2024</p>
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="flex items-center p-2 hover:bg-accent rounded-md transition-colors">
-                    <div className="mr-3 bg-blue-100 dark:bg-blue-900/30 p-2 rounded">
-                      <FileText className="h-4 w-4 text-blue-600 dark:text-blue-400" />
-                    </div>
-                    <div>
-                      <p className="text-sm font-medium">Experian Settlement Agreement</p>
-                      <p className="text-xs text-muted-foreground">Signed Sept 10, 2024</p>
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="flex items-center p-2 hover:bg-accent rounded-md transition-colors">
-                    <div className="mr-3 bg-blue-100 dark:bg-blue-900/30 p-2 rounded">
-                      <FileText className="h-4 w-4 text-blue-600 dark:text-blue-400" />
-                    </div>
-                    <div>
-                      <p className="text-sm font-medium">TransUnion Settlement Agreement</p>
-                      <p className="text-xs text-muted-foreground">Signed Sept 24, 2024</p>
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="flex items-center p-2 hover:bg-accent rounded-md transition-colors">
-                    <div className="mr-3 bg-blue-100 dark:bg-blue-900/30 p-2 rounded">
-                      <FileText className="h-4 w-4 text-blue-600 dark:text-blue-400" />
-                    </div>
-                    <div>
-                      <p className="text-sm font-medium">Credit Report Analysis</p>
-                      <p className="text-xs text-muted-foreground">Updated Sept 28, 2024</p>
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="flex items-center p-2 hover:bg-accent rounded-md transition-colors">
-                    <div className="mr-3 bg-blue-100 dark:bg-blue-900/30 p-2 rounded">
-                      <FileText className="h-4 w-4 text-blue-600 dark:text-blue-400" />
-                    </div>
-                    <div>
-                      <p className="text-sm font-medium">Damages Calculation Methodology</p>
-                      <p className="text-xs text-muted-foreground">Updated Sept 30, 2024</p>
-                    </div>
-                  </a>
-                </li>
+            <CardContent className="space-y-4">
+              <p className="text-sm">This case requires immediate successor counsel. Current counsel is withdrawing following failed mediation on April 3, 2025.</p>
+              <p className="text-sm font-semibold">Benefits for successor counsel:</p>
+              <ul className="text-sm space-y-1.5 list-disc ml-5">
+                <li>Well-documented FCRA violations</li>
+                <li>Quantifiable damages framework</li>
+                <li>Prior successful settlements with CRAs</li>
+                <li>Statutory attorney fees</li>
               </ul>
             </CardContent>
-            <CardFooter>
-              <Button variant="outline" size="sm" className="w-full">
-                View All Documents
+            <CardFooter className="flex flex-col space-y-2">
+              <Button className="w-full bg-white text-slate-900 hover:bg-gray-100">
+                <Phone className="h-4 w-4 mr-2" />
+                Contact to Discuss Representation
+              </Button>
+              <Button variant="outline" className="w-full border-white text-white hover:bg-white hover:text-slate-900">
+                <Download className="h-4 w-4 mr-2" />
+                Download Case Files
               </Button>
             </CardFooter>
           </Card>
-        </div>
-      </div>
-
-      {/* Call To Action */}
-      <div className="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-6 border border-blue-100 dark:border-blue-800 mb-8">
-        <div className="text-center space-y-3">
-          <h3 className="text-lg font-semibold text-blue-800 dark:text-blue-300">Ready to Represent This Case?</h3>
-          <p className="text-sm text-blue-600 dark:text-blue-400 max-w-2xl mx-auto">
-            All case materials are organized and digitized. Client is prepared to cooperate fully with counsel and has maintained detailed records throughout the process.
-          </p>
-          <div className="flex justify-center gap-4 pt-2">
-            <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
-              Schedule Consultation
-            </Button>
-            <Button variant="outline" size="lg">
-              Request Case Files
-            </Button>
-          </div>
         </div>
       </div>
     </div>
