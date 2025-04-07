@@ -1,0 +1,26 @@
+Design a modern, high-impact case summary webpage that is optimized for attracting legal representation. The purpose of the page is to convince experienced litigators to immediately recognize the merit, urgency, and complexity of the case, and be motivated to step in as successor counsel. The design should reflect professionalism, legal sophistication, and strategic clarity, while also conveying the human impact and time-sensitive nature of the matter.
+
+Layout and Structure:
+	•	Create a bold, clean hero section at the top featuring the case name (“Hinton v. Capital One”), case number, and a prominent banner stating “Urgent: Successor Counsel Needed” with a subtle animated effect (e.g., pulsing underline or glowing icon) to draw attention.
+	•	Include a left-hand navigation or sticky sidebar for easy access to key sections: Case Overview, Damages, Credit Reports, Timeline, Documents, and Contact for Counsel.
+	•	Use modular cards or accordions to display each major section (e.g., settlements, adverse actions, legal claims) to enhance readability without overwhelming the user.
+
+Visual and Brand Style:
+	•	Use a high-contrast legal color palette (navy, slate gray, ivory) with sharp typography to communicate trust and authority.
+	•	Include iconography to distinguish case elements: courthouse for filings, warning signs for adverse actions, checkmarks for settlements, dollar signs for damages, etc.
+	•	Ensure fonts and headers are styled to evoke clarity and confidence, such as using serif fonts for headings and clean sans-serif for body text.
+
+Content Enhancements:
+	•	Add a top-level visual timeline with color-coded milestones (e.g., green for settlements, red for disputes, gray for ongoing litigation) to quickly orient visitors.
+	•	Include “Client Profile” and “Case Strength” highlight boxes: summarize your professional background (e.g., Harvard affiliation, career in finance), as well as key legal indicators of a strong case (settlements with major bureaus, documented retaliation, quantified harm).
+	•	Embed call-to-action buttons in strategic locations: “Download Case Brief,” “Review Amended Complaint,” and “Contact to Represent.”
+
+Functional Enhancements:
+	•	Add embedded previews of PDF documents (complaints, quantification docs) with hover-to-expand or quick-view options.
+	•	Include a one-click export feature (“Export Case Summary for Review”) and private shareable link capability.
+	•	Provide a secure form at the bottom for prospective counsel to express interest, request a callback, or ask for a case package.
+
+Tone and UX Goals:
+	•	Design for a legal professional audience—clean, data-forward, minimal animations, but emotionally resonant in select areas (e.g., damages impact callouts).
+	•	Prioritize mobile responsiveness, especially for lawyers scanning on tablets or phones.
+	•	Ensure ADA compliance with color contrast, readable fonts, and screen reader-friendly elements.
