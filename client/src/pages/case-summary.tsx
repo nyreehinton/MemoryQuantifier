@@ -57,13 +57,13 @@ export default function CaseSummary() {
       </div>
 
       {/* Case Header */}
-      <header className="mb-8">
+      <header className="mb-8 px-4 sm:px-0">
         <div className="max-w-7xl mx-auto">
           <div className="border-b pb-6 mb-6">
             <div className="flex flex-col space-y-3 md:flex-row md:items-center md:justify-between md:space-y-0">
               <div>
-                <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-50">Hinton v. Capital One</h1>
-                <p className="mt-1 text-lg text-muted-foreground">Case No. 2:24-cv-03039-CBM-JPR</p>
+                <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-gray-50">Hinton v. Capital One</h1>
+                <p className="mt-1 text-base sm:text-lg text-muted-foreground">Case No. 2:24-cv-03039-CBM-JPR</p>
                 <div className="mt-3 flex flex-wrap gap-2">
                   <Badge variant="secondary" className="text-xs font-medium px-2.5 py-1">
                     FCRA (15 USC §1681)
@@ -80,11 +80,11 @@ export default function CaseSummary() {
                 </div>
               </div>
               <div className="flex flex-wrap gap-2">
-                <Button variant="outline" size="sm">
+                <Button variant="outline" size="sm" className="w-full sm:w-auto">
                   <FileText className="h-4 w-4 mr-2" />
                   View Complaint
                 </Button>
-                <Button variant="default" size="sm" className="bg-blue-600 hover:bg-blue-700">
+                <Button variant="default" size="sm" className="w-full sm:w-auto bg-blue-600 hover:bg-blue-700">
                   <Download className="h-4 w-4 mr-2" />
                   Download Case Brief
                 </Button>
@@ -101,9 +101,9 @@ export default function CaseSummary() {
         </TabsList>
         
         <TabsContent value="overview">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8 px-4 sm:px-0">
             {/* Left Column - Case Overview */}
-            <div className="lg:col-span-2 space-y-6">
+            <div className="lg:col-span-2 space-y-4 sm:space-y-6">
           <Card>
             <CardHeader>
               <CardTitle className="text-xl font-semibold flex items-center">
@@ -114,8 +114,8 @@ export default function CaseSummary() {
                 
               </CardDescription>
             </CardHeader>
-            <div className="px-6 pb-2">
-              <p className="text-sm text-muted-foreground">
+            <div className="px-3 sm:px-6 pb-2">
+              <p className="text-xs sm:text-sm text-muted-foreground">
                 This case centers on Capital One Financial Corporation's alleged retaliatory conduct following Plaintiff Nyree Hinton's initial lawsuit against the company in July 2023. In a direct and punitive response, Capital One restricted Plaintiff's access to his online account and falsely reported his Tesla auto loan as delinquent and subsequently charged-off—despite ongoing disputes and communications. These derogatory credit entries triggered a cascade of financial, professional, and personal consequences that continue to reverberate.
               </p>
               <p className="text-sm text-muted-foreground mt-3">
@@ -195,7 +195,7 @@ export default function CaseSummary() {
               </CardTitle>
             </CardHeader>
             <CardContent className="pt-4">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="bg-slate-50 dark:bg-slate-900 p-4 rounded-md border-2 border-blue-500">
                   <h4 className="text-sm font-medium text-slate-900 dark:text-slate-100 mb-2">Professional Background</h4>
                   <ul className="text-sm space-y-1 text-muted-foreground">
@@ -259,9 +259,9 @@ export default function CaseSummary() {
         
         {/* Right Sidebar */}
         <div className="space-y-6">
-          <Card className="mb-6 border-2 border-blue-500">
-            <CardHeader className="pb-3">
-              <CardTitle className="text-xl font-semibold flex items-center">
+          <Card className="mb-4 sm:mb-6 border-2 border-blue-500">
+            <CardHeader className="pb-3 px-3 sm:px-6">
+              <CardTitle className="text-lg sm:text-xl font-semibold flex items-center">
                 <BarChart2 className="h-5 w-5 mr-2 text-amber-500" />
                 Case Goals
               </CardTitle>
@@ -282,8 +282,8 @@ export default function CaseSummary() {
                 Case Timeline
               </CardTitle>
             </CardHeader>
-            <CardContent>
-              <div className="relative border-l border-gray-200 dark:border-gray-700 pl-6 ml-3 space-y-6">
+            <CardContent className="px-2 sm:px-6">
+              <div className="relative border-l border-gray-200 dark:border-gray-700 pl-4 sm:pl-6 ml-2 sm:ml-3 space-y-4 sm:space-y-6">
                 <div className="relative">
                   <div className="absolute -left-9 mt-1.5 h-4 w-4 rounded-full border border-white bg-red-600"></div>
                   <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">April 3, 2025</time>

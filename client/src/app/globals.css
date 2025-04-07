@@ -69,6 +69,31 @@ body {
   display: none;
 }
 
+/* Enhanced mobile responsiveness */
+@media (max-width: 640px) {
+  .card-concrete {
+    padding: 1rem !important;
+  }
+  
+  h1, h2, h3 {
+    word-break: break-word;
+  }
+  
+  .table-concrete {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  /* Improve touch targets */
+  .card-footer, 
+  .card-header,
+  .card-content {
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+  }
+}
+
 /* Custom Shadow Effects */
 
 .shadow-concrete {
