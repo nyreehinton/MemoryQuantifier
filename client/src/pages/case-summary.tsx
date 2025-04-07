@@ -391,31 +391,7 @@ export default function CaseSummary() {
             </CardFooter>
           </Card>
           
-          <Card className="bg-slate-900 text-white shadow-lg border-none">
-            <CardHeader>
-              <CardTitle className="text-xl font-semibold text-white">Take Action Now</CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-4">
-              <p className="text-sm">This case requires immediate successor counsel. Current counsel is withdrawing following failed mediation on April 3, 2025.</p>
-              <p className="text-sm font-semibold">Benefits for successor counsel:</p>
-              <ul className="text-sm space-y-1.5 list-disc ml-5">
-                <li>Well-documented FCRA violations</li>
-                <li>Quantifiable damages framework</li>
-                <li>Prior successful settlements with CRAs</li>
-                <li>Statutory attorney fees</li>
-              </ul>
-            </CardContent>
-            <CardFooter className="flex flex-col space-y-2">
-              <Button className="w-full bg-white text-slate-900 hover:bg-gray-100">
-                <Phone className="h-4 w-4 mr-2" />
-                Contact to Discuss Representation
-              </Button>
-              <Button variant="outline" className="w-full border-white text-white hover:bg-white hover:text-slate-900">
-                <Download className="h-4 w-4 mr-2" />
-                Download Case Files
-              </Button>
-            </CardFooter>
-          </Card>
+          
         </div>
       </div>
         </TabsContent>
