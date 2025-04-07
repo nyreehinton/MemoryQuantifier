@@ -193,6 +193,12 @@ export default function CaseSummary() {
                     </div>
                     <p className="text-sm">Current counsel withdrew immediately after failed mediation on April 3, 2025</p>
                   </div>
+                  <div className="flex items-start space-x-2">
+                    <div className="h-5 w-5 text-red-500 mt-0.5 flex-shrink-0">
+                      <AlertCircle className="h-5 w-5" />
+                    </div>
+                    <p className="text-sm">Audio recording of Capital One rep confirming account restriction and advising it won't be removed</p>
+                  </div>
                 </div>
               </div>
             </CardContent>
