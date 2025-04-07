@@ -119,6 +119,11 @@ export default function CaseSummary() {
                 Credit reporting violations involving multiple CRAs and furnishers
               </CardDescription>
             </CardHeader>
+            <div className="px-6 pb-2">
+              <p className="text-sm text-muted-foreground">
+                This case centers on Capital One Financial Corporation's alleged retaliatory conduct following Plaintiff Nyree Hinton's initial lawsuit against the company in July 2023. In a direct and punitive response, Capital One restricted Plaintiff's access to his online account and falsely reported his Tesla auto loan as delinquent and subsequently charged-off—despite ongoing disputes and communications. These derogatory credit entries triggered a cascade of financial, professional, and personal consequences that continue to reverberate.
+              </p>
+            </div>
             <CardContent className="space-y-4">
               <div>
                 <h3 className="text-md font-medium mb-2">Key Issues</h3>
