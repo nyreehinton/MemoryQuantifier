@@ -460,6 +460,12 @@ export default function CaseSummary() {
                   <p className="text-sm text-gray-500 dark:text-gray-400">Capital One reported account as "Charged-Off"</p>
                 </div>
                 <div className="relative">
+                  <div className="absolute -left-9 mt-1.5 h-4 w-4 rounded-full border border-white bg-amber-500"></div>
+                  <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">August 2023</time>
+                  <h3 className="text-base font-semibold text-gray-900 dark:text-white border-2 border-amber-500 px-2 py-1 rounded-md inline-block">Portal Access Restricted</h3>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">Capital One allegedly restricted online payment portal access</p>
+                </div>
+                <div className="relative">
                   <div className="absolute -left-9 mt-1.5 h-4 w-4 rounded-full border border-white bg-blue-600"></div>
                   <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">July 2023</time>
                   <h3 className="text-base font-semibold text-gray-900 dark:text-white">Initial Georgia Lawsuit Filed</h3>
