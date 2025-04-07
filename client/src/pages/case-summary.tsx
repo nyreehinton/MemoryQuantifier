@@ -133,19 +133,6 @@ export default function CaseSummary() {
             </div>
             <CardContent className="space-y-4">
               <div>
-                <h3 className="text-md font-medium mb-2">Key Issues</h3>
-                <ul className="list-disc pl-5 space-y-1 text-sm text-muted-foreground">
-                  <li>Capital One's alleged retaliatory conduct following initial July 2023 lawsuit</li>
-                  <li>Restricted plaintiff's online account access and falsely reported auto loan as delinquent</li>
-                  <li>43 separate adverse credit actions across 24+ financial institutions</li>
-                  <li>Harvard Extension School withdrawal due to loss of educational financing</li>
-                  <li>Documented economic loss exceeding $2.57 million with detailed quantification</li>
-                </ul>
-              </div>
-              
-              <Separator />
-              
-              <div>
                 <h3 className="text-md font-medium mb-2">Case Status</h3>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="bg-blue-50 dark:bg-blue-950 rounded-md p-3">
@@ -168,7 +155,31 @@ export default function CaseSummary() {
                     <div className="h-5 w-5 text-red-500 mt-0.5 flex-shrink-0">
                       <AlertCircle className="h-5 w-5" />
                     </div>
-                    <p className="text-sm">Capital One falsely reported Tesla auto loan as delinquent and charged-off despite ongoing disputes</p>
+                    <p className="text-sm">Capital One's alleged retaliatory conduct following initial July 2023 lawsuit</p>
+                  </div>
+                  <div className="flex items-start space-x-2">
+                    <div className="h-5 w-5 text-red-500 mt-0.5 flex-shrink-0">
+                      <AlertCircle className="h-5 w-5" />
+                    </div>
+                    <p className="text-sm">Restricted plaintiff's online account access and falsely reported auto loan as delinquent</p>
+                  </div>
+                  <div className="flex items-start space-x-2">
+                    <div className="h-5 w-5 text-red-500 mt-0.5 flex-shrink-0">
+                      <AlertCircle className="h-5 w-5" />
+                    </div>
+                    <p className="text-sm">43 separate adverse credit actions across 24+ financial institutions</p>
+                  </div>
+                  <div className="flex items-start space-x-2">
+                    <div className="h-5 w-5 text-red-500 mt-0.5 flex-shrink-0">
+                      <AlertCircle className="h-5 w-5" />
+                    </div>
+                    <p className="text-sm">Harvard Extension School withdrawal due to loss of educational financing</p>
+                  </div>
+                  <div className="flex items-start space-x-2">
+                    <div className="h-5 w-5 text-red-500 mt-0.5 flex-shrink-0">
+                      <AlertCircle className="h-5 w-5" />
+                    </div>
+                    <p className="text-sm">Documented economic loss exceeding $2.57 million with detailed quantification</p>
                   </div>
                   <div className="flex items-start space-x-2">
                     <div className="h-5 w-5 text-red-500 mt-0.5 flex-shrink-0">
