@@ -6,23 +6,7 @@ const CaseNotes = () => {
   const [selectedTag, setSelectedTag] = useState('all');
 
   const notes = [
-    {
-      id: 1,
-      title: 'Mediation Summary & Next Steps',
-      content: 'Mediation with Capital One failed. Offer deemed nuisance value. Need to prepare for trial and find successor counsel urgently.',
-      author: 'Todd M. Friedman',
-      date: 'Apr 3, 2025',
-      tags: ['mediation', 'urgent'],
-    },
-    {
-      id: 2,
-      title: 'Evidence Collection Status',
-      content: 'Critical need for credit reports used by creditors (PREQ-01). Currently missing baseline reports from Experian and TransUnion.',
-      author: 'Meghan George',
-      date: 'Mar 15, 2025',
-      tags: ['evidence', 'follow-up'],
-    },
-    // More notes can be added here
+    // Case notes have been removed as requested
   ];
 
   const tags = ['all', 'urgent', 'evidence', 'mediation', 'follow-up', 'settlement'];
@@ -77,37 +61,9 @@ const CaseNotes = () => {
       {/* Main Content */}
       <main className="container mx-auto px-4 py-8">
         <div className="max-w-4xl mx-auto space-y-6">
-          {notes.map((note) => (
-            <div key={note.id} className="bg-card rounded-lg border p-6">
-              <div className="flex items-start justify-between">
-                <div>
-                  <h3 className="text-lg font-medium">{note.title}</h3>
-                  <div className="flex items-center space-x-2 mt-2 text-sm text-muted-foreground">
-                    <User className="h-4 w-4" />
-                    <span>{note.author}</span>
-                    <span>•</span>
-                    <span>{note.date}</span>
-                  </div>
-                </div>
-                <div className="flex gap-2">
-                  {note.tags.map((tag, idx) => (
-                    <span
-                      key={idx}
-                      className="px-2 py-1 text-xs rounded-full bg-muted text-muted-foreground"
-                    >
-                      {tag}
-                    </span>
-                  ))}
-                </div>
-              </div>
-              <p className="mt-4 text-sm">{note.content}</p>
-              <div className="mt-4 flex justify-end">
-                <Button variant="outline" size="sm">
-                  Edit Note
-                </Button>
-              </div>
-            </div>
-          ))}
+          <div className="bg-card rounded-lg border p-6 text-center">
+            <p className="text-muted-foreground">No case notes available.</p>
+          </div>
         </div>
       </main>
     </div>
