@@ -142,7 +142,7 @@ export default function SidebarNavigation() {
                   return (
                     <li key={j}>
                       <Link href={item.href}>
-                        <a
+                        <div
                           className={cn(
                             'flex items-center space-x-2 py-2 px-3 rounded-md transition-colors group relative cursor-pointer',
                             isActive
@@ -157,7 +157,7 @@ export default function SidebarNavigation() {
                               {item.description}
                             </div>
                           )}
-                        </a>
+                        </div>
                       </Link>
                     </li>
                   );
