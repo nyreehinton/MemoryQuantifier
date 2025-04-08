@@ -113,7 +113,7 @@ export default function SidebarNavigation() {
   return (
     <aside className={cn(
       "bg-sidebar border-r h-full", 
-      isMobile ? (openMobile ? "fixed inset-0 z-50" : "w-0") : "w-64 flex-shrink-0"
+      isMobile ? (openMobile ? "fixed inset-0 z-50 w-[85%] max-w-[300px]" : "w-0") : "w-64 flex-shrink-0"
     )}>
       {isMobile && (
         <div className="flex items-center justify-between p-4 border-b border-sidebar-border">
@@ -141,24 +141,25 @@ export default function SidebarNavigation() {
                   const isActive = item.href === location;
                   return (
                     <li key={j}>
-                      <Link href={item.href}>
-                        <div
-                          className={cn(
-                            'flex items-center space-x-2 py-2 px-3 rounded-md transition-colors group relative cursor-pointer',
-                            isActive
-                              ? 'bg-sidebar-accent text-sidebar-accent-foreground'
-                              : 'text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground'
-                          )}
-                        >
-                          <item.icon className="h-5 w-5 flex-shrink-0" />
-                          <span>{item.title}</span>
-                          {item.description && !isMobile && (
-                            <div className="absolute left-full ml-2 px-2 py-1 bg-popover text-popover-foreground text-xs rounded-md whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-10">
-                              {item.description}
-                            </div>
-                          )}
-                        </div>
-                      </Link>
+                      <div
+                        onClick={() => {
+                          window.location.href = item.href;
+                        }}
+                        className={cn(
+                          'flex items-center space-x-2 py-2 px-3 rounded-md transition-colors group relative cursor-pointer',
+                          isActive
+                            ? 'bg-sidebar-accent text-sidebar-accent-foreground'
+                            : 'text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground'
+                        )}
+                      >
+                        <item.icon className="h-5 w-5 flex-shrink-0" />
+                        <span>{item.title}</span>
+                        {item.description && !isMobile && (
+                          <div className="absolute left-full ml-2 px-2 py-1 bg-popover text-popover-foreground text-xs rounded-md whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-10">
+                            {item.description}
+                          </div>
+                        )}
+                      </div>
                     </li>
                   );
                 })}
@@ -173,7 +174,7 @@ export default function SidebarNavigation() {
           variant="secondary"
           size="icon"
           onClick={() => setOpenMobile(true)}
-          className="fixed bottom-4 right-4 rounded-full shadow-lg z-50"
+          className="fixed bottom-4 right-4 rounded-full shadow-lg z-50 bg-primary text-primary-foreground hover:bg-primary/90"
         >
           <Menu className="h-5 w-5" />
         </Button>
