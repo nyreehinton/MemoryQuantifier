@@ -138,8 +138,10 @@ const Documents = () => {
                 </div>
                 <div className="mt-3 sm:mt-4 flex items-center justify-between">
                   <span className="text-xs text-muted-foreground">{doc.size}</span>
-                  <Button variant="outline" size="sm" className="text-xs sm:text-sm">
-                    View
+                  <Button variant="outline" size="sm" className="text-xs sm:text-sm" asChild>
+                    <a href={`/documents/doc-repo/${doc.name}`} target="_blank" rel="noopener noreferrer">
+                      View
+                    </a>
                   </Button>
                 </div>
               </div>
@@ -180,8 +182,10 @@ const Documents = () => {
                     <td className="px-4 py-3 text-sm">{doc.date}</td>
                     <td className="px-4 py-3 text-sm">{doc.size}</td>
                     <td className="px-4 py-3 text-sm">
-                      <Button variant="outline" size="sm">
-                        View
+                      <Button variant="outline" size="sm" asChild>
+                        <a href={`/documents/doc-repo/${doc.name}`} target="_blank" rel="noopener noreferrer">
+                          View
+                        </a>
                       </Button>
                     </td>
                   </tr>

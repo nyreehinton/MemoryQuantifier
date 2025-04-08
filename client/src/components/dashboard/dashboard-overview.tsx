@@ -197,8 +197,10 @@ export default function DashboardOverview() {
                     <span>{doc.date}</span>
                   </div>
                 </div>
-                <Button variant="outline" size="sm" className="shrink-0 h-8">
-                  View
+                <Button variant="outline" size="sm" className="shrink-0 h-8" asChild>
+                  <a href={`/documents/doc-repo/${doc.name}`} target="_blank" rel="noopener noreferrer">
+                    View
+                  </a>
                 </Button>
               </div>
             ))}

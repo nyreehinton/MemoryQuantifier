@@ -80,10 +80,12 @@ export default function CaseSummary() {
                 </div>
               </div>
               <div className="flex flex-wrap gap-2">
-                <Button variant="outline" size="sm" className="w-full sm:w-auto">
-                  <FileText className="h-4 w-4 mr-2" />
-                  View Complaint
-                </Button>
+                <Button variant="outline" size="sm" className="w-full sm:w-auto" asChild>
+                  <a href="/documents" target="_self">
+                    <FileText className="h-4 w-4 mr-2" />
+                    View Complaint
+                  </a>
+                </Button>ton>
                 <Button variant="default" size="sm" className="w-full sm:w-auto bg-blue-600 hover:bg-blue-700">
                   <Download className="h-4 w-4 mr-2" />
                   Download Case Brief
