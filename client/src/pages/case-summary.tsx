@@ -85,7 +85,7 @@ export default function CaseSummary() {
                     <FileText className="h-4 w-4 mr-2" />
                     View Complaint
                   </a>
-                </Button>ton>
+                </Button>
                 <Button variant="default" size="sm" className="w-full sm:w-auto bg-blue-600 hover:bg-blue-700">
                   <Download className="h-4 w-4 mr-2" />
                   Download Case Brief
