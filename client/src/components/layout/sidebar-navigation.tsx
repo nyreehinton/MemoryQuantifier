@@ -10,8 +10,11 @@ import {
   FileSearch,
   FileText,
   LucideIcon,
+  Menu,
 } from 'lucide-react';
 import { Link, useLocation } from 'wouter';
+//import { useSidebar } from '../ui/sidebar'; //Removed as per instructions
+import { Button } from '../ui/button';
 
 interface NavigationItem {
   title: string;
@@ -88,10 +91,18 @@ const navigation: NavigationSection[] = [
 
 export default function SidebarNavigation() {
   const [location] = useLocation();
+  //const { isMobile, openMobile, setOpenMobile } = useSidebar(); //Removed as per instructions
+  const isMobile = false; // Setting to false as useSidebar is removed. Adjust as needed.
+  const openMobile = false; // Setting to false as useSidebar is removed. Adjust as needed.
+
+  //const toggleMobileMenu = () => {
+  //  setOpenMobile(!openMobile);
+  //}; //Removed as per instructions
 
   return (
     <aside className="bg-sidebar border-r w-64 h-full flex-shrink-0">
-      <nav className="p-4 h-full overflow-y-auto">
+      {/* Removed mobile toggle section as per instructions */}
+      <nav className={cn("p-4 h-full overflow-y-auto", isMobile && !openMobile && "hidden")}>
         {navigation.map((section, i) => (
           <div key={i} className="mb-8">
             <div className="text-sm font-semibold text-sidebar-foreground/60 mb-2">
@@ -103,9 +114,9 @@ export default function SidebarNavigation() {
                 return (
                   <li key={j}>
                     <Link href={item.href}>
-                      <a
+                      <span
                         className={cn(
-                          'flex items-center space-x-2 py-2 px-3 rounded-md transition-colors group relative',
+                          'flex items-center space-x-2 py-2 px-3 rounded-md transition-colors group relative cursor-pointer',
                           isActive
                             ? 'bg-sidebar-accent text-sidebar-accent-foreground'
                             : 'text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground'
@@ -114,11 +125,11 @@ export default function SidebarNavigation() {
                         <item.icon className="h-5 w-5" />
                         <span>{item.title}</span>
                         {item.description && (
-                          <div className="absolute left-full ml-2 px-2 py-1 bg-popover text-popover-foreground text-xs rounded-md whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+                          <div className="absolute left-full ml-2 px-2 py-1 bg-popover text-popover-foreground text-xs rounded-md whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-10">
                             {item.description}
                           </div>
                         )}
-                      </a>
+                      </span>
                     </Link>
                   </li>
                 );
